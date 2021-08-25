@@ -1,8 +1,11 @@
 import logging
 
+import sys
+sys.path.append('..')
+sys.path.append('../../')
+
 from util.choose_gpu import choose_and_set_available_gpus
 choose_and_set_available_gpus()
-import sys
 # sys.exit(0)
 from transformers import Trainer, TrainingArguments, EvalPrediction, PretrainedConfig
 from typing import Callable, Dict
