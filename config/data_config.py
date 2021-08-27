@@ -9,7 +9,7 @@ FIDELITY_OCCLUSION_RATES = [x / 20 for x in range(0, 21)]
 
 OUTPUT_DIR = ""
 
-dataset_dict = {'dataset': ['wikiattack', 'sst', 'movies', 'multirc', 'fever', 'esnli']}
+dataset_dict = {'dataset': ['wikiattack']}
 
 dataset_info = {
 	'sst': {
