@@ -59,7 +59,7 @@ dataset_info = {
 	'multirc': {
 		"name": "MultiRC",
 		"data_dir": "",
-		"train_path": "",
+		"train_path": "../data/multirc/train.jsonl",
 		"dev_path": "",
 		"test_path": "",
 		'classes': [False, True],
