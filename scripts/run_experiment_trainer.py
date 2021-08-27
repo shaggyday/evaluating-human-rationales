@@ -95,7 +95,7 @@ if __name__ == "__main__":
 			tunable_training_args = param_combo["params"][2]
 			output_dir = os.path.join(OUTPUT_DIR, os.path.join(model_name, param_combo["name"]))
 			best_model_save_path = os.path.join(OUTPUT_DIR,
-												os.path.join(model_name, param_combo["params"][0]["dataset"]))]
+												os.path.join(model_name, param_combo["params"][0]["dataset"]))
 			print("------------------------------------------------------------------------------------------------------------------------------------")
 			print(dataset)
 			print("------------------------------------------------------------------------------------------------------------------------------------")
