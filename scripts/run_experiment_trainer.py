@@ -90,7 +90,12 @@ if __name__ == "__main__":
 
 		for param_combo in param_combos:
 			dataset = DATASET_INFO[param_combo["params"][0]["dataset"]]
+			logger.debug("--------------------------------------------")
+			logger.debug(dataset)
+			logger.debug("--------------------------------------------")
+			print("--------------------------------------------")
 			print(dataset)
+			print("--------------------------------------------")
 			model_dict = model_info[model_name]
 			tunable_model_args = param_combo["params"][1]
 			tunable_training_args = param_combo["params"][2]
