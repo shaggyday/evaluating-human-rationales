@@ -12,6 +12,17 @@ OUTPUT_DIR = ""
 dataset_dict = {'dataset': ['multirc']}
 
 dataset_info = {
+	'scifact': {
+		"name": "SCIFACT",
+		"data_dir": "../data/scifact/",
+		"train_path": "../data/scifact/train.jsonl",
+		"dev_path": "../data/scifact/train.jsonl",
+		"test_path": "../data/scifact/train.jsonl",
+		"classes": ['REFUTES', 'SUPPORTS'],
+		"batch_size": 16,
+		"max_rows": None,
+		"max_len": 512,		
+	},
 	'sst': {
 		"name": "Stanford treebank",
 		"data_dir": "",
