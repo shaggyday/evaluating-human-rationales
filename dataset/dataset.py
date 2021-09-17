@@ -51,58 +51,6 @@ def create_tokenized_data(tokenizer, filepath, classes):
 	data_df['input_ids'], data_df['attention_mask'] = zip(*data_df['text'].map(tokenizer.tokenize))
 	data_df["labels"] = data_df['classification'].apply(lambda x: classes.index(x))
 	return data_df
-# def create_dataloader(model, classes, filepath, batch_size=32, max_rows=None, class_specific=None, max_len=512, return_dataset=False, name=None):
-# 	"""Preparing dataloader"""
-# 	data_df = pd.read_csv(filepath, lines=True)
-# 	data_df = data_df[data_df['text'].notna()]
-# 	data_df.reset_index(drop=True, inplace=True)
-	
-# 	# convert rationale column to list from string
-# 	try:
-# 		data_df = data_df[data_df['rationale'].notna()]
-# 		data_df.reset_index(drop=True, inplace=True)
-# 		try:
-# 			data_df["rationale"] = data_df['rationale'].apply(lambda s: json.loads(s))
-# 		except Exception as e:
-# 			# for handling rationale string from wikiattack
-# 			data_df["rationale"] = data_df["rationale"].apply(lambda s: s.strip("[").strip("]").split())
-# 	except Exception as e:
-# 		pass
-# 	if max_rows is not None:
-# 		data_df = data_df.iloc[:max_rows]
-
-# 	if name == "E-SNLI":
-# 		# temp solution
-# 		crop_len = get_crop_length(data_df)
-# 		model.max_len = crop_len
-
-# 	if name == "E-SNLI Reduced":
-# 		# temp solution
-# 		crop_len = get_crop_length(data_df)
-# 		model.max_len = crop_len
-
-# 	# train_df['input_ids'], train_df['attention_mask'] = train_df['text'].apply(self.tokenize)
-# 	data_df['text']= data_df['text'].apply(lambda t:t.replace('[SEP]',model.tokenizer.sep_token))
-
-# 	data_df['input_ids'], data_df['attention_mask'] = zip(*data_df['text'].map(model.tokenize))
-
-# 	input_id_tensor = torch.tensor(data_df['input_ids'])
-# 	attention_mask_tensor = torch.tensor(data_df['attention_mask'])
-
-# 	# rationale_tensor = torch.tensor(data_df['rationale'].apply(lambda s: s + [0]*(model.max_len - len(s))))
-# 	labels_tensor = create_label_tensor(data_df, classes)
-# 	if class_specific is not None:
-# 		# input_id_tensor, labels_tensor, rationale_tensor, attention_mask_tensor = \
-# 		# 	reduce_data_class_specific(input_id_tensor, labels_tensor, rationale_tensor,
-# 		# 							   attention_mask_tensor, class_specific)
-# 		pass
-
-# 	dataset_ds = Dataset(input_id_tensor, labels_tensor, attention_mask_tensor,
-# 						 BATCH_SIZE_FLAG=batch_size)
-# 	if return_dataset:
-# 		return dataset_ds
-# 	return torch.utils.data.DataLoader(dataset_ds, batch_size=dataset_ds.BATCH_SIZE_FLAG, shuffle=True)
-
 
 def create_dataloader(model, classes, filepath, batch_size=32, max_rows=None, class_specific=None, max_len=512, return_dataset=False, name=None):
 	"""Preparing dataloader"""
@@ -351,3 +299,56 @@ def reduce_df_text_by_rationale(filepath, save_path):
 		["text", "rationale"]].apply(lambda s: reduce_by_alpha(*s, fidelity_type="sufficiency"), axis=1)
 	data_df["rationale"] = data_df['rationale'].apply(lambda s: json.dumps(s))
 	data_df.to_csv(save_path)
+
+
+# def create_dataloader(model, classes, filepath, batch_size=32, max_rows=None, class_specific=None, max_len=512, return_dataset=False, name=None):
+# 	"""Preparing dataloader"""
+# 	data_df = pd.read_csv(filepath, lines=True)
+# 	data_df = data_df[data_df['text'].notna()]
+# 	data_df.reset_index(drop=True, inplace=True)
+	
+# 	# convert rationale column to list from string
+# 	try:
+# 		data_df = data_df[data_df['rationale'].notna()]
+# 		data_df.reset_index(drop=True, inplace=True)
+# 		try:
+# 			data_df["rationale"] = data_df['rationale'].apply(lambda s: json.loads(s))
+# 		except Exception as e:
+# 			# for handling rationale string from wikiattack
+# 			data_df["rationale"] = data_df["rationale"].apply(lambda s: s.strip("[").strip("]").split())
+# 	except Exception as e:
+# 		pass
+# 	if max_rows is not None:
+# 		data_df = data_df.iloc[:max_rows]
+
+# 	if name == "E-SNLI":
+# 		# temp solution
+# 		crop_len = get_crop_length(data_df)
+# 		model.max_len = crop_len
+
+# 	if name == "E-SNLI Reduced":
+# 		# temp solution
+# 		crop_len = get_crop_length(data_df)
+# 		model.max_len = crop_len
+
+# 	# train_df['input_ids'], train_df['attention_mask'] = train_df['text'].apply(self.tokenize)
+# 	data_df['text']= data_df['text'].apply(lambda t:t.replace('[SEP]',model.tokenizer.sep_token))
+
+# 	data_df['input_ids'], data_df['attention_mask'] = zip(*data_df['text'].map(model.tokenize))
+
+# 	input_id_tensor = torch.tensor(data_df['input_ids'])
+# 	attention_mask_tensor = torch.tensor(data_df['attention_mask'])
+
+# 	# rationale_tensor = torch.tensor(data_df['rationale'].apply(lambda s: s + [0]*(model.max_len - len(s))))
+# 	labels_tensor = create_label_tensor(data_df, classes)
+# 	if class_specific is not None:
+# 		# input_id_tensor, labels_tensor, rationale_tensor, attention_mask_tensor = \
+# 		# 	reduce_data_class_specific(input_id_tensor, labels_tensor, rationale_tensor,
+# 		# 							   attention_mask_tensor, class_specific)
+# 		pass
+
+# 	dataset_ds = Dataset(input_id_tensor, labels_tensor, attention_mask_tensor,
+# 						 BATCH_SIZE_FLAG=batch_size)
+# 	if return_dataset:
+# 		return dataset_ds
+# 	return torch.utils.data.DataLoader(dataset_ds, batch_size=dataset_ds.BATCH_SIZE_FLAG, shuffle=True)
