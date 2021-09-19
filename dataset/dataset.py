@@ -36,7 +36,6 @@ def prepare_data(model, classes, data_dir, train_path=None, dev_path=None, test_
 	# max_len=max_len, return_dataset=return_dataset)
 	return train_dataloader, dev_dataloader
 
-
 def prepare_data_sklearn(tokenizer, train_path, dev_path, test_path, name=None, data_dir=None, classes=None,
 						 batch_size=None, max_rows=None, max_len=None):
 	"""Prepare data for sklearn type model"""
@@ -44,7 +43,6 @@ def prepare_data_sklearn(tokenizer, train_path, dev_path, test_path, name=None, 
 	eval_df = create_tokenized_data(tokenizer, dev_path, classes)
 	test_df = create_tokenized_data(tokenizer, test_path, classes)
 	return train_df, eval_df, test_df
-
 
 def create_tokenized_data(tokenizer, filepath, classes):
 	data_df = pd.read_csv(filepath)
