@@ -30,14 +30,6 @@ class Dataset(torch.utils.data.Dataset):
 def prepare_data(model, classes, data_dir, train_path=None, dev_path=None, test_path=None, batch_size=32, max_rows=None, max_len=512, return_dataset=False, name=None):
 	"""Preparing data for training, evaluation and testing"""
 	print(model)
-	print("name:" + name)
-	print("classes:" + classes)
-	print("data_dir:" + data_dir)
-	print("train_path:" + train_path)
-	print("dev_path:" + dev_path)
-	print("batch_size:" + batch_size)
-	print("max_rows:" + max_rows)
-	print("max_len:" + max_len)
 	train_dataloader = create_dataloader(model, classes, train_path, max_rows=max_rows, batch_size=batch_size, max_len=max_len, return_dataset=return_dataset, name=name)
 	dev_dataloader = create_dataloader(model, classes, dev_path, max_rows=max_rows, batch_size=batch_size, max_len=max_len, return_dataset=return_dataset, name=name)
 	# test_dataloader = create_dataloader(model, classes, test_path, max_rows=max_rows, batch_size=batch_size,
@@ -89,6 +81,10 @@ def create_dataloader(model, classes, filepath, batch_size=32, max_rows=None, cl
 
 	dataset_ds = Dataset(input_id_tensor, labels_tensor, attention_mask_tensor,
 						 BATCH_SIZE_FLAG=batch_size)
+
+	print(dataset_ds)
+	quit()
+
 	if return_dataset:
 		return dataset_ds
 	return torch.utils.data.DataLoader(dataset_ds, batch_size=dataset_ds.BATCH_SIZE_FLAG, shuffle=True)

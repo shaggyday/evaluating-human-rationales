@@ -9,7 +9,7 @@ FIDELITY_OCCLUSION_RATES = [x / 20 for x in range(0, 21)]
 
 OUTPUT_DIR = ""
 
-dataset_dict = {'dataset': ['scifact']}
+dataset_dict = {'dataset': ['movies']}
 
 dataset_info = {
 	'scifact': {
@@ -48,7 +48,7 @@ dataset_info = {
 	'movies': {
 		"name": "movie reviews",
 		"data_dir": "",
-		"train_path": "",
+		"train_path": "../pog.csv",
 		"dev_path": "",
 		"test_path": "",
 		'classes': ['NEG', 'POS'],
