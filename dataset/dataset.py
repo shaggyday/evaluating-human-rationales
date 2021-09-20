@@ -29,7 +29,7 @@ class Dataset(torch.utils.data.Dataset):
 
 def prepare_data(model, classes, data_dir, train_path=None, dev_path=None, test_path=None, batch_size=32, max_rows=None, max_len=512, return_dataset=False, name=None):
 	"""Preparing data for training, evaluation and testing"""
-	print(model)
+	# print(model)
 	train_dataloader = create_dataloader(model, classes, train_path, max_rows=max_rows, batch_size=batch_size, max_len=max_len, return_dataset=return_dataset, name=name)
 	dev_dataloader = create_dataloader(model, classes, dev_path, max_rows=max_rows, batch_size=batch_size, max_len=max_len, return_dataset=return_dataset, name=name)
 	# test_dataloader = create_dataloader(model, classes, test_path, max_rows=max_rows, batch_size=batch_size,
