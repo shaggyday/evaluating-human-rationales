@@ -15,9 +15,9 @@ dataset_info = {
 	'scifact': {
 		"name": "SCIFACT",
 		"data_dir": "../data/scifact/",
-		"train_path": "../data/scifact/train.jsonl",
-		"dev_path": "../data/scifact/train.jsonl",
-		"test_path": "../data/scifact/train.jsonl",
+		"train_path": "../csv/scifact/train.csv",
+		"dev_path": "../csv/scifact/test.csv",
+		"test_path": "",
 		"classes": ['REFUTES', 'SUPPORTS'],
 		"batch_size": 16,
 		"max_rows": None,
@@ -48,8 +48,8 @@ dataset_info = {
 	'movies': {
 		"name": "movie reviews",
 		"data_dir": "",
-		"train_path": "../data/movies/train.csv",
-		"dev_path": "../data/movies/test.csv",
+		"train_path": "../csv/movies/train.csv",
+		"dev_path": "../csv/movies/test.csv",
 		"test_path": "",
 		'classes': ['NEG', 'POS'],
 		"batch_size": 16,
