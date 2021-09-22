@@ -26,6 +26,8 @@ import os
 import torch
 import json
 
+torch.cuda.empty_cache()
+
 logger = logging.getLogger(__name__)
 logger.addHandler(logging.StreamHandler())
 logging.basicConfig(
