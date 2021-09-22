@@ -82,9 +82,9 @@ def create_dataloader(model, classes, filepath, batch_size=32, max_rows=None, cl
 	dataset_ds = Dataset(input_id_tensor, labels_tensor, attention_mask_tensor,
 						 BATCH_SIZE_FLAG=batch_size)
 
-	for i in range(5):
-		print(dataset_ds.__getitem__(i))
-	quit()
+	# for i in range(5):
+	# 	print(dataset_ds.__getitem__(i))
+	# quit()
 
 	if return_dataset:
 		return dataset_ds

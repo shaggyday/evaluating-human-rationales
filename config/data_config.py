@@ -48,8 +48,8 @@ dataset_info = {
 	'movies': {
 		"name": "movie reviews",
 		"data_dir": "",
-		"train_path": "../pog.csv",
-		"dev_path": "",
+		"train_path": "../data/movies/train.csv",
+		"dev_path": "../data/movies/test.csv",
 		"test_path": "",
 		'classes': ['NEG', 'POS'],
 		"batch_size": 16,
