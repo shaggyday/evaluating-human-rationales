@@ -149,6 +149,7 @@ def create_test_dataloader(model,
 
 	#because SST rationale values are sometimes 0.5 and we don't want that to cause problems later
 	data_df["rationale"] = data_df["rationale"].apply(binarize_rationale)
+	print(data_df["rationale"])
 
 	if rationale_occlusion_rate is not None:
 		print(f'Randomly occluding rationales at rate {rationale_occlusion_rate}')
