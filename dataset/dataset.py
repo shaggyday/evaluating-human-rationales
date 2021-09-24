@@ -83,7 +83,7 @@ def create_dataloader(model, classes, filepath, batch_size=32, max_rows=None, cl
 	dataset_ds = Dataset(input_id_tensor, labels_tensor, attention_mask_tensor,
 						 BATCH_SIZE_FLAG=batch_size)
 
-	# for i in range(5):
+	# for i in range(3):
 	# 	print(dataset_ds.__getitem__(i))
 	# quit()
 
@@ -188,6 +188,10 @@ def create_test_dataloader(model,
 		labels=labels_tensor,
 		batch_size=batch_size
 	)
+
+	for i in range(3):
+		print(test_dataset_ds.__getitem__(i))
+	quit()
 
 	test_dataloader = torch.utils.data.DataLoader(
 		test_dataset_ds, batch_size=test_dataset_ds.batch_size, shuffle=True)
