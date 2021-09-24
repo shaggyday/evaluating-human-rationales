@@ -1,4 +1,4 @@
-TRAIN_FLAG = True
+TRAIN_FLAG = False
 CACHING_FLAG = True
 EPOCH_LEVEL_CACHING = False
 
@@ -50,7 +50,7 @@ dataset_info = {
 		"data_dir": "",
 		"train_path": "../csv/movies/train.csv",
 		"dev_path": "../csv/movies/test.csv",
-		"test_path": "",
+		"test_path": "../csv/movies/val.csv",
 		'classes': ['NEG', 'POS'],
 		"batch_size": 16,
 		"max_rows": None,
