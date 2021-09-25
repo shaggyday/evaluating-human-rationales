@@ -83,9 +83,9 @@ def create_dataloader(model, classes, filepath, batch_size=32, max_rows=None, cl
 	dataset_ds = Dataset(input_id_tensor, labels_tensor, attention_mask_tensor,
 						 BATCH_SIZE_FLAG=batch_size)
 
-	# for i in range(3):
-	# 	print(dataset_ds.__getitem__(i))
-	# quit()
+	for i in range(3):
+		print(dataset_ds.__getitem__(i))
+	quit()
 
 	if return_dataset:
 		return dataset_ds
@@ -151,9 +151,9 @@ def create_test_dataloader(model,
 	data_df["rationale"] = data_df["rationale"].apply(binarize_rationale)
 	print(data_df["rationale"])
 
-	if rationale_occlusion_rate is not None:
-		print(f'Randomly occluding rationales at rate {rationale_occlusion_rate}')
-		data_df['rationale'] = data_df["rationale"].apply(lambda r: occlude_rationale(r,rate=rationale_occlusion_rate))
+	# if rationale_occlusion_rate is not None:
+	# 	print(f'Randomly occluding rationales at rate {rationale_occlusion_rate}')
+	# 	data_df['rationale'] = data_df["rationale"].apply(lambda r: occlude_rationale(r,rate=rationale_occlusion_rate))
 
 	data_df["sufficiency_text"] = data_df[
 		["text", "rationale"]].apply(lambda s: reduce_by_alpha(*s, fidelity_type="sufficiency"), axis=1)
@@ -205,13 +205,6 @@ def binarize_rationale(rationale):
 	return rationale
 
 
-def occlude_rationale(rationale, rate):
-	mask = (np.random.random(len(rationale)) < rate).astype(float)
-
-	occluded_rationale = [ri*mi for ri, mi in zip(rationale, mask)]
-	return occluded_rationale
-
-
 def reduce_by_alpha(text, rationale, fidelity_type="sufficiency"):
 	reduced_text = ""
 	# whitespace tokenization
@@ -232,6 +225,13 @@ def reduce_by_alpha(text, rationale, fidelity_type="sufficiency"):
 		reduced_text = reduced_text[:-1]
 
 	return reduced_text
+
+def occlude_rationale(rationale, rate):
+	mask = (np.random.random(len(rationale)) < rate).astype(float)
+
+	occluded_rationale = [ri*mi for ri, mi in zip(rationale, mask)]
+	return occluded_rationale
+
 
 
 def create_label_tensor(data_df, classes):
