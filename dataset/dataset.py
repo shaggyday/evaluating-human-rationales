@@ -171,12 +171,9 @@ def create_test_dataloader(model,
 	data_df["comprehensiveness_text"] = data_df[
 		["text", "rationale"]].apply(lambda s: reduce_by_alpha(*s, fidelity_type="comprehensiveness"), axis=1)
 
-	data_df['sufficiency_input_ids'], data_df['sufficiency_attention_mask'] =\
-		zip(*data_df['sufficiency_text'].map(model.tokenize))
-	data_df['comprehensiveness_input_ids'], data_df['comprehensiveness_attention_mask'] =\
-		zip(*data_df['comprehensiveness_text'].map(model.tokenize))
-	data_df['input_ids'], data_df['attention_mask'] = \
-		zip(*data_df['text'].map(model.tokenize))
+	data_df['sufficiency_input_ids'], data_df['sufficiency_attention_mask'] = zip(*data_df['sufficiency_text'].map(model.tokenize))
+	data_df['comprehensiveness_input_ids'], data_df['comprehensiveness_attention_mask'] = zip(*data_df['comprehensiveness_text'].map(model.tokenize))
+	data_df['input_ids'], data_df['attention_mask'] = zip(*data_df['text'].map(model.tokenize))
 
 	input_id_tensor = torch.tensor(data_df['input_ids'])
 	attention_mask_tensor = torch.tensor(data_df['attention_mask'])

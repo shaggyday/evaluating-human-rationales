@@ -125,7 +125,9 @@ if __name__ == "__main__":
 				training_args_config["per_device_train_batch_size"] = dataset["batch_size"]
 				# Save every epoch checkpoint which could be used for analysis later
 				save_steps = len(train_dataset) // training_args_config['per_device_train_batch_size']
-
+				print(training_args_config)
+				print(tunable_training_args)
+				quit()
 				training_args = TrainingArguments(
 					output_dir=output_dir,
 					save_steps=save_steps,
