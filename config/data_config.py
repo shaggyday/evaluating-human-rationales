@@ -1,5 +1,5 @@
 TRAIN_FLAG = True
-CACHING_FLAG = False
+CACHING_FLAG = True
 EPOCH_LEVEL_CACHING = False
 
 CREATE_FIDELITY_CURVES = False
@@ -23,6 +23,17 @@ dataset_info = {
 		"max_rows": None,
 		"max_len": 512,		
 	},
+	'movies': {
+		"name": "movie reviews",
+		"data_dir": "",
+		"train_path": "../csv/movies/train.csv",
+		"dev_path": "../csv/movies/val.csv",
+		"test_path": "../csv/movies/test.csv",
+		'classes': ['NEG', 'POS'],
+		"batch_size": 16,
+		"max_rows": None,
+		"max_len": 512,
+	},
 	'sst': {
 		"name": "Stanford treebank",
 		"data_dir": "",
@@ -41,17 +52,6 @@ dataset_info = {
 		"dev_path": "",
 		"test_path": "",
 		"classes": ['neg', 'pos'],
-		"batch_size": 16,
-		"max_rows": None,
-		"max_len": 512,
-	},
-	'movies': {
-		"name": "movie reviews",
-		"data_dir": "",
-		"train_path": "../csv/movies/train.csv",
-		"dev_path": "../csv/movies/test.csv",
-		"test_path": "../csv/movies/val.csv",
-		'classes': ['NEG', 'POS'],
 		"batch_size": 16,
 		"max_rows": None,
 		"max_len": 512,

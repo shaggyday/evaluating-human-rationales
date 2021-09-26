@@ -51,7 +51,7 @@ def create_tokenized_data(tokenizer, filepath, classes):
 	return data_df
 
 def create_dataloader(model, classes, filepath, batch_size=32, max_rows=None, class_specific=None, max_len=512, return_dataset=False, name=None):
-	batch_size = 8
+	# batch_size = 8
 	"""Preparing dataloader"""
 	data_df = pd.read_csv(filepath)
 	data_df = data_df[data_df['text'].notna()]
@@ -73,19 +73,19 @@ def create_dataloader(model, classes, filepath, batch_size=32, max_rows=None, cl
 
 	data_df['text']= data_df['text'].apply(lambda t:t.replace('[SEP]',model.tokenizer.sep_token))
 
-	data_df['input_ids'], data_df['attention_mask'] = zip(*data_df['text'].map(model.tokenize))
+	input_id, attention_mask = zip(*data_df['text'].map(model.tokenize))
 
-	input_id_tensor = torch.tensor(data_df['input_ids'])
-	attention_mask_tensor = torch.tensor(data_df['attention_mask'])
+	input_id_tensor = torch.tensor(input_id)
+	attention_mask_tensor = torch.tensor(attention_mask)
 
 	labels_tensor = create_label_tensor(data_df, classes)
 
 	dataset_ds = Dataset(input_id_tensor, labels_tensor, attention_mask_tensor,
 						 BATCH_SIZE_FLAG=batch_size)
 
-	for i in range(3):
-		print(dataset_ds.__getitem__(i))
-	quit()
+	# for i in range(3):
+	# 	print(dataset_ds.__getitem__(i))
+	# quit()
 
 	if return_dataset:
 		return dataset_ds
@@ -135,8 +135,8 @@ def create_test_dataloader(model,
 	"""preparing the test dataloader"""
 	data_df = pd.read_csv(filepath)
 
-	if "rationale" not in data_df.columns:
-		data_df["rationale"] = data_df["text"].apply(lambda s: s.strip("[").strip("]").split())
+	# if "rationale" not in data_df.columns:
+	# 	data_df["rationale"] = data_df["text"].apply(lambda s: s.strip("[").strip("]").split())
 
 	data_df = data_df[data_df['rationale'].notna()]
 	data_df.reset_index(drop=True, inplace=True)
