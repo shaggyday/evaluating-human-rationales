@@ -125,8 +125,10 @@ if __name__ == "__main__":
 				training_args_config["per_device_train_batch_size"] = dataset["batch_size"]
 				# Save every epoch checkpoint which could be used for analysis later
 				save_steps = len(train_dataset) // training_args_config['per_device_train_batch_size']
+				print(param_combo)
 				print(training_args_config)
 				print(tunable_training_args)
+				quit()
 				training_args = TrainingArguments(
 					output_dir=output_dir,
 					save_steps=save_steps,
@@ -146,7 +148,6 @@ if __name__ == "__main__":
 				if config.TRAIN_FLAG:
 					print(
 						f"===============Training on Dataset: {dataset['name']} and param combo: {param_combo['name']}===================")
-					quit()
 					trainer.train()
 					trainer.save_model(output_dir=best_model_save_path)
 					# Evaluate all epochs and save the best one
