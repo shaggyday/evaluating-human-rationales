@@ -4,6 +4,9 @@ import os
 import json
 import numpy as np
 
+from inspect import currentframe, getframeinfo
+frameinfo = getframeinfo(currentframe())
+
 class Dataset(torch.utils.data.Dataset):
 	def __init__(self, X, labels, attention_masks, BATCH_SIZE_FLAG=32):
 		"""Initialization"""
@@ -65,18 +68,23 @@ def create_dataloader(model, classes, filepath, batch_size=32, max_rows=None, cl
 			data_df["rationale"] = data_df['rationale'].apply(lambda s: json.loads(s))
 		except Exception as e:
 			# for handling rationale string from wikiattack
-			data_df["rationale"] = data_df["rationale"].apply(lambda s: s.strip("[").strip("]").split())
+			# data_df["rationale"] = data_df["rationale"].apply(lambda s: s.strip("[").strip("]").split())
+			print("??????????????????????????????????? ERORR ???????????????????????????????????")
+			print(frameinfo.filename, frameinfo.lineno)
+			quit()
 	except Exception as e:
-		pass
+			print("??????????????????????????????????? ERORR ???????????????????????????????????")
+			print(frameinfo.filename, frameinfo.lineno)
+			quit()
 	if max_rows is not None:
 		data_df = data_df.iloc[:max_rows]
 
 	data_df['text']= data_df['text'].apply(lambda t:t.replace('[SEP]',model.tokenizer.sep_token))
 
-	input_id, attention_mask = zip(*data_df['text'].map(model.tokenize))
+	data_df['input_ids'], data_df['attention_mask'] = zip(*data_df['text'].map(model.tokenize))
 
-	input_id_tensor = torch.tensor(input_id)
-	attention_mask_tensor = torch.tensor(attention_mask)
+	input_id_tensor = torch.tensor(data_df['input_ids'])
+	attention_mask_tensor = torch.tensor(data_df['attention_mask'])
 
 	labels_tensor = create_label_tensor(data_df, classes)
 
@@ -143,13 +151,16 @@ def create_test_dataloader(model,
 	try:
 		data_df["rationale"] = data_df['rationale'].apply(lambda s: json.loads(s))
 	except Exception as e:
-		# for handling rationale string from wikiattack
-		data_df["rationale"] = data_df["rationale"].apply(lambda s: s.strip("[").strip("]").split())
-		data_df["rationale"] = [[float(xx) for xx in x] for x in data_df["rationale"]]
+		print("??????????????????????????????????? ERORR ???????????????????????????????????")
+		print(frameinfo.filename, frameinfo.lineno)
+		quit()
+		# # for handling rationale string from wikiattack
+		# data_df["rationale"] = data_df["rationale"].apply(lambda s: s.strip("[").strip("]").split())
+		# data_df["rationale"] = [[float(xx) for xx in x] for x in data_df["rationale"]]
 
 	#because SST rationale values are sometimes 0.5 and we don't want that to cause problems later
-	data_df["rationale"] = data_df["rationale"].apply(binarize_rationale)
-	print(data_df["rationale"])
+	# data_df["rationale"] = data_df["rationale"].apply(binarize_rationale)
+	# print(data_df["rationale"])
 
 	# if rationale_occlusion_rate is not None:
 	# 	print(f'Randomly occluding rationales at rate {rationale_occlusion_rate}')
@@ -199,12 +210,6 @@ def create_test_dataloader(model,
 
 	return test_dataloader
 
-
-def binarize_rationale(rationale):
-	rationale = [1.0 if x >= 0.5 else 0.0 for x in rationale]
-	return rationale
-
-
 def reduce_by_alpha(text, rationale, fidelity_type="sufficiency"):
 	reduced_text = ""
 	# whitespace tokenization
@@ -217,6 +222,9 @@ def reduce_by_alpha(text, rationale, fidelity_type="sufficiency"):
 			elif fidelity_type == "comprehensiveness" and rationale[idx] < 0.5:
 				reduced_text = reduced_text + tokens[idx] + " "
 		except Exception as e:
+			print("??????????????????????????????????? ERORR ???????????????????????????????????")
+			print(frameinfo.filename, frameinfo.lineno)
+			quit()
 			if fidelity_type == "comprehensiveness":
 				reduced_text = reduced_text + tokens[idx] + " "
 
@@ -226,12 +234,16 @@ def reduce_by_alpha(text, rationale, fidelity_type="sufficiency"):
 
 	return reduced_text
 
+def binarize_rationale(rationale):
+	rationale = [1.0 if x >= 0.5 else 0.0 for x in rationale]
+	return rationale
+
+
 def occlude_rationale(rationale, rate):
 	mask = (np.random.random(len(rationale)) < rate).astype(float)
 
 	occluded_rationale = [ri*mi for ri, mi in zip(rationale, mask)]
 	return occluded_rationale
-
 
 
 def create_label_tensor(data_df, classes):
