@@ -98,6 +98,9 @@ if __name__ == "__main__":
 			output_dir = os.path.join(OUTPUT_DIR, os.path.join(model_name, param_combo["name"]))
 			best_model_save_path = os.path.join(OUTPUT_DIR,
 												os.path.join(model_name, param_combo["params"][0]["dataset"]))
+			print(output_dir)
+			print(best_model_save_path)
+			quit()
 			# Model Class
 			model_config = PretrainedConfig(
 				max_length=dataset["max_len"],
@@ -145,7 +148,7 @@ if __name__ == "__main__":
 ################ loading trained model ###########################
 
 				# LOAD_DIR = os.path.join(OUTPUT_DIR, os.path.join(model_name, param_combo["name"]))
-				LOAD_DIR = output_dir
+				LOAD_DIR = best_model_save_path
 				# LOAD_DIR_LIST = [LOAD_DIR]
 				LOAD_DIR_LIST = []
 				# LOAD_DIR_LIST.append(best_model_save_path)
