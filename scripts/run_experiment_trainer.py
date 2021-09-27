@@ -98,9 +98,6 @@ if __name__ == "__main__":
 			output_dir = os.path.join(OUTPUT_DIR, os.path.join(model_name, param_combo["name"]))
 			best_model_save_path = os.path.join(OUTPUT_DIR,
 												os.path.join(model_name, param_combo["params"][0]["dataset"]))
-			print(output_dir)
-			print(best_model_save_path)
-			quit()
 			# Model Class
 			model_config = PretrainedConfig(
 				max_length=dataset["max_len"],
@@ -160,6 +157,7 @@ if __name__ == "__main__":
 				)
 
 				if EPOCH_LEVEL_CACHING:
+					print("???")
 					LOAD_DIR_LIST = LOAD_DIR_LIST + [
 						os.path.join(LOAD_DIR, name) for name in os.listdir(LOAD_DIR) if "checkpoint-" in name
 					]
@@ -173,7 +171,10 @@ if __name__ == "__main__":
 						save_dir=os.path.join(LOAD_DIR, "epoch-0"),
 					)
 				else:
+					print("ok")
 					LOAD_DIR_LIST = [LOAD_DIR]
+					print(LOAD_DIR_LIST)
+					quit()
 
 				for load_path in LOAD_DIR_LIST:
 ##################  still loading trained model ##################
