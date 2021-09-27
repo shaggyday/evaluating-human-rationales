@@ -174,10 +174,8 @@ if __name__ == "__main__":
 
 				for load_path in LOAD_DIR_LIST:
 ##################  still loading trained model ##################
-					print(
-						f"===============Feature caching on Dataset: {dataset['name']} and"
-						f" param combo: {param_combo['name']}, load path {load_path} ==================="
-					)
+					print(f"===============Feature caching on Dataset: {dataset['name']} and"
+						f" param combo: {param_combo['name']}, load path {load_path} ===================")
 
 					# cache_model = RobertaClassifier.from_pretrained(load_path)
 					model_load_path = os.path.join(load_path, 'pytorch_model.bin')

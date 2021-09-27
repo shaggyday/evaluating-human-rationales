@@ -198,9 +198,9 @@ def create_test_dataloader(model,
 		batch_size=batch_size
 	)
 
-	for i in range(3):
-		print(test_dataset_ds.__getitem__(i))
-	quit()
+	# for i in range(3):
+	# 	print(test_dataset_ds.__getitem__(i))
+	# quit()
 
 	test_dataloader = torch.utils.data.DataLoader(
 		test_dataset_ds, batch_size=test_dataset_ds.batch_size, shuffle=True)
