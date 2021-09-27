@@ -7,7 +7,7 @@ NUM_FIDELITY_CURVE_SAMPLES = 1
 
 FIDELITY_OCCLUSION_RATES = [x / 20 for x in range(0, 21)]
 
-OUTPUT_DIR = ""
+OUTPUT_DIR = "../output"
 
 dataset_dict = {'dataset': ['movies']}
 

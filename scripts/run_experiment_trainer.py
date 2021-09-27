@@ -89,6 +89,8 @@ if __name__ == "__main__":
 			dataset_prediction_caching_info[dataset] = prediction_caching_info
 
 		for param_combo in param_combos:
+			print("====================================    param_combo:    ========================================")
+			print(param_combo)
 			dataset = DATASET_INFO[param_combo["params"][0]["dataset"]]
 			model_dict = model_info[model_name]
 			tunable_model_args = param_combo["params"][1]
@@ -96,18 +98,6 @@ if __name__ == "__main__":
 			output_dir = os.path.join(OUTPUT_DIR, os.path.join(model_name, param_combo["name"]))
 			best_model_save_path = os.path.join(OUTPUT_DIR,
 												os.path.join(model_name, param_combo["params"][0]["dataset"]))
-			# print("------------------------------------------------------------------------------------------------------------------------------------")
-			# print(dataset)
-			# print("------------------------------------------------------------------------------------------------------------------------------------")
-			# print("------------------------------------------------------------------------------------------------------------------------------------")
-			# print(tunable_model_args)
-			# print("------------------------------------------------------------------------------------------------------------------------------------")
-			# print("------------------------------------------------------------------------------------------------------------------------------------")
-			# print(tunable_training_args)
-			# print("------------------------------------------------------------------------------------------------------------------------------------")
-			# print("------------------------------------------------------------------------------------------------------------------------------------")
-			# print(output_dir)
-			# print("------------------------------------------------------------------------------------------------------------------------------------")
 			# Model Class
 			model_config = PretrainedConfig(
 				max_length=dataset["max_len"],
@@ -125,10 +115,7 @@ if __name__ == "__main__":
 				training_args_config["per_device_train_batch_size"] = dataset["batch_size"]
 				# Save every epoch checkpoint which could be used for analysis later
 				save_steps = len(train_dataset) // training_args_config['per_device_train_batch_size']
-				print(param_combo)
-				print(training_args_config)
-				print(tunable_training_args)
-				quit()
+				
 				training_args = TrainingArguments(
 					output_dir=output_dir,
 					save_steps=save_steps,

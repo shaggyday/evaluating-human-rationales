@@ -24,9 +24,9 @@ datasets = [
 	{
 		"name": "Movie reviews",
 		"prefix": "movies",
-		"train_path": "",
-		"dev_path": "",
-		"test_path": "",
+		"train_path": "../csv/movies/train.csv",
+		"dev_path": "../csv/movies/val.csv",
+		"test_path": "../csv/movies/test.csv",
 		'classes': ['NEG', 'POS']
 	},
 
