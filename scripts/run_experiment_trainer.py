@@ -142,7 +142,10 @@ if __name__ == "__main__":
 
 			# Caching features for analysis
 			if CACHING_FLAG:
-				LOAD_DIR = os.path.join(OUTPUT_DIR, os.path.join(model_name, param_combo["name"]))
+################ loading trained model ###########################
+
+				# LOAD_DIR = os.path.join(OUTPUT_DIR, os.path.join(model_name, param_combo["name"]))
+				LOAD_DIR = output_dir
 				# LOAD_DIR_LIST = [LOAD_DIR]
 				LOAD_DIR_LIST = []
 				# LOAD_DIR_LIST.append(best_model_save_path)
@@ -166,8 +169,11 @@ if __name__ == "__main__":
 						tokenizer=cache_model.tokenizer,
 						save_dir=os.path.join(LOAD_DIR, "epoch-0"),
 					)
+				else:
+					LOAD_DIR_LIST = [LOAD_DIR]
 
 				for load_path in LOAD_DIR_LIST:
+##################  still loading trained model ##################
 					print(
 						f"===============Feature caching on Dataset: {dataset['name']} and"
 						f" param combo: {param_combo['name']}, load path {load_path} ==================="
@@ -181,9 +187,11 @@ if __name__ == "__main__":
 						num_labels=len(dataset["classes"]),
 						**saved_config
 					)
+##################  finally loading trained model ##################
 					cache_model = model_dict["class"](config=saved_config)
 					cache_model.load_state_dict(torch.load(model_load_path))
 
+##################  running on test dataset and saving features ##################
 					# look at the output _dir
 					get_and_save_features(
 						test_dataloader=test_dataloader,
@@ -192,17 +200,17 @@ if __name__ == "__main__":
 						save_dir=load_path,
 					)
 
+##################  evaluating on dev dataset???? ##################
 					# Get the epoch with best dev acc
 					dev_dataloader = create_dataloader(cache_model, dataset["classes"], dataset["dev_path"], dataset["batch_size"])
-					dev_acc, _ = eval_fn(cache_model, dev_dataloader, 5)
+					dev_acc, _ = eval_fn(cache_model, dev_dataloader) #, 5)
 
-					if dev_acc > dataset_prediction_caching_info[
-						param_combo["params"][0]["dataset"]]["best_dev_acc"]:
+					if dev_acc > dataset_prediction_caching_info[param_combo["params"][0]["dataset"]]["best_dev_acc"]: #rhs == 0
 						print(f"Dataset: {param_combo['params'][0]['dataset']}| Eval Acc: {dev_acc}")
 						print(f"Path: {model_load_path}")
+						print(f"load_path: {load_path}| best+_model_save_path: {best_model_save_path}")
 						copy_features(load_dir=load_path, output_dir=best_model_save_path)
-						dataset_prediction_caching_info[
-							param_combo["params"][0]["dataset"]]["best_dev_acc"] = dev_acc
+						dataset_prediction_caching_info[param_combo["params"][0]["dataset"]]["best_dev_acc"] = dev_acc
 
 				# if CREATE_FIDELITY_CURVES:
 				# 	print(f'Creating fidelity curves with {NUM_FIDELITY_CURVE_SAMPLES} sample(s) each for occlusion rates: \n{FIDELITY_OCCLUSION_RATES}')

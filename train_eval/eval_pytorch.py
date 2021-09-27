@@ -2,8 +2,11 @@ import sklearn.metrics as mt
 import numpy as np
 import torch
 
-
-def eval_fn(model, dev_dataloader, nth_epoch, device="cuda"):
+'''
+computes y and y_hat for each input in dev dataset
+computes accuracy score using those y and y_hats
+'''
+def eval_fn(model, dev_dataloader,  device="cuda"): #nth_epoch,
 	model.eval()
 	y_hat = np.zeros(0, dtype=int)
 	y = np.zeros(0, dtype=int)

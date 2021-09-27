@@ -5,7 +5,12 @@ import os
 from fidelity import utility
 import os
 
+'''
+calculates all features(y_hat, p(y_hat), y_hat_alpha, p(y_hat_alpha), etc) 
+	for all inputs in dataset
 
+outputs to feature.csv
+'''
 def get_and_save_features(test_dataloader, model, tokenizer, save_dir, device="cuda"):
 	id = np.array(([]))
 	prob_y_hat = np.array([])
@@ -71,6 +76,7 @@ def get_all_probability_values(input_ids, attention_mask, sufficiency_input_ids,
 							   comprehensiveness_input_ids, comprehensiveness_attention_mask, model, tokenizer):
 	prob_dict = {}
 
+	# prob y hat for full information/text
 	prob_dict["y_hat_i"], prob_dict["prob_y_hat_i"] = get_prob_for_alpha(
 		input_ids=input_ids,
 		attention_masks=attention_mask,
@@ -111,6 +117,7 @@ def get_prob_for_alpha(input_ids, attention_masks, model, y_hat_prime=None):
 		model=model,
 		attention_masks=attention_masks)
 
+####????????????????####
 	if y_hat_prime is not None:
 		eval_prob_y_hat = prob_y_hat[np.arange(len(prob_y_hat)), y_hat]
 		prob_y_hat = prob_y_hat[np.arange(len(prob_y_hat)), y_hat_prime]

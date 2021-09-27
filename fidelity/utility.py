@@ -98,6 +98,7 @@ def compute_predictions(input_ids,
 	"""
 	if attention_masks is not None:
 		result = model.forward(input_ids=input_ids.to(model.device), attention_mask=attention_masks.to(model.device))
+		# torch.tensor.to := datatype or device conversion
 	else:
 		result = model.forward(input_ids=input_ids.to(model.device))
 
