@@ -171,10 +171,7 @@ if __name__ == "__main__":
 						save_dir=os.path.join(LOAD_DIR, "epoch-0"),
 					)
 				else:
-					print("ok")
 					LOAD_DIR_LIST = [LOAD_DIR]
-					print(LOAD_DIR_LIST)
-					quit()
 
 				for load_path in LOAD_DIR_LIST:
 ##################  still loading trained model ##################
