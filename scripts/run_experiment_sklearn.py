@@ -1,6 +1,8 @@
 import logging
 
 # choose_and_set_available_gpus()
+import sys
+sys.path.append('..')
 
 import numpy as np
 import pandas as pd
