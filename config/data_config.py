@@ -9,7 +9,7 @@ FIDELITY_OCCLUSION_RATES = [x / 20 for x in range(0, 21)]
 
 OUTPUT_DIR = "../output"
 
-dataset_dict = {'dataset': ['movies']}
+dataset_dict = {'dataset': ['multirc']}
 
 dataset_info = {
 	'scifact': {
@@ -22,6 +22,28 @@ dataset_info = {
 		"batch_size": 16,
 		"max_rows": None,
 		"max_len": 512,		
+	},
+	'multirc': {
+		"name": "MultiRC",
+		"data_dir": "",
+		"train_path": "../csv/multirc/train.csv",
+		"dev_path": "../csv/multirc/val.csv",
+		"test_path": "../csv/multirc/test.csv",
+		'classes': [False, True],
+		"batch_size": 16,
+		"max_rows": None,
+		"max_len": 512,
+	},
+	'fever': {
+		"name": "FEVER",
+		"data_dir": "",
+		"train_path": "../csv/fever/train.csv",
+		"dev_path": "../csv/fever/val.csv",
+		"test_path": "../csv/fever/test.csv",
+		'classes': ['REFUTES', 'SUPPORTS'],
+		"batch_size": 16,
+		"max_rows": None,
+		"max_len": 512,
 	},
 	'movies': {
 		"name": "movie reviews",
@@ -67,17 +89,6 @@ dataset_info = {
 		"max_rows": None,
 		"max_len": 512,
 	},
-	'multirc': {
-		"name": "MultiRC",
-		"data_dir": "",
-		"train_path": "../data/multirc/train.jsonl",
-		"dev_path": "../data/multirc/test.jsonl",
-		"test_path": "../data/multirc/test.jsonl",
-		'classes': [False, True],
-		"batch_size": 16,
-		"max_rows": None,
-		"max_len": 512,
-	},
 	'multircred': {
 		"name": "MultiRC Reduced",
 		"data_dir": "",
@@ -85,17 +96,6 @@ dataset_info = {
 		"dev_path": "",
 		"test_path": "",
 		'classes': [False, True],
-		"batch_size": 16,
-		"max_rows": None,
-		"max_len": 512,
-	},
-	'fever': {
-		"name": "FEVER",
-		"data_dir": "",
-		"train_path": "",
-		"dev_path": "",
-		"test_path": "",
-		'classes': ['REFUTES', 'SUPPORTS'],
 		"batch_size": 16,
 		"max_rows": None,
 		"max_len": 512,
