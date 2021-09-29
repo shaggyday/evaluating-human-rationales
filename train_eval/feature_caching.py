@@ -1,6 +1,7 @@
 import numpy as np
 import pandas as pd
 import os
+from tqdm import tqdm
 
 from fidelity import utility
 import os
@@ -27,7 +28,7 @@ def get_and_save_features(test_dataloader, model, tokenizer, save_dir, device="c
 	if not os.path.exists(save_dir):
 		os.makedirs(save_dir)
 
-	for sample in test_dataloader:
+	for sample in tqdm(test_dataloader):
 		# getting the probabilities
 		prob_dict = get_all_probability_values(
 			input_ids=sample["input_ids"],

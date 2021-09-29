@@ -119,6 +119,7 @@ if __name__ == "__main__":
 				training_args = TrainingArguments(
 					output_dir=output_dir,
 					save_steps=save_steps,
+					num_train_epochs=10,
 					**training_args_config,
 					**tunable_training_args)
 
