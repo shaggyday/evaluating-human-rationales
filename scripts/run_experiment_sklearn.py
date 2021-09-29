@@ -99,9 +99,9 @@ if __name__ == "__main__":
 				test_df = create_test_data_sklearn(tokenizer, filepath=dataset_info["test_path"],
 														   classes=dataset_info["classes"])
 				for load_path in dataset_prediction_caching_info[dataset]["path"]:
-					print(
-						f"feature caching from the directory: {load_path}"
-					)
+					print(f"===============Feature caching on Dataset: {dataset['name']} and"
+						f"=============== path {load_path} ===================")
+
 					cache_model = pickle.load(open(os.path.join(load_path, "model.sav"), 'rb'))
 
 					predicted_classes, prob_y_hat = cache_model.predict(input_ids=test_df["input_ids"])

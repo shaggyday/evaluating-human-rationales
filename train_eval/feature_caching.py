@@ -27,8 +27,7 @@ def get_and_save_features(test_dataloader, model, tokenizer, save_dir, device="c
 	model.to(device)
 	if not os.path.exists(save_dir):
 		os.makedirs(save_dir)
-	print(len(test_dataloader))
-	# quit()
+		
 	for sample in test_dataloader:
 		# getting the probabilities
 		prob_dict = get_all_probability_values(

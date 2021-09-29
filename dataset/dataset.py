@@ -48,7 +48,10 @@ def prepare_data_sklearn(tokenizer, train_path, dev_path, test_path, name=None, 
 	return train_df, eval_df, test_df
 
 def create_tokenized_data(tokenizer, filepath, classes):
-	data_df = pd.read_csv(filepath)
+	try:
+		data_df = pd.read_csv(filepath)
+	except Exception as e:
+		data_df = pd.read_csv(filepath, encoding = "ISO-8859-1")
 	data_df['input_ids'], data_df['attention_mask'] = zip(*data_df['text'].map(tokenizer.tokenize))
 	data_df["labels"] = data_df['classification'].apply(lambda x: classes.index(x))
 	return data_df
