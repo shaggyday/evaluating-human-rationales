@@ -272,7 +272,10 @@ def get_crop_length(data_df):
 
 def create_test_data_sklearn(tokenizer, filepath, classes):
 	"""preparing the test dataloader"""
-	data_df = pd.read_csv(filepath)
+	try:
+		data_df = pd.read_csv(filepath)
+	except Exception as e:
+		data_df = pd.read_csv(filepath, encoding = "ISO-8859-1")
 
 	data_df = data_df[data_df['rationale'].notna()]
 	data_df.reset_index(drop=True, inplace=True)
