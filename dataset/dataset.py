@@ -144,7 +144,10 @@ def create_test_dataloader(model,
 						   rationale_occlusion_rate=None,
 						   ):
 	"""preparing the test dataloader"""
-	data_df = pd.read_csv(filepath)
+	try:
+		data_df = pd.read_csv(filepath)
+	except Exception as e:
+		data_df = pd.read_csv(filepath, encoding = "ISO-8859-1")
 
 	# if "rationale" not in data_df.columns:
 	# 	data_df["rationale"] = data_df["text"].apply(lambda s: s.strip("[").strip("]").split())
