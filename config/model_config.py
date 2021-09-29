@@ -2,7 +2,7 @@ from model.roberta_classifier import RobertaClassifier
 from model.lstm_classifier import LSTMClassifier
 from model.sklearn_classifier import RandomForestSKLearnClassifier, LogisticRegressionSKLearnClassifier
 
-model_dict = {'model': ["logistic_regression"]}
+model_dict = {'model': ["roberta","lstm"]}
 
 model_info = {
 	'roberta': {
