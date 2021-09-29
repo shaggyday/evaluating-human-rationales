@@ -213,7 +213,7 @@ def create_test_dataloader(model,
 	print(len(test_dataset_ds))
 	print(len(test_dataloader))
 	print("????")
-
+	return test_dataset_ds
 	return test_dataloader
 
 def reduce_by_alpha(text, rationale, fidelity_type="sufficiency"):
