@@ -3,3 +3,4 @@ data/
 *.jsonl
 output/
 *.pyc
+__pycache__/
