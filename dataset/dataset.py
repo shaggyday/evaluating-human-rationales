@@ -56,7 +56,10 @@ def create_tokenized_data(tokenizer, filepath, classes):
 def create_dataloader(model, classes, filepath, batch_size=32, max_rows=None, class_specific=None, max_len=512, return_dataset=False, name=None):
 	# batch_size = 8
 	"""Preparing dataloader"""
-	data_df = pd.read_csv(filepath)
+	try:
+		data_df = pd.read_csv(filepath)
+	except Exception as e:
+		data_df = pd.read_csv(filepath, encoding = "ISO-8859-1")
 	data_df = data_df[data_df['text'].notna()]
 	data_df.reset_index(drop=True, inplace=True)
 	
