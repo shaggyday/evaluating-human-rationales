@@ -15,7 +15,7 @@ model_info = {
 	"lstm": {
 		"class": LSTMClassifier,
 		"tunable_model_args": {
-			"hidden_size": [200],
+			"hidden_size": [100,200,300],
 			"pad_packing": True,
 		}
 	},

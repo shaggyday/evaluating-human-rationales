@@ -104,6 +104,11 @@ if __name__ == "__main__":
 				num_labels=len(dataset["classes"]),
 				**tunable_model_args)
 
+			if model_name == "roberta":
+				num_train_epochs = 5
+			else:
+				num_train_epochs = 10
+
 			candidate_model = model_dict["class"](config=model_config)
 			# Get the data and create Dataset objects
 			if TRAIN_FLAG:
@@ -119,6 +124,7 @@ if __name__ == "__main__":
 				training_args = TrainingArguments(
 					output_dir=output_dir,
 					save_steps=save_steps,
+					num_train_epochs=num_train_epochs,
 					**training_args_config,
 					**tunable_training_args)
 
