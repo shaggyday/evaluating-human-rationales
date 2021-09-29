@@ -210,6 +210,7 @@ def create_test_dataloader(model,
 
 	test_dataloader = torch.utils.data.DataLoader(
 		test_dataset_ds, batch_size=test_dataset_ds.batch_size, shuffle=True)
+	print(len(test_dataset_ds))
 	print(len(test_dataloader))
 	print("????")
 
