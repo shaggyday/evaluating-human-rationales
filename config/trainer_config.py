@@ -8,7 +8,7 @@ training_args_config = {
 	"per_device_eval_batch_size": 16,
 	# "learning_rate": 2e-5,
 	"logging_steps": 500,
-	# "num_train_epochs": 5,
+	"num_train_epochs": 10,
 	# "warmup_steps": 50,
 	"logging_dir": "",
 }
