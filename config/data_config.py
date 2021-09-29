@@ -1,4 +1,4 @@
-TRAIN_FLAG = False
+TRAIN_FLAG = True
 CACHING_FLAG = True
 EPOCH_LEVEL_CACHING = False
 
@@ -9,7 +9,7 @@ FIDELITY_OCCLUSION_RATES = [x / 20 for x in range(0, 21)]
 
 OUTPUT_DIR = "../output"
 
-dataset_dict = {'dataset': ['movies']}
+dataset_dict = {'dataset': ['multirc']}
 
 dataset_info = {
 	'scifact': {
