@@ -148,8 +148,6 @@ def create_test_dataloader(model,
 		data_df = pd.read_csv(filepath)
 	except Exception as e:
 		data_df = pd.read_csv(filepath, encoding = "ISO-8859-1")
-		print(len(data_df))
-		print("????")
 
 	# if "rationale" not in data_df.columns:
 	# 	data_df["rationale"] = data_df["text"].apply(lambda s: s.strip("[").strip("]").split())
@@ -212,6 +210,8 @@ def create_test_dataloader(model,
 
 	test_dataloader = torch.utils.data.DataLoader(
 		test_dataset_ds, batch_size=test_dataset_ds.batch_size, shuffle=True)
+	print(len(test_dataloader))
+	print("????")
 
 	return test_dataloader
 
