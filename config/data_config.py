@@ -25,7 +25,7 @@ dataset_info = {
 	},
 	'cose': {
 		"name": "cose",
-		"data_dir": ,
+		"data_dir": "",
 		"train_path": "../csv/cose/train.csv",
 		"dev_path": "../csv/cose/val.csv",
 		"test_path": "../csv/cose/test.csv",
@@ -36,7 +36,7 @@ dataset_info = {
 	},
 	'scifact': {
 		"name": "SCIFACT",
-		"data_dir": ,
+		"data_dir": "",
 		"train_path": "../csv/scifact/train.csv",
 		"dev_path": "../csv/scifact/val.csv",
 		"test_path": "../csv/scifact/test.csv",
