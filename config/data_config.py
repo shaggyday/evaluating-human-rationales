@@ -9,9 +9,20 @@ FIDELITY_OCCLUSION_RATES = [x / 20 for x in range(0, 21)]
 
 OUTPUT_DIR = "../output"
 
-dataset_dict = {'dataset': ['multirc']}
+dataset_dict = {'dataset': ['boolq']}
 
 dataset_info = {
+	'boolq': {
+		"name": "Boolq",
+		"data_dir": "../data/scifact/",
+		"train_path": "../csv/boolq/train.csv",
+		"dev_path": "../csv/boolq/val.csv",
+		"test_path": "../csv/boolq/test.csv",
+		'classes': [False, True],
+		"batch_size": 16,
+		"max_rows": None,
+		"max_len": 512,		
+	},
 	'scifact': {
 		"name": "SCIFACT",
 		"data_dir": "../data/scifact/",
