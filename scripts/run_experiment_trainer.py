@@ -105,7 +105,7 @@ if __name__ == "__main__":
 				**tunable_model_args)
 
 			if model_name == "roberta":
-				num_train_epochs = 5
+				num_train_epochs = 1
 			else:
 				num_train_epochs = 3
 
