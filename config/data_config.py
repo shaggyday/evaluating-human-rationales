@@ -9,12 +9,12 @@ FIDELITY_OCCLUSION_RATES = [x / 20 for x in range(0, 21)]
 
 OUTPUT_DIR = "../output"
 
-dataset_dict = {'dataset': ['movies',"cose","scifact"]}
+dataset_dict = {'dataset': ['movies']}#,"cose","scifact"]}
 
 dataset_info = {
 	'boolq': {
 		"name": "Boolq",
-		"data_dir": "../data/scifact/",
+		"data_dir": "",
 		"train_path": "../csv/boolq/train.csv",
 		"dev_path": "../csv/boolq/val.csv",
 		"test_path": "../csv/boolq/test.csv",
