@@ -105,9 +105,9 @@ if __name__ == "__main__":
 				**tunable_model_args)
 
 			if model_name == "roberta":
-				num_train_epochs = 1
+				num_train_epochs = 5
 			else:
-				num_train_epochs = 3
+				num_train_epochs = 10
 
 			candidate_model = model_dict["class"](config=model_config)
 			# Get the data and create Dataset objects
