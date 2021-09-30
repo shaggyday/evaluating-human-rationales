@@ -107,7 +107,7 @@ if __name__ == "__main__":
 			if model_name == "roberta":
 				num_train_epochs = 1
 			else:
-				num_train_epochs = 3
+				num_train_epochs = 1
 
 			candidate_model = model_dict["class"](config=model_config)
 			# Get the data and create Dataset objects
