@@ -210,8 +210,8 @@ def create_test_dataloader(model,
 		batch_size=batch_size
 	)
 
-	data_df.to_csv("lol.csv")
-	quit()
+	# data_df.to_csv("lol.csv")
+	# quit()
 
 	test_dataloader = torch.utils.data.DataLoader(
 		test_dataset_ds, batch_size=test_dataset_ds.batch_size, shuffle=True)
