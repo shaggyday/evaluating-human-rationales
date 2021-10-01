@@ -76,13 +76,11 @@ def get_and_save_features(test_dataloader, model, tokenizer, save_dir, device="c
 def get_all_probability_values(input_ids, attention_mask, sufficiency_input_ids, sufficiency_attention_mask,
 							   comprehensiveness_input_ids, comprehensiveness_attention_mask, model, tokenizer):
 	prob_dict = {}
-
 	# prob y hat for full information/text
 	prob_dict["y_hat_i"], prob_dict["prob_y_hat_i"] = get_prob_for_alpha(
 		input_ids=input_ids,
 		attention_masks=attention_mask,
 		model=model)
-
 	# prob y hat for sufficiency
 	prob_dict["y_hat_alpha_i"], prob_dict["prob_y_hat_alpha_i"] = get_prob_for_alpha(
 		input_ids=sufficiency_input_ids,
@@ -90,7 +88,6 @@ def get_all_probability_values(input_ids, attention_mask, sufficiency_input_ids,
 		model=model,
 		y_hat_prime=prob_dict["y_hat_i"]
 	)
-
 	# prob y hat for comprehensiveness
 	prob_dict["y_hat_alpha_i_comp"], prob_dict["prob_y_hat_alpha_i_comp"] = get_prob_for_alpha(
 		input_ids=comprehensiveness_input_ids,
@@ -98,7 +95,6 @@ def get_all_probability_values(input_ids, attention_mask, sufficiency_input_ids,
 		model=model,
 		y_hat_prime=prob_dict["y_hat_i"]
 	)
-
 	# Null Diff
 	prob_dict["zero_probs"], prob_dict["null_diff_i"] = utility.compute_null_diff(
 		input_ids=input_ids,
@@ -108,9 +104,7 @@ def get_all_probability_values(input_ids, attention_mask, sufficiency_input_ids,
 		tokenizer=tokenizer,
 		return_zero_probs=True
 	)
-
 	return prob_dict
-
 
 def get_prob_for_alpha(input_ids, attention_masks, model, y_hat_prime=None):
 	y_hat, prob_y_hat = utility.compute_predictions(
