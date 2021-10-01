@@ -13,8 +13,6 @@ def evidence_to_mask(tokens, evidence_list):
     mask = [0]*len(tokens)
     if evidence_list:
         for evidence in evidence_list:
-            if type(evidence) is list:
-                evidence = evidence[0]
             if type(evidence) is not dict:
                 print("?????")
                 print("evidence_to_mask: line 18")
