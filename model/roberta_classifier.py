@@ -47,9 +47,9 @@ class RobertaClassifier(PreTrainedModel, ABC):
 			labels=labels,
 			attention_mask=attention_mask
 		)
-		for name, param in self.model.named_parameters():
-			if param.requires_grad:
-				print (name, param.data)
+		# for name, param in self.model.named_parameters():
+		# 	if param.requires_grad:
+		# 		print (name, param.data)
 		# take the results off cuda
 		# result["logits"] = result["logits"].detach().cpu()
 		result['probs'] = torch.nn.functional.softmax(result['logits'], dim=1)
