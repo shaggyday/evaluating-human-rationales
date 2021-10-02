@@ -71,6 +71,7 @@ def get_and_save_features(test_dataloader, model, tokenizer, save_dir, device="c
 	if not os.path.isdir(save_dir):
 		os.makedirs(save_dir)
 	feature_cache_df.to_csv(save_dir + "/feature.csv")
+	print(f"saved to {save_dir}/feature.csv")
 
 
 def get_all_probability_values(input_ids, attention_mask, sufficiency_input_ids, sufficiency_attention_mask,
