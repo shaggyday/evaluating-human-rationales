@@ -108,7 +108,7 @@ if __name__ == "__main__":
 				num_train_epochs = 3
 			else:
 				num_train_epochs = 10
-			num_train_epochs = 3
+			# num_train_epochs = 3
 
 			candidate_model = model_dict["class"](config=model_config)
 			# Get the data and create Dataset objects
