@@ -86,22 +86,32 @@ def create_dataloader(model, classes, filepath, batch_size=32, max_rows=None, cl
 	if max_rows is not None:
 		data_df = data_df.iloc[:max_rows]
 
-	data_df['text']= data_df['text'].apply(lambda t:t.replace('[SEP]',model.tokenizer.sep_token))
+	# data_df['text']= data_df['text'].apply(lambda t:t.replace('[SEP]',model.tokenizer.sep_token))
 	# data_df['text']= data_df['text'].apply(lambda t:t.replace('[CLS]',model.tokenizer.cls_token))
 
-	data_df['input_ids'], data_df['attention_mask'] = zip(*data_df['text'].map(model.tokenize))
+	# data_df['input_ids'], data_df['attention_mask'] = zip(*data_df['text'].map(model.tokenize))
+	# input_id_tensor = torch.tensor(data_df['input_ids'])
+	# attention_mask_tensor = torch.tensor(data_df['attention_mask'])
 
-	input_id_tensor = torch.tensor(data_df['input_ids'])
-	attention_mask_tensor = torch.tensor(data_df['attention_mask'])
+	input_ids = []
+	attention_masks = []
+    for i in range(len(data_df)):
+        data_df_row = data_df.iloc[i]
+		input_id, attention_mask = model.tokenize(data_df_row['text'],data_df_row['query'])
+		input_ids.append(input_id)
+		attention_masks.append(attention_mask)
+
+	input_id_tensor = torch.tensor(input_ids)
+	attention_mask_tensor = torch.tensor(attention_masks)
 
 	labels_tensor = create_label_tensor(data_df, classes)
 
 	dataset_ds = Dataset(input_id_tensor, labels_tensor, attention_mask_tensor,
 						 BATCH_SIZE_FLAG=batch_size)
 
-	# for i in range(3):
-	# 	print(dataset_ds.__getitem__(i))
-	# quit()
+	for i in range(3):
+		print(dataset_ds.__getitem__(i))
+	quit()
 
 	if return_dataset:
 		return dataset_ds

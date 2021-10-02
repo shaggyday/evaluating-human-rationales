@@ -23,17 +23,28 @@ class RobertaClassifier(PreTrainedModel, ABC):
 		self.tokenizer = RobertaTokenizerFast.from_pretrained('roberta-base')
 		self.config = self.model.config
 
-	def tokenize(self, text):
+	def tokenize(self, text, query):
 		if type(text) == float:
 			text = ""
-		tokenized_dict = self.tokenizer.encode_plus(
-			text=text,
-			add_special_tokens=True,
-			pad_to_max_length=True,
-			max_length=self.max_len,
-			return_attention_mask=True,
-			truncation=True
-		)
+		if query:
+			tokenized_dict = self.tokenizer.encode_plus(
+				text=text,
+				text_pair=query,
+				add_special_tokens=True,
+				pad_to_max_length=True,
+				max_length=self.max_len,
+				return_attention_mask=True,
+				truncation=True
+			)
+		else:
+			tokenized_dict = self.tokenizer.encode_plus(
+				text=text,
+				add_special_tokens=True,
+				pad_to_max_length=True,
+				max_length=self.max_len,
+				return_attention_mask=True,
+				truncation=True
+			)
 		return tokenized_dict['input_ids'], tokenized_dict['attention_mask']
 
 	# The `max_len` attribute has been deprecated and will be removed in a future version, use `model_max_length` instead.
