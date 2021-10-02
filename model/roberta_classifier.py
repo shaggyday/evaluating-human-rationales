@@ -28,8 +28,8 @@ class RobertaClassifier(PreTrainedModel, ABC):
 			text = ""
 		if query:
 			tokenized_dict = self.tokenizer.encode_plus(
-				text=text,
-				text_pair=query,
+				text=query,
+				text_pair=text,
 				add_special_tokens=True,
 				pad_to_max_length=True,
 				max_length=self.max_len,
