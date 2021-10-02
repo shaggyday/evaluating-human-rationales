@@ -87,7 +87,7 @@ def create_dataloader(model, classes, filepath, batch_size=32, max_rows=None, cl
 		data_df = data_df.iloc[:max_rows]
 
 	data_df['text']= data_df['text'].apply(lambda t:t.replace('[SEP]',model.tokenizer.sep_token))
-	data_df['text']= data_df['text'].apply(lambda t:t.replace('[CLS]',model.tokenizer.cls_token))
+	# data_df['text']= data_df['text'].apply(lambda t:t.replace('[CLS]',model.tokenizer.cls_token))
 
 	data_df['input_ids'], data_df['attention_mask'] = zip(*data_df['text'].map(model.tokenize))
 
