@@ -95,8 +95,8 @@ def create_dataloader(model, classes, filepath, batch_size=32, max_rows=None, cl
 
 	input_ids = []
 	attention_masks = []
-    for i in range(len(data_df)):
-        data_df_row = data_df.iloc[i]
+	for i in range(len(data_df)):
+		data_df_row = data_df.iloc[i]
 		input_id, attention_mask = model.tokenize(data_df_row['text'],data_df_row['query'])
 		input_ids.append(input_id)
 		attention_masks.append(attention_mask)
