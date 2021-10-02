@@ -214,8 +214,9 @@ if __name__ == "__main__":
 					dev_dataloader = create_dataloader(cache_model, dataset["classes"], dataset["dev_path"], dataset["batch_size"])
 					dev_acc, _ = eval_fn(cache_model, dev_dataloader) #, 5)
 
+					print(f"Dataset: {param_combo['params'][0]['dataset']}| Eval Acc: {dev_acc}")
 					if dev_acc > dataset_prediction_caching_info[param_combo["params"][0]["dataset"]]["best_dev_acc"]: #rhs == 0
-						print(f"Dataset: {param_combo['params'][0]['dataset']}| Eval Acc: {dev_acc}")
+						print(f"NEW HIGHEST RECORD!!!!!!!!!!!!!!!!!!!!!!!!")
 						print(f"Path: {model_load_path}")
 						print(f"load_path: {load_path}| best+_model_save_path: {best_model_save_path}")
 						# copy_features(load_dir=load_path, output_dir=best_model_save_path)
