@@ -5,3 +5,4 @@ output/
 *.pyc
 model/__pycache__/
 csv/others
+csv/boolq
