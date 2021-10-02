@@ -4,5 +4,6 @@ data/
 output/
 *.pyc
 model/__pycache__/
+config/__pycache__/
 csv/others
 csv/boolq

@@ -1,8 +1,3 @@
-import pandas as pd
-import os
-from tqdm import tqdm
-
-
 def avg(l): return sum(l)/len(l)
 
 '''
@@ -23,3 +18,17 @@ def evidence_to_mask(tokens, evidence_list):
                 for i in range(start_token, end_token):
                     mask[i] = 1
     return mask  
+
+def class_distr(df):
+    classifications = list(df['classification'])
+    class_dict = {}
+    for c in classifications:
+        if c not in class_dict.keys():
+            class_dict[c] = 1
+        else:
+            class_dict[c] += 1
+
+    counts = list(class_dict.values())
+    distribution = [x/sum(counts) for x in counts]
+
+    return class_dict, distribution
