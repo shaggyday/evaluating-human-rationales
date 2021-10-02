@@ -3,8 +3,8 @@ from model.lstm_classifier import LSTMClassifier
 from model.sklearn_classifier import RandomForestSKLearnClassifier, LogisticRegressionSKLearnClassifier
 
 # model_dict = {'model': ["lstm"]}
-model_dict = {'model': ["random_forest","logistic_regression"]}
-# model_dict = {'model': ["roberta","lstm"]}
+# model_dict = {'model': ["random_forest","logistic_regression"]}
+model_dict = {'model': ["roberta","lstm"]}
 
 model_info = {
 	'roberta': {
