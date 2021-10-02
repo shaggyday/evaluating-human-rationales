@@ -220,8 +220,8 @@ def create_test_dataloader(model,
 		input_ids.append(input_id)
 		attention_masks.append(attention_mask)
 		sufficiency_input_ids.append(sufficiency_input_id)
-		attention_masks.append(sufficiency_attention_mask)
-		comprehensiveness_input_ids.append(input_id)
+		sufficiency_attention_masks.append(sufficiency_attention_mask)
+		comprehensiveness_input_ids.append(comprehensiveness_input_id)
 		comprehensiveness_attention_masks.append(comprehensiveness_attention_mask)
 
 	input_id_tensor = torch.tensor(input_ids)
