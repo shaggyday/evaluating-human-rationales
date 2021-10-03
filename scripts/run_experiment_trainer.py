@@ -135,7 +135,8 @@ if __name__ == "__main__":
 				
 				training_args = TrainingArguments(
 					output_dir=output_dir,
-					save_steps=save_steps,
+					save_strategy=no,
+					# save_steps=save_steps,
 					num_train_epochs=num_train_epochs,
 					warmup_steps=warmup_steps,
 					**training_args_config,
