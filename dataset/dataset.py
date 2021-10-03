@@ -108,9 +108,9 @@ def create_dataloader(model, classes, filepath, batch_size=32, max_rows=None, cl
 	dataset_ds = Dataset(input_id_tensor, labels_tensor, attention_mask_tensor,
 						 BATCH_SIZE_FLAG=batch_size)
 
-	for i in range(3):
-		print(dataset_ds.__getitem__(i))
-	quit()
+	# for i in range(3):
+	# 	print(dataset_ds.__getitem__(i))
+	# quit()
 
 	if return_dataset:
 		return dataset_ds
@@ -192,45 +192,45 @@ def create_test_dataloader(model,
 	data_df["comprehensiveness_text"] = data_df[
 		["text", "rationale"]].apply(lambda s: reduce_by_alpha(*s, fidelity_type="comprehensiveness"), axis=1)
 
-	# data_df['sufficiency_input_ids'], data_df['sufficiency_attention_mask'] = zip(*data_df['sufficiency_text'].map(model.tokenize))
-	# data_df['comprehensiveness_input_ids'], data_df['comprehensiveness_attention_mask'] = zip(*data_df['comprehensiveness_text'].map(model.tokenize))
-	# data_df['input_ids'], data_df['attention_mask'] = zip(*data_df['text'].map(model.tokenize))
+	data_df['sufficiency_input_ids'], data_df['sufficiency_attention_mask'] = zip(*data_df['sufficiency_text'].map(model.tokenize))
+	data_df['comprehensiveness_input_ids'], data_df['comprehensiveness_attention_mask'] = zip(*data_df['comprehensiveness_text'].map(model.tokenize))
+	data_df['input_ids'], data_df['attention_mask'] = zip(*data_df['text'].map(model.tokenize))
 
-	# input_id_tensor = torch.tensor(data_df['input_ids'])
-	# attention_mask_tensor = torch.tensor(data_df['attention_mask'])
+	input_id_tensor = torch.tensor(data_df['input_ids'])
+	attention_mask_tensor = torch.tensor(data_df['attention_mask'])
 
-	# sufficiency_input_id_tensor = torch.tensor(data_df['sufficiency_input_ids'])
-	# sufficiency_attention_mask_tensor = torch.tensor(data_df['sufficiency_attention_mask'])
+	sufficiency_input_id_tensor = torch.tensor(data_df['sufficiency_input_ids'])
+	sufficiency_attention_mask_tensor = torch.tensor(data_df['sufficiency_attention_mask'])
 
-	# comprehensiveness_input_id_tensor = torch.tensor(data_df['comprehensiveness_input_ids'])
-	# comprehensiveness_attention_mask_tensor = torch.tensor(data_df['comprehensiveness_attention_mask'])
+	comprehensiveness_input_id_tensor = torch.tensor(data_df['comprehensiveness_input_ids'])
+	comprehensiveness_attention_mask_tensor = torch.tensor(data_df['comprehensiveness_attention_mask'])
 
-	input_ids = []
-	attention_masks = []
-	sufficiency_input_ids = []
-	sufficiency_attention_masks = []
-	comprehensiveness_input_ids = []
-	comprehensiveness_attention_masks = []
-	for i in range(len(data_df)):
-		data_df_row = data_df.iloc[i]
-		input_id, attention_mask = model.tokenize(data_df_row['text'],data_df_row['query'])
-		sufficiency_input_id, sufficiency_attention_mask = model.tokenize(data_df_row['sufficiency_text'],data_df_row['query'])
-		comprehensiveness_input_id, comprehensiveness_attention_mask = model.tokenize(data_df_row['comprehensiveness_text'],data_df_row['query'])
-		input_ids.append(input_id)
-		attention_masks.append(attention_mask)
-		sufficiency_input_ids.append(sufficiency_input_id)
-		sufficiency_attention_masks.append(sufficiency_attention_mask)
-		comprehensiveness_input_ids.append(comprehensiveness_input_id)
-		comprehensiveness_attention_masks.append(comprehensiveness_attention_mask)
+	# input_ids = []
+	# attention_masks = []
+	# sufficiency_input_ids = []
+	# sufficiency_attention_masks = []
+	# comprehensiveness_input_ids = []
+	# comprehensiveness_attention_masks = []
+	# for i in range(len(data_df)):
+	# 	data_df_row = data_df.iloc[i]
+	# 	input_id, attention_mask = model.tokenize(data_df_row['text'],data_df_row['query'])
+	# 	sufficiency_input_id, sufficiency_attention_mask = model.tokenize(data_df_row['sufficiency_text'],data_df_row['query'])
+	# 	comprehensiveness_input_id, comprehensiveness_attention_mask = model.tokenize(data_df_row['comprehensiveness_text'],data_df_row['query'])
+	# 	input_ids.append(input_id)
+	# 	attention_masks.append(attention_mask)
+	# 	sufficiency_input_ids.append(sufficiency_input_id)
+	# 	sufficiency_attention_masks.append(sufficiency_attention_mask)
+	# 	comprehensiveness_input_ids.append(comprehensiveness_input_id)
+	# 	comprehensiveness_attention_masks.append(comprehensiveness_attention_mask)
 
-	input_id_tensor = torch.tensor(input_ids)
-	attention_mask_tensor = torch.tensor(attention_masks)
+	# input_id_tensor = torch.tensor(input_ids)
+	# attention_mask_tensor = torch.tensor(attention_masks)
 
-	sufficiency_input_id_tensor = torch.tensor(sufficiency_input_ids)
-	sufficiency_attention_mask_tensor = torch.tensor(sufficiency_attention_masks)
+	# sufficiency_input_id_tensor = torch.tensor(sufficiency_input_ids)
+	# sufficiency_attention_mask_tensor = torch.tensor(sufficiency_attention_masks)
 
-	comprehensiveness_input_id_tensor = torch.tensor(comprehensiveness_input_ids)
-	comprehensiveness_attention_mask_tensor = torch.tensor(comprehensiveness_attention_masks)
+	# comprehensiveness_input_id_tensor = torch.tensor(comprehensiveness_input_ids)
+	# comprehensiveness_attention_mask_tensor = torch.tensor(comprehensiveness_attention_masks)
 
 	labels_tensor = create_label_tensor(data_df, classes)
 

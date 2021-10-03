@@ -52,6 +52,15 @@ def build_compute_metrics_fn() -> Callable[[EvalPrediction], Dict]:
 	return compute_metrics_fn
 
 
+# def build_compute_metrics_fn() -> Callable[[EvalPrediction], Dict]:
+# 	def compute_metrics_fn(p: EvalPrediction):
+# 		preds = p.predictions[0] if isinstance(p.predictions, tuple) else p.predictions
+# 		preds = np.argmax(preds, axis=1)
+		
+# 		return {"acc": mt.accuracy_score(p.label_ids, preds)}
+
+# 	return compute_metrics_fn
+
 OUTPUT_DIR = config.OUTPUT_DIR
 
 
@@ -105,7 +114,7 @@ if __name__ == "__main__":
 				**tunable_model_args)
 
 			if model_name == "roberta":
-				num_train_epochs = 5
+				num_train_epochs = 3
 				warmup_steps = 50
 			else:
 				num_train_epochs = 10
@@ -154,8 +163,8 @@ if __name__ == "__main__":
 			if CACHING_FLAG:
 ################ loading trained model ###########################
 
-				# LOAD_DIR = os.path.join(OUTPUT_DIR, os.path.join(model_name, param_combo["name"]))
-				LOAD_DIR = best_model_save_path
+				LOAD_DIR = os.path.join(OUTPUT_DIR, os.path.join(model_name, param_combo["name"]))
+				# LOAD_DIR = best_model_save_path
 				# LOAD_DIR_LIST = [LOAD_DIR]
 				LOAD_DIR_LIST = []
 				# LOAD_DIR_LIST.append(best_model_save_path)
