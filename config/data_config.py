@@ -63,7 +63,7 @@ dataset_info = {
 		"dev_path": "../csv/fever/val.csv",
 		"test_path": "../csv/fever/test.csv",
 		'classes': ['REFUTES', 'SUPPORTS'],
-		"batch_size": 32,
+		"batch_size": 16,
 		"max_rows": None,
 		"max_len": 512,
 	},
