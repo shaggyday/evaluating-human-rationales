@@ -156,7 +156,7 @@ if __name__ == "__main__":
 					print(
 						f"===============Training on Dataset: {dataset['name']} and param combo: {param_combo['name']}===================")
 					trainer.train()
-					trainer.save_model(output_dir=best_model_save_path)
+					trainer.save_model(output_dir=output_dir)
 					# Evaluate all epochs and save the best one
 
 
