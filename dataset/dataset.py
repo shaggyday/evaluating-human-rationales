@@ -58,10 +58,13 @@ def create_tokenized_data(tokenizer, filepath, classes):
 def create_dataloader(model, classes, filepath, batch_size=32, max_rows=None, class_specific=None, max_len=512, return_dataset=False, name=None):
 	# batch_size = 8
 	"""Preparing dataloader"""
-	try:
-		data_df = pd.read_csv(filepath)
-	except Exception as e:
-		data_df = pd.read_csv(filepath, encoding = "ISO-8859-1")
+	if name == "fever":
+		data_df = pd.read_csv(filepath,quoting=csv.QUOTE_NONE,error_bad_lines=False)
+	else:
+		try:
+			data_df = pd.read_csv(filepath)
+		except Exception as e:
+			data_df = pd.read_csv(filepath, encoding = "ISO-8859-1")
 	data_df = data_df[data_df['text'].notna()]
 	data_df.reset_index(drop=True, inplace=True)
 	
@@ -158,10 +161,13 @@ def create_test_dataloader(model,
 						   rationale_occlusion_rate=None,
 						   ):
 	"""preparing the test dataloader"""
-	try:
-		data_df = pd.read_csv(filepath)
-	except Exception as e:
-		data_df = pd.read_csv(filepath, encoding = "ISO-8859-1")
+	if name == "fever":
+		data_df = pd.read_csv(filepath,quoting=csv.QUOTE_NONE,error_bad_lines=False)
+	else:
+		try:
+			data_df = pd.read_csv(filepath)
+		except Exception as e:
+			data_df = pd.read_csv(filepath, encoding = "ISO-8859-1")
 
 	# if "rationale" not in data_df.columns:
 	# 	data_df["rationale"] = data_df["text"].apply(lambda s: s.strip("[").strip("]").split())
