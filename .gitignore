@@ -7,3 +7,4 @@ model/__pycache__/
 config/__pycache__/
 csv/others
 csv/boolq
+csv/fever
