@@ -4,7 +4,7 @@ from model.sklearn_classifier import RandomForestSKLearnClassifier, LogisticRegr
 
 # model_dict = {'model': ["lstm"]}
 # model_dict = {'model': ["random_forest","logistic_regression"]}
-model_dict = {'model': ["roberta"]}
+model_dict = {'model': ["lstm","roberta"]}
 
 model_info = {
 	'roberta': {
