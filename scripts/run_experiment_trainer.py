@@ -221,8 +221,8 @@ if __name__ == "__main__":
 
 ##################  evaluating on dev dataset???? ##################
 					# Get the epoch with best dev acc
-					dev_dataloader = create_dataloader(cache_model, dataset["classes"], dataset["dev_path"], dataset["batch_size"])
-					dev_acc, _ = eval_fn(cache_model, dev_dataloader) #, 5)
+					# dev_dataloader = create_dataloader(cache_model, dataset["classes"], dataset["dev_path"], dataset["batch_size"])
+					dev_acc, _ = eval_fn(cache_model, test_dataloader) #, 5)
 
 					print(f"Dataset: {param_combo['params'][0]['dataset']}| Eval Acc: {dev_acc}")
 					if dev_acc > dataset_prediction_caching_info[param_combo["params"][0]["dataset"]]["best_dev_acc"]: #rhs == 0
