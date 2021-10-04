@@ -174,7 +174,7 @@ if __name__ == "__main__":
 					filepath=dataset["test_path"],
 					classes=dataset["classes"],
 					batch_size=training_args_config["per_device_eval_batch_size"],
-					dataset['name']
+					name=dataset['name']
 				)
 
 				if EPOCH_LEVEL_CACHING:
