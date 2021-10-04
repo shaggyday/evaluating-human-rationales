@@ -188,7 +188,8 @@ def create_test_dataloader(model,
 		["text", "rationale"]].apply(lambda s: reduce_by_alpha(*s, fidelity_type="sufficiency"), axis=1)
 	data_df["comprehensiveness_text"] = data_df[
 		["text", "rationale"]].apply(lambda s: reduce_by_alpha(*s, fidelity_type="comprehensiveness"), axis=1)
-
+	print("??????????????????????????")
+	print(name)
 	if name == "multirc":
 		for i in len(data_df):
 			row = data_df.iloc[i]
