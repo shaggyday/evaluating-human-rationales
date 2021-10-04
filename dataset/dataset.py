@@ -195,7 +195,7 @@ def create_test_dataloader(model,
 		for i in range(5):
 			row = data_df.iloc[i]
 			print(row['query'])
-			data_df.iloc[i]["comprehensiveness_text"] = row["comprehensiveness_text"] + " " + row['query']
+			data_df.iloc[i]["comprehensiveness_text"] = data_df.iloc[i]["comprehensiveness_text"] + " " + row['query']
 			print(data_df.iloc[i]["comprehensiveness_text"])
 
 	data_df['sufficiency_input_ids'], data_df['sufficiency_attention_mask'] = zip(*data_df['sufficiency_text'].map(model.tokenize))
