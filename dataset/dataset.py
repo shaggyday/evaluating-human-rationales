@@ -191,7 +191,7 @@ def create_test_dataloader(model,
 	print("??????????????????????????")
 	print(name)
 	if name == "multirc" or name == "MultiRC":
-		for i in len(data_df):
+		for i in range(len(data_df)):
 			row = data_df.iloc[i]
 			data_df.iloc[i]["comprehensiveness_text"] = row["comprehensiveness_text"] + " " + row['query']
 
