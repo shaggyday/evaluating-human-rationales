@@ -114,7 +114,7 @@ if __name__ == "__main__":
 				**tunable_model_args)
 
 			if model_name == "roberta":
-				num_train_epochs = 10
+				num_train_epochs = 3
 				warmup_steps = 50
 			else:
 				num_train_epochs = 10
