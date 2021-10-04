@@ -46,7 +46,7 @@ dataset_info = {
 		"max_len": 512,		
 	},
 	'multirc': {
-		"name": "MultiRC",
+		"name": "multirc",
 		"data_dir": "",
 		"train_path": "../csv/multirc/train.csv",
 		"dev_path": "../csv/multirc/val.csv",

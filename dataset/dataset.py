@@ -190,7 +190,7 @@ def create_test_dataloader(model,
 		["text", "rationale"]].apply(lambda s: reduce_by_alpha(*s, fidelity_type="comprehensiveness"), axis=1)
 	print("??????????????????????????")
 	print(name)
-	if name == "multirc":
+	if name == "multirc" or name == "MultiRC":
 		for i in len(data_df):
 			row = data_df.iloc[i]
 			data_df.iloc[i]["comprehensiveness_text"] = row["comprehensiveness_text"] + " " + row['query']
