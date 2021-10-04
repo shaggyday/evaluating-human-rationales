@@ -189,15 +189,14 @@ def create_test_dataloader(model,
 		["text", "rationale"]].apply(lambda s: reduce_by_alpha(*s, fidelity_type="sufficiency"), axis=1)
 	data_df["comprehensiveness_text"] = data_df[
 		["text", "rationale"]].apply(lambda s: reduce_by_alpha(*s, fidelity_type="comprehensiveness"), axis=1)
-	print("??????????????????????????")
-	print(name)
+	# print("??????????????????????????")
+	# print(name)
 	if name == "multirc" or name == "MultiRC":
 		# for i in range(len(data_df)):
 		for i in range(5):
 			row = data_df.iloc[i]
-			# print(row['query'])
 			data_df.at[i, "comprehensiveness_text"] = row["comprehensiveness_text"] + " " + row['query']
-			print(data_df.iloc[i]["comprehensiveness_text"])
+			# print(data_df.iloc[i]["comprehensiveness_text"])
 
 	data_df['sufficiency_input_ids'], data_df['sufficiency_attention_mask'] = zip(*data_df['sufficiency_text'].map(model.tokenize))
 	data_df['comprehensiveness_input_ids'], data_df['comprehensiveness_attention_mask'] = zip(*data_df['comprehensiveness_text'].map(model.tokenize))
@@ -226,8 +225,8 @@ def create_test_dataloader(model,
 		batch_size=batch_size
 	)
 
-	data_df.to_csv("lol.csv")
-	quit()
+	# data_df.to_csv("test_data_df.csv")
+	# quit()
 
 	test_dataloader = torch.utils.data.DataLoader(
 		test_dataset_ds, batch_size=test_dataset_ds.batch_size, shuffle=True)
