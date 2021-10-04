@@ -193,6 +193,8 @@ def create_test_dataloader(model,
 	# 	print(f'Randomly occluding rationales at rate {rationale_occlusion_rate}')
 	# 	data_df['rationale'] = data_df["rationale"].apply(lambda r: occlude_rationale(r,rate=rationale_occlusion_rate))
 
+	data_df['text']= data_df['text'].apply(lambda t:t.replace('[SEP]',model.tokenizer.sep_token))
+	
 	data_df["sufficiency_text"] = data_df[
 		["text", "rationale"]].apply(lambda s: reduce_by_alpha(*s, fidelity_type="sufficiency"), axis=1)
 	data_df["comprehensiveness_text"] = data_df[
