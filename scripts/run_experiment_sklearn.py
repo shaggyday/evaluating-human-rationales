@@ -17,13 +17,13 @@ from dataset.dataset import create_test_data_sklearn, prepare_data_sklearn
 from fidelity.utility import reduce, compute_fidelity
 import os
 
-logger = logging.getLogger(__name__)
-logger.addHandler(logging.StreamHandler())
-logging.basicConfig(
-	format="%(asctime)s - %(levelname)s - %(name)s -   %(message)s",
-	datefmt="%m/%d/%Y %H:%M:%S",
-	level=logging.DEBUG,
-)
+# logger = logging.getLogger(__name__)
+# logger.addHandler(logging.StreamHandler())
+# logging.basicConfig(
+# 	format="%(asctime)s - %(levelname)s - %(name)s -   %(message)s",
+# 	datefmt="%m/%d/%Y %H:%M:%S",
+# 	level="CRITICAL",
+# )
 
 import warnings
 
@@ -53,7 +53,7 @@ for all model types:
 
 if __name__ == "__main__":
 	for model_name in model_dict['model']:
-		logger.debug(f"===============Training on Model: {model_name}===================")
+		print(f"===============Training on Model: {model_name}===================")
 		tunable_model_args = model_info[model_name]["tunable_model_args"]
 		param_combos = get_param_combos([DATASET_DICT, tunable_model_args, tunable_training_args])
 		dataset_prediction_caching_info = {}
@@ -97,7 +97,7 @@ if __name__ == "__main__":
 				dataset_info = DATASET_INFO[dataset]
 				tokenizer = SklearnTokenizer(max_length=dataset_info["max_len"])
 				test_df = create_test_data_sklearn(tokenizer, filepath=dataset_info["test_path"],
-														   classes=dataset_info["classes"])
+														   classes=dataset_info["classes"], name=dataset_info['name'])
 				for load_path in dataset_prediction_caching_info[dataset]["path"]:
 					print(
 						f"feature caching from the directory: {load_path}"

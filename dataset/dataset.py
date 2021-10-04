@@ -91,6 +91,10 @@ def create_dataloader(model, classes, filepath, batch_size=32, max_rows=None, cl
 
 	data_df['text']= data_df['text'].apply(lambda t:t.replace('[SEP]',model.tokenizer.sep_token))
 
+	for i in range(len(data_df)):
+		row = data_df.iloc[i]
+		data_df.at[i, "text"] = row["text"] + model.tokenizer.sep_token + ' ' + row['query']
+
 	data_df['input_ids'], data_df['attention_mask'] = zip(*data_df['text'].map(model.tokenize))
 	input_id_tensor = torch.tensor(data_df['input_ids'])
 	attention_mask_tensor = torch.tensor(data_df['attention_mask'])
@@ -178,9 +182,6 @@ def create_test_dataloader(model,
 	# data_df["rationale"] = data_df["rationale"].apply(binarize_rationale)
 	# print(data_df["rationale"])
 
-	# if rationale_occlusion_rate is not None:
-	# 	print(f'Randomly occluding rationales at rate {rationale_occlusion_rate}')
-	# 	data_df['rationale'] = data_df["rationale"].apply(lambda r: occlude_rationale(r,rate=rationale_occlusion_rate))
 
 	data_df['text']= data_df['text'].apply(lambda t:t.replace('[SEP]',model.tokenizer.sep_token))
 	data_df['query']= data_df['query'].apply(lambda t:t.replace('[SEP]',model.tokenizer.sep_token))
@@ -189,13 +190,12 @@ def create_test_dataloader(model,
 		["text", "rationale"]].apply(lambda s: reduce_by_alpha(*s, fidelity_type="sufficiency"), axis=1)
 	data_df["comprehensiveness_text"] = data_df[
 		["text", "rationale"]].apply(lambda s: reduce_by_alpha(*s, fidelity_type="comprehensiveness"), axis=1)
-	# print("??????????????????????????")
-	# print(name)
-	if name == "multirc" or name == "MultiRC":
-		for i in range(len(data_df)):
-			row = data_df.iloc[i]
-			data_df.at[i, "comprehensiveness_text"] = row["comprehensiveness_text"] + " " + row['query']
-			# print(data_df.iloc[i]["comprehensiveness_text"])
+		
+	for i in range(len(data_df)):
+		row = data_df.iloc[i]
+		data_df.at[i, "text"] = row["text"] + model.tokenizer.sep_token + ' ' + row['query']
+		data_df.at[i, "sufficiency_text"] = row["sufficiency_text"] + model.tokenizer.sep_token + ' ' + row['query']
+		data_df.at[i, "comprehensiveness_text"] = row["comprehensiveness_text"] + model.tokenizer.sep_token + ' ' + row['query']
 
 	data_df['sufficiency_input_ids'], data_df['sufficiency_attention_mask'] = zip(*data_df['sufficiency_text'].map(model.tokenize))
 	data_df['comprehensiveness_input_ids'], data_df['comprehensiveness_attention_mask'] = zip(*data_df['comprehensiveness_text'].map(model.tokenize))
@@ -231,6 +231,47 @@ def create_test_dataloader(model,
 		test_dataset_ds, batch_size=test_dataset_ds.batch_size, shuffle=True)
 	return test_dataloader
 
+def create_test_data_sklearn(tokenizer, filepath, classes):
+	"""preparing the test dataloader"""
+	try:
+		data_df = pd.read_csv(filepath)
+	except Exception as e:
+		data_df = pd.read_csv(filepath, encoding = "ISO-8859-1")
+
+	data_df = data_df[data_df['rationale'].notna()]
+	data_df.reset_index(drop=True, inplace=True)
+	try:
+		data_df["rationale"] = data_df['rationale'].apply(lambda s: json.loads(s))
+	except Exception as e:
+		# for handling rationale string from wikiattack
+		data_df["rationale"] = data_df["rationale"].apply(lambda s: s.strip("[").strip("]").split())
+		data_df["rationale"] = [[float(xx) for xx in x] for x in data_df["rationale"]]
+
+	data_df["sufficiency_text"] = data_df[
+		["text", "rationale"]].apply(lambda s: reduce_by_alpha(*s, fidelity_type="sufficiency"), axis=1)
+	data_df["comprehensiveness_text"] = data_df[
+		["text", "rationale"]].apply(lambda s: reduce_by_alpha(*s, fidelity_type="comprehensiveness"), axis=1)
+	data_df["null_diff_text"] = data_df[
+		["text", "rationale"]].apply(lambda s: reduce_by_alpha(*s, fidelity_type="null_diff"), axis=1)
+
+	for i in range(len(data_df)):
+		row = data_df.iloc[i]
+		data_df.at[i, "comprehensiveness_text"] = row["comprehensiveness_text"] + " " + row['query']
+
+	data_df['sufficiency_input_ids'], data_df['sufficiency_attention_mask'] =\
+		zip(*data_df['sufficiency_text'].map(tokenizer.tokenize))
+	data_df['comprehensiveness_input_ids'], data_df['comprehensiveness_attention_mask'] =\
+		zip(*data_df['comprehensiveness_text'].map(tokenizer.tokenize))
+	data_df['null_diff_input_ids'], data_df['null_diff_attention_mask'] = \
+		zip(*data_df['null_diff_text'].map(tokenizer.tokenize))
+
+	data_df['input_ids'], data_df['attention_mask'] = \
+		zip(*data_df['text'].map(tokenizer.tokenize))
+
+	data_df["labels"] = data_df['classification'].apply(lambda x: classes.index(x))
+	data_df.to_csv(f"{filepath}.csv")
+	return data_df
+
 def reduce_by_alpha(text, rationale, fidelity_type="sufficiency"):
 	reduced_text = ""
 	# whitespace tokenization
@@ -251,6 +292,8 @@ def reduce_by_alpha(text, rationale, fidelity_type="sufficiency"):
 		reduced_text = reduced_text[:-1]
 
 	return reduced_text
+
+def append_query(text, query): return text + " " + query
 
 def binarize_rationale(rationale):
 	rationale = [1.0 if x >= 0.5 else 0.0 for x in rationale]
@@ -283,43 +326,6 @@ def get_crop_length(data_df):
 	return crop_len
 
 
-def create_test_data_sklearn(tokenizer, filepath, classes):
-	"""preparing the test dataloader"""
-	try:
-		data_df = pd.read_csv(filepath)
-	except Exception as e:
-		data_df = pd.read_csv(filepath, encoding = "ISO-8859-1")
-
-	data_df = data_df[data_df['rationale'].notna()]
-	data_df.reset_index(drop=True, inplace=True)
-	try:
-		data_df["rationale"] = data_df['rationale'].apply(lambda s: json.loads(s))
-	except Exception as e:
-		# for handling rationale string from wikiattack
-		data_df["rationale"] = data_df["rationale"].apply(lambda s: s.strip("[").strip("]").split())
-		data_df["rationale"] = [[float(xx) for xx in x] for x in data_df["rationale"]]
-
-	data_df["sufficiency_text"] = data_df[
-		["text", "rationale"]].apply(lambda s: reduce_by_alpha(*s, fidelity_type="sufficiency"), axis=1)
-	data_df["comprehensiveness_text"] = data_df[
-		["text", "rationale"]].apply(lambda s: reduce_by_alpha(*s, fidelity_type="comprehensiveness"), axis=1)
-	data_df["null_diff_text"] = data_df[
-		["text", "rationale"]].apply(lambda s: reduce_by_alpha(*s, fidelity_type="null_diff"), axis=1)
-
-	data_df['sufficiency_input_ids'], data_df['sufficiency_attention_mask'] =\
-		zip(*data_df['sufficiency_text'].map(tokenizer.tokenize))
-	data_df['comprehensiveness_input_ids'], data_df['comprehensiveness_attention_mask'] =\
-		zip(*data_df['comprehensiveness_text'].map(tokenizer.tokenize))
-	data_df['null_diff_input_ids'], data_df['null_diff_attention_mask'] = \
-		zip(*data_df['null_diff_text'].map(tokenizer.tokenize))
-
-	data_df['input_ids'], data_df['attention_mask'] = \
-		zip(*data_df['text'].map(tokenizer.tokenize))
-
-	data_df["labels"] = data_df['classification'].apply(lambda x: classes.index(x))
-
-	return data_df
-
 
 def reduce_and_save_data(dataset_info, save_dir):
 	if not os.path.isdir(save_dir):
@@ -341,56 +347,3 @@ def reduce_df_text_by_rationale(filepath, save_path):
 		["text", "rationale"]].apply(lambda s: reduce_by_alpha(*s, fidelity_type="sufficiency"), axis=1)
 	data_df["rationale"] = data_df['rationale'].apply(lambda s: json.dumps(s))
 	data_df.to_csv(save_path)
-
-
-# def create_dataloader(model, classes, filepath, batch_size=32, max_rows=None, class_specific=None, max_len=512, return_dataset=False, name=None):
-# 	"""Preparing dataloader"""
-# 	data_df = pd.read_csv(filepath, lines=True)
-# 	data_df = data_df[data_df['text'].notna()]
-# 	data_df.reset_index(drop=True, inplace=True)
-	
-# 	# convert rationale column to list from string
-# 	try:
-# 		data_df = data_df[data_df['rationale'].notna()]
-# 		data_df.reset_index(drop=True, inplace=True)
-# 		try:
-# 			data_df["rationale"] = data_df['rationale'].apply(lambda s: json.loads(s))
-# 		except Exception as e:
-# 			# for handling rationale string from wikiattack
-# 			data_df["rationale"] = data_df["rationale"].apply(lambda s: s.strip("[").strip("]").split())
-# 	except Exception as e:
-# 		pass
-# 	if max_rows is not None:
-# 		data_df = data_df.iloc[:max_rows]
-
-# 	if name == "E-SNLI":
-# 		# temp solution
-# 		crop_len = get_crop_length(data_df)
-# 		model.max_len = crop_len
-
-# 	if name == "E-SNLI Reduced":
-# 		# temp solution
-# 		crop_len = get_crop_length(data_df)
-# 		model.max_len = crop_len
-
-# 	# train_df['input_ids'], train_df['attention_mask'] = train_df['text'].apply(self.tokenize)
-# 	data_df['text']= data_df['text'].apply(lambda t:t.replace('[SEP]',model.tokenizer.sep_token))
-
-# 	data_df['input_ids'], data_df['attention_mask'] = zip(*data_df['text'].map(model.tokenize))
-
-# 	input_id_tensor = torch.tensor(data_df['input_ids'])
-# 	attention_mask_tensor = torch.tensor(data_df['attention_mask'])
-
-# 	# rationale_tensor = torch.tensor(data_df['rationale'].apply(lambda s: s + [0]*(model.max_len - len(s))))
-# 	labels_tensor = create_label_tensor(data_df, classes)
-# 	if class_specific is not None:
-# 		# input_id_tensor, labels_tensor, rationale_tensor, attention_mask_tensor = \
-# 		# 	reduce_data_class_specific(input_id_tensor, labels_tensor, rationale_tensor,
-# 		# 							   attention_mask_tensor, class_specific)
-# 		pass
-
-# 	dataset_ds = Dataset(input_id_tensor, labels_tensor, attention_mask_tensor,
-# 						 BATCH_SIZE_FLAG=batch_size)
-# 	if return_dataset:
-# 		return dataset_ds
-# 	return torch.utils.data.DataLoader(dataset_ds, batch_size=dataset_ds.BATCH_SIZE_FLAG, shuffle=True)

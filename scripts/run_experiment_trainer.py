@@ -1,5 +1,4 @@
 import logging
-
 import sys
 sys.path.append('..')
 
@@ -26,18 +25,18 @@ import os
 import torch
 import json
 
-logger = logging.getLogger(__name__)
-logger.addHandler(logging.StreamHandler())
-logging.basicConfig(
-	format="%(asctime)s - %(levelname)s - %(name)s -   %(message)s",
-	datefmt="%m/%d/%Y %H:%M:%S",
-	level=logging.DEBUG,
-)
+# logger = logging.getLogger(__name__)
+# logger.addHandler(logging.StreamHandler())
+# logging.basicConfig(
+# 	format="%(asctime)s - %(levelname)s - %(name)s -   %(message)s",
+# 	datefmt="%m/%d/%Y %H:%M:%S",
+# 	level="CRITICAL",
+# 	# level=logging.DEBUG,
+# )
 
 import warnings
 
 warnings.filterwarnings("ignore")
-
 
 def build_compute_metrics_fn() -> Callable[[EvalPrediction], Dict]:
 	def compute_metrics_fn(p: EvalPrediction):
@@ -51,18 +50,7 @@ def build_compute_metrics_fn() -> Callable[[EvalPrediction], Dict]:
 
 	return compute_metrics_fn
 
-
-# def build_compute_metrics_fn() -> Callable[[EvalPrediction], Dict]:
-# 	def compute_metrics_fn(p: EvalPrediction):
-# 		preds = p.predictions[0] if isinstance(p.predictions, tuple) else p.predictions
-# 		preds = np.argmax(preds, axis=1)
-		
-# 		return {"acc": mt.accuracy_score(p.label_ids, preds)}
-
-# 	return compute_metrics_fn
-
 OUTPUT_DIR = config.OUTPUT_DIR
-
 
 DATASET_DICT = config.dataset_dict
 DATASET_INFO = config.dataset_info
@@ -85,10 +73,9 @@ for all model types:
 """
 # from transformers import EvalPrediction
 
-
 if __name__ == "__main__":
 	for model_name in model_dict['model']:
-		logger.debug(f"===============Training on Model: {model_name}===================")
+		print(f"===============Training on Model: {model_name}===================")
 		tunable_model_args = model_info[model_name]["tunable_model_args"]
 		param_combos = get_param_combos([DATASET_DICT, tunable_model_args, tunable_training_args])
 		dataset_prediction_caching_info = {}
