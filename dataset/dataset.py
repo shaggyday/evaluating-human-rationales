@@ -254,7 +254,7 @@ def create_test_dataloader(model,
 		batch_size=batch_size
 	)
 
-	# data_df.to_csv("lol.csv")
+	data_df.to_csv("lol.csv")
 	# quit()
 
 	test_dataloader = torch.utils.data.DataLoader(
