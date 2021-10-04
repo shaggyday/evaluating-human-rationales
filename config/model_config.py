@@ -2,16 +2,16 @@ from model.roberta_classifier import RobertaClassifier
 from model.lstm_classifier import LSTMClassifier
 from model.sklearn_classifier import RandomForestSKLearnClassifier, LogisticRegressionSKLearnClassifier
 
-model_dict = {'model': ["lstm"]}
+# model_dict = {'model': ["lstm"]}
 # model_dict = {'model': ["random_forest","logistic_regression"]}
-# model_dict = {'model': ["roberta"]}
+model_dict = {'model': ["roberta"]}
 
 model_info = {
 	'roberta': {
 		'class': RobertaClassifier,
 		"tunable_model_args": {
 			# "hidden_dropout_prob": [0.1, 0.2, 0.3]
-			# "hidden_dropout_prob": [0.1]
+			"hidden_dropout_prob": [0.1]
 		}
 	},
 	"lstm": {

@@ -229,7 +229,7 @@ if __name__ == "__main__":
 					if dev_acc > dataset_prediction_caching_info[param_combo["params"][0]["dataset"]]["best_dev_acc"]: #rhs == 0
 						print(f"NEW HIGHEST RECORD!!!!!!!!!!!!!!!!!!!!!!!!")
 						print(f"Path: {model_load_path}")
-						print(f"load_path: {load_path}| best+_model_save_path: {best_model_save_path}")
+						print(f"load_path: {load_path}| best+_model_save_path: {load_path}")
 						# copy_features(load_dir=load_path, output_dir=best_model_save_path)
 						dataset_prediction_caching_info[param_combo["params"][0]["dataset"]]["best_dev_acc"] = dev_acc
 
