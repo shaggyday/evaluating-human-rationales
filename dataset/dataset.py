@@ -193,6 +193,7 @@ def create_test_dataloader(model,
 	if name == "multirc" or name == "MultiRC":
 		for i in range(len(data_df)):
 			row = data_df.iloc[i]
+			print(row['query'])
 			data_df.iloc[i]["comprehensiveness_text"] = row["comprehensiveness_text"] + " " + row['query']
 			print(data_df.iloc[i]["comprehensiveness_text"])
 
