@@ -161,13 +161,13 @@ def create_test_dataloader(model,
 						   rationale_occlusion_rate=None,
 						   ):
 	"""preparing the test dataloader"""
-	if name == "fever":
-		data_df = pd.read_csv(filepath,quoting=csv.QUOTE_NONE,error_bad_lines=False)
-	else:
-		try:
-			data_df = pd.read_csv(filepath)
-		except Exception as e:
-			data_df = pd.read_csv(filepath, encoding = "ISO-8859-1")
+	# if name == "fever":
+	# 	data_df = pd.read_csv(filepath,quoting=csv.QUOTE_NONE,error_bad_lines=False)
+	# else:
+	try:
+		data_df = pd.read_csv(filepath)
+	except Exception as e:
+		data_df = pd.read_csv(filepath, encoding = "ISO-8859-1")
 
 	# if "rationale" not in data_df.columns:
 	# 	data_df["rationale"] = data_df["text"].apply(lambda s: s.strip("[").strip("]").split())
