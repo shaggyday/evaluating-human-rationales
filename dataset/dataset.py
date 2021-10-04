@@ -95,17 +95,6 @@ def create_dataloader(model, classes, filepath, batch_size=32, max_rows=None, cl
 	input_id_tensor = torch.tensor(data_df['input_ids'])
 	attention_mask_tensor = torch.tensor(data_df['attention_mask'])
 
-	# input_ids = []
-	# attention_masks = []
-	# for i in range(len(data_df)):
-	# 	data_df_row = data_df.iloc[i]
-	# 	input_id, attention_mask = model.tokenize(data_df_row['text'],data_df_row['query'])
-	# 	input_ids.append(input_id)
-	# 	attention_masks.append(attention_mask)
-
-	# input_id_tensor = torch.tensor(input_ids)
-	# attention_mask_tensor = torch.tensor(attention_masks)
-
 	labels_tensor = create_label_tensor(data_df, classes)
 
 	dataset_ds = Dataset(input_id_tensor, labels_tensor, attention_mask_tensor,
@@ -159,7 +148,7 @@ def create_test_dataloader(model,
 						   classes,
 						   batch_size=16,
 						   rationale_occlusion_rate=None,
-						   ):
+						   name=None):
 	"""preparing the test dataloader"""
 	# if name == "fever":
 	# 	data_df = pd.read_csv(filepath,quoting=csv.QUOTE_NONE,error_bad_lines=False)
@@ -200,6 +189,11 @@ def create_test_dataloader(model,
 	data_df["comprehensiveness_text"] = data_df[
 		["text", "rationale"]].apply(lambda s: reduce_by_alpha(*s, fidelity_type="comprehensiveness"), axis=1)
 
+	if name == "multirc":
+		for i in len(data_df):
+			row = data_df.iloc[i]
+			row["comprehensiveness_text"] = row["comprehensiveness_text"] + " " + row['query']
+
 	data_df['sufficiency_input_ids'], data_df['sufficiency_attention_mask'] = zip(*data_df['sufficiency_text'].map(model.tokenize))
 	data_df['comprehensiveness_input_ids'], data_df['comprehensiveness_attention_mask'] = zip(*data_df['comprehensiveness_text'].map(model.tokenize))
 	data_df['input_ids'], data_df['attention_mask'] = zip(*data_df['text'].map(model.tokenize))
@@ -212,33 +206,6 @@ def create_test_dataloader(model,
 
 	comprehensiveness_input_id_tensor = torch.tensor(data_df['comprehensiveness_input_ids'])
 	comprehensiveness_attention_mask_tensor = torch.tensor(data_df['comprehensiveness_attention_mask'])
-
-	# input_ids = []
-	# attention_masks = []
-	# sufficiency_input_ids = []
-	# sufficiency_attention_masks = []
-	# comprehensiveness_input_ids = []
-	# comprehensiveness_attention_masks = []
-	# for i in range(len(data_df)):
-	# 	data_df_row = data_df.iloc[i]
-	# 	input_id, attention_mask = model.tokenize(data_df_row['text'],data_df_row['query'])
-	# 	sufficiency_input_id, sufficiency_attention_mask = model.tokenize(data_df_row['sufficiency_text'],data_df_row['query'])
-	# 	comprehensiveness_input_id, comprehensiveness_attention_mask = model.tokenize(data_df_row['comprehensiveness_text'],data_df_row['query'])
-	# 	input_ids.append(input_id)
-	# 	attention_masks.append(attention_mask)
-	# 	sufficiency_input_ids.append(sufficiency_input_id)
-	# 	sufficiency_attention_masks.append(sufficiency_attention_mask)
-	# 	comprehensiveness_input_ids.append(comprehensiveness_input_id)
-	# 	comprehensiveness_attention_masks.append(comprehensiveness_attention_mask)
-
-	# input_id_tensor = torch.tensor(input_ids)
-	# attention_mask_tensor = torch.tensor(attention_masks)
-
-	# sufficiency_input_id_tensor = torch.tensor(sufficiency_input_ids)
-	# sufficiency_attention_mask_tensor = torch.tensor(sufficiency_attention_masks)
-
-	# comprehensiveness_input_id_tensor = torch.tensor(comprehensiveness_input_ids)
-	# comprehensiveness_attention_mask_tensor = torch.tensor(comprehensiveness_attention_masks)
 
 	labels_tensor = create_label_tensor(data_df, classes)
 
@@ -255,7 +222,7 @@ def create_test_dataloader(model,
 	)
 
 	data_df.to_csv("lol.csv")
-	# quit()
+	quit()
 
 	test_dataloader = torch.utils.data.DataLoader(
 		test_dataset_ds, batch_size=test_dataset_ds.batch_size, shuffle=True)
