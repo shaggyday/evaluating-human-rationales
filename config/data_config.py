@@ -9,7 +9,7 @@ FIDELITY_OCCLUSION_RATES = [x / 20 for x in range(0, 21)]
 
 OUTPUT_DIR = "../output"
 
-dataset_dict = {'dataset': ["movies"]}
+dataset_dict = {'dataset': ["scifact"]}
 
 dataset_info = {
 	'boolq': {
