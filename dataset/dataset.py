@@ -193,7 +193,8 @@ def create_test_dataloader(model,
 	if name == "multirc" or name == "MultiRC":
 		for i in range(len(data_df)):
 			row = data_df.iloc[i]
-			data_df.iloc[i]["comprehensiveness_text"] = row["comprehensiveness_text"] + " " + row['query']
+			data_df.iloc[i]["comprehensiveness_text"] = f"{row["comprehensiveness_text"]} {row['query']}"
+			print(data_df.iloc[i]["comprehensiveness_text"])
 
 	data_df['sufficiency_input_ids'], data_df['sufficiency_attention_mask'] = zip(*data_df['sufficiency_text'].map(model.tokenize))
 	data_df['comprehensiveness_input_ids'], data_df['comprehensiveness_attention_mask'] = zip(*data_df['comprehensiveness_text'].map(model.tokenize))
