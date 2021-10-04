@@ -62,6 +62,8 @@ if __name__ == "__main__":
 			dataset_prediction_caching_info[dataset] = prediction_caching_info
 
 		for param_combo in param_combos:
+			print("====================================    param_combo:    ========================================")
+			print(param_combo)
 			dataset = DATASET_INFO[param_combo["params"][0]["dataset"]]
 			model_dict = model_info[model_name]
 			trained_model_details = {}
@@ -73,12 +75,12 @@ if __name__ == "__main__":
 			# Get the data and create Dataset objects
 			dataset_prediction_caching_info[param_combo["params"][0]["dataset"]]["path"].append(output_dir)
 			# Model Class
-
 			if TRAIN_FLAG:
 				tokenizer = SklearnTokenizer(max_length=dataset["max_len"])
 				train_df, eval_df, test_df = prepare_data_sklearn(tokenizer=tokenizer, **dataset)
 				candidate_model = model_dict["class"](train_df, dataset["max_len"], **tunable_model_args)
 
+				print("starting to train...")
 				candidate_model.train(train_df=train_df)
 				trained_model_details["model"] = candidate_model
 				trained_model_details["dev_acc"] = candidate_model.eval(eval_df=eval_df)

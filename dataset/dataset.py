@@ -47,12 +47,15 @@ def prepare_data_sklearn(tokenizer, train_path, dev_path, test_path, name=None, 
 	return train_df, eval_df, test_df
 
 def create_tokenized_data(tokenizer, filepath, classes):
-	try:
-		data_df = pd.read_csv(filepath)
-	except Exception as e:
-		data_df = pd.read_csv(filepath, encoding = "ISO-8859-1")
+	# try:
+	data_df = pd.read_csv(filepath)
+	# except Exception as e:
+	# 	data_df = pd.read_csv(filepath, encoding = "ISO-8859-1")
 	data_df['input_ids'], data_df['attention_mask'] = zip(*data_df['text'].map(tokenizer.tokenize))
 	data_df["labels"] = data_df['classification'].apply(lambda x: classes.index(x))
+	for i in range(len(data_df)):
+		row = data_df.iloc[i]
+		data_df.at[i, "text"] = row["text"] + tokenizer.tokenizer.sep_token + ' ' + row['query']
 	return data_df
 
 def create_dataloader(model, classes, filepath, batch_size=32, max_rows=None, class_specific=None, max_len=512, return_dataset=False, name=None):
