@@ -11,7 +11,7 @@ model_info = {
 		'class': RobertaClassifier,
 		"tunable_model_args": {
 			# "hidden_dropout_prob": [0.1, 0.2, 0.3]
-			# "hidden_dropout_prob": [0.1]
+			"hidden_dropout_prob": [0.1]
 		}
 	},
 	"lstm": {
