@@ -99,7 +99,7 @@ if __name__ == "__main__":
 				dataset_info = DATASET_INFO[dataset]
 				tokenizer = SklearnTokenizer(max_length=dataset_info["max_len"])
 				test_df = create_test_data_sklearn(tokenizer, filepath=dataset_info["test_path"],
-														   classes=dataset_info["classes"], name=dataset_info['name'])
+														   classes=dataset_info["classes"])
 				for load_path in dataset_prediction_caching_info[dataset]["path"]:
 					print(
 						f"feature caching from the directory: {load_path}"
