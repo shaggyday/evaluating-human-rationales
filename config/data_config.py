@@ -30,7 +30,7 @@ dataset_info = {
 		"dev_path": "../csv/cose/val.csv",
 		"test_path": "../csv/cose/test.csv",
 		# "classes": ['A','B','C','D','E'],
-		"classes": ["FALSE","TRUE"]],
+		"classes": ["FALSE","TRUE"],
 		"batch_size": 16,
 		"max_rows": None,
 		"max_len": 512,		
