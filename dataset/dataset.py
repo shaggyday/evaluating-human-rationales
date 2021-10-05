@@ -110,6 +110,7 @@ def create_dataloader(model, classes, filepath, batch_size=32, max_rows=None, cl
 	# for i in range(3):
 	# 	print(dataset_ds.__getitem__(i))
 	# quit()
+	data_df.to_csv("train_data_df.csv")
 
 	if return_dataset:
 		return dataset_ds
@@ -259,9 +260,9 @@ def create_test_data_sklearn(tokenizer, filepath, classes):
 
 	for i in range(len(data_df)):
 		row = data_df.iloc[i]
-		data_df.at[i, "text"] = row["text"] + ' ' + model.tokenizer.sep_token + ' ' + row['query']
-		data_df.at[i, "sufficiency_text"] = row["sufficiency_text"] + ' ' + model.tokenizer.sep_token + ' ' + row['query']
-		data_df.at[i, "comprehensiveness_text"] = row["comprehensiveness_text"] + ' ' + model.tokenizer.sep_token + ' ' + row['query']
+		data_df.at[i, "text"] = row["text"] + ' ' + tokenizer.tokenizer.sep_token + ' ' + row['query']
+		data_df.at[i, "sufficiency_text"] = row["sufficiency_text"] + ' ' + tokenizer.tokenizer.sep_token + ' ' + row['query']
+		data_df.at[i, "comprehensiveness_text"] = row["comprehensiveness_text"] + ' ' + tokenizer.tokenizer.sep_token + ' ' + row['query']
 
 	data_df['sufficiency_input_ids'], data_df['sufficiency_attention_mask'] =\
 		zip(*data_df['sufficiency_text'].map(tokenizer.tokenize))
