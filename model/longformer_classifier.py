@@ -22,6 +22,7 @@ class LongformerClassifier(PreTrainedModel, ABC):
 
 		self.tokenizer = LongformerTokenizerFast.from_pretrained('allenai/longformer-base-4096')
 		self.config = self.model.config
+		self.name = "longformer"
 
 	def tokenize(self, text):
 		if type(text) == float:

@@ -22,6 +22,7 @@ class RobertaClassifierQA(PreTrainedModel, ABC):
 
 		self.tokenizer = RobertaTokenizerFast.from_pretrained('roberta-base')
 		self.config = self.model.config
+		self.name = "roberta"
 
 	def tokenize(self, text):
 		if type(text) == float:
