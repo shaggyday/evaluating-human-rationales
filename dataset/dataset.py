@@ -94,9 +94,10 @@ def create_dataloader(model, classes, filepath, batch_size=32, max_rows=None, cl
 
 	data_df['text']= data_df['text'].apply(lambda t:t.replace('[SEP]',model.tokenizer.sep_token))
 
-	for i in range(len(data_df)):
-		row = data_df.iloc[i]
-		data_df.at[i, "text"] = row["text"] + ' ' + model.tokenizer.sep_token + ' ' + row['query']
+	if name is not "movies:"
+		for i in range(len(data_df)):
+			row = data_df.iloc[i]
+			data_df.at[i, "text"] = row["text"] + ' ' + model.tokenizer.sep_token + ' ' + row['query']
 
 	data_df['input_ids'], data_df['attention_mask'] = zip(*data_df['text'].map(model.tokenize))
 	input_id_tensor = torch.tensor(data_df['input_ids'])
@@ -195,11 +196,12 @@ def create_test_dataloader(model,
 	data_df["comprehensiveness_text"] = data_df[
 		["text", "rationale"]].apply(lambda s: reduce_by_alpha(*s, fidelity_type="comprehensiveness"), axis=1)
 		
-	for i in range(len(data_df)):
-		row = data_df.iloc[i]
-		data_df.at[i, "text"] = row["text"] + ' ' +  model.tokenizer.sep_token + ' ' + row['query']
-		data_df.at[i, "sufficiency_text"] = row["sufficiency_text"] + ' ' + model.tokenizer.sep_token + ' ' + row['query']
-		data_df.at[i, "comprehensiveness_text"] = row["comprehensiveness_text"] + ' ' + model.tokenizer.sep_token + ' ' + row['query']
+	if name is not "movies:"
+		for i in range(len(data_df)):
+			row = data_df.iloc[i]
+			data_df.at[i, "text"] = row["text"] + ' ' +  model.tokenizer.sep_token + ' ' + row['query']
+			data_df.at[i, "sufficiency_text"] = row["sufficiency_text"] + ' ' + model.tokenizer.sep_token + ' ' + row['query']
+			data_df.at[i, "comprehensiveness_text"] = row["comprehensiveness_text"] + ' ' + model.tokenizer.sep_token + ' ' + row['query']
 
 	data_df['sufficiency_input_ids'], data_df['sufficiency_attention_mask'] = zip(*data_df['sufficiency_text'].map(model.tokenize))
 	data_df['comprehensiveness_input_ids'], data_df['comprehensiveness_attention_mask'] = zip(*data_df['comprehensiveness_text'].map(model.tokenize))

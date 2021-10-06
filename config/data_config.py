@@ -70,7 +70,7 @@ dataset_info = {
 		"max_len": 512,
 	},
 	'movies': {
-		"name": "movie reviews",
+		"name": "movies",
 		"data_dir": "",
 		"train_path": "../csv/movies/train.csv",
 		"dev_path": "../csv/movies/val.csv",
