@@ -60,6 +60,7 @@ def create_tokenized_data(tokenizer, filepath, classes):
 
 def create_dataloader(model, classes, filepath, batch_size=32, max_rows=None, class_specific=None, max_len=512, return_dataset=False, name=None):
 	if model.name == "longformer":
+		print("loooooooooooooooooooong")
 		batch_size = 8
 	"""Preparing dataloader"""
 	if name == "fever":
@@ -116,7 +117,7 @@ def create_dataloader(model, classes, filepath, batch_size=32, max_rows=None, cl
 
 	if return_dataset:
 		return dataset_ds
-	return torch.utils.data.DataLoader(dataset_ds, batch_size=dataset_ds.BATCH_SIZE_FLAG, shuffle=True)
+	return torch.utils.data.DataLoader(dataset_ds, batch_size=batch_size, shuffle=True)
 
 
 class TestDataset(torch.utils.data.Dataset):
@@ -160,6 +161,7 @@ def create_test_dataloader(model,
 						   rationale_occlusion_rate=None,
 						   name=None):
 	if model.name == "longformer":
+		print("loooooooooooooooooooong")
 		batch_size = 8
 	"""preparing the test dataloader"""
 	# if name == "fever":
