@@ -122,8 +122,8 @@ if __name__ == "__main__":
 
 				training_args_config["per_device_train_batch_size"] = dataset["batch_size"]
 				if model_name == "longformer":
-					training_args_config["per_device_train_batch_size"] /= 2
-					
+					training_args_config["per_device_train_batch_size"] = int(training_args_config["per_device_train_batch_size"]/2)
+
 				# Save every epoch checkpoint which could be used for analysis later
 				save_steps = len(train_dataset) // training_args_config['per_device_train_batch_size']
 				
