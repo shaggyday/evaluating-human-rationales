@@ -14,19 +14,19 @@ class LongformerClassifier(PreTrainedModel, ABC):
 		super().__init__(config, *inputs, **kwargs)
 		self.max_len = config.max_length
 		self.model = LongformerForSequenceClassification.from_pretrained(
-			'longformer-base-4096',
+			'allenai/longformer-base-4096',
 			num_labels=config.num_labels,
 			return_dict=True,
 			cache_dir = './transformer_cache'
 		)
 
-		self.tokenizer = LongformerTokenizerFast.from_pretrained('longformer-base-4096')
+		self.tokenizer = LongformerTokenizerFast.from_pretrained('allenai/longformer-base-4096')
 		self.config = self.model.config
 
 	def tokenize(self, text):
 		if type(text) == float:
 			text = ""
-			
+
 		tokenized_dict = self.tokenizer.encode_plus(
 			text=text,
 			add_special_tokens=True,
