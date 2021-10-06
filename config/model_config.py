@@ -7,7 +7,7 @@ from model.sklearn_classifier import RandomForestSKLearnClassifier, LogisticRegr
 # model_dict = {'model': ["lstm"]}
 # model_dict = {'model': ["random_forest"]}#,"logistic_regression"]}
 # model_dict = {'model': ["logistic_regression"]}
-model_dict = {'model': ["longformer"]}
+model_dict = {'model': ["longformer", "roberta"]}
 
 model_info = {
 	'roberta': {
