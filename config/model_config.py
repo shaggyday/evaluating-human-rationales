@@ -1,13 +1,14 @@
 from model.roberta_classifier import RobertaClassifier
-from model.roberta_classifier_mc import RobertaClassifierMC
+# from model.roberta_classifier_mc import RobertaClassifierMC
+# from model.roberta_classifier_qa import RobertaClassifierQA
 from model.longformer_classifier import LongformerClassifier
 from model.lstm_classifier import LSTMClassifier
 from model.sklearn_classifier import RandomForestSKLearnClassifier, LogisticRegressionSKLearnClassifier
 
 # model_dict = {'model': ["lstm"]}
 # model_dict = {'model': ["random_forest"]}#,"logistic_regression"]}
-model_dict = {'model': ["roberta"]}
-# model_dict = {'model': ["longformer", "roberta"]}
+# model_dict = {'model': ["roberta"]}
+model_dict = {'model': ["longformer"]}
 
 model_info = {
 	'roberta': {
@@ -17,12 +18,18 @@ model_info = {
 			"hidden_dropout_prob": [0.1]
 		}
 	},
-	'roberta_mc': {
-		'class': RobertaClassifierMC,
-		"tunable_model_args": {
-			"hidden_dropout_prob": [0.1]
-		}
-	},
+	# 'roberta_mc': {
+	# 	'class': RobertaClassifierMC,
+	# 	"tunable_model_args": {
+	# 		"hidden_dropout_prob": [0.1]
+	# 	}
+	# },
+	# 'roberta_qa': {
+	# 	'class': RobertaClassifierQA,
+	# 	"tunable_model_args": {
+	# 		"hidden_dropout_prob": [0.1]
+	# 	}
+	# },
 	'longformer': {
 		'class': LongformerClassifier,
 		"tunable_model_args": {

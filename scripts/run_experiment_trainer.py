@@ -107,7 +107,7 @@ if __name__ == "__main__":
 				num_train_epochs = 5
 				warmup_steps = 0
 			warmup_steps = 50
-			num_train_epochs = 3
+			num_train_epochs = 1
 
 			candidate_model = model_dict["class"](config=model_config)
 			# Get the data and create Dataset objects

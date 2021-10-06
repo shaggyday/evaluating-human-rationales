@@ -19,16 +19,17 @@ def evidence_to_mask(tokens, evidence_list):
                     mask[i] = 1
     return mask  
 
-def class_distr(df):
-    classifications = list(df['classification'])
-    class_dict = {}
-    for c in classifications:
-        if c not in class_dict.keys():
-            class_dict[c] = 1
+def text_len_scatter(train, test, val):
+    all_texts = list(train['text']) + list(test['text']) + list(val['text'])
+    all_text_lens = [len(x.split()) for x in all_texts]
+    count_dict = {}
+    for text_len in all_text_lens:
+        if text_len not in count_dict.keys():
+            count_dict[text_len] = 1
         else:
-            class_dict[c] += 1
+            count_dict[text_len] += 1
 
-    counts = list(class_dict.values())
-    distribution = [x/sum(counts) for x in counts]
+    import matplotlib.pyplot as plt
+    plt.scatter(list(count_dict.keys()),list(count_dict.values()))
 
-    return class_dict, distribution
+    return count_dict
