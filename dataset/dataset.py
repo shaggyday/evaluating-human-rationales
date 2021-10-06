@@ -63,7 +63,7 @@ def create_tokenized_data(tokenizer, filepath, classes):
 def create_dataloader(model, classes, filepath, batch_size=32, max_rows=None, class_specific=None, max_len=512, return_dataset=False, name=None):
 	if model.name == "longformer":
 		print("loooooooooooooooooooong")
-		batch_size = longformer_batch_size
+		batch_size /= 2
 	"""Preparing dataloader"""
 	if name == "fever":
 		data_df = pd.read_csv(filepath,quoting=csv.QUOTE_NONE,error_bad_lines=False)
@@ -164,7 +164,7 @@ def create_test_dataloader(model,
 						   name=None):
 	if model.name == "longformer":
 		print("loooooooooooooooooooong")
-		batch_size = longformer_batch_size
+		batch_size /= 2
 	"""preparing the test dataloader"""
 	# if name == "fever":
 	# 	data_df = pd.read_csv(filepath,quoting=csv.QUOTE_NONE,error_bad_lines=False)

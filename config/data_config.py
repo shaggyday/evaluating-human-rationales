@@ -1,7 +1,7 @@
+TEST_FLAG = True
 TRAIN_FLAG = True
 CACHING_FLAG = True
 EPOCH_LEVEL_CACHING = False
-TEST_FLAG = True
 
 CREATE_FIDELITY_CURVES = False
 NUM_FIDELITY_CURVE_SAMPLES = 1
@@ -10,7 +10,7 @@ FIDELITY_OCCLUSION_RATES = [x / 20 for x in range(0, 21)]
 
 OUTPUT_DIR = "../output"
 
-dataset_dict = {'dataset': ["multirc"]}
+dataset_dict = {'dataset': ["boolq"]}
 
 dataset_info = {
 	'boolq': {
