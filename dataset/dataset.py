@@ -270,11 +270,11 @@ def create_test_data_sklearn(tokenizer, filepath, classes):
 	data_df["null_diff_text"] = data_df[
 		["text", "rationale"]].apply(lambda s: reduce_by_alpha(*s, fidelity_type="null_diff"), axis=1)
 
-	for i in range(len(data_df)):
-		row = data_df.iloc[i]
-		data_df.at[i, "text"] = row["text"] + ' ' + tokenizer.tokenizer.sep_token + ' ' + row['query']
-		data_df.at[i, "sufficiency_text"] = row["sufficiency_text"] + ' ' + tokenizer.tokenizer.sep_token + ' ' + row['query']
-		data_df.at[i, "comprehensiveness_text"] = row["comprehensiveness_text"] + ' ' + tokenizer.tokenizer.sep_token + ' ' + row['query']
+	# for i in range(len(data_df)):
+	# 	row = data_df.iloc[i]
+	# 	data_df.at[i, "text"] = row["text"] + ' ' + tokenizer.tokenizer.sep_token + ' ' + row['query']
+	# 	data_df.at[i, "sufficiency_text"] = row["sufficiency_text"] + ' ' + tokenizer.tokenizer.sep_token + ' ' + row['query']
+	# 	data_df.at[i, "comprehensiveness_text"] = row["comprehensiveness_text"] + ' ' + tokenizer.tokenizer.sep_token + ' ' + row['query']
 
 	data_df['sufficiency_input_ids'], data_df['sufficiency_attention_mask'] =\
 		zip(*data_df['sufficiency_text'].map(tokenizer.tokenize))
