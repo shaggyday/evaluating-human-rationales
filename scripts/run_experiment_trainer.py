@@ -59,6 +59,7 @@ DATASET_INFO = config.dataset_info
 CACHING_FLAG = config.CACHING_FLAG
 EPOCH_LEVEL_CACHING = config.EPOCH_LEVEL_CACHING
 TRAIN_FLAG = config.TRAIN_FLAG
+TEST_FLAG = config.TEST_FLAG
 
 CREATE_FIDELITY_CURVES = config.CREATE_FIDELITY_CURVES
 NUM_FIDELITY_CURVE_SAMPLES = config.NUM_FIDELITY_CURVE_SAMPLES
@@ -99,15 +100,17 @@ if __name__ == "__main__":
 				max_length=dataset["max_len"],
 				num_labels=len(dataset["classes"]),
 				**tunable_model_args)
-
-			if model_name == "roberta":
-				num_train_epochs = 3
-				warmup_steps = 50
-			else:
+			
+			if TEST_FLAG:
+				warmup_steps = 0
+				num_train_epochs = 1
+			elif model_name == "lstm":
 				num_train_epochs = 5
 				warmup_steps = 0
-			warmup_steps = 50
-			num_train_epochs = 1
+			else:
+				num_train_epochs = 3
+				warmup_steps = 50
+
 
 			candidate_model = model_dict["class"](config=model_config)
 			# Get the data and create Dataset objects
