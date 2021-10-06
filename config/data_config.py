@@ -76,7 +76,7 @@ dataset_info = {
 		"dev_path": "../csv/movies/val.csv",
 		"test_path": "../csv/movies/test.csv",
 		'classes': ['NEG', 'POS'],
-		"batch_size": 16,
+		"batch_size": 8,
 		"max_rows": None,
 		"max_len": 512,
 	},
