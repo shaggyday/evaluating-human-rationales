@@ -6,7 +6,7 @@ import numpy as np
 
 from inspect import currentframe, getframeinfo
 
-longformer_batch_size = 4
+longformer_batch_size = 8
 
 class Dataset(torch.utils.data.Dataset):
 	def __init__(self, X, labels, attention_masks, BATCH_SIZE_FLAG=32):
