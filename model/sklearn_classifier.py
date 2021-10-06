@@ -13,6 +13,7 @@ class SKLearnClassifier:
 			self,
 			model_class: type,
 			train_df,
+			name,
 			max_length=512,
 			**tunable_model_args
 	):
@@ -21,6 +22,7 @@ class SKLearnClassifier:
 		self.vectoriser = TfidfVectorizer()
 		self.max_length = max_length
 		self.fit_vectorizer(train_df)
+		self.name = name
 
 	def train(self, train_df=None, attention_mask=None, rationale=None):
 		# use tokenizer to convert input_ids into raw texts (using convert_ids_to_tokens)
@@ -61,6 +63,7 @@ class RandomForestSKLearnClassifier(SKLearnClassifier):
 		super().__init__(
 			model_class=RandomForestClassifier,
 			train_df=train_df,
+			name="random_forest",
 			max_length=max_length,
 			**tunable_model_args
 		)
@@ -71,6 +74,7 @@ class LogisticRegressionSKLearnClassifier(SKLearnClassifier):
 		super().__init__(
 			model_class=LogisticRegression,
 			train_df=train_df,
+			name="logistic_regression",
 			max_length=max_length,
 			**tunable_model_args
 		)

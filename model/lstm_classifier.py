@@ -28,6 +28,7 @@ class LSTMClassifier(PreTrainedModel, ABC):
 		# self.tanh = nn.Tanh()
 		self.predictor = nn.Linear(in_features=config.hidden_size * 2, out_features=config.num_labels)
 		self.pad_packing = config.pad_packing
+		self.name = "lstm"
 
 	def forward(self, input_ids, labels=None, attention_mask=None):
 
