@@ -94,7 +94,7 @@ def create_dataloader(model, classes, filepath, batch_size=32, max_rows=None, cl
 
 	data_df['text']= data_df['text'].apply(lambda t:t.replace('[SEP]',model.tokenizer.sep_token))
 
-	if name is not "movies:"
+	if name != "movies":
 		for i in range(len(data_df)):
 			row = data_df.iloc[i]
 			data_df.at[i, "text"] = row["text"] + ' ' + model.tokenizer.sep_token + ' ' + row['query']
@@ -195,8 +195,8 @@ def create_test_dataloader(model,
 		["text", "rationale"]].apply(lambda s: reduce_by_alpha(*s, fidelity_type="sufficiency"), axis=1)
 	data_df["comprehensiveness_text"] = data_df[
 		["text", "rationale"]].apply(lambda s: reduce_by_alpha(*s, fidelity_type="comprehensiveness"), axis=1)
-		
-	if name is not "movies:"
+
+	if name != "movies":
 		for i in range(len(data_df)):
 			row = data_df.iloc[i]
 			data_df.at[i, "text"] = row["text"] + ' ' +  model.tokenizer.sep_token + ' ' + row['query']
