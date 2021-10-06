@@ -26,13 +26,15 @@ class LongformerClassifier(PreTrainedModel, ABC):
 	def tokenize(self, text):
 		if type(text) == float:
 			text = ""
+			
 		tokenized_dict = self.tokenizer.encode_plus(
 			text=text,
 			add_special_tokens=True,
 			pad_to_max_length=True,
 			max_length=self.max_len,
 			return_attention_mask=True,
-			truncation=True
+			truncation=True)
+
 		return tokenized_dict['input_ids'], tokenized_dict['attention_mask']
 
 	# The `max_len` attribute has been deprecated and will be removed in a future version, use `model_max_length` instead.
