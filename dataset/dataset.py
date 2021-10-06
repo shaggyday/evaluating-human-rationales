@@ -158,6 +158,7 @@ def create_test_dataloader(model,
 						   batch_size=16,
 						   rationale_occlusion_rate=None,
 						   name=None):
+	batch_size = 8
 	"""preparing the test dataloader"""
 	# if name == "fever":
 	# 	data_df = pd.read_csv(filepath,quoting=csv.QUOTE_NONE,error_bad_lines=False)
@@ -234,7 +235,7 @@ def create_test_dataloader(model,
 	# quit()
 
 	test_dataloader = torch.utils.data.DataLoader(
-		test_dataset_ds, batch_size=test_dataset_ds.batch_size, shuffle=True)
+		test_dataset_ds, batch_size=batch_size, shuffle=True)
 	return test_dataloader
 
 def create_test_data_sklearn(tokenizer, filepath, classes):
