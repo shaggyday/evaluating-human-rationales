@@ -1,0 +1,18 @@
+XnView sort
+accuracy.png
+by_model_accuracy.png
+by_model_clipped_comprehensiveness.png
+by_model_normalized_comprehensiveness.png
+by_model_clipped_sufficiency.png
+by_model_normalized_sufficiency.png
+by_model_null_difference.png
+class_comprehensiveness.png
+class_accuracy.png
+class_sufficiency.png
+comprehensiveness.png
+dataset_and_fidelity_analysis_plots.ipynb
+plot_fidelity_curves.ipynb
+plot_fidelity_curves.py
+plotting_utility.py
+result inspection.ipynb
+sufficiency.png

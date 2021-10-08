@@ -194,9 +194,9 @@ def create_test_dataloader(model,
 	# data_df["rationale"] = data_df["rationale"].apply(binarize_rationale)
 	# print(data_df["rationale"])
 
-	# if rationale_occlusion_rate is not None:
-	# 	print(f'Randomly occluding rationales at rate {rationale_occlusion_rate}')
-	# 	data_df['rationale'] = data_df["rationale"].apply(lambda r: occlude_rationale(r,rate=rationale_occlusion_rate))
+	if rationale_occlusion_rate is not None:
+		print(f'Randomly occluding rationales at rate {rationale_occlusion_rate}')
+		data_df['rationale'] = data_df["rationale"].apply(lambda r: occlude_rationale(r,rate=rationale_occlusion_rate))
 
 	data_df['text']= data_df['text'].apply(lambda t:t.replace('[SEP]',model.tokenizer.sep_token))
 	data_df['query']= data_df['query'].apply(lambda t:t.replace('[SEP]',model.tokenizer.sep_token))

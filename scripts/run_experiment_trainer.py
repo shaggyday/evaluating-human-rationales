@@ -188,6 +188,23 @@ if __name__ == "__main__":
 				else:
 					LOAD_DIR_LIST = [LOAD_DIR]
 
+				if CREATE_FIDELITY_CURVES:
+					print(f'Creating fidelity curves with {NUM_FIDELITY_CURVE_SAMPLES} sample(s) each for occlusion rates: \n{FIDELITY_OCCLUSION_RATES}')
+
+					model_load_path = os.path.join(LOAD_DIR, 'pytorch_model.bin')
+					cache_model = model_dict["class"](config=model_config)
+					cache_model.load_state_dict(torch.load(model_load_path))
+
+					create_fidelity_curves(
+						model=cache_model,
+						dataset_path=dataset["test_path"],
+						dataset_classes=dataset["classes"],
+						batch_size=training_args_config["per_device_eval_batch_size"],
+						output_dir=os.path.join(LOAD_DIR, 'fidelity_curves'),
+						num_samples=NUM_FIDELITY_CURVE_SAMPLES,
+						occlusion_rates=FIDELITY_OCCLUSION_RATES
+					)
+					
 				for load_path in LOAD_DIR_LIST:
 ##################  still loading trained model ##################
 					print(f"===============Feature caching on Dataset: {dataset['name']} and"
@@ -227,22 +244,6 @@ if __name__ == "__main__":
 						# copy_features(load_dir=load_path, output_dir=best_model_save_path)
 						dataset_prediction_caching_info[param_combo["params"][0]["dataset"]]["best_dev_acc"] = dev_acc
 
-				# if CREATE_FIDELITY_CURVES:
-				# 	print(f'Creating fidelity curves with {NUM_FIDELITY_CURVE_SAMPLES} sample(s) each for occlusion rates: \n{FIDELITY_OCCLUSION_RATES}')
-
-				# 	model_load_path = os.path.join(LOAD_DIR, 'pytorch_model.bin')
-				# 	cache_model = model_dict["class"](config=model_config)
-				# 	cache_model.load_state_dict(torch.load(model_load_path))
-
-				# 	create_fidelity_curves(
-				# 		model=cache_model,
-				# 		dataset_path=dataset["test_path"],
-				# 		dataset_classes=dataset["classes"],
-				# 		batch_size=training_args_config["per_device_eval_batch_size"],
-				# 		output_dir=os.path.join(LOAD_DIR, 'fidelity_curves'),
-				# 		num_samples=NUM_FIDELITY_CURVE_SAMPLES,
-				# 		occlusion_rates=FIDELITY_OCCLUSION_RATES
-				# 	)
 	print("Done!")
 
 

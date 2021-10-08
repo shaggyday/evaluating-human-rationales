@@ -29,7 +29,4 @@ def text_len_scatter(train, test, val):
         else:
             count_dict[text_len] += 1
 
-    import matplotlib.pyplot as plt
-    plt.scatter(list(count_dict.keys()),list(count_dict.values()))
-
     return count_dict
