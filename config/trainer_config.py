@@ -14,7 +14,8 @@ training_args_config = {
 }
 tunable_training_args = {
 
-	"learning_rate": [5e-6, 1e-5, 2e-5],
+	# "learning_rate": [5e-6, 1e-5, 2e-5],
+	"learning_rate": [5e-6, 1e-5, 2e-5, 3e-5, 4e-5, 8e-5, 1e-4, 7e-4, 1e-3]
 	# "learning_rate": [1e-5, 2e-5],
 	# "learning_rate": [2e-5],
 	# "learning_rate": [5e-4, 1e-3, 2e-3],

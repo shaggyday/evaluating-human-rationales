@@ -108,7 +108,7 @@ if __name__ == "__main__":
 				num_train_epochs = 5
 				warmup_steps = 0
 			else:
-				num_train_epochs = 3
+				num_train_epochs = 5
 				warmup_steps = 50
 
 
