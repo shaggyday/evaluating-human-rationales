@@ -1,4 +1,5 @@
 from model.roberta_classifier import RobertaClassifier
+from model.bert_classifier import BertClassifier
 # from model.roberta_classifier_mc import RobertaClassifierMC
 # from model.roberta_classifier_qa import RobertaClassifierQA
 from model.longformer_classifier import LongformerClassifier
@@ -7,10 +8,17 @@ from model.sklearn_classifier import RandomForestSKLearnClassifier, LogisticRegr
 
 # model_dict = {'model': ["lstm"]}
 # model_dict = {'model': ["random_forest", "logistic_regression"]}
-model_dict = {'model': ["roberta"]}
+model_dict = {'model': ["bert"]}
 # model_dict = {'model': ["longformer"]}
 
 model_info = {
+	'bert': {
+		'class': BertClassifier,
+		"tunable_model_args": {
+			# "hidden_dropout_prob": [0.1, 0.2, 0.3]
+			"hidden_dropout_prob": [0.1]
+		}
+	},
 	'roberta': {
 		'class': RobertaClassifier,
 		"tunable_model_args": {

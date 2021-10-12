@@ -7,7 +7,7 @@ from transformers import PreTrainedModel, PretrainedConfig
 import math
 
 
-class RobertaClassifier(PreTrainedModel, ABC):
+class BertClassifier(PreTrainedModel, ABC):
 	config_class = PretrainedConfig
 
 	def __init__(self, config: PretrainedConfig, *inputs, **kwargs):
