@@ -38,8 +38,7 @@ def get_and_save_features(test_dataloader, model, tokenizer, save_dir, device="c
 			comprehensiveness_input_ids=sample["comprehensiveness_input_ids"],
 			comprehensiveness_attention_mask=sample["comprehensiveness_attention_mask"],
 			model=model,
-			tokenizer=tokenizer
-			)
+			tokenizer=tokenizer)
 
 		# Appending the probabilities to the numpy arrays
 		id = np.concatenate((id, sample["id"]), axis=0)
