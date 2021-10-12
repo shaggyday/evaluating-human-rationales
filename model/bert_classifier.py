@@ -20,7 +20,7 @@ class BertClassifier(PreTrainedModel, ABC):
 			cache_dir = './transformer_cache'
 		)
 
-		self.tokenizer = BertTokenizerFast.from_pretrained('cased-base')
+		self.tokenizer = BertTokenizerFast.from_pretrained('bert-base-cased')
 		self.config = self.model.config
 		self.name = "roberta"
 
