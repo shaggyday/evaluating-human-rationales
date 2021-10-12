@@ -115,7 +115,7 @@ def create_dataloader(model, classes, filepath, batch_size=32, max_rows=None, cl
 	# for i in range(3):
 	# 	print(dataset_ds.__getitem__(i))
 	# quit()
-	data_df.to_csv("train_data_df.csv")
+# 	data_df.to_csv("train_data_df.csv")
 
 	if return_dataset:
 		return dataset_ds
@@ -240,7 +240,7 @@ def create_test_dataloader(model,
 		batch_size=batch_size
 	)
 
-	data_df.to_csv("test_data_df.csv")
+# 	data_df.to_csv("test_data_df.csv")
 	# quit()
 
 	test_dataloader = torch.utils.data.DataLoader(
