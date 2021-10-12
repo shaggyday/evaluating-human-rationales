@@ -8,3 +8,4 @@ config/__pycache__/
 csv/others
 csv/boolq
 csv/fever
+scripts/transformer_cache
