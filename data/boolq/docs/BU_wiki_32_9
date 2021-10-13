@@ -1,0 +1,20 @@
+PRESSURE - GRADIENT FORCE
+The pressure - gradient force is the force which results when there is a difference in pressure across a surface .
+In general , a pressure is a force per unit area , across a surface .
+A difference in pressure across a surface then implies a difference in force , which can result in an acceleration according to Newton 's second law of motion , if there is no additional force to balance it .
+The resulting force is always directed from the region of higher - pressure to the region of lower - pressure .
+When a fluid is in an equilibrium state ( i.e. there are no net forces , and no acceleration ) , the system is referred to as being in hydrostatic equilibrium .
+In the case of atmospheres , the pressure gradient force is balanced by the gravitational force , maintaining hydrostatic equilibrium .
+In Earth 's atmosphere , for example , air pressure decreases at altitudes above Earth 's surface , thus providing a pressure gradient force which counteracts the force of gravity on the atmosphere .
+FORMALISM Section::::Formalism .
+Consider a cubic parcel of fluid with a density formula_1 , a height formula_2 , and a surface area formula_3 .
+The mass of the parcel can be expressed as , formula_4 .
+Using Newton 's second law , formula_5 , we can then examine a pressure difference
+formula_6 ( assumed to be only in the formula_7-direction ) to find the resulting force , formula_8 .
+The acceleration resulting from the pressure gradient is then , formula_9 .
+The effects of the pressure gradient are usually expressed in this way , in terms of an acceleration , instead of in terms of a force .
+We can express the acceleration more precisely , for a general pressure formula_10 as , formula_11 .
+The direction of the resulting force ( acceleration ) is thus in the opposite direction of the most rapid increase of pressure .
+REFERENCES
+* Roland B. Stull ( 2000 ) Meteorology for Scientists and Engineers , Second Edition , Ed .
+Brooks / Cole , .

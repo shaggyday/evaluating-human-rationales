@@ -1,0 +1,39 @@
+SLAY THE SPIRE Slay the Spire
+is a roguelike video game with deck - building card game mechanics .
+The game is being developed by MegaCrit .
+It is currently in early access for Microsoft Windows , OS X , and Linux computers , with a planned full release in January 2019 , and with plans for a Nintendo Switch version to be released in early 2019 .
+GAMEPLAY Section::::Gameplay .
+Slay the Spire is a combination of roguelike - like gameplay with a deck - building card game .
+At the start of a playthrough the player selects one of three predetermined characters , which sets a starting amount of health , gold , and an initial deck of cards with basic attack and defense cards .
+The goal is to work through several levels of a spire , each level having a number of potential encounters distributed in a branching structure with a boss character at the end of the level .
+Encounters include monsters , campfires to heal or upgrade cards to more powerful versions , shopkeepers to buy cards and potions as well as to remove cards from the deck , chests with random loot , and random choice - based encounters .
+If the player 's health drops to zero , the game is over and they must restart from the bottom of the spire .
+Otherwise , if the player defeats all the monsters in an encounter , they typically receive gold and a choice of one of three randomly - selected cards to add to their deck , if desired .
+Other loot that can be obtained from monsters or other encounters include trinkets that provide a permanent character buff for the duration of the game , and single - use potions that can be used during any turn for no cost to restore health , buff the player , and debuff or damage the enemy .
+The deck - building game requires players to develop a strategy for their deck on the fly based on the cards they can obtain from loot .
+Like other deck - building , too many weak cards or the unplayable Wound cards dilute the player 's deck , and the player must strategically decide which cards are the best fit to make the deck effective , when to turn down additions of cards , or when to spend money to remove cards as to maximize the deck 's strength .
+DEVELOPMENT Section::::Development .
+Slay the Spire is currently developed by Seattle - based MegaCrit , LLC , with Anthony Giovannetti and Casey Yano as lead developers .
+Their initial goal was to fuse the concept of a roguelike game with deck - building games like Dominion .
+The game was also inspired partially by the Netrunner collectible card game , which Giovannetti was a fan of and for which he maintains a community website .
+To help test and get feedback on the game , Giovannetti turned to expert players in the Netrunner community .
+This was also necessary to determine appropriate balance for the cards they added , as balancing the difficulty of the game against the randomness of the roguelike encounters and the card - based play was difficult .
+By using a large number of playtesters , along with gameplay metric reporting from the game client , they were able to determine what cards had positive designs and which cards to remove .
+For example , they became aware of cards with too low of a value for the game when they were not picked when offered by players , and found cards that were overpowered if they occurred too frequently within game - winning decks .
+Originally , enemies did not show their next intended action as is common to most turn - based computer role - playing games , but this design did not mesh well with the roguelike nature of permadeath .
+They first created a " Next Turn " system where the player could select individual targets to see what their chosen action would be in part of the game 's user interface .
+The " Next Turn " system brought something unique to the game , according to Giovannetti , and enabled them to create new buffs and debuffs that were easy to describe to players through the interface .
+However , from a user - interface perspective , there were still issues particularly when multiple enemies were present .
+They then transitioned from the " Next Turn " to the new " Intents " system , which used icons to represent the enemy 's next move , though originally this lacked exact numbers for attack values , instead representing certain ranges of attacks by different weapons .
+Giovannetti felt they did n't want to present too many numbers to players to overwhelm them and make the game off - putting , but they discovered through playtesters that having the numbers available was more engaging , did not require the player to have to memorize what each symbol meant , and enabled players to create new strategies .
+Upon its early access initial release in November 2017 , the game featured two playable characters with plans for at least a third to be added during the early access period .
+Giovannetti said that while they could add more cards for a character 's card pool , they found having about 75 different cards available was the right balance to give some potential strategy to the player ; having too many card types would make deck construction during runs much more haphazard , an issue that Netrunner had faced .
+Charlie Hall of Polygon found that , in contrast to most other early access titles , the game 's mechanics and core gameplay was already well - developed at the start and found that the sustained weekly updates made the game more attractive to potential buyers .
+Other future planned changes include adding more potions with novel effects , and adding more events to the game .
+The early access period is expected to end on January 23 , 2019 with the full release of the game .
+Mega Crit , with publishing support from Humble Bundle , plan to release Slay the Spire for the Nintendo Switch in early 2019 .
+RECEPTION Section::::Reception .
+During the week ending January 21 , 2018 , Slay the Spire was the second highest - sold game on Steam .
+By February 2018 , the game had more than 500,000 players , according to SteamSpy estimates .
+Mega Crit announced that by the end of June , sales of Slay the Spire had exceeded 1 million .
+REFERENCES

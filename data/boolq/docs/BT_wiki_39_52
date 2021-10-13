@@ -1,0 +1,42 @@
+CONSUMER UNIT
+A consumer unit is a type of distribution board ( a component of an electrical power system within which an electrical power feed provides supply to subsidiary circuits ) .
+UK Section::::UK .
+The IET defines a Consumer Unit , also known as a consumer control unit or electricity control unit , as " a particular type of distribution board comprising a type - tested co - ordinated assembly for the control and distribution of electrical energy , principally in domestic premises , incorporating manual means of double - pole isolation on the incoming circuit(s ) and an assembly of one or more fuses , circuit breakers , residual current operated devices or signalling and other devices proven during the type - test of the assembly as suitable for use . "
+EXAMPLES Section::::Examples .
+In the UK , there are four main types of Consumer Unit : * Main Switch Consumer Unit - Offers highest degree of circuit separation as all circuits must be protected from earth leakage independently .
+This can also be an expensive solution as it necessarily uses RCBOs instead of MCBs
+* Dual RCD Consumer Unit - Offers a cost effective solution to meet 17th Edition Regulations by protecting two banks of circuits from earth leakage through the use of two RCDs .
+* High Integrity Consumer Unit - Usually used in larger properties with greater numbers of circuits , this type of consumer unit offers good circuit separation through the use of two or more RCDs whilst allowing for the independent use of RCBOs .
+Usually this type of consumer unit also allows for fully flexible configuration , meaning there is no restriction on the number of RCBOs used .
+* RCD Incomer Consumer Unit .
+Less common than the other types , an RCD incomer does not use a main switch .
+They are usually used as a sub - board to a main distribution panel .
+Modern consumer units usually use DIN - rail mount breakers .
+The rail and the shape of the front opening are standardized but the busbar arrangements are not .
+Therefore mixing of brands should generally be avoided and , where unavoidable , care should be taken to ensure that the breaker chosen is a good fit for the busbars .
+Generally a " split load " arrangement is used with some circuits protected by the RCD and others not .
+The box pictured top - right is a " Wylex standard " fitted with rewirable fuses .
+These boxes can also be fitted with cartridge fuses or miniature circuit breakers ( MCBs ) .
+This type of consumer unit was very popular in Britain until 2001 when wiring regulations mandated residual current device
+( RCD ) protection for sockets that could " reasonably be expected to " supply outdoor equipment ( BS7671:2001 , ) .
+There were a number of similar designs from other manufacturers but the Wylex ones are by far the most commonly encountered and the only ones for which fuseholders / breakers are still commonly available .
+Some manufacturers have added innovative features such as CPN Cudis who have added a LED strip light to their ' Lumo ' consumer unit to enhance visibility in dark locations such as under staircases .
+RCD PROTECTION TYPES Section::::RCD protection types .
+With the introduction of the recent ( BS 7671:2008 incorporating amendment no
+1 : 2011 )
+17th Edition IET Wiring Regulations consumer units in the UK must provide RCD protection to all cables embedded in walls excepting high integrity circuits such as those for burglar alarms or smoke alarms .
+Consumer units have different methods of protecting circuits .
+A dual split - load consumer unit can be arranged as follows : RCD 1
+* Upstairs Lights , * Downstairs Ring Final ,
+* Garage Sockets , * Cooker RCD 2 * Downstairs Lights , * Upstairs Sockets , * Shower , * Heating ,
+By alternating the circuits like this , power will always be present on one floor if either RCD trips out .
+Another way to protect circuits under the 17th Edition IET Wiring Regulations is by fitting Residual Current Circuit Breaker With Overload ( RCBOs ) to every circuit although this can be a very costly method .
+Some older systems such as those that use MK or old MEM Consumer Units that had one fuse per spur , so for instance :
+* Upstairs Lights Fuse 1
+*
+Upstairs Sockets Fuse 2
+* Downstairs Lights Fuse 3
+* Downstairs Sockets Fuse
+4 etc ..
+SEE ALSO
+* Other names for distribution boards REFERENCES

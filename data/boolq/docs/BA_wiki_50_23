@@ -1,0 +1,26 @@
+WIRELESS GATEWAY
+A wireless gateway routes packets from a wireless LAN to another network , wired or wireless WAN .
+It may be implemented as software or hardware or combination of both .
+Wireless gateways combine the functions of a wireless access point , a router , and often provide firewall functions as well .
+They provide network address translation ( NAT ) functionality , so multiple user can use the internet with a single public IP .
+It also acts like a dynamic host configuration protocol ( DHCP ) to assign IPs automatically to devices connected to the network .
+There are two kinds of wireless gateways .
+The simpler kind must be connected to a DSL modem or cable modem to connect to the internet via the ISP .
+The more complex kind has a built - in modem to connect to the internet without needing another device .
+This converged device saves desk space and simplifies wiring by replacing two electronic packages with one .
+It has a wired connection to the internet service provider ISP , at least one jack port for the LAN ( usually four jacks ) and an antenna for wireless users .
+The wireless gateway could support wireless 802.11b and 802.11 g with speed up to 56Mbit / s , 802.11n with speed up to 300Mps and recently the 802.11ac with speed up to 1200Mbit / s .
+The LAN interface may support 100Mbit / s
+( Fast ) or 1000Mbit / s ( Gigabit ) Ethernet .
+All wireless gateways have the ability to protect the wireless network using security encryption methods such as WEP , WPA and WPS .
+WPA2 with WPS disabled is the most secure method .
+There are many wireless gateway brands with models offering different features and quality .
+They can differ on the wireless range and speed , number of LAN ports , speed , and extra functionality .
+Some available brands in the market are Motorola , Netgear , and linksys .
+However , most internet providers offer a free wireless gateway with their services , thus limiting the user 's choice .
+On the other hand , the device provided by the ISP has the advantage that it comes pre - configured and ready to be installed .
+Another advantage of using these devices is the ability for the company to troubleshoot and fix any problem via remote access , which is very convenient for most users .
+SEE ALSO
+* Wi - Fi * IEEE 802.11
+*
+Residential gateway REFERENCES

@@ -1,0 +1,93 @@
+EUCLID 'S THEOREM
+Euclid 's theorem is a fundamental statement in number theory that asserts that there are infinitely many prime numbers .
+There are several proofs of the theorem .
+EUCLID 'S PROOF
+Section::::Euclid 's proof .
+Euclid offered a proof published in his work Elements ( Book IX , Proposition 20 ) , which is paraphrased here .
+Consider any finite list of prime numbers p , p , ... , p.
+It will be shown that at least one additional prime number not in this list exists .
+Let P be the product of all the prime numbers in the list :
+P = pp ... p .
+Let q = P + 1 .
+Then q is either prime or not :
+* If q is prime , then there is at least one more prime that is not in the list .
+*
+If q is not prime , then some prime factor p divides q.
+If this factor p were on our list , then it would divide P ( since P is the product of every number on the list ) ; but p divides P + 1 = q.
+If p divides P and q , then p would have to divide the difference of the two numbers , which is ( P + 1 ) − P or just 1 .
+Since no prime number divides 1 , p can not be on the list .
+This means that at least one more prime number exists beyond those in the list .
+This proves that for every finite list of prime numbers there is a prime number not on the list , and therefore there must be infinitely many prime numbers .
+Euclid is often erroneously reported to have proved this result by contradiction , beginning with the assumption that the finite set initially considered contains all prime numbers , or that it contains precisely the n smallest primes , rather than any arbitrary finite set of primes .
+Instead of a proof by contradiction , Euclid 's proof shows that every finite list has a particular property .
+A contradiction is not inferred , but none of the items on the list can have the property of being a divisor of 1 .
+Several variations on Euclid 's proof exist , including the following : The factorial n ! of a positive integer n is divisible by every integer from 2 to n , as it is the product of all of them .
+Hence , is not divisible by any of the integers from 2 to n , inclusive ( it gives a remainder of 1 when divided by each ) .
+Hence is either prime or divisible by a prime larger than n.
+In either case , for every positive integer n , there is at least one prime bigger than n.
+The conclusion is that the number of primes is infinite .
+EULER 'S PROOF Section::::Euler 's proof .
+Another proof , by the Swiss mathematician Leonhard Euler , relies on the fundamental theorem of arithmetic : that every integer has a unique prime factorization .
+If P is the set of all prime numbers , Euler wrote that : The first equality is given by the formula for a geometric series in each term of the product .
+The second equality is a special case of the Euler product formula for the Riemann zeta function .
+To show this , distribute the product over the sum : in the result , every product of primes appears exactly once and so by the fundamental theorem of arithmetic the sum is equal to the sum over all integers .
+The sum on the right is the harmonic series , which diverges .
+Thus the product on the left must also diverge .
+Since each term of the product is finite , the number of terms must be infinite ; therefore , there is an infinite number of primes .
+ERDŐS 'S PROOF
+Section::::Erdős 's proof .
+Paul Erdős gave a third proof that also relies on the fundamental theorem of arithmetic .
+First note that every integer n can be uniquely written as where r is square - free , or not divisible by any square numbers ( let s be the largest square number that divides n and then let r = n / s ) .
+Now suppose that there are only finitely many prime numbers and call the number of prime numbers k.
+As each of the prime numbers factorizes any squarefree number at most once , by the fundamental theorem of arithmetic , there are only 2 square - free numbers ( see Combination#Number of k - combinations for all k ) .
+Now fix a positive integer N and consider the integers between 1 and N. Each of these numbers can be written as rs where r is square - free and s is a square , like this :
+There are N different numbers in the list .
+Each of them is made by multiplying a squarefree number , by a square number that is N or less .
+There are such square numbers .
+Then , we form all the possible products of all squares less than N multiplied by all squarefrees everywhere .
+There are exactly 2 such numbers , all different , and they include all the numbers in our list and maybe more .
+Therefore , 2 ≥ N. Here , denotes the floor function .
+Since this inequality does not hold for N sufficiently large , there must be infinitely many primes .
+FURSTENBERG 'S PROOF
+Section::::Furstenberg 's proof .
+In the 1950s , Hillel Furstenberg introduced a proof using point - set topology .
+SOME
+RECENT PROOFS PINASCO Section::::Some recent proofs .
+Section::::Pinasco .
+Juan Pablo Pinasco has written the following proof .
+Let p , ... , p be the smallest N primes .
+Then by the inclusion – exclusion principle , the number of positive integers less than or equal to x that are divisible by one of those primes is Dividing by x and letting x → ∞ gives
+This can be written as
+If no other primes than p , ... , p exist , then the expression in ( 1 ) is equal to formula_7 and the expression in ( 2 ) is equal to 1 , but clearly the expression in ( 3 ) is not equal to 1 .
+Therefore , there must be more primes than p , ... , p.
+WHANG Section::::Whang .
+In 2010 , Junho Peter Whang published the following proof by contradiction .
+Let k be any positive integer .
+Then according to de Polignac 's formula ( actually due to Legendre )
+where But if only finitely many primes exist , then ( the numerator of the fraction would grow singly exponentially while by Stirling 's approximation the denominator grows more quickly than singly exponentially ) , contradicting the fact that for each k the numerator is greater than or equal to the denominator .
+SAIDAK Section::::Saidak .
+Filip Saidak gave the following proof by construction , which does not use reductio ad absurdum or Euclid 's Lemma ( that if a prime p divides ab then it must divide a or b ) .
+Since each natural number ( > 1 ) has at least one prime factor , and two successive numbers n
+and ( n + 1 ) have no factor in common ,
+the product n(n + 1 ) has more different prime factors than the number n itself .
+So the chain of pronic numbers:1×2 = 2 { 2 } , 2×3 = 6 { 2 , 3 } , 6×7
+= 42 { 2,3 , 7 } , 42×43 = 1806
+{ 2,3,7 , 43 } , 1806×1807 = 3263443 { 2,3,7,43 , 13,139 } , · · · provides a sequence of unlimited growing sets of primes .
+PROOF USING THE IRRATIONALITY OF Section::::Proof using the irrationality of .
+Representing the Leibniz formula for as an Euler product gives
+The numerators of this product are the odd prime numbers , and each denominator is the multiple of four nearest to the numerator .
+If there were finitely many primes this formula would show that is a rational number whose denominator is the product of all multiples of 4 that are one more or less than a prime number , contradicting the fact that is irrational .
+PROOF USING INFORMATION THEORY Section::::Proof using information theory .
+Alexander Shen and others have presented a proof that uses incompressibility :
+Suppose there were only k primes ( p ... p ) .
+By the fundamental theorem of arithmetic , any positive integer n could then be represented as : where the non - negative integer exponents e together with the finite - sized list of primes are enough to reconstruct the number .
+Since formula_14 for all i , it follows that all formula_15 ( where formula_16 denotes the base-2 logarithm ) .
+This yields an encoding for n of the following size ( using big O notation ) :
+This is a much more efficient encoding than representing n directly in binary , which takes formula_18 bits .
+An established result in lossless data compression states that one can not generally compress N bits of information into less than N bits .
+The representation above violates this by far when n is large enough since formula_19 .
+Therefore , the number of primes must not be finite .
+SEE ALSO
+* Dirichlet 's theorem on arithmetic progressions * Prime number theorem NOTES AND REFERENCES EXTERNAL LINKS
+* Euclid 's Elements , Book IX , Prop . 20 ( Euclid 's proof , on David Joyce 's website at Clark University )
+* 125 proofs of Euclid 's theorem

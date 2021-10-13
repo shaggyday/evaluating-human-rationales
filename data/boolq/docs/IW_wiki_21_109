@@ -1,0 +1,39 @@
+DUAL - MASS FLYWHEEL
+A dual - mass flywheel ( DMF ) is a rotating mechanical device that is used to provide continuous energy ( rotational energy ) in systems where the energy source is not continuous , the same way as a conventional flywheel acts , but damping any violent variation of torque or revolutions that could cause an unwanted vibration .
+The vibration reduction is achieved by accumulating stored energy in the two flywheel half masses over a period of time but damped by a series of strong springs , doing that at a rate that is compatible with the energy source , and then releasing that energy at a much higher rate over a relatively short time .
+A compact dual - mass flywheel often includes the whole clutch , including the pressure plate and the friction disc .
+HISTORY Section::::History .
+Dual - mass flywheels were developed to address the escalation of torque and power , especially at low revs .
+The growing concern for the environment and the adoption of more stringent regulations have marked the development of more efficient new engines , lowering the cylinder number to 3 or even 2 cylinders , and allowing the delivery of more torque and power at low revolutions .
+The counterpart has been an increase in the level of vibration which traditional clutch discs are unable to absorb .
+This is where the dual - mass flywheels play a key role , making these mechanical developments more viable .
+The absorption capacity of the vibration depends on the moving parts of the DMF , these parts are subject to wear .
+Whenever the clutch is replaced , the DMF should be checked for wear .
+The two key wear characteristics are freeplay and sideplay ( rock ) .
+These should be measured to determine whether the flywheel is serviceable .
+The wear limit specifications can be found in vehicle or flywheel manufacturer 's published documentation .
+Other failure modes are severely grooved / damaged clutch mating surface , grease loss , and cracking .
+TYPES Section::::Types .
+The main type is called a planetary DMF .
+The planetary gear and the torsional damper are incorporated into the main flywheel .
+For this purpose , the main flywheel is divided into primary and secondary pinion - connected masses , and between them there are four different types of bent springs : INDIVIDUAL BENT SPRING
+Section::::Individual bent spring .
+The simplest form of the bent spring is the standard single spring .
+ONE - PHASE BENT SPRINGS IN PARALLEL Section::::One - phase bent springs in parallel .
+The standard springs are called parallel springs of one phase .
+These consist of an outer and an inner spring of almost equal lengths and connected in parallel .
+The individual characteristic curves of the two springs are added to form the characteristic curve of the spring pair .
+TWO - PHASE BENT SPRINGS IN PARALLEL Section::::Two - phase bent springs in parallel .
+In the case of two - stage spring there are two curved parallel springs , one inside the other , but the internal spring is shorter so that it acts later .
+The characteristic curve of the outer spring is adapted to increase when the engine is started .
+The softer outer spring only acts to increase the problematic resonance frequency range .
+When the torque increases , reaching the maximum value , the internal spring also acts .
+In this second phase , the inner and outer springs work together .
+The collaboration of both springs thus ensures good acoustic isolation at all engine speeds .
+THREE - PHASE BENT SPRING Section::::Three - phase bent spring .
+This curved spring consists of an outer and two inner springs with different elastic characteristics connected in series .
+This category of bent spring uses the two concepts together : parallel and series connection in order to ensure optimal torsional compensation for each value of torque .
+SEE ALSO
+* Centrifugal pendulum absorber * Clutch * Flywheel * Flywheel energy storage
+* Harmonic balancer
+* List of moments of inertia REFERENCES EXTERNAL LINKS * dual - mass flywheel .

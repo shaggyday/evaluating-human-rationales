@@ -1,0 +1,110 @@
+FREE CASH FLOW
+In corporate finance , free cash flow ( FCF ) or free cash flow to firm ( FCFF ) is a way of looking at a business 's cash flow to see what is available for distribution among all the securities holders of a corporate entity .
+This may be useful to parties such as equity holders , debt holders , preferred stock holders , and convertible security holders when they want to see how much cash can be extracted from a company without causing issues to its operations .
+Free cash flow can be calculated in various ways , depending on audience and available data .
+A common measure is to take the earnings before interest and taxes multiplied by ( 1 − tax rate ) , add depreciation and amortization , and then subtract changes in working capital and capital expenditure .
+Depending on the audience , a number of refinements and adjustments may also be made to try to eliminate distortions .
+Free cash flow may be different from net income , as free cash flow takes into account the purchase of capital goods and changes in working capital .
+CALCULATIONS Section::::Calculations .
+Free cash flow can be calculated as follows : !
+Element !
+Source Note that the first three lines above are calculated on the standard Statement of Cash Flows .
+When net profit and tax rate applicable are given , you can also calculate it by taking : !
+Element !
+Source where * Net Capital Expenditure ( CAPEX ) = Capex - Depreciation & Amortization * Tax Shield =
+Net Interest Expense X Marginal Tax Rate When PAT and Debt / Equity ratio is available : !
+Element !
+Source where d - is the debt / equity ratio .
+e.g. : For a 3:4 mix it will be 3/7 . !
+Element !
+Source Therefore , !
+Element !
+Data Source DIFFERENCE WITH NET INCOME Section::::Difference with net income .
+There are two differences between net income and free cash flow .
+The first is the accounting for the purchase of capital goods .
+Net income deducts depreciation , while the free cash flow measure uses last period 's net capital purchases . !
+Measurement Type !
+Component !
+Advantage !
+Disadvantage
+The second difference is that the free cash flow measurement adjusts changes in net working capital , where the net income approach does not .
+Typically , in a growing company with a 30-day collection period for receivables , a 30-day payment period for purchases , and a weekly payroll , it will require more working capital to finance the labor and profit components embedded in the growing receivables balance .
+When a company has negative sales growth , it 's likely to lower its capital spending .
+Receivables , provided they are being timely collected , will also ratchet down .
+All this " deceleration " will show up as additions to free cash flow .
+However , over the long term , decelerating sales trends will eventually catch up .
+Net free cash Flow definition should also allow for cash available to pay off the company 's short term debt .
+It should also take into account any dividends that the company means to pay .
+Net Free Cash Flow = Operation Cash flow – Capital Expenses to keep current level of operation – dividends – Current Portion of long term debt –
+Depreciation Here Capex Definition should not include additional investment on new equipment .
+However maintenance cost can be added .
+Dividends
+- This will be base dividend that the company intends to distribute to its share holders .
+Current portion of LTD - This will be minimum debt that the company needs to pay in order to not default .
+Depreciation - This should be taken out since this will account for future investment for replacing the current PPE .
+If the net income category includes the income from discontinued operation and extraordinary income make sure it is not part of Free Cash Flow .
+Net of all the above give free cash available to be reinvested in operations without having to take more debt .
+ALTERNATIVE FORMULA Section::::Alternative formula .
+FCF measures :
+* operating cash flow ( OCF ) * less expenditures necessary to maintain assets ( capital expenditures or " capex " )
+but this does not include increase in working capital .
+* less interest charges .
+In symbols : where * OCB is the firm 's net operating profit after taxes ( Also known as NOPAT )
+during period t
+*
+I is the firm 's investment during period t including variation of working capital Investment is simply the net increase ( decrease ) in the firm 's capital , from the end of one period to the end of the next period : where K represents the firm 's invested capital at the end of period t. Increases in non - cash current assets may , or may not be deducted , depending on whether they are considered to be maintaining the status quo , or to be investments for growth .
+Unlevered free cash flow ( i.e. , cash flows before interest payments ) is defined as EBITDA - CAPEX - changes in net working capital - taxes .
+This is the generally accepted definition .
+If there are mandatory repayments of debt , then some analysts utilize levered free cash flow , which is the same formula above , but less interest and mandatory principal repayments .
+The unlevered cash flow ( UFCF ) is usually used as the industry norm , because it allows for easier comparison of different companies ' cash flows .
+It is also preferred over the levered cash flow when conducting analyses to test the impact of different capital structures on the company .
+Investment bankers compute free cash flow using the following formulae : FCFF =
+After tax operating income + Noncash charges ( such as D&A ) - CAPEX - Working capital expenditures =
+Free cash flow to firm ( FCFF )
+FCFE = Net income + Noncash charges ( such as D&A ) - CAPEX - Change in non - cash working capital + Net borrowing =
+Free cash flow to equity ( FCFE )
+Or simply : FCFE = FCFF + Net borrowing - Interest*(1-t ) USES
+* Free cash flow measures the ease with which businesses can grow and pay dividends to shareholders .
+Even profitable businesses may have negative cash flows .
+Their requirement for increased financing will result in increased financing cost reducing future income .
+*
+According to the discounted cash flow valuation model , the intrinsic value of a company is the present value of all future free cash flows , plus the cash proceeds from its eventual sale .
+The presumption is that the cash flows are used to pay dividends to the shareholders .
+Bear in mind the lumpiness discussed below .
+* Some investors prefer using free cash flow instead of net income to measure a company 's financial performance , because free cash flow is more difficult to manipulate than net income .
+The problems with this presumption are itemized at cash flow and return of capital .
+*
+The payout ratio is a metric used to evaluate the sustainability of distributions from REITs , Oil and Gas Royalty Trusts , and Income Trust .
+The distributions are divided by the free cash flow .
+Distributions may include any of income , flowed - through capital gains or return of capital .
+PROBLEMS WITH CAPITAL EXPENDITURES
+*
+The expenditures for maintenances of assets is only part of the capex reported on the Statement of Cash Flows .
+It must be separated from the expenditures for growth purposes .
+This split is not a requirement under GAAP , and is not audited .
+Management is free to disclose maintenance capex or not .
+Therefore , this input to the calculation of free cash flow may be subject to manipulation , or require estimation .
+Since it may be a large number , maintenance capex 's uncertainty is the basis for some people 's dismissal of ' free cash flow ' .
+* A second problem with the maintenance capex measurement is its intrinsic ' lumpiness ' .
+By their nature , expenditures for capital assets that will last decades may be infrequent , but costly when they occur . '
+Free cash flow ' , in turn , will be very different from year to year .
+No particular year will be a ' norm ' that can be expected to be repeated .
+For companies that have stable capital expenditures , free cash flow will ( over the long term ) be roughly equal to earnings
+AGENCY COSTS Section::::Agency costs .
+In a 1986 paper in the American Economic Review , Michael Jensen noted that free cash flows allowed firms ' managers to finance projects earning low returns which , therefore , might not be funded by the equity or bond markets .
+Examining the US oil industry , which had earned substantial free cash flows in the 1970s and the early 1980s , he wrote that : [ the ] 1984 cash flows of the ten largest oil companies were $ 48.5 billion , 28 percent of the total cash flows of the top 200 firms in Dun 's Business Month survey .
+Consistent with the agency costs of free cash flow , management did not pay out the excess resources to shareholders .
+Instead , the industry continued to spend heavily on [ exploration and development ] activity even though average returns were below the cost of capital .
+Jensen also noted a negative correlation between exploration announcements and the market valuation of these firms — the opposite effect to research announcements in other industries .
+SEE ALSO * Business valuation
+* Discounted cash flow
+*
+Enterprise value
+* Economic value added *
+Owner earnings * Weighted average cost of capital
+REFERENCES
+EXTERNAL
+LINKS
+* Free Cash Flow :
+Free , But Not Always Easy , Investopedia *
+What is Free Cash Flow ? , Morningstar

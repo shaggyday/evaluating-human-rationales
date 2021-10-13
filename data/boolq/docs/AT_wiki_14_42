@@ -1,0 +1,92 @@
+CYCLOALKANE
+In organic chemistry , the cycloalkanes ( also called naphthenes , but distinct from naphthalene ) are the monocyclic saturated hydrocarbons .
+In other words , a cycloalkane consists only of hydrogen and carbon atoms arranged in a structure containing a single ring ( possibly with side chains ) , and all of the carbon - carbon bonds are single .
+Cycloalkanes are named analogously to their normal alkane counterparts of the same carbon count : cyclopropane , cyclobutane , cyclopentane , cyclohexane , etc .
+The larger cycloalkanes , with more than 20 carbon atoms are typically called cycloparaffins .
+The cycloalkanes without side chains are classified as small ( cyclopropane and cyclobutane ) , common ( cyclopentane , cyclohexane , and cycloheptane ) , medium ( cyclooctane through cyclotridecane ) , and large ( all the rest ) .
+Each is an isomer of its alkene counterpart — for example , cyclopropane has the same chemical formula ( CH ) as propene .
+Besides this standard definition by the International Union of Pure and Applied Chemistry ( IUPAC ) , in some authors ' usage the term cycloalkane includes also those saturated hydrocarbons that are polycyclic .
+In any case , the general form of the chemical formula for cycloalkanes is CH , where n is the number of carbon atoms and r is the number of rings .
+The simpler form , when working without focusing on rings is CH NOMENCLATURE Section::::Nomenclature .
+The naming of polycyclic alkanes such as bicyclic alkanes and spiro alkanes is more complex , with the base name indicating the number of carbons in the ring system , a prefix indicating the number of rings ( e.g. , " bicyclo- " ) , and a numeric prefix before that indicating the number of carbons in each part of each ring , exclusive of junctions .
+For instance , a bicyclooctane that consists of a six - membered ring and a four - membered ring , which share two adjacent carbon atoms that form a shared edge , is [ 4.2.0]-bicyclooctane .
+That part of the six - membered ring , exclusive of the shared edge has 4 carbons .
+That part of the four - membered ring , exclusive of the shared edge , has 2 carbons .
+The edge itself , exclusive of the two vertices that define it , has 0 carbons .
+There is more than one convention ( method or nomenclature ) for the naming of compounds , which can be confusing for those who are just learning , and inconvenient for those who are well rehearsed in the older ways .
+For beginners it is best to learn IUPAC nomenclature from a source that is up to date , because this system is constantly being revised .
+In the above example [ 4.2.0]-bicyclooctane would be written bicyclo[4.2.0]octane to fit the conventions for IUPAC naming .
+It then has room for an additional numerical prefix if there is the need to include details of other attachments to the molecule such as chlorine or a methyl group .
+Another convention for the naming of compounds is the common name , which is a shorter name and it gives less information about the compound .
+An example of a common name is terpineol , the name of which can tell us only that it is an alcohol ( because the suffix " -ol " is in the name ) and it should then have a hydroxy ( – OH ) group attached to it .
+An example of the IUPAC method is given in the adjacent image .
+In this example the base name is listed first , which indicates the total number of carbons in both rings including the carbons making up the shared edge ( e.g. , " heptane " , which means " hepta- " or 7 carbons , and " -ane " , which indicates only single bonding between carbons ) .
+Then in front of the base name is the numerical prefix , which lists the number of carbons in each ring , excluding the carbons that are shared by each ring , plus the number of carbons on the bridge between the rings .
+In this case there are two rings with two carbons each and a single bridge with one carbon , excluding the carbons shared by it and the other two rings .
+There is a total of three numbers and they are listed in descending order separated by dots , thus : [ 2.2.1 ] .
+Before the numerical prefix is another prefix indicating the number of rings ( e.g. , " bicyclo- " ) .
+Thus , the name is bicyclo[2.2.1]heptane .
+The group of cycloalkanes are also known as naphthenes .
+PROPERTIES TABLE OF CYCLOALKANES Section::::Properties .
+Section::::Table of cycloalkanes .
+Alkane Formula
+Boiling point
+[ ° C ]
+Melting point
+[ ° C ] Density [ g·cm ] ( at 20 ° C )
+Cyclopropane CH
+−33 −128 1.879
+( vapor phase , g / L , 1 atm , 0 ° C )
+Cyclobutane CH
+12.5 −91 0.720 Cyclopentane CH
+49.2
+−93.9
+0.751
+Cyclohexane CH
+80.7 6.5 0.778
+Cycloheptane CH 118.4 −12 0.811
+Cyclooctane CH 149 14.6
+0.834 Cyclodecane CH 201 9 - 10 0.871 Cycloalkanes are similar to alkanes in their general physical properties , but they have higher boiling points , melting points , and densities than alkanes .
+This is due to stronger London forces because the ring shape allows for a larger area of contact .
+Containing only C – C and C – H bonds , unreactivity of cycloalkanes with little or no ring strain ( see below ) are comparable to non - cyclic alkanes .
+RING STRAIN
+Section::::Ring strain .
+In cycloalkanes , the carbon atoms are sp hybridized , which would imply an ideal tetrahedral bond angle of 109 ° 28′ whenever possible .
+Owing to evident geometrical reasons , rings with 3 , 4 , and ( to a very tiny extent ) also 5 atoms can only afford narrower angles ; the consequent deviation from the ideal tetrahedral bond angles causes an increase in potential energy and an overall destabilizing effect .
+Eclipsing of hydrogen atoms is an important destabilizing effect , as well .
+The strain energy of a cycloalkane is the theoretical increase in energy caused by the compound 's geometry , and is calculated by comparing the experimental standard enthalpy change of combustion of the cycloalkane with the value calculated using average bond energies .
+Ring strain is highest for cyclopropane , in which the carbon atoms form a triangle and therefore have 60 ° C – C – C bond angles .
+There are also three pairs of eclipsed hydrogens .
+The ring strain is calculated to be around 120 kJ mol .
+Cyclobutane has the carbon atoms in a puckered square with approximately 90 ° bond angles ; " puckering " reduces the eclipsing interactions between hydrogen atoms .
+Its ring strain is therefore slightly less , at around 110 kJ mol .
+For a theoretical planar cyclopentane the C – C – C bond angles would be 108 ° , very close to the measure of the tetrahedral angle .
+Actual cyclopentane molecules are puckered , but this changes only the bond angles slightly so that angle strain is relatively small .
+The eclipsing interactions are also reduced , leaving a ring strain of about 25 kJ mol .
+In cyclohexane the ring strain and eclipsing interactions are negligible because the puckering of the ring allows ideal tetrahedral bond angles to be achieved .
+As well , in the most stable chair form of cyclohexane , axial hydrogens on adjacent carbon atoms are pointed in opposite directions , virtually eliminating eclipsing strain .
+After cyclohexane , the molecules are unable to take a structure with no ring strain , resulting in an increase in strain energy , which peaks at 9 carbons ( around 50 kJ mol ) .
+After that , strain energy slowly decreases until 12 carbon atoms , where it drops significantly ; at 14 , another significant drop occurs and the strain is on a level comparable with 10 kJ mol .
+After 14 carbon atoms , sources disagree on what happens to ring strain , some indicating that it increases steadily , others saying that it disappears entirely .
+However , bond angle strain and eclipsing strain are an issue only for smaller rings .
+Ring strain can be considerably higher in bicyclic systems .
+For example , bicyclobutane , CH , is noted for being one of the most strained compounds that is isolatable on a large scale ; its strain energy is estimated at 267 kJ mol .
+REACTIONS Section::::Reactions .
+The simple and the bigger cycloalkanes are very stable , like alkanes , and their reactions , for example , radical chain reactions , are like alkanes .
+The small cycloalkanes – in particular , cyclopropane – have a lower stability due to Baeyer strain and ring strain .
+They react similarly to alkenes , though they do not react in electrophilic addition , but in nucleophilic aliphatic substitution .
+These reactions are ring - opening reactions or ring - cleavage reactions of alkyl cycloalkanes .
+Cycloalkanes can be formed in a Diels – Alder reaction followed by a catalytic hydrogenation .
+SEE ALSO * Cycloalkene * Cyclopropane
+* Cyclobutane * Cyclopentane * Cyclohexane * Cycloheptane * Cyclooctane REFERENCES * Organic Chemistry IUPAC Nomenclature .
+Rule A-23 .
+Hydrogenated Compounds from Fused Polycyclic Hydrocarbons http://www.acdlabs.com/iupac/nomenclature/79/r79_73.htm
+* Organic Chemistry IUPAC Nomenclature .
+Rule
+A-31 . Bridged Hydrocarbons : Bicyclic Systems .
+http://www.acdlabs.com/iupac/nomenclature/79/r79_163.htm
+* Organic Chemistry IUPAC Nomenclature .
+Rules A-41 , A-42 : Spiro Hydrocarbons http://www.acdlabs.com/iupac/nomenclature/79/r79_196.htm
+* Organic Chemistry IUPAC Nomenclature .
+Rules
+A-51 , A-52 , A-53 , A-54 : Hydrocarbon Ring Assemblies http://www.acdlabs.com/iupac/nomenclature/79/r79_158.htm EXTERNAL LINKS * " Cycloalkanes " at the online Encyclopædia Britannica * " Cycloalkanes " by the Chemistry staff at Westminster College

@@ -1,0 +1,62 @@
+CLOUD DATABASE
+A cloud database is a database that typically runs on a cloud computing platform , access to it is provided as a service .
+Database services take care of scalability and high availability of the database .
+Database services make the underlying software - stack transparent to the user .
+DEPLOYMENT MODELS Section::::Deployment models .
+There are two primary methods to run a database in a cloud : Virtual machine image : Cloud platforms allow users to purchase virtual - machine instances for a limited time , and one can run a database on such virtual machines .
+Users can either upload their own machine image with a database installed on it , or use ready - made machine images that already include an optimized installation of a database .
+Database - as - a - service ( DBaaS ) :
+With a database as a service model , application owners do not have to install and maintain the database themselves .
+Instead , the database service provider takes responsibility for installing and maintaining the database , and application owners are charged according to their usage of the service .
+ARCHITECTURE AND COMMON CHARACTERISTICS
+* Most database services offer web - based consoles , which the end user can use to provision and configure database instances .
+* Database services consist of a database - manager component , which controls the underlying database instances using a service API .
+The service API is exposed to the end user , and permits users to perform maintenance and scaling operations on their database instances .
+* Underlying software - stack stack typically includes the operating system , the database and third - party software used to manage the database .
+The service provider is responsible for installing , patching and updating the underlying software stack and ensuring the overall health and performance of the database .
+*
+Scalability features differ between vendorssome offer auto - scaling , others enable the user to scale up using an API , but do not scale automatically .
+There is typically a commitment for a certain level of high availability ( e.g. 99.9 % or 99.99 % ) .
+DATA MODEL Section::::Data model .
+The design and development of typical systems utilize data management and relational databases as their key building blocks .
+Advanced queries expressed in SQL work well with the strict relationships that are imposed on information by relational databases .
+However , relational database technology was not initially designed or developed for use over distributed systems .
+This issue has been addressed with the addition of clustering enhancements to the relational databases , although some basic tasks require complex and expensive protocols , such as with data synchronization .
+Modern relational databases have shown poor performance on data - intensive systems , therefore , the idea of NoSQL has been utilized within database management systems for cloud based systems .
+Within NoSQL implemented storage , there are no requirements for fixed table schemas , and the use of join operations is avoided .
+"
+The NoSQL databases have proven to provide efficient horizontal scalability , good performance , and ease of assembly into cloud applications . "
+It is also important to differentiate between cloud databases which are relational as opposed to non - relational or NoSQL :
+SQL databases : are one type of database which can run in the cloud , either in a virtual machine or as a service , depending on the vendor .
+While SQL databases are easily vertically scalable , horizontal scalability poses a challenge , that cloud database services based on SQL have started to address .
+NoSQL databases : are another type of database which can run in the cloud .
+NoSQL databases are built to service heavy read / write loads and can scale up and down easily , and therefore they are more natively suited to running in the cloud .
+: However , most contemporary applications are built around an SQL data model , so working with NoSQL databases often requires a complete rewrite of application code .
+VENDORS
+Section::::Vendors .
+The following table lists notable database vendors with a cloud database offering , classified by their deployment model – machine image vs. database as a service – and data model , SQL vs. NoSQL . + Cloud database vendors by deployment and data model ! scope="col " ! scope="col " Virtual Machine Deployment ! scope="col " Database as a Service !
+scope="row " SQL Data Model * EDB Postgres Advanced Server
+* IBM DB2
+* Ingres ( database ) * MariaDB * MySQL * NuoDB * Oracle Database * PostgreSQL
+* SAP HANA
+* Amazon Relational Database Service * Amazon Aurora ,
+MySQL based service * Clustrix Database as a Service
+* EnterpriseDB Postgres Plus Cloud Database
+* Google Cloud SQL * Heroku PostgreSQL as a Service ( shared and dedicated database options )
+* Oracle Database Cloud Service * Microsoft Azure SQL Database ( MS SQL )
+* Xeround Cloud Database*MySQL front - end ( * service no longer available ) !
+scope="row " NoSQL Data Model * Apache Cassandra on Amazon EC2 or Google Compute Engine
+* ArangoDB
+on Amazon EC2 , Google Compute or Microsoft Azure
+* Clusterpoint Database Virtual Box VM * CouchDB on Amazon EC2 or Google Cloud Platform
+* EDB Postgres Advanced Server
+* Hadoop on Amazon EC2 , Google Cloud Platform , or Rackspace * MarkLogic on Amazon EC2 or Google Cloud Platform
+* MongoDB on Amazon EC2 , Google Compute Engine , Microsoft Azure , or Rackspace * Neo4J on Amazon EC2 or Microsoft Azure
+* Amazon DynamoDB * Amazon SimpleDB * Azure DocumentDB * Cloudant Data Layer ( CouchDB ) * EnterpriseDB Postgres Plus Cloud Database
+* Google Cloud Bigtable
+* Google Cloud Datastore
+* MongoDB Database as a Service ( several options ) *
+Oracle NoSQL Database Cloud Service SEE ALSO
+* Cloud computing
+* Cloud storage
+* Relational database REFERENCES

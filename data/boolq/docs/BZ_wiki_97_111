@@ -1,0 +1,27 @@
+COLLECTIVELY EXHAUSTIVE EVENTS
+In probability theory and logic , a set of events is jointly or collectively exhaustive if at least one of the events must occur .
+For example , when rolling a six - sided die , the events 1 , 2 , 3 , 4 , 5 , and 6 ( each consisting of a single outcome ) are collectively exhaustive , because they encompass the entire range of possible outcomes .
+Another way to describe collectively exhaustive events is that their union must cover all the events within the entire sample space .
+For example , events A and B are said to be collectively exhaustive if where S is the sample space .
+Compare this to the concept of a set of mutually exclusive events .
+In such a set no more than one event can occur at a given time .
+( In some forms of mutual exclusion only one event can ever occur . )
+The set of all possible die rolls is both mutually exclusive and collectively exhaustive ( i.e. , " MECE " ) .
+The events 1 and 6 are mutually exclusive but not collectively exhaustive .
+The events " even " ( 2,4 or 6 ) and " not-6 " ( 1,2,3,4 , or 5 ) are collectively exhaustive but not mutually exclusive .
+In some forms of mutual exclusion only one event can ever occur , whether collectively exhaustive or not .
+For example , tossing a particular biscuit for a group of several dogs can not be repeated , no matter which dog snaps it up .
+One example of an event that is both collectively exhaustive and mutually exclusive is tossing a coin .
+The outcome must be either heads or tails , or p ( heads or tails ) =
+1 , so the outcomes are collectively exhaustive .
+When heads occurs , tails ca n't occur , or p ( heads and tails ) = 0 , so the outcomes are also mutually exclusive .
+HISTORY Section::::History .
+The term " exhaustive " has been used in the literature since at least 1914 .
+Here are a few examples :
+The following appears as a footnote on page 23 of Couturat 's text , The Algebra of Logic ( 1914 ) :
+In Stephen Kleene 's discussion of cardinal numbers , in Introduction to Metamathematics ( 1952 ) , he uses the term " mutually exclusive " together with " exhaustive " : SEE ALSO
+* Event structure
+* MECE principle
+* Probability theory
+* Set theory REFERENCES ADDITIONAL SOURCES
+* LCCCN : 59 - 12841

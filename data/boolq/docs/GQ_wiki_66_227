@@ -1,0 +1,84 @@
+PUSH - BUTTON TELEPHONE
+The push - button telephone is a telephone that has buttons or keys for dialing a telephone number , in contrast to having a rotary dial as in earlier telephone instruments .
+Western Electric experimented as early as 1941 with methods of using mechanically activated reeds to produce two tones for each of the ten digits and by the late 1940s such technology was field - tested in a No . 5 Crossbar switching system in Pennsylvania .
+But the technology proved unreliable and it was not until long after the invention of the transistor when push - button technology matured .
+On 18 November 1963 , after approximately three years of customer testing , the Bell System in the United States officially introduced dual - tone multi - frequency ( DTMF ) technology under its registered trademark Touch - Tone " .
+Over the next few decades touch - tone service replaced traditional pulse dialing technology and it eventually became a world - wide standard for telecommunication signaling .
+Although DTMF was the driving technology implemented in push - button telephones , some telephone manufacturers used push - button keypads to generate pulse dial signaling .
+Before the introduction of touch - tone telephone sets , the Bell System sometimes used the term push - button telephone to refer to key system telephones , which were rotary dial telephones that also had a set of push - buttons to select one of multiple telephone circuits , or to activate other features .
+HISTORY Section::::History .
+The concept of push - buttons in telephony originated around 1887 with a device called the micro - telephone push - button , but it was not an automatic dialing system as understood later .
+This use even predated the invention of the rotary dial by Almon Brown Strowger in 1891 .
+The Bell System in the United States relied on manual switched service until 1919 , when it reversed its decisions and embraced dialed , automatic switching .
+The 1951 introduction of direct distance dialing required automatic transmission of dialed numbers between distant exchanges , leading to use of inband multi - frequency signaling within the Long Lines network while individual local subscribers continued to dial using standard pulses .
+As direct distance dialing expanded to a growing number of communities , local numbers ( often four , five or six digits ) were extended to standardized seven - digit named exchanges .
+A toll call to another area code was eleven digits , including the leading 1 .
+In the 1950s , AT&T conducted extensive studies of product engineering and efficiency and concluded that push - button dialing was preferable to rotary dialing .
+After initial customer trials in Connecticut and Illinois , approximately one fourth of the central office in Findlay , Ohio , was equipped in 1960 with touch - tone digit registers for the first commercial deployment of push - button dialing , starting on 1 November 1960 .
+In 1962 , Touch - Tone telephones , including other Bell innovations such as portable pagers , were on display for the public to try out at the Bell Systems pavilion at the Seattle World 's Fair .
+Ref .
+YouTube video entitled " Vintage Roadtrips - 1962 Seattle World 's Fair " .
+On 22 April 1963 President John F. Kennedy started the countdown for the opening of the 1964 World 's Fair by keying " 1964 " on a touch - tone telephone in the Oval Office , starting " a contraption which will count off the seconds until the opening " .
+On November 18 , 1963 , the first electronic push - button system with touch - tone dialing was commercially offered by Bell Telephone to customers in the Pittsburgh area towns of Carnegie and Greensburg , Pennsylvania , after the DTMF system had been tested for several years in multiple locations , including Greensburg .
+This phone , the Western Electric 1500 , had only ten buttons .
+In 1968 it was replaced by the twelve - button model 2500 , adding the asterisk or star ( * ) and pound or hash ( # ) keys .
+The use of tones instead of dial pulses relied heavily on technology already developed for the long line network , although the 1963 touch - tone deployment adopted a different frequency set for its dual - tone multi - frequency signaling .
+Although push - button touch - tone telephones made their debut to the general public in 1963 , the rotary dial telephone still was common for many years .
+Sales of touch - tone telephones picked up speed during the 1970s , though the majority of telephone subscribers still had rotary phones , which in the Bell System of that era were leased from telephone companies instead of being owned outright .
+Adoption of the push - button phone was steady , but it took a long time for them to appear in some areas .
+At first it was primarily businesses that adopted push - button phones .
+By 1979 , the touch - tone phone was gaining popularity , but it was n't until the 1980s that the majority of customers owned push - button telephones in their homes ; by the 1990s , it was the overwhelming majority .
+Some exchanges no longer support pulse - dialing or charge their few remaining pulse - dial users the higher tone - dial monthly rate as rotary telephones become increasingly rare .
+Dial telephones are not compatible with some modern telephone features , including interactive voice response systems , though enthusiasts may adapt pulse - dialing telephones using a pulse - to - tone converter .
+TOUCH - TONE Section::::Touch - tone .
+The international standard for telephone signaling utilizes dual - tone multi - frequency ( DTMF ) signaling , more commonly known as touch - tone dialing .
+It replaced the older and slower pulse dial system .
+The push - button format is also used for all cell phones , but with out - of - band signaling of the dialed number .
+The touch - tone system uses audible tones for each of the digits zero through nine .
+Later this was expanded by two keys labeled with an asterisk ( * ) and the pound or hash sign ( # ) to represent the 11th and 12th DTMF signals .
+These signals accommodate various additional services and customer - controlled calling features .
+The DTMF standard assigns specific frequencies to each column and row of push - buttons in the telephone keypad ; the columns in the push - button pad have higher - frequency tones , and rows have lower - frequency tones in the audible range .
+When a button is pressed the dial generates a combination signal of the two frequencies for the selected row and column , a dual - tone signal , which is transmitted over the phone line to the telephone exchange .
+When announced , the DTMF technology was not immediately available on all switching systems .
+The circuits of subscribers requesting the feature often had to be moved from older switches that supported only pulse dialing to a newer crossbar , or later an electronic switching system , requiring the assignment of a new telephone number which was billed at a higher monthly rate .
+Community dial office subscribers would often find the service initially unavailable as these villages were served by a single unattended exchange , often step by step , with service from a foreign exchange impractically expensive .
+Rural party line service was typically based on mechanical switching equipment which could not be upgraded .
+While a tone - to - pulse converter could be deployed to any existing mechanical office line using 1970s technology , its speed would be limited to pulse dialing rates .
+The new central office switches were backward - compatible with rotary dialing .
+DTMF KEYPAD
+LAYOUT Section::::DTMF keypad layout .
+The standard layout of the keys on the touch - tone telephone was the result of research of the human - engineering department at Bell Laboratories in the 1950s under the leadership of South African - born psychologist John Elias Karlin ( 1918–2013 ) , who was previously a leading proponent in the introduction of all - number - dialing in the Bell System .
+This research resulted in the design of the DTMF keypad that arranged the push - buttons into 12 positions in a 3-by-4 position rectangular array , and placed the 1 , 2 , and 3 keys in the top row for most accurate dialing .
+The remaining digits occupied the lower rows in sequence from left to right ; the 0 , however , was placed into the center of the fourth row , while omitting the lower left , and lower right positions .
+The DTMF keyboard layout broke with the tradition established in cash registers ( and later adopted in calculators and computers ) of having the lower numbers at the bottom .
+This was due to research conducted by Bell Labs using test subjects unfamiliar with keypads .
+Comparing various layouts including two - row , two - column , and circular configurations , the study concluded that while there was little difference in speed or accuracy between any of the layouts , the now familiar arrangement with 1 at the top was the most favourably rated .
+The engineers had envisioned telephones being used to access computers , and surveyed a business customers for possible uses .
+This led to the addition of the number sign ( # , pound or diamond in this context , hash , square or gate in the UK , and octothorpe by the original engineers ) and asterisk or star
+( * ) keys in 1969 .
+Later , the hash and asterisk keys were used in vertical service codes , such as * 67 to suppress caller ID in the Bell System .
+In military telephone systems four additional signals ( A , B , C , D ) were defined for signaling call priority .
+PULSE DIALING
+Section::::Pulse dialing .
+Historically , not all push - button telephones used DTMF dialing technology .
+Some manufacturers implemented pulse dialing with push - button keypads and even Western Electric produced several telephone models with a push - button keypad that could also emit traditional dial pulses .
+Sometimes the mode was user - selectable with a switch on the telephone .
+Pulse - mode push - button keypads typically stored the dialed number sequence in a digit collector register to permit rapid dialing for the user .
+Some push button pulse dial phones allow for double - speed pulse dialing .
+These allow even faster pulse dialing in exchanges that recognize double - speed pulse dialing .
+As telephone companies continued to levy surcharges for touch - tone service long after any technical justification ceased to exist , a push - button telephone with pulse dialing capability represented a means for a user to obtain the convenience of push - button dialing without incurring the touch - tone surcharge .
+DC SIGNALING Section::::DC signaling .
+In the 1950s , the Dutch electronics concern Philips developed a direct current ( DC ) signaling method for dialing telephone numbers , for use in the UB-49 private branch exchange ( PBX ) system .
+The push - button dial pad used an arrangement of semiconductor diodes to produce a distinct sequence of polarity states for each dialed digit between the two line conductors and ground return , which were analyzed in the exchange by relay logic .
+In 1968 , the system was used in the UK , in a brief excursion from standards , when the General Post Office ( GPO ) introduced the first UK - made push - button telephone , the GPO 726
+( Ericsson N2000 series ) .
+FEATURES Section::::Features .
+Electronics within push - button telephones may provide several usability features , such as last number redial and storage of commonly called numbers .
+Some telephone models support additional features , such as retrieval of information and data or code and PIN entry .
+Most analog telephone adapters for Internet - based telecommunications ( VoIP ) recognize and translate DTMF tones but ignore dial pulses , an issue which also exists for some PBX systems .
+Like cellular handsets , telephones designed for voice - over - IP use out - of - band signaling to send the dialed number .
+SEE ALSO * History of the telephone *
+Interactive voice response *
+Mobile phone
+* Timeline of the telephone
+* VoIP REFERENCES

@@ -1,0 +1,160 @@
+SIEVE OF ERATOSTHENES
+In mathematics , the sieve of Eratosthenes is a simple , ancient algorithm for finding all prime numbers up to any given limit .
+It does so by iteratively marking as
+composite ( i.e. , not prime )
+the multiples of each prime , starting with the first prime number , .
+The multiples of a given prime are generated as a sequence of numbers starting from that prime , with constant difference between them that is equal to that prime .
+This is the sieve 's key distinction from using trial division to sequentially test each candidate number for divisibility by each prime .
+The earliest known reference to the sieve ( , kóskinon Eratosthénous ) is in Nicomachus of Gerasa 's Introduction to Arithmetic , which describes it and attributes it to Eratosthenes of Cyrene , a Greek mathematician .
+One of a number of prime number sieves , it is one of the most efficient ways to find all of the smaller primes .
+It may be used to find primes in arithmetic progressions .
+OVERVIEW Section::::Overview .
+A prime number is a natural number that has exactly two distinct natural number divisors : 1 and itself .
+To find all the prime numbers less than or equal to a given integer by Eratosthenes ' method :
+* Create a list of consecutive integers from 2 through : .
+*
+* Initially , let equal 2 , the smallest prime number .
+*
+* Enumerate the multiples of by counting in increments of from to , and mark them in the list ( these will be ; the itself should not be marked ) .
+*
+* Find the first number greater than in the list that is not marked .
+If there was no such number , stop .
+Otherwise , let now equal this new number ( which is the next prime ) , and repeat from step 3 .
+*
+*
+When the algorithm terminates , the numbers remaining not marked in the list are all the primes below .
+*
+The main idea here is that every value given to will be prime , because if it were composite it would be marked as a multiple of some other , smaller prime .
+Note that some of the numbers may be marked more than once ( e.g. , 15 will be marked both for 3 and 5 ) .
+As a refinement , it is sufficient to mark the numbers in step 3 starting from , as all the smaller multiples of will have already been marked at that point .
+This means that the algorithm is allowed to terminate in step 4 when is greater than .
+Another refinement is to initially list odd numbers only , , and count in increments of from in step 3 , thus marking only odd multiples of .
+This actually appears in the original algorithm .
+This can be generalized with wheel factorization , forming the initial list only from numbers coprime with the first few primes and not just from odds ( i.e. , numbers coprime with 2 ) , and counting in the correspondingly adjusted increments so that only such multiples of are generated that are coprime with those small primes , in the first place .
+EXAMPLE Section::::Example .
+To find all the prime numbers less than or equal to 30 , proceed as follows .
+First , generate a list of integers from 2 to 30 :
+The first number in the list is 2 ; cross out every 2nd number in the list after 2 by counting up from 2 in increments of 2 ( these will be all the multiples of 2 in the list ) :
+The next number in the list after 2 is 3 ; cross out every 3rd number in the list after 3 by counting up from 3 in increments of 3 ( these will be all the multiples of 3 in the list ) :
+The next number not yet crossed out in the list after 3 is 5 ; cross out every 5th number in the list after 5 by counting up from 5 in increments of 5 ( i.e. all the multiples of 5 ) :
+The next number not yet crossed out in the list after 5 is 7 ; the next step would be to cross out every 7th number in the list after 7 , but they are all already crossed out at this point , as these numbers ( 14 , 21 , 28 ) are also multiples of smaller primes because 7 × 7 is greater than 30 .
+The numbers not crossed out at this point in the list are all the prime numbers below 30 : ALGORITHM AND VARIANTS PSEUDOCODE Section::::Algorithm and variants .
+Section::::Pseudocode .
+The sieve of Eratosthenes can be expressed in pseudocode , as follows :
+This algorithm produces all primes not greater than .
+It includes a common optimization , which is to start enumerating the multiples of each prime from .
+The time complexity of this algorithm is , provided the array update is an operation , as is usually the case .
+SEGMENTED SIEVE Section::::Segmented sieve .
+As Sorenson notes , the problem with the sieve of Eratosthenes is not the number of operations it performs but rather its memory requirements .
+For large , the range of primes may not fit in memory ; worse , even for moderate , its cache use is highly suboptimal .
+The algorithm walks through the entire array , exhibiting almost no locality of reference .
+A solution to these problems is offered by segmented sieves , where only portions of the range are sieved at a time .
+These have been known since the 1970s , and work as follows :
+* Divide the range 2 through into segments of some size .
+*
+* Find the primes in the first ( i.e. the lowest ) segment , using the regular sieve .
+*
+* For each of the following segments , in increasing order , with being the segment 's topmost value , find the primes in it as follows :
+* * Set up a Boolean array of size , and *
+* Eliminate from it the multiples of each prime found so far , by calculating the lowest multiple of between and , and enumerating its multiples in steps of as usual , marking the corresponding positions in the array as non - prime .
+*
+If is chosen to be , the space complexity of the algorithm is , while the time complexity is the same as that of the regular sieve .
+For ranges with upper limit so large that the sieving primes below as required by the page segmented sieve of Eratosthenes can not fit in memory , a slower but much more space - efficient sieve like the sieve of Sorenson can be used instead .
+INCREMENTAL SIEVE Section::::Incremental sieve .
+An incremental formulation of the sieve generates primes indefinitely ( i.e. , without an upper bound ) by interleaving the generation of primes with the generation of their multiples ( so that primes can be found in gaps between the multiples ) , where the multiples of each prime are generated directly by counting up from the square of the prime in increments of ( or for odd primes ) .
+The generation must be initiated only when the prime 's square is reached , to avoid adverse effects on efficiency .
+It can be expressed symbolically under the dataflow paradigm as Primes can also be produced by iteratively sieving out the composites through [ [ Trial divisiondivisibility testing ] ] by sequential primes , one prime at a time .
+It is not the sieve of Eratosthenes but is often confused with it , even though the sieve of Eratosthenes directly generates the composites instead of testing for them .
+Trial division has worse theoretical [ [ Analysis of algorithmscomplexity ] ]
+than that of the sieve of Eratosthenes in generating ranges of primes .
+When testing each prime , the optimal trial division algorithm uses all prime numbers not exceeding its square root , whereas the sieve of Eratosthenes produces each composite from its prime factors only , and gets the primes " for free " , between the composites .
+The widely known 1975 [ [ functional programmingfunctional ] ]
+sieve code by [ [ David Turner ( computer scientist)David Turner ] ] is often presented as an example of the sieve of Eratosthenes but is actually a sub - optimal trial division sieve .
+COMPUTATIONAL ANALYSIS
+Section::::Computational analysis .
+The work performed by this algorithm is almost entirely the operations to cull the composite number representations which for the basic non - optimized version is the sum of the range divided by each of the primes up to that range or where is the sieving range in this and all further analysis .
+By rearranging Mertens ' second theorem , this is equal to as approaches infinity , where M is the Meissel – Mertens constant of about ...
+The optimization of starting at the square of each prime and only culling for primes less than the square root changes the " " in the above expression to ( or ) and not culling until the square means that the sum of the base primes each minus two is subtracted from the operations .
+As the sum of the first primes is and the prime number theorem says that is approximately , then the sum of primes to is , and therefore the sum of base primes to is expressed as a factor of .
+The extra offset of two per base prime is , where is the prime - counting function in this case , or ; expressing this as a factor of as are the other terms , this is .
+Combining all of this , the expression for the number of optimized operations without wheel factorization is For the wheel factorization cases , there is a further offset of the operations not done of where is the highest wheel prime and a constant factor of the whole expression is applied
+which is the fraction of remaining prime candidates as compared to the repeating wheel circumference .
+The wheel circumference is and it can easily be determined that this wheel factor is as is the fraction of remaining candidates for the highest wheel prime , , and each succeeding smaller prime leaves its corresponding fraction of the previous combined fraction .
+Combining all of the above analysis , the total number of operations for a sieving range up to including wheel factorization for primes up to is approximately To show that the above expression is a good approximation to the number of composite number cull operations performed by the algorithm , following is a table showing the actually measured number of operations for a practical implementation of the sieve of Eratosthenes as compared to the number of operations predicted from the above expression with both expressed as a fraction of the range ( rounded to four decimal places ) for different sieve ranges and wheel factorizations ( Note that the last column is a maximum practical wheel as to the size of the wheel gaps
+Look Up Table - almost 10 million values ) : !
+colspan=2 no wheel !
+colspan=2 odds !
+colspan=2 2/3/5 wheel !
+colspan=2 2/3/5/7 wheel !
+colspan=2 2/3/5/7/11/13/17/19 wheel !
+10 !
+10 !
+10 !
+10 !
+10 !
+10
+The above table shows that the above expression is a very good approximation to the total number of culling operations for sieve ranges of about a hundred thousand ( 10 ) and above .
+ALGORITHMIC COMPLEXITY Section::::Algorithmic complexity .
+The sieve of Eratosthenes is a popular way to benchmark computer performance .
+As can be seen from the above by removing all constant offsets and constant factors and ignoring terms that tend to zero as n approaches infinity , the time complexity of calculating all primes below in the random access machine model is operations , a direct consequence of the fact that the prime harmonic series asymptotically approaches .
+It has an exponential time complexity with regard to input size , though , which makes it a pseudo - polynomial algorithm .
+The basic algorithm requires of memory .
+The bit complexity of the algorithm is bit operations with a memory requirement of .
+The normally implemented page segmented version has the same operational complexity of as the non - segmented version but reduces the space requirements to the very minimal size of the segment page plus the memory required to store the base primes less than the square root of the range used to cull composites from successive page segments of size .
+A special rarely if ever implemented segmented version of the sieve of Eratosthenes , with basic optimizations , uses operations and bits of memory .
+To show that the above approximation in complexity is not very accurate even for about as large as practical a range , the following is a table of the estimated number of operations as a fraction of the range rounded to four places , the calculated ratio for a factor of ten change in range based on this estimate , and the factor based on the estimate for various ranges and wheel factorizations ( the combo column uses a frequently practically used pre - cull by the maximum wheel factorization but only the 2/3/5/7 wheel for the wheel factor as the full factorization is difficult to implement efficiently for page segmentation ) : !
+colspan=3 no wheel !
+colspan=3 odds !
+colspan=3 2/3/5 wheel !
+colspan=3 2/3/5/7 wheel !
+colspan=3 combo wheel !
+colspan=3 2/3/5/7/11/13/17/19 wheel !
+10 !
+10 !
+10 !
+10 !
+10 !
+10 !
+10 !
+10 !
+10 !
+10 !
+10
+The above shows that the estimate is not very accurate even for maximum practical ranges of about 10 .
+One can see why it does not match by looking at the computational analysis above and seeing that within these practical sieving range limits , there are very significant constant offset terms such that the very slowly growing term does not get large enough so as to make these terms insignificant until the sieving range approaches infinity – well beyond any practical sieving range .
+Within these practical ranges , these significant constant offsets mean that the performance of the Sieve of Eratosthenes is much better than one would expect just using the asymptotic time complexity estimates by a significant amount , but that also means that the slope of the performance with increasing range is steeper than predicted as the benefit of the constant offsets becomes slightly less significant .
+One should also note that in using the calculated operation ratios to the sieve range , it must be less than about 0.2587 in order to be faster than the often compared sieve of Atkin if the operations take approximately the same time each in CPU clock cycles , which is a reasonable assumption for the one huge bit array algorithm .
+Using that assumption , the sieve of Atkin is only faster than the maximally wheel factorized sieve of Eratosthenes for ranges of over 10 at which point the huge sieve buffer array would need about a quarter of a terabyte ( about 250 gigabytes ) of RAM memory even if bit packing were used .
+An analysis of the page segmented versions will show that the assumption that the time per operation stays the same between the two algorithms does not hold for page segmentation and that the sieve of Atkin operations get slower much faster than the sieve of Eratosthenes with increasing range .
+Thus for practical purposes , the maximally wheel factorized Sieve of Eratosthenes is faster than the Sieve of Atkin although the Sieve of Atkin is faster for lesser amounts of wheel factorization .
+Using big O notation is also not the correct way to compare practical performance of even variations of the Sieve of Eratosthenes as it ignores constant factors and offsets that may be very significant for practical ranges : The sieve of Eratosthenes variation known as the Pritchard wheel sieve has an performance , but its basic implementation requires either a " one large array " algorithm which limits its usable range to the amount of available memory else it needs to be page segmented to reduce memory use .
+When implemented with page segmentation in order to save memory , the basic algorithm still requires about bits of memory ( much more than the requirement of the basic page segmented sieve of Eratosthenes using bits of memory ) .
+Pritchard 's work reduced the memory requirement to the limit as described above the table , but the cost is a fairly large constant factor of about three in execution time to about three quarters the sieve range due to the complex computations required to do so .
+As can be seen from the above table for the basic sieve of Eratosthenes , even though the resulting wheel sieve has performance and an acceptable memory requirement , it will never be faster than a reasonably Wheel Factorized basic sieve of Eratosthenes for any practical sieving range by a factor of about two .
+Other than that it is quite complex to implement , it is rarely practically implemented because it still uses more memory than the basic Sieve of Eratosthenes implementations described here as well as being slower for practical ranges .
+It is thus more of an intellectual curiosity than something practical .
+EULER 'S SIEVE Section::::Euler 's Sieve .
+Euler 's proof of the zeta product formula contains a version of the sieve of Eratosthenes in which each composite number is eliminated exactly once .
+The same sieve was rediscovered and observed to take linear time by .
+It , too , starts with a list of numbers from 2 to in order .
+On each step the first element is identified as the next prime and the results of multiplying this prime with each element of the list are marked in the list for subsequent deletion .
+The initial element and the marked elements are then removed from the working sequence , and the process is repeated : Here the example is shown starting from odds , after the first step of the algorithm .
+Thus , on the th step all the remaining multiples of the th prime are removed from the list , which will thereafter contain only numbers coprime with the first primes ( cf . wheel factorization ) , so that the list will start with the next prime , and all the numbers in it below the square of its first element will be prime too .
+Thus , when generating a bounded sequence of primes , when the next identified prime exceeds the square root of the upper limit , all the remaining numbers in the list are prime .
+In the example given above that is achieved on identifying 11 as next prime , giving a list of all primes less than or equal to 80 .
+Note that numbers that will be discarded by a step are still used while marking the multiples in that step , e.g. , for the multiples of 3 it is , , , , ... , , ... , so care must be taken dealing with this .
+SEE ALSO
+* Sieve of Sundaram
+* Sieve of Atkin * Sieve theory REFERENCES EXTERNAL LINKS
+* primesieve - Very fast highly optimized C / C++ segmented Sieve of Eratosthenes * Eratosthenes , sieve of at Encyclopaedia of Mathematics
+*
+Interactive JavaScript Page
+* Sieve of Eratosthenes by George Beck , Wolfram Demonstrations Project .
+* Sieve of Eratosthenes in Haskell
+* Sieve of Eratosthenes algorithm illustrated and explained .
+Java and C++ implementations .
+* A related sieve written in x86 assembly language
+*
+Fast optimized highly parallel CUDA segmented Sieve of Eratosthenes in C * A parallel implementation in C # * SieveOfEratosthenesInManyProgrammingLanguages c2 wiki page
+*
+The Art of Prime Sieving Sieve of Eratosthenes in C from 1998 with nice features and algorithmic tricks explained .

@@ -1,0 +1,51 @@
+SUBSET
+In mathematics , a set A is a subset of a set B , or equivalently B is a superset of A , if A is " contained " inside B , that is , all elements of A are also elements of B. A and B may coincide .
+The relationship of one set being a subset of another is called inclusion or sometimes containment .
+A is a subset of B may also be expressed as B includes A ; or A is included in B.
+The subset relation defines a partial order on sets .
+The algebra of subsets forms a Boolean algebra in which the subset relation is called inclusion .
+DEFINITIONS Section::::Definitions .
+If A and B are sets and every element of A is also an element of B , then : If A is a subset of B , but A is not equal to B ( i.e. there exists at least one element of B which is not an element of A ) , then For any set S , the inclusion relation ⊆ is a partial order on the set formula_5 of all subsets of S ( the power set of S ) defined by formula_6 .
+We may also partially order formula_5 by reverse set inclusion by defining
+formula_8
+When quantified , is represented as : } .
+PROPERTIES
+*
+A set A is a subset of B if and only if their intersection is equal to A. *
+A set A is a subset of B if and only if their union is equal to B. * A finite set A is a subset of B if and only if the cardinality of their intersection is equal to the cardinality of A. ⊂ AND ⊃ SYMBOLS Section::::⊂ and ⊃ symbols .
+Some authors use the symbols ⊂ and ⊃ to indicate subset and superset respectively ; that is , with the same meaning and instead of the symbols , ⊆ and ⊇.
+So for example , for these authors , it is true of every set
+A that .
+Other authors prefer to use the symbols ⊂ and ⊃ to indicate proper ( also called strict ) subset and proper superset respectively ; that is , with the same meaning and instead of the symbols , ⊊ and ⊋.
+This usage makes ⊆ and ⊂ analogous to the inequality symbols ≤ and < .
+a= " " and= " " b= " " b.= " " but= " " convention= " " definitely= " " does= " " equal= " " example= " " for= " " if= " " is= " " less= " " may= " " not= " " or= " " proper= " " similarly= " " subset= " " than=
+" " that= " " the= " " then= " "
+using= " " x= " " y= " " y.="">Examples * The set A = { 1 , 2 } is a proper subset of B = { 1 , 2 , 3 } , thus both expressions
+A ⊆ B and A ⊊ B are true .
+*
+The set D = { 1 , 2 , 3 } is a subset ( but not a proper subset ) of E = { 1 , 2 , 3 } , thus D ⊆ E is true , and D ⊊ E is not true ( false ) .
+*
+Any set is a subset of itself , but not a proper subset .
+( X ⊆ X is true , and X ⊊ X is false for any set X. )
+* The empty set { } , denoted by ∅ , is also a subset of any given set X.
+It is also always a proper subset of any set except itself .
+*
+The set { x :
+x is a prime number greater than 10 } is a proper subset of { x :
+x is an odd number greater than 10 }
+* The set of natural numbers is a proper subset of the set of rational numbers ; likewise , the set of points in a line segment is a proper subset of the set of points in a line .
+These are two examples in which both the subset and the whole set are infinite , and the subset has the same cardinality ( the concept that corresponds to size , that is , the number of elements , of a finite set ) as the whole ; such cases can run counter to one 's initial intuition .
+*
+The set of rational numbers is a proper subset of the set of real numbers .
+In this example , both sets are infinite but the latter set has a larger cardinality ( or power ) than the former set .
+Section::::Examples .
+Another example in an Euler diagram : OTHER PROPERTIES OF INCLUSION
+Section::::Other properties of inclusion .
+Inclusion is the canonical partial order in the sense that every partially ordered set ( X , formula_12 ) is isomorphic to some collection of sets ordered by inclusion .
+The ordinal numbers are a simple example — if each ordinal n is identified with the set [ n ] of all ordinals less than or equal to n , then a ≤ b
+if and only
+if [ a ] ⊆ [ b ] .
+For the power set formula_5 of a set S , the inclusion partial order is ( up to an order isomorphism )
+the Cartesian product of k = S ( the cardinality of S ) copies of the partial order on { 0,1 } for which 0 < 1 .
+This can be illustrated by enumerating S = { s , s , … , s } and associating with each subset T ⊆ S ( which is to say with each element of 2 ) the k - tuple from { 0,1 } of which the ith coordinate is 1 if and only if s is a member of T. SEE ALSO
+* Containment order REFERENCES EXTERNAL LINKS

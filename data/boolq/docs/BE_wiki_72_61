@@ -1,0 +1,81 @@
+PYRUVATE DEHYDROGENASE COMPLEX
+Pyruvate dehydrogenase complex ( PDC ) is a complex of three enzymes that converts pyruvate into acetyl - CoA by a process called pyruvate decarboxylation .
+Acetyl - CoA may then be used in the citric acid cycle to carry out cellular respiration , and this complex links the glycolysis metabolic pathway to the citric acid cycle .
+Pyruvate decarboxylation is also known as the " pyruvate dehydrogenase reaction " because it also involves the oxidation of pyruvate .
+This multi - enzyme complex is related structurally and functionally to the oxoglutarate dehydrogenase and branched - chain oxo - acid dehydrogenase multi - enzyme complexes .
+REACTION
+Section::::Reaction .
+The reaction catalysed by pyruvate dehydrogenase complex is : STRUCTURE
+Section::::Structure . !
+Enzymes ! !
+Abbrev . ! !
+Cofactors ! !
+# subunits prokaryotes ! !
+# subunits eukaryotes PYRUVATE DEHYDROGENASE ( E1 )
+Section::::Pyruvate dehydrogenase ( E1 ) .
+Initially , pyruvate and thiamine pyrophosphate ( TPP or vitamin B ) are bound by pyruvate dehydrogenase subunits .
+The thiazolium ring of TPP is in a zwitterionic form , and the anionic C2 carbon performs a nucleophilic attack on the C2 ( ketone ) carbonyl of pyruvate .
+The resulting hemithioacetal undergoes decarboxylation to produce an acyl anion equivalent ( see cyanohydrin or aldehyde - dithiane umpolung chemistry , as well as benzoin condensation ) .
+This anion attacks S1 of an oxidized lipoate species that is attached to a lysine residue .
+In a ring - opening S2-like mechanism , S2 is displaced as a sulfide or sulfhydryl moiety .
+Subsequent collapse of the tetrahedral hemithioacetal ejects thiazole , releasing the TPP cofactor and generating a thioacetate on S1 of lipoate .
+The E1-catalyzed process is the rate - limiting step of the whole pyruvate dehydrogenase complex .
+DIHYDROLIPOYL TRANSACETYLASE ( E2 )
+Section::::Dihydrolipoyl transacetylase ( E2 ) .
+At this point , the lipoate - thioester functionality is translocated into the dihydrolipoyl transacetylase ( E2 ) active site , where a transacylation reaction transfers the acetyl from the " swinging arm " of lipoyl to the thiol of coenzyme A. This produces acetyl - CoA , which is released from the enzyme complex and subsequently enters the citric acid cycle .
+E2 can also be known as lipoamide reductase - transacetylase .
+DIHYDROLIPOYL DEHYDROGENASE ( E3 )
+Section::::Dihydrolipoyl dehydrogenase ( E3 ) .
+The dihydrolipoate , still bound to a lysine residue of the complex , then migrates to the dihydrolipoyl dehydrogenase ( E3 ) active site where it undergoes a flavin - mediated oxidation , identical in chemistry to disulfide isomerase .
+First , FAD oxidizes dihydrolipoate back to its lipoate resting state , producing FADH .
+Then , a NAD cofactor oxidizes FADH back to its FAD resting state , producing NADH .
+STRUCTURAL DIFFERENCES
+BETWEEN SPECIES
+Section::::Structural differences between species .
+PDC is a large complex composed of multiple copies of 3 or 4 subunits depending on species .
+GRAM - NEGATIVE
+BACTERIA Section::::Gram - negative bacteria .
+In Gram - negative bacteria , e.g. Escherichia coli , PDC consists of a central cubic core made up from 24 molecules of dihydrolipoyl transacetylase ( E2 ) .
+Up to 24 copies of pyruvate dehydrogenase ( E1 ) and 12 molecules of dihydrolipoyl dehydrogenase ( E3 ) bind to the outside of the E2 core .
+GRAM - POSITIVE BACTERIA AND EUKARYOTES Section::::Gram - positive bacteria and eukaryotes .
+In contrast , in Gram - positive bacteria ( e.g. Bacillus stearothermophilus ) and eukaryotes the central PDC core contains 60 E2 molecules arranged into an icosahedron .
+Eukaryotes also contain 12 copies of an additional core protein , E3 binding protein ( E3BP ) .
+The exact location of E3BP is not completely clear .
+Cryo - electron microscopy has established that E3BP binds to each of the icosahedral faces in yeast .
+However , it has been suggested that it replaces an equivalent number of E2 molecules in the bovine PDC core .
+Up to 60 E1 or E3 molecules can associate with the E2 core from Gram - positive bacteria - binding is mutually exclusive .
+In eukaryotes E1 is specifically bound by E2 , while E3 associates with E3BP .
+It is thought that up to 30 E1 and 6 E3 enzymes are present , although the exact number of molecules can vary in vivo and often reflects the metabolic requirements of the tissue in question .
+REGULATION Section::::Regulation .
+Pyruvate dehydrogenase is inhibited when one or more of the three following ratios are increased : ATP / ADP , NADH / NAD and acetyl - CoA /
+CoA.
+In eukaryotes PDC is tightly regulated by its own specific pyruvate dehydrogenase kinase ( PDK ) and pyruvate dehydrogenase phosphatase ( PDP ) , deactivating and activating it respectively .
+* PDK phosphorylates three specific serine residues on E1 with different affinities .
+Phosphorylation of any one of them renders E1 ( and in consequence the entire complex ) inactive .
+* Dephosphorylation of E1 by PDP reinstates complex activity .
+Products of the reaction act as allosteric inhibitors of the PDC , because they activate PDK .
+Substrates in turn
+inhibit PDK , and thus , reactivating PDC .
+During starvation , PDK increases in amount in most tissues , including skeletal muscle , via increased gene transcription .
+Under the same conditions , the amount of PDP decreases .
+The resulting inhibition of PDC prevents muscle and other tissues from catabolizing glucose and gluconeogenesis precursors .
+Metabolism shifts toward fat utilization , while muscle protein breakdown to supply gluconeogenesis precursors is minimized , and available glucose is spared for use by the brain .
+Calcium ion has a role in regulation of PDC in muscle tissue , because it activates PDP , stimulating glycolysis on its release into the cytosol - during muscle contraction .
+Some products of these transcriptions release H2 into the muscles .
+This can cause calcium ions to decay over time .
+LOCALIZATION OF PYRUVATE
+DECARBOXYLATION Section::::Localization of pyruvate decarboxylation .
+In eukaryotic cells the pyruvate decarboxylation occurs inside the mitochondrial matrix , after transport of the substrate , pyruvate , from the cytosol .
+The transport of pyruvate into the mitochondria is via the transport protein pyruvate translocase .
+Pyruvate translocase transports pyruvate in a symport fashion with a proton , and hence is active , consuming energy .
+Upon entry to the mitochondria , the pyruvate is decarboxylated , producing acetyl - CoA.
+This irreversible reaction traps the acetyl - CoA within the mitochondria ( the acetyl - CoA can only be transported out of the mitochondrial matrix under conditions of high oxaloacetate via the citrate shuttle , a TCA intermediate that is normally sparse ) .
+The carbon dioxide produced by this reaction is nonpolar and small , and can diffuse out of the mitochondria and out of the cell .
+In prokaryotes , which have no mitochondria , this reaction is either carried out in the cytosol , or not at all .
+CLINICAL RELEVANCE Section::::Clinical relevance .
+Pyruvate dehydrogenase deficiency can result from mutations in any of the enzymes or cofactors .
+Its primary clinical finding is lactic acidosis .
+SEE ALSO
+* Pyruvate dehydrogenase deficiency
+REFERENCES EXTERNAL LINKS * https://web.archive.org/web/20070405211049/http://www.dentistry.leeds.ac.uk/biochem/MBWeb/mb1/part2/krebs.htm#animat1 - animation of the general mechanism of the PDC ( link on upper right ) at University of Leeds 3D STRUCTURES
+* , bovine kidney pyruvate dehydrogenase complex * , human full - length and truncated E2 ( tE2 ) cores of PDC , expressed in E. coli

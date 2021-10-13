@@ -1,0 +1,398 @@
+TELEPHONE NUMBERS IN AUSTRALIA
+The Australian telephone numbering plan describes the allocation of phone numbers in Australia .
+It has changed many times , the most recent major reorganisation by the Australian Communications and Media Authority taking place between 1994 and 1998 .
+OVERVIEW Section::::Overview .
+For landline telephony , Australia is now geographically divided into four large areas , most of which cover more than one State and/or Territory .
+All " Local " telephone numbers within these four areas are of eight digits , consisting ( mainly ) of a four digit " Exchange " code plus a four digit number .
+The " National ' Significant ' Number " consists of a single digit " Area " code followed by the " Local " eight digit number – a total of nine digits .
+Within Australia , to access the " Number " of a landline telephone in an " Area " other than that in which the caller is located ( including a caller using a " Mobile " ' phone ) , firstly it is necessary to dial the Australian " Trunk Access Code " of 0 plus the " Area " code , followed by the " Local " Number .
+Thus , the " Full National Number " ( FNN ) has ten digits : 0x xxxx xxxx .
+The Australian " Trunk Access Code " ( 0 ) and the following digit(s ) specify the type of service required .
+The following is a high level listing of the numbering plan ( including the " Trunk Access Code " ) , presented in domestic format .
+( Geographical region boundaries do not exactly follow State borders . )
+* 000 Emergency access
+* 0011 International access ( Certain other prefixes are also in use by certain service providers , see below ) * 01 Alternative phone services
+* 02
+Geographic : Central East region ( NSW , ACT ) * 03
+Geographic : South - east region ( VIC , TAS )
+* 04 Digital Mobile services ( GSM , 3 G and 4 G )
+* 05 Digital Mobile services ( 0550 allocated to Location Independent Communication Services )
+* 07
+Geographic : North - east region ( QLD )
+* 08
+Geographic : Central and West region ( SA , NT , WA ) * 1 Non - geographic numbers ( mostly for domestic use only ) and override prefixes .
+The current numbering plan would appear to be sufficient to cope with potential increase in demand for services for quite some time to come .
+The 06 and 09 area codes are completely unused .
+In addition , each current area code has large number " ranges " unallocated .
+When dialling from outside Australia , after dialling the appropriate International Access Code it is necessary to dial the Country Code for Australia ( 61 ) followed by the nine digit " National ' Significant ' Number " .
+( The + symbol is used to represent International Access Code ,
+e.g. +61 3 xxxx xxxx for a number in Victoria / Tasmania or +61 4xx xxx xxx for a " Mobile " number ) .
+Some numbers beginning with a 1 may be dialled without any replacement , after dialling the required International Access Code and the Country Code for Australia ( +61 ) .
+( see below )
+Australian " Local Area " numbers are of eight digits in length , conventionally written in the form xxxx xxxx .
+" Mobile " ( Cell Phone ) numbers are written in the form of ten digits in length since , when dialed within Australia , the Trunk Access Code 0 must be included , plus 4 , which indicates the Service required is a " Mobile " number .
+Mobile numbers are conventionally written 04xx xxx xxx .
+If a landline or mobile number is written where it may be viewed by an international audience ( e.g. in an email signature or on a website )
+then the number is often written as +61 x xxxx xxxx or +61 4xx xxx xxx respectively .
+GEOGRAPHIC NUMBERS Section::::Geographic numbers .
+Fixed line telephone numbers in Australia exist within four " areas " , each specified by a single digit " area code " .
+( Within Australia , to access a number in another " Area " it is necessary firstly to dial the " Trunk Access Code " of 0 , followed by the " Area Code " and then the specific " Local " number ) .
+In major centres , the first four digits specify the CCA ( Call Collection Area , also known as an " exchange " ) , and the remaining digits specify a number at that exchange , up to 10,000 of which may be connected .
+Smaller Exchanges in more remote areas may be specified by five or six " local " digits , meaning that no more than 1,000 or 100 numbers respectively could be connected to such exchanges .
+To access numbers in the same area , it is necessary only to dial the eight digits concerned .
+To access a number in another " Area " it is necessary firstly to dial the " Trunk Access Code " of 0 , followed by the area code ( 2 , 3 , 7 or 8)
+and then the specific " Local " number .
+The area codes do not exactly match State / Territory boundaries .
+Notable are the part of New South Wales around Broken Hill ( a large part of the state 's area but less than 1 % of its population ) , which uses ( 08 ) 80xx numbers , and Wodonga , which is in Victoria but is within the New South Wales ( 02 ) area code .
+Physical exchanges can be allocated one or more prefixes and modern technology allows sub - sets of these number ranges to be allocated to switching entities physically located at a distance from the " exchange " in which their controlling computer is located .
+( Thus , the concept of what is a " telephone exchange " can become somewhat blurred . )
+Landlines use an open dialling plan : if the caller 's phone shares the same area code as the called phone , the area code may be omitted .
+For example , a call from the number ( 02 ) 5551 5678 , to the number ( 02 ) 7010 1111 , will be connected if the caller dials only 7010 1111 .
+Similarly , a person who dials 7010 5678 on a land - line or mobile phone in Melbourne ( i.e. , within the 03 area ) will be connected to 03 7010 5678 .
+For this reason , landline numbers are often specified without the area code .
+If a person 's number and the destination number share the same area code , then the area code is not required , even if it is not a " local " ( untimed ) call .
+However , the " Full National Number " may always be dialled .
+In fact , the full " International Number " may always be dialled , since the Australian telephone network has the " intelligence " to recognise when the destination required is either " International " , in a different " National " area or within the " Local " area and to switch and charge the call accordingly .
+Thus , it is strongly recommended that telephone numbers should be stored in mobile phones in the form of the full " International Number " , should the owner of the phone be likely to use the phone concerned in an area away from " home " , either within Australia or internationally .
+MOBILE PHONES
+Section::::Mobile phones .
+Within Australia , mobile phone numbers traditionally begin with 04 – the Australian National " Trunk Access Code " 0 , plus the Mobile indicator 4 – followed by eight digits .
+This is generally written as 04aa bbb ccc or 04aa
+bb cc dd within Australia , or as +61 4 yyyy xxxx for an international audience .
+Whilst this format may be viewed as incorrect , it is the result of mobile carriers advertising numbers in such a way so as to clearly identify the owning telco prior to mobile number portability , introduced on 25 September 2001 .
+Prior to MNP , mobile operators generally reserved number ranges in blocks of 04aa .
+The y - digit codes are allocated per network , although with the introduction of number portability , there is no longer a fixed relationship between the mobile phone number and the network it uses .
+Within Australia , mobile numbers must always be dialled with all 10 digits , regardless of the caller 's location .
+04 is the National Trunk Access Code plus a prefix indicating the service required and not an " area code " , as such .
+In 2015 the 05 range ( other than 0550 ) was also allocated to Digital Mobile Phones as a part of the Telecommunications Numbering Plan 2015 .
+GEOGRAPHIC NUMBERS Section::::Geographic numbers .
+Geographical areas are identified by the first few digits of the local number : CENTRAL EAST REGION ( 02 )
+* 02 33 Gosford , Central Coast * 02 37 Armidale , Tamworth , Northern Tablelands
+* 02 38 Bowral , Crookwell , Goulburn , Marulan * 02 39 Griffith , Wagga Wagga , Riverina
+* 02 40 Newcastle , Lower Hunter
+* 02 41 Newcastle , Lower Hunter
+* 02
+42 Wollongong * 02 43
+Gosford , Central Coast * 02 44 Batemans Bay , Moruya , Nowra * 02 45 Windsor , Richmond
+* 02 46
+Campbelltown * 02 47 Penrith , Blue Mountains
+* 02 48 Bowral , Crookwell , Goulburn , Marulan * 02 49 Newcastle , Lower Hunter * 02 50 Albury , Corryong , Wodonga
+* 02 51 Canberra , Queanbeyan , Yass
+* 02 52 Canberra , Queanbeyan , Yass
+* 02 53 Bathurst , Orange .
+* 02 54 Bega , Merimbula , Tathra , Cooma * 02 55 Kempsey , Taree , Lord Howe Island , Muswellbrook * 02 56 Murwillumbah , Grafton , Lismore * 02 57 Armidale , Tamworth , Northern Tablelands
+* 02
+58 Bourke , Dubbo , Far West .
+* 02 59 Griffith , Wagga Wagga , Riverina * 02 60 Albury , Corryong , Wodonga
+* 02 61 Canberra , Queanbeyan , Yass
+* 02 62 Canberra , Queanbeyan , Yass
+* 02 63 Bathurst , Orange , Cowra * 02 64 Bega , Merimbula , Tathra , Cooma
+* 02 65 Port Macquarie , Kempsey , Taree , Lord Howe Island , Muswellbrook .
+* 02 66 Coffs Harbour , Grafton , Lismore
+* 02 67 Armidale , Glen Innes , Gunnedah , Inverell , Moree , Narrabri , Tamworth * 02 68 Bourke , Dubbo , Far West * 02 69 Griffith , Wagga Wagga , Riverina
+* 02 7 Sydney * 02 8 Sydney * 02 9 Sydney SOUTH - EAST REGION ( 03 ) * 03
+32 Geelong ,
+Colac *
+03 33 Ballarat *
+03 34 Bendigo * 03 40 Mildura , Balranald
+* 03 41 Traralgon , Bairnsdale * 03 42 Geelong , Colac
+* 03 43 Ballarat * 03 44 Bendigo * 03 45 Warrnambool * 03 47
+Wangaratta * 03
+48 Deniliquin , Numurkah , Shepparton
+* 03 49
+Mornington * 03
+50 Mildura , Balranald
+* 03 51 Traralgon , Bairnsdale
+* 03 52 Colac , Geelong * 03 53 Ballarat *
+03 54 Bendigo * 03
+55 Warrnambool , Casterton ,
+Portland
+* 03
+56
+Drouin , Foster , Warragul , Wonthaggi * 03 57 Wangaratta * 03
+58 Deniliquin , Shepparton * 03 59 Mornington , Pakenham , Rosebud , Warburton ,
+Yarra Ranges
+* 03 61
+Hobart * 03 62 Hobart * 03 63
+Launceston * 03
+64 Devonport , Burnie , Queenstown * 03 65 Devonport , Burnie , Queenstown
+* 03 67
+Launceston * 03 7 Melbourne * 03 8 Melbourne * 03 9 Melbourne NORTH - EAST REGION ( 07 ) * 07 2 Brisbane , Bribie Island * 07 3 Brisbane , Bribie Island *
+07 40 Cairns ,
+Far North Queensland * 07 41 Bundaberg ,
+Kingaroy * 07 42
+Cairns * 07 43 Bundaberg , Kingaroy
+* 07 44 Townsville , North Queensland * 07 45 Toowoomba , Roma , south - west
+* 07 46 Toowoomba , Roma , South West * 07 47 Townsville , North Queensland * 07 48
+Rockhampton , Mackay * 07
+49 Rockhampton , Mackay ,
+Gladstone * 07 52 Sunshine Coast , Esk , Nambour , Gatton ,
+Caboolture * 07 53 Sunshine Coast , Esk , Nambour , Gatton , Caboolture * 07 54 Sunshine Coast , Esk , Nambour , Gatton ,
+Caboolture
+* 07 55 Gold Coast , Beaudesert
+* 07 56 Gold Coast ,
+Beaudesert * 07 57 Gold Coast ,
+Beaudesert * 07 70
+Cairns , Far North Queensland
+* 07 75
+Inglewood , Toowoomba
+* 07 76
+Inglewood , Toowoomba
+* 07 77 Townsville , North Queensland * 07 79
+Rockhampton , Mackay , Gladstone CENTRAL AND WEST REGION ( 08 ) * 08
+25 Riverland , Murraylands * 08
+26 Ceduna * 08
+51 Port Hedland
+* 08 52 Perth * 08 53
+Perth * 08 54 Perth * 08 55 Bullsbrook East , Northam , Pinjarra ( Mandurah ) * 08 58
+Albany * 08 60 Kalgoorlie , Merredin , Goldfields - Esperance *
+08 61 Perth * 08 62 Perth * 08 63 Perth * 08 64 Perth * 08 65 Perth * 08
+66 Moora * 08 67 Bridgetown , Bunbury * 08 68 Albany
+* 08 69 Geraldton * 08 70 Adelaide * 08
+71 Adelaide * 08 72 Adelaide * 08 73
+Adelaide * 08 74
+Adelaide * 08
+75 Riverland , Murraylands
+* 08 76
+Ceduna * 08 77 South East * 08 78 Mid North * 08 79 Northern Territory ( Alice Springs , Darwin )
+* 08 80
+Broken Hill * 08 81 Adelaide * 08 82 Adelaide * 08 83
+Adelaide * 08 84
+Adelaide * 08 85
+Riverland ,
+Murraylands * 08 86 Ceduna * 08 87 South East
+* 08 88 Mid North * 08 89 Northern Territory ( Alice Springs , Darwin ) * 08 90 Kalgoorlie * 08 91 Derby [ inc . Cocos / Keeling & Christmas Islands . ]
+* 08 92 Perth * 08 93 Perth * 08 94
+Perth * 08 95 Bullsbrook East , Northam , Pinjarra ( Mandurah )
+* 08 96 Moora * 08 97 Bunbury , Busselton , Bridgetown ,
+Collie * 08 98 Albany
+* 08 99 Geraldton NON - GEOGRAPHIC NUMBERS MOBILE PHONE NUMBERS ( 04 , 05 ) Section::::Non - geographic numbers .
+Section::::Mobile phone numbers ( 04 , 05 ) .
+Each mobile phone company is allocated numbers in blocks , which are listed below .
+However mobile number portability means an individual number might have been " ported " .
+There are also many MVNOs which use numbers from their wholesaler or might have their own ranges .
+A search function is also available on the ACMA website SATELLITE PHONE NUMBERS ( 014 ) Section::::Satellite phone numbers ( 014 ) .
+Numbers beginning with 014 are predominantly used for satellite services .
+Parts of the 014 prefix had previously been used as a 9 digit , AMPS mobile phone access code .
+The 01471 prefix is the ten - digit replacement for the previous , nine - digit ITERRA satellite phone code 0071 xxxxx .
+Prior to its use for ITERRA ( and other satellite services ) .
+These numbers were allocated in March 1999 .
+0145xxxxxx numbers are used for services utilised on the Optus network in Australia .
+This is predominantly used for MobileSat and Thuraya mobile satellite services .
+These numbers were allocated in December 1992 : 222,000 with the rest " spare " .
+The prefixes 0141 , 0142 , 0143 , 0145 and 0147 are set aside for satellite systems ; the rest of the 014 prefix range is currently not allocated to any other service type .
+There is not a lot of demand for these services , and many satellite phones now have normal mobile phone numbers ( prefix 04 ) , so it is not likely for the entire 014 range to be allocated to satellite services .
+LOCATION INDEPENDENT COMMUNICATIONS SERVICE ( 0550 ) Section::::Location independent communications service ( 0550 ) .
+These numbers are designed for VoIP ( Voice over Internet Protocol ) systems , where they work like a fixed number but not allocated on a geographical level .
+It is possible that LICS numbers will be absorbed into mobile numbers in the future , as they provide similar features .
+Indeed , the July 2012 variation of the numbering plan allocated the rest of the 05 range to digital mobile numbering .
+DATA NUMBERS ( 0198 ) Section::::Data numbers ( 0198 ) .
+All calls to 0198 numbers are a " local call " cost like 13 and 1300 numbers but are used for internet service provider access numbers .
+They are used both with dial up modems and ISDN .
+e.g. 0198 308 888 is the Dial - Up PoP number for Telstra Internet OBSOLETE NUMBERS Section::::Obsolete numbers .
+Most numbers that are no longer used have been removed from the Telecommunications Numbering Plan 2015 , whether in previous variations or in this complete replacement .
+( See below )
+However , the 0163 prefix is still allocated for use with pagers .
+This was reduced from 016 in a variation to the previous numbering plan .
+As of March 2011 only 1000 numbers were allocated , and by the end of 2012 there were none allocated .
+NON - GEOGRAPHIC NUMBERS ( DOMESTIC USE ) Section::::Non - geographic numbers ( domestic use ) .
+The following codes are not generally dialable from international points , but used in domestic dialling : * 000 – Emergency ( Police , Fire , Ambulance ) * 106 – TTY emergency ( for the hearing - impaired ) * 11 – Community services * 1100 – Dial Before You Dig * 112 – Alternative access to Emergency Services ( Police , Fire , Ambulance ; diallable from GSM mobile phones only )
+* 119x – Information services ( e.g. 1194 is time and 1196 is weather )
+* 12 – Network services * 1221 – International faults reporting service * 1222 – Call costs and enquires service * 1223 – Directory assistance * 1225 – International directory assistance * 123x – Premium operator services ( e.g. 1234 is Sensis personal assistance ) * 124xx – Other operator services ( e.g. 12456 is Sensis Call Connect )
+*
+125xxx –
+Telstra mobile services ( e.g. 125111 is Telstra mobile customer service ) * 1268x , 1268 xxxx and 1268 xxx xxx – Internal network services * 127 – Testing numbers ( e.g. 12722123 reads your number from a Telstra line , 12723123 reads your number for an Optus line )
+( length varies ) , dial 12722199 then hang up and the call is returned by the exchange ( used to test handset functionality ) * 1282 – Call information service * 128xx – Call information service * 13
+xx xx and 1300
+xxx xxx –
+" Local Rate " calls , except for VoIP and mobile phone users * 1345 xxxx – Local rate calls ( only used for back - to - base monitored alarm systems )
+* 14xx – Carrier override prefixes ( e.g. 1411 is the override prefix for the Telstra network ; see below for details )
+* 180 xxxx and 1800 xxx xxx –
+FreeCall
+* 183x – Caller identification override prefixes ( 1831 blocks caller - id sending while 1832 unblocks caller - id sending ) * 188 xxxx – Premium SMS ( since moved to 19 range ) * 189 xx – Calling card service * 19
+xx xx and 19xx
+xxxx – Premium SMS * 190x xxx xxx – Premium rate services ( usually 1902 and 1900 )
+Some notes : *
+These numbers do not have a Trunk Access Code prefix ( 0 ) .
+* The 106 number is believed to be the first nationwide TTY emergency service in the world .
+* 13 xx xx , 1300 xxx xxx and 1800 xxx xxx numbers can provide source - based routing , used by organisations such as pizza chains that advertise one number nationwide that connects customers to their nearest store .
+*
+Virtually all FreeCall numbers in use are 1800 xxx xxx , though some organisations do use the shorter 7-digit version .
+* Some of these numbers are dialable from locations outside Australia .
+It is up to the individual owner to set this up correctly ( for 13 and 18 numbers at least )
+( e.g. +61 13x xxx )
+* 911 will not re - route to triple zero as the prefix 911x has been allocated to landlines under the current numbering plan .
+911 may redirect to 000 when using a mobile phone , like 112 , but it is not encouraged as knowledge of these numbers causes confusion EMERGENCY SERVICES NUMBERS ( 000 , 106 , 112 ) Section::::Emergency services numbers ( 000 , 106 , 112 ) .
+000 is the primary emergency telephone number in Australia .
+Secondary emergency numbers are 106 ( for use by the hearing impaired with a TTY terminal ) and the international GSM mobile emergency telephone number 112 .
+Increased awareness of the 112 emergency number in Australia has led to the potential for confusion over which number to call in an emergency .
+As a secondary emergency number , 112 is not guaranteed to work from all technologies ; most notably , it does not work from landlines .
+In order to encourage use of 000 , mobile telephones imported commercially into Australia are required to be programmed to treat 000 in the same fashion as 112
+( i.e. dialling with key lock enabled , use of any carrier , preferential routing , etc . ) .
+On older or privately imported ( e.g. roaming from another country ) telephones , 000 may not receive such preferential treatment .
+A proposed amendment to the Telecommunications ( Consumer Protection and Service Standards ) Act 1999 would prevent carriers from providing emergency services access to SIM - less devices , i.e. mobile telephones that do not have a SIM installed .
+LOCAL RATE AND FREECALL NUMBERS (
+13 , 180 ) Section::::Local Rate and FreeCall numbers ( 13 , 180 ) .
+Australia uses the free call prefix 1800 for 10 digit freecall numbers .
+This is similar to the North American or NANPA prefix 1–800 , but while in North America , the 1 is the long - distance or toll prefix and 800 is the area code ; 1800 in Australia is itself a " virtual area code " ( prior to the introduction of 8-digit numbers , the free call code was 008 ) .
+There are also seven digit freecall numbers beginning with 180 – the only numbers currently allocated begin with 1802 .
+The 13 and 1300 numbers are known as Local Rate Numbers or SmartNumbers .
+They are also known as priority 13 , and priority 1300 numbers .
+These work across large areas ( potentially the whole of Australia ) and charge the caller only a low cost , routing the call to the appropriate place in a given area .
+For example , a company could have the number 139999 and have the telephone company set it up so that calls made in Melbourne would route to their Melbourne number , calls made in Brisbane to their Brisbane number , and calls made anywhere else in Australia route to their Sydney number , all at a local charge cost to the caller .
+13 numbers were not available before the introduction of the current 8-digit local numbering plan .
+Businesses looking for local callers tend to connect to a " 1300 " number .
+Note that these numbers are called " Local Rate " and not " Local " numbers , so do not necessarily cost the same as a local call :
+Indeed , many ( landline and mobile ) phone plans do not even include them in the " included " credit and/or charge them at a higher rate than " normal " numbers .
+Though promoted as " local call rate " calls , calls to 13 and 1300 numbers cost more than a local call fee for those people using VoIP and having all local and national calls free . 1800 , 1300 and 13 numbers are reverse charge networks .
+Other than the length of the number , the differences between a 13 number and a 1300 number is that the shorter number has a higher fee for the owner of the number : there should be no difference in cost to the caller .
+A call to an 1800 is free when dialled from a landline , and mobile phones since 2014 .
+It depends on the individual mobile plan as how 13 and 1300 numbers are charged : all plans no longer charge for 1800 but 13 and 1300 may still be charged at a high rate , or outside included calls .
+These numbers " forward " to a geographic or mobile number .
+The recipient is usually charged at a set rate per second for each call , depending on plan and destination .
+PREMIUM NUMBERS ( 19 ) Section::::Premium numbers ( 19 ) . 190x ( not to be confused with 0198 ) is the prefix for premium rate services ( e.g. recorded information , competition lines , psychics , phone sex , etc . ) .
+( Prior to the introduction of 8-digit local numbers , the prefix was 0055 . )
+190 numbers incur a rate as charged by the provider – either at a per - minute rate ( limited at $ 5.50 per minute ) or a fixed rate ( up to $ 38.50 per call ) .
+The latter method is most often used for fax - back services , where a timed charge is not appropriate .
+Costs of 190 calls for competitions involving chance are also often limited by state legislation to $ 0.55 per call .
+( In the previous numbering plan , 0055 numbers were limited to three bands : Premium Rate , Value Rate and Budget Rate , with per minute rates of $ 0.75 , $ 0.60 and $ 0.40 respectively . )
+Other numbers beginning with 19 are used for premium - rate SMS services .
+These were originally trialled using the 188 prefix .
+These can range from a standard SMS cost ( usually 25c ) , up to 55c for competition use , to several dollars for other uses , such as unique bid auctions .
+INTERNATIONAL ACCESS DEFAULT ( 0011 )
+Section::::International access .
+Section::::Default ( 0011 ) .
+The main international prefix is 0011 .
+( E.164 international format is supported from phones with the ability to dial the ' + ' symbol . )
+OTHERS Section::::Others .
+There are other codes for using a non - default carrier or a special plan :
+* 0014 will route through the Primus network * 0015 will use the Telstra network on a special mode for international faxing .
+* 0019 will use the Optus network * Other 4 and 5 digit prefixes beginning with 001 ( and even 009 ) are available but have not been allocated .
+However , carrier selection codes ( 14xx ) are now also used , and carrier pre - selection is widely used .
+OVERRIDE PREFIXES PROVIDER OVERRIDE CODES ( 14 )
+Section::::Override prefixes .
+Section::::Provider override codes ( 14 ) .
+These four - digit numbers are dialled before the destination number to complete and bill a call by a carrier other than the subscriber 's service provider .
+For example , to use AAPT to call a number in Tokyo , Japan , subscribers would dial 1414 0011
+81 3 xxxx xxxx , or to use Optus to call a Perth
+they would dial 1456
+08 xxxx xxxx .
+It is not clear if all these prefixes will actually work .
+* 1410 –
+Telstra * 1411 – Telstra * 1412 – Chime * 1413 – Telstra * 1414 – AAPT * 1415 – Vodafone * 1422 – Premier Technologies * 1423 – Soul Pattinson * 1428 – Verizon Australia * 1431 – Vodafone Hutchison * 1434 – Symbio Networks * 1441 – Soul Pattinson * 1447 –
+TransACT * 1450
+– Pivotel * 1455 – Netsip * 1456 – Optus
+* 1464 – Agile * 1466 – Primus * 1468 – Telpacific * 1469 – Lycamobile * 1474 – Powertel * 1477 – Vocus * 1488 – Symbio Networks * 1499 – VIRTUTEL SUPPLEMENTARY CONTROL SERVICE ( 183 )
+WORKS FROM BOTH
+LANDLINE AND MOBILE * 1831 –
+Block caller - id sending * 1832 –
+Unblock caller - id sending CALLER IDENTIFICATION CONTROL , ON A CALL BY
+CALL BASIS –
+MOBILE ONLY * 31
+# – Block caller - id sending , for this call , then dial the number you are calling .
+* * 31 # – Unblock caller - id sending , for this call , then dial the number you are calling .
+Section::::Caller identification control , on a Call by Call basis – mobile only .
+Unlike the feature codes below , these caller - id prefixes work with all / most carriers .
+OTHER NUMBERS AND CODES FEATURE CODES – TELSTRA Section::::Other numbers and codes .
+Section::::Feature codes – Telstra .
+These codes are only true for Telstra - infrastructure based landline phones
+* Call waiting
+* *
+# 43 # – Check call waiting status
+* * 43
+# – Enable call waiting *
+# 43 # – Disable call waiting
+* * 44 – Dial before a number to disable call waiting for the call duration ( Enabled on Ericsson ' AXE ' and Alcatel ' S12 ' based exchanges )
+* Call forward – immediate *
+* # 21 # – Check Call Forward Immediate Status
+* * 21 [ forward number ]
+# – Enable Call
+Forward Immediate on all incoming calls
+* # 21 # – Disable Call
+Forward Immediate
+* Call forward – busy
+* * # 24 # – Check Call
+Forward
+Busy
+Status
+* * 24 [ forward number ]
+# – Enable Call Forward
+when line is Busy for incoming calls
+* # 24 # – Disable Call Forward
+Busy *
+Last call return
+* * 10 # – Check last missed call * 0
+# – Redial
+last number ( This is only enabled on Ericsson based Exchanges ) * Call control
+* * 30 [ old pin ]
+* [ new pin ]
+*
+[ new pin ]
+# – Setup / change current Call Control PIN
+*
+* # 33 # – Check Call Control Status
+* * 33 [ pin ]
+# – Enable Call Control on line * # 33 [ pin ]
+# – Disable Call Control on line TEST NUMBERS
+* Telstra Landline Test numbers
+* 12722123
+– Playback the last connected or current landline number ( add 1832 in front for private numbers )
+* 12722199 – Ringback
+the current landline number * Optus landline test numbers * 1272312 – Playback the last connected or current landline number * 1272399 – Ringback the current landline number
+*
+From other subscribers including VoIP providers
+* 1800801920
+– Playback the last connected or current landline number
+* Other * 12711
+– Current long - distance Carrier Name HISTORIC NUMBERING PLANS 2010S Section::::Historic numbering plans . Section::::2010s .
+A lot of old numbers were officially removed from the Telecommunications Numbering Plan in the 2015 version , whether in the replacement version or a previous variation .
+* 018 AMPS phone numbers are completely removed .
+* 0500 Personal Numbers are removed .
+* Unused prefixes such as 114 mass calling service are removed .
+1990S Section::::1990s .
+0055 numbers were previously premium - rate numbers , but have been moved into 190 numbers before 1999 .
+They are still referenced by many Australians .
+The original toll - free area code was 008 , but the format was changed to 1800 .
+Directory assistance used various numbers : 013 for local calls , 0175 for other national calls , and 0103 for international .
+The two domestic numbers have been replaced with 1223 , while 0103 has been replaced with 1225 .
+Other numbers for directory assistance , often with a call connection option , exist depending on the carrier .
+0011 was initially the code for the operator , which later became the international exit code .
+014 was originally the number for the time , ( later 1104 ) , which was changed to 1194 in 1976 .
+0176 was previously the reverse - charge call operator , which has been moved to 12550 .
+Alternatively 3rd - party companies exist .
+See 1960S Section::::1960s .
+Up to this time , the maximum size of an Australian telephone number was six digits .
+This former alphanumeric scheme was that , until the early 1960s , the first one or two digits of telephone numbers in metropolitan areas were alphabetic , with each letter representing a distinct number on the telephone dial .
+Each one - letter or two - letter code signified an exchange within an urban area .
+Rural and regional areas typically relied on manual exchanges , or only one automatic exchange for the whole town , so rural and regional numbers did not feature these letter prefixes .
+The first one or two digits of any telephone number in Metropolitan areas were " Alphabetic " , with each letter representing a distinct number on the telephone dial .
+Each one - letter or two - letter code actually signified an exchange within an urban area .
+Rural and regional areas typically relied on manual exchanges , or only one automatic exchange for the whole town , so rural and regional numbers did not usually feature these letter prefixes .
+Unlike the three ( or fewer ) " Letters " associated with each of the " Numbers " on the dials of telephones of the UK Director telephone system , which was used in London and other large British cities , Australia used a system of " Letters " associated with the 10 digits available on a telephone dial , where each of these " Letters " were chosen because their " Name " ( when pronounced , in English ) could not be confused with any of the other nine letters of the English / Latin alphabet which were also used .
+Since the initial digits of 1 and 0 ( ten ) were not used , this gave the telephone company concerned up to 8 Regions with " Main " exchanges and up to ten " Sub - exchanges " in each Metropolitan area – a total of up to 80 individual exchanges of 10,000 numbers in each with up to only 800,000 individual " numbers " in any " Metropolitan " area concerned .
+( Hence , the obvious need for a seven or eight digit numbering system , to allow for more " numbers " within a given area .
+Because of the growth of the telephone network , Australia now has 8 digit telephone numbers within 4 " Areas " . )
+Please note that this former alphanumeric scheme was significantly different from the current system used for SMS messages .
+The former alphanumeric scheme was : * A = 1 ; * B = 2 ; * F = 3 ; * J = 4 ; * L = 5 ; * M = 6 ; * U = 7 ; * W = 8 ; * X = 9 ; * Y = 0
+The letters did not relate to any exchange name .
+For example , the exchange prefix for Essendon was FU ( which translated to 37 and later became the 37x
+[ then 937x ] exchange used by the whole City of Essendon [ which became the City of Moonee Valley in late 1994 ] ) .
+Although Melbourne city numbers began with 6 , it was only rarely , and probably by accident , that any other exchanges had matching letters .
+Numbers using the old alphanumeric scheme were written as ab.xxxx , for example FU 1234 ( the actual train of digits sent to the phone was " 371234 " ) or MW 5550 ( 685550 ) .
+Seven - digit numbers started appearing as early as 1960 , and were all numerical from the start .
+There were still some six - digit numbers in Melbourne as late as 1989 , but by the 1990s , they all had been converted to seven - digit numbers .
+Footscray used 6-digit numbers in exchange code 68 until 1987 , when they were changed to 687 or 689 .
+The old call back number was 199 , and could be used on public pay phones , and private numbers too .
+This has been moved to a new number 12722199 .
+SEE ALSO
+* Former Australian dialling codes
+* Telecommunications in Australia
+REFERENCES
+* ITU allocations list
+EXTERNAL LINKS
+* List of Telephone Exchanges
+* Excel file of exchange prefixes via Telstra Wholesale site * Telecommunications Numbering Plan 1997 * Telecommunications Numbering Plan 2015 * All Areas by Prefix ( archive.org snapshot of old version of official site )
+*
+All Areas by Prefix ( official site )
+* Phone number meanings ( official site )
+* Australia dialing codes

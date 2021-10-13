@@ -1,0 +1,55 @@
+RECOMBINATION - ACTIVATING GENE
+The recombination - activating genes ( RAGs ) encode enzymes that play an important role in the rearrangement and recombination of the genes of immunoglobulin and T cell receptor molecules , however there is no evidence to suggest the developing T cells can undergo receptor editing in the same way that B cells do .
+There are two recombination - activating gene products known as RAG-1 and RAG-2 , whose cellular expression is restricted to lymphocytes during their developmental stages .
+RAG-1 and RAG-2 are essential to the generation of mature B and T lymphocytes , two cell types that are crucial components of the adaptive immune system .
+FUNCTION Section::::Function .
+In the vertebrate immune system , each antibody is customized to attack one particular antigen ( foreign proteins and carbohydrates ) without attacking the body itself .
+The human genome has at most 30,000 genes , and yet it generates millions of different antibodies , which allows it to be able to respond to invasion from millions of different antigens .
+The immune system generates this diversity of antibodies by shuffling , cutting and recombining a few hundred genes ( the VDJ genes ) to create millions of permutations , in a process called V(D)J recombination .
+RAG-1 and RAG-2 are proteins at the ends of VDJ genes that separate , shuffle , and rejoin the VDJ genes .
+This shuffling takes place inside B cells and T cells during their maturation .
+RAG enzymes work as a multi - subunit complex to induce cleavage of a single double stranded DNA ( dsDNA ) molecule between the antigen receptor coding segment and a flanking recombination signal sequence ( RSS ) .
+They do this in two steps .
+They initially introduce a ' nick ' in the 5 ' ( upstream ) end of the RSS heptamer ( a conserved region of 7 nucleotides ) that is adjacent to the coding sequence , leaving behind a specific biochemical structure on this region of DNA : a 3'-hydroxyl ( OH ) group at the coding end and a 5'-phosphate ( PO ) group at the RSS end .
+The next step couples these chemical groups , binding the OH - group ( on the coding end ) to the PO - group ( that is sitting between the RSS and the gene segment on the opposite strand ) .
+This produces a 5'-phosphorylated double - stranded break at the RSS and a covalently closed hairpin at the coding end .
+The RAG proteins remain at these junctions until other enzymes ( notably , TDT ) repair the DNA breaks .
+The RAG proteins initiate V(D)J recombination , which is essential for the maturation of pre - B and pre - T cells .
+Activated mature B cells also possess two other remarkable , RAG - independent phenomena of manipulating their own DNA : so - called class - switch recombination ( AKA isotype switching ) and somatic hypermutation ( AKA affinity maturation ) .
+Current studies have indicated that RAG-1 and RAG-2 must work in a synergistic manner to activate VDJ recombination .
+RAG-1 was shown to inefficiently induce recombination activity of the VDJ genes when isolated and transfected into fibroblast samples .
+When RAG-1 was cotransfected with RAG-2 , recombination frequency increased by a 1000-fold .
+This finding has fostered the newly revised theory that RAG genes may not only assist in VDJ recombination , but rather , directly induce the recombinations of the VDJ genes .
+STRUCTURE
+Section::::Structure .
+As with many enzymes , RAG proteins are fairly large .
+For example , mouse RAG-1 contains 1040 amino acids and mouse RAG-2 contains 527 amino acids .
+The enzymatic activity of the RAG proteins is concentrated largely in a core region ; Residues 384–1008 of RAG-1 and residues 1–387 of RAG-2 retain most of the DNA cleavage activity .
+The RAG-1 core contains three acidic residues ( D , D , and E ) in what is called the DDE motif , the major active site for DNA cleavage .
+These residues are critical for nicking the DNA strand and for forming the DNA hairpin .
+Residues 384–454 of RAG-1 comprise a nonamer - binding region ( NBR ) that specifically binds the conserved nonomer ( 9 nucleotides ) of the RSS and the central domain ( amino acids 528–760 ) of RAG-1 binds specifically to the RSS heptamer .
+The core region of RAG-2 is predicted to form a six - bladed beta - propeller structure that appears less specific than RAG-1 for its target .
+Cryo - electron microscopy structures of the synaptic RAG complexes reveal a closed dimer conformation with generation of new intermolecular interactions between two RAG1-RAG2 monomers upon DNA binding , compared to the Apo - RAG complex which constitutes as an open conformation .
+Both RAG1 molecules in the closed dimer are involved in the cooperative binding of the 12-RSS and 23-RSS intermediates with base specific interactions in the heptamer of the signal end .
+The first base of the heptamer in the signal end is flipped out to avoid the clash in the active center .
+Each coding end of the nicked - RSS intermediate is stabilized exclusively by one RAG1-RAG2 monomer with non - specific protein - DNA interactions .
+The coding end is highly distorted with one base flipped out from the DNA duplex in the active center , which facilitates the hairpin formation by a potential two - metal ion catalytic mechanism .
+The 12-RSS and 23-RSS intermediates are highly bent and asymmetrically bound to the synaptic RAG complex with the nonamer binding domain dimer tilts towards the nonamer of the 12-RSS but away from the nonamer of the 23-RSS , which emphasizes the 12/23 rule .
+Two HMGB1 molecules bind at each side of 12-RSS and 23-RSS to stabilize the highly bent RSSs .
+These structures elaborate the molecular mechanisms for DNA recognition , catalysis and the unique synapsis underlying the 12/23 rule , provide new insights into the RAG - associated human diseases , and represent a most complete set of complexes in the catalytic pathways of any DDE family recombinases , transposases or integrases .
+EVOLUTION Section::::Evolution .
+Based on core sequence homology , it is believed that the RAG-1 protein evolved from a transposon of the Transib superfamily .
+Although the transposon origins of these genes are well - established , there is still no consensus on when the ancestral RAG1/2 became present in the vertebrate genome .
+Because agnathans ( a class of jawless fish ) lack a core RAG1 element , it was traditionally assumed that RAG1 invaded after the agnathan / gnathostome split 1001 to 590 million years ago ( MYA ) .
+However , the core sequence of RAG1 has been identified in the echinoderm Strongylocentrotus purpuratus ( purple sea urchin ) , the amphioxi Branchiostoma floridae ( Florida lancelet ) .
+Sequences with homology to RAG1 have also been identified in Lytechinus veriegatus ( green sea urchin ) , Patiria minata ( sea star ) , and the mollusk Aplysia californica .
+These findings indicate that the Transib family transposon invaded multiple times in non - vertebrate species , and invaded the ancestral jawed vertebrate genome about 500 MYA .
+It should also be noted that RAG1/2 is only found in gnathostomes , and not in agnathans .
+It is currently hypothesized that the invasion of RAG1/2 is the most important evolutionary event in terms of shaping the gnathostome adaptive immune system vs. the agnathan variable lymphocyte receptor system .
+SELECTIVE PRESSURE
+Section::::Selective pressure .
+It is still unclear what forces led to the development of a RAG1/2-mediated immune system exclusively in jawed vertebrates and not in any invertebrate species that also acquired the RAG1/2-containing transposon .
+Current hypotheses include two whole - genome duplication events in vertebrates , which would provide the genetic raw material for the development of the adaptive immune system , and the development of endothelial tissue , greater metabolic activity , and a decreased blood volume - to - body weight ratio , all of which are more specialized in vertebrates than invertebrates and facilitate adaptive immune responses .
+SEE ALSO
+* Omenn syndrome * Severe combined immunodeficiency REFERENCES FURTHER READING EXTERNAL LINKS *
+A simple explanation of recombination activating gene for the general reader .

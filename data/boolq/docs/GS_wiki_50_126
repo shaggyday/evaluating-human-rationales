@@ -1,0 +1,317 @@
+MAGIC : THE GATHERING RULES BEGINNING AND ENDING THE GAME Section::::Beginning and ending the game .
+Each player uses their own deck to play the game .
+In most formats , a deck must have a minimum of 60 cards ; there is no maximum deck size , as long as you can shuffle your deck without assistance .
+With lands , most people stick to 17 - 24 depending on deck size .
+If players have cards that cost large amounts of mana , they usually add more lands to their deck .
+Some have exceptions or additional limitations to the above rules .
+In tournaments , players may be allowed the use of a sideboard containing up to 15 cards .
+Sideboard cards can be swapped for cards in the main deck in between games against the same opponent .
+At the beginning of a game , each player shuffles his or her deck .
+Players then decide who will start , using any mutually agreeable method ( flipping a coin , for example ) .
+Each player then draws seven cards from his or her deck , otherwise known as a library , in order to form his or her starting hand .
+In turn order , each player may then decide to mulligan ; that player shuffles his or her hand and library together and draws a new hand of one fewer card .
+A player can do this all the way down to a zero - card hand if he or she wishes , drawing one fewer card each time .
+In multiplayer games , players can mulligan for free one time , drawing seven cards a second time .
+Any further mulligans draw one card fewer each time , as normal .
+A player wins the game by eliminating all opponents .
+Players typically begin the game with 20 life and lose when any of the following conditions are met :
+* That player has 0 or fewer life * That player is required to draw a card but has no cards left in his or her library
+* That player has 10 or more poison counters ( although cards that apply poison are not printed frequently )
+* That player concedes
+* Specific cards may also dictate ( or prevent ) other ways of winning or losing the game ZONES Section::::Zones .
+At any given time , every card is located in one of the following " zones " : Library :
+The portion of the player 's deck that is kept face down and is normally in random order ( shuffled ) .
+When drawing a card , it is always the top card of the library .
+This is often erroneously referred to as a player 's deck .
+However , the rules of Magic state that all cards in play ( on the battlefield ) , in a player 's hand , in the graveyard , exiled by any means , and even in the sideboard technically make up the player 's " deck " .
+Hand : A player 's hand of cards that can be played .
+They are kept hidden from other players .
+If a player has more than seven cards in hand at the end of his or her turn , any extras must be discarded .
+Battlefield : The zone where permanents ( see Types of cards ) are placed and stay until otherwise removed .
+Unlike other zones , the battlefield is shared by all players .
+Graveyard : A player 's discard pile .
+When a card on the battlefield is destroyed , a card is discarded from hand , or after a single - use card is used ( such as an instant or sorcery card ) , it is put in its owner 's graveyard .
+These cards are face up , and can be examined by any player at any time .
+The stack : This is the place for spells and abilities that have been cast or played , but have not yet resolved .
+While there are any spells or abilities on the stack , no player may play any spells that are not instants or allowed to be played as instants .
+This zone is also shared by all players .
+See the stack .
+Playing a land does not use the stack .
+Exile :
+Cards that have been exiled by specific effects are put here .
+Unless a card says otherwise , cards in this zone are face - up .
+Comparatively few cards and abilities affect cards in the exile zone .
+Command :
+Used mainly in some variant formats of play , cards that have a special status or abilities within the game are kept here .
+Examples are the " scheme " cards used in or " plane " cards used for a Planechase game .
+Cards in the Command Zone can be affected by virtually nothing that affects cards in the other zones .
+PAYING COSTS TAPPING AND UNTAPPING Section::::Paying costs .
+Section::::Tapping and untapping .
+Some spells or abilities require the player to tap a permanent as part of their cost .
+To indicate that a card in play has been tapped , it is turned sideways .
+An ability or spell that requires tapping can not be used if the permanent is already tapped .
+Furthermore , a tapped creature can not be declared as an attacker or blocker .
+Instead of a cost , tapping can also be the effect of a spell or ability .
+In such a case , it makes no difference if that permanent was already tapped .
+A creature that attacks also gets tapped , unless it has vigilance , but a defending creature does not .
+Unless stated otherwise , tapping does not stop continuous abilities ( e.g. enchantments or equipments ) or triggered abilities from taking effect , nor does it disallow the use of abilities that do not require tapping .
+At the beginning of each player 's turn , that player untaps all cards he or she controls ( unless otherwise stated by a card 's effect ) and can be tapped again as normal .
+MANA Section::::Mana .
+When a player uses an ability that produces mana , that mana is put in his or her " mana pool " .
+There are five colors of mana : white , blue , black , red and green .
+Mana can also be colorless .
+Mana in the mana pool can be used to pay costs .
+For example , a player plays a , then taps that swamp to add 1 black mana to his mana pool .
+Then , he uses that mana to cast .
+Dark Ritual adds 3 black mana to that player 's mana pool .
+He then uses two black mana to cast , which costs 1 generic and 1 black mana ( 1B ) .
+The player has now used two of the three black mana in his mana pool .
+The one left over is " floating " , meaning it can be used any time during the remainder of the phase .
+Any floating mana left over when a player proceeds to the next phase is depleted .
+MANA COSTS AND COLORS Section::::Mana costs and colors .
+Most cards other than lands have a mana cost .
+This is the amount of mana that must be spent to cast that card as a spell .
+Each mana symbol in the top right corner of the card represents one mana of that color that must be paid .
+A number in a gray circle next to the mana symbols represents how much additional generic mana must be paid ; this additional mana can be of any color or colorless .
+For example , the cards , , and all cost three mana .
+However , the first card requires three black mana , while the last can be paid for with three mana of any color or combination of colors .
+The middle two cards require two and one mana , respectively , that must be black ; the remainder can be any color .
+Note that the first three cards are black , but Whispersilk Cloak is colorless .
+Some cards may require their owner to pay mana of two or more colors .
+These cards are multicolored .
+Some multicolored cards also use hybrid mana , which can be paid with one of two different colors .
+For example , the card can be cast by spending either two black , two green , or one black and one green mana .
+Some cards have costs which can be paid with any color of mana , but are cheaper when a color requirement is met .
+For example , costs either three black mana , two black and two other , one black and four other , or six mana of any color .
+In all cases , a card 's color is determined by the mana symbols in its cost , and not by the specific mana used to cast it .
+ABILITIES Section::::Abilities .
+There are four general categories of abilities :
+Spell abilities are abilities that are followed as instructions while an instant or sorcery spell is resolving .
+Any text on an instant or sorcery spell is a spell ability unless it 's an activated ability , a triggered ability , or a static ability that fits the criteria described in rule 112.6 .
+Activated abilities have a cost and an effect .
+They are written as " [ Cost ] : [ Effect . ]
+[ Activation instructions ( if any ) . ] " A player may activate such an ability whenever he or she has priority .
+Doing so puts it on the stack , where it remains until it 's countered , it resolves , or it otherwise leaves the stack .
+See rule 602 , " Activating Activated Abilities " .
+Triggered abilities have a trigger condition and an effect .
+They are written as " [ Trigger condition ] , [ effect ] " , and begin with the word " when " , " whenever " , or " at " .
+Whenever the trigger event occurs , the ability is put on the stack the next time a player would receive priority and stays there until it 's countered , it resolves , or it otherwise leaves the stack .
+See rule 603 , " Handling Triggered Abilities " .
+Static abilities are written as statements .
+They 're simply true , and do not use the stack .
+Static abilities create continuous effects which are active while the permanent with the ability is on the battlefield and has the ability , or while the object with the ability is in the appropriate zone .
+See rule 604 , " Handling Static Abilities " .
+TYPES OF CARDS Section::::Types of cards .
+All objects that remain on the battlefield are called permanents .
+Types of permanents include lands , creatures , enchantments , artifacts , and planeswalkers .
+In contrast , sorceries and instants go to the graveyard immediately after they are used .
+LANDS Section::::Lands .
+Land cards tap to produce mana that is used to cast spells and activate abilities .
+They cost no mana to play ; however , a player may play no more than one land per turn , and only during the main phase of his or her own turn .
+There are six types of basic lands ( Plains , Island , Swamp , Mountain , Forest , and Wastes ) , one for each color ( plus Wastes for colorless ) .
+These lands can each be tapped to produce one mana of the appropriate color .
+Other lands are non - basic and may produce other combinations or amounts of mana , or may have other abilities .
+Lands are not spells and can not be countered .
+Playing a land does not use the stack and therefore occurs immediately , with no way for any player to stop it .
+Players are allowed to have any number of basic lands in a deck , but nonbasic lands follow the usual restriction of four copies of any one card per deck .
+CREATURES Section::::Creatures .
+Creatures represent people or beasts that are summoned to the battlefield to attack opposing creatures or players and defend their controller from the attacks of enemy creatures .
+They normally can not attack or use an ability with the " tap symbol " on the first turn they enter the battlefield .
+This is known as " summoning sickness " .
+A creature with summoning sickness can block opposing creatures .
+Creatures have two values that represent their strength in combat , printed on the lower right - hand corner of the card .
+The first number is the creature 's power , the amount of damage it deals in combat .
+The second number is its toughness ; if it receives that much damage in a single turn , the creature is not destroyed but is still placed in the graveyard .
+Creatures usually have at least one creature type , located after the word " creature " in the type line .
+Creature types are simply markers and have no inherent abilities ; for example , having the Bird type does not automatically give a creature the " flying " ability .
+Some non - creature cards have the " Tribal " type , which allows them to have creature types without being creatures themselves .
+ENCHANTMENTS
+Section::::Enchantments .
+Enchantments represent persistent magical effects ; they are spells that remain on the battlefield and alter some aspect of the game .
+Some enchantments are attached to other cards on the battlefield ( often creatures ) ; these are known as Auras .
+They describe what they can be attached to in their " Enchant " ability .
+For example , an Aura with " Enchant green creature " can only be attached to a green creature .
+If the card an Aura is attached to leaves the battlefield , or stops matching the Enchant ability , the Aura goes to the graveyard .
+Early in Magic , there was a subset of enchantments known as " World Enchantments " that effected all players equally ( for example , forcing them to play with their top card of their library revealed ) .
+Such enchantments no longer need to carry the " World " designations .
+Later , Tribal Enchantments ( Enchantments with creature types ) were introduced , as were Curses , enchantments that targeted one player specifically .
+ARTIFACTS Section::::Artifacts .
+Artifacts represent magical items , animated constructs , pieces of equipment , or other objects and devices .
+Like enchantments , artifacts remain on the battlefield until something removes them .
+Many artifacts are also creatures ; artifact creatures may attack and block as other creatures , and are affected by things that affect creatures .
+Some artifacts are Equipment .
+Equipment cards enter the battlefield just like any other artifact , but may be attached to creatures using their Equip ability .
+This ability may only be used at the same time a player would be able to play a sorcery ( i.e. only during the main phase of the player who controls it ) .
+The player who controls the Equipment pays the Equip cost and attaches it to a creature he or she also controls , unattaching it from any creature it was already attached to .
+In this way , the Equipment may be " unequipped " from a creature by paying the Equip cost and moving it to another creature .
+However , it may not be " unequipped " by choosing no creature ; if for any reason the Equip ability can not move the Equipment , it remains attached to its current creature .
+Like Auras , if control of the equipped creature changes , control of the Equipment does not change , nor is it unequipped .
+Unlike Auras , if an equipped creature is destroyed or otherwise leaves the battlefield , the Equipment stays on the battlefield unattached to anything ; its controller can still attach it to a different creature by activating the Equip ability again .
+You can only equip equipment to creatures you control .
+PLANESWALKERS Section::::Planeswalkers .
+Planeswalkers are extremely powerful spellcasters that can be called upon for aid .
+According to Magic lore , the player is a " planeswalker " , a wizard of extraordinary power who can travel ( " walk " ) between different realms or universes ( " planes " ) ; as such , planeswalker cards are meant to represent scaled - down versions of other players , with their decks represented by the card 's abilities , and originally were designed to move through a roster of effects without player control , as though they had a mind of their own .
+Each planeswalker has a planeswalker type , which is a truncated version of his or her name .
+Only one version of a planeswalker card may be on the battlefield at one time .
+If two or more copies of the same planeswalker card are on the battlefield , their owner chooses one and the other is put into the owner 's graveyards , though the rule was changed in Magic 2014 allowing two or more planeswalkers with the same type to exist on the battlefield if not controlled by the same player .
+Starting with Ixalan , all planeswalkers past , present , and future gained the supertype legendary and became subject to the " legend rule " .
+Thus , if a player controls more than one legendary planeswalker with the same name , that player chooses one and puts the other into their owner 's graveyard .
+Planeswalkers ' abilities are based on their loyalty , which is tracked with counters .
+The number printed in the lower right corner indicates how many loyalty counters the planeswalker enters the battlefield with .
+Planeswalkers ' loyalty abilities each have a positive or negative loyalty cost ; this is how many counters must be added ( if positive ) or removed ( if negative ) to activate that ability .
+Abilities with negative loyalty costs may only be activated if there are enough loyalty counters to remove .
+Regardless of the loyalty costs , a single planeswalker may only use one loyalty ability once per turn , and only on its controller 's turn during his or her main phase .
+Note that planeswalkers are neither creatures nor players , so most spells and abilities can not target them directly .
+There are , however , two ways to deal damage to a planeswalker .
+If a player uses any spell or ability that would deal damage to an opponent , the player may instead choose to deal the damage to one of that opponent 's planeswalkers .
+Additionally , if a player attacks an opponent who controls a planeswalker , the player may declare any or all of the attacking creatures to be attacking the planeswalker instead .
+Those creatures may be blocked normally , but if not blocked deal damage to the planeswalker instead of the player .
+Whenever damage is dealt to a planeswalker , that many loyalty counters are removed from it .
+A planeswalker with no loyalty counters , either through use of its abilities or through damage , is put into the player 's graveyard .
+SORCERIES AND INSTANTS Section::::Sorceries and instants .
+Sorceries and instants both represent one - shot or short - term magical spells .
+They never enter the battlefield .
+Instead , they take effect and then are immediately put into their owner 's graveyard .
+Sorceries and instants differ only in when they can be cast .
+Sorceries may only be cast during the player 's own main phase , and only when the stack is empty .
+Instants , on the other hand , can be cast at any time , including during other players ' turns and while another spell or ability is waiting to resolve ( see timing and the stack ) .
+In sets released prior to 1999 , a third type of one - shot spell card existed called Interrupts .
+Interrupts functioned similar to instants but altered how the stack was resolved .
+Interrupts received an errata which stated that , from that point forward , interrupts were treated exactly the same as instants .
+PARTS OF A TURN BEGINNING PHASE Section::::Parts of a turn .
+Section::::Beginning phase .
+The beginning phase is composed of three parts , or " steps " .
+The first thing a player does is untap
+all cards he or she controls in the " untap step " .
+Then , any abilities that trigger on the " upkeep step " happen , starting with the player of the current turn .
+These often include cards that require mana payments every turn .
+Then the player draws a card in the " draw step " .
+In two - player games , the player who takes the first turn does not draw a card for that turn .
+No player receives priority during the untap step , meaning that no cards or abilities can be played at that time .
+During the upkeep and draw steps , however , players can cast instants and activate abilities as normal .
+FIRST MAIN PHASE
+Section::::First main phase .
+The main phase occurs immediately after the draw phase .
+During the main phase , a player may play any card from his or her hand unless that card specifies otherwise , and as long as he or she has the mana to pay its casting cost .
+This means creature , planeswalker , sorcery , instant , land , enchantment , and artifact cards are all acceptable to play .
+This is a player 's chance to bring something onto the field .
+Usually , players will start their main phase by playing a land .
+Then , as long as they have the mana to pay the casting cost , they will play any number of cards from their hand , reading the card 's name so that other players may hear .
+Once a player is ready to attack , he or she may end their main phase by declaring that the combat phase has started , or by simply attacking with their creatures .
+COMBAT PHASE Section::::Combat phase .
+The combat phase is split into four steps .
+It represents a point in the magical duel where the active player sends his or her creatures to attack the opposing player , in the hopes of doing damage to the player or the player 's creatures .
+Aside from instants , activated abilities , and spells that are specifically noted as being able to be played at any time ( i.e. , creatures with flash ) , players may not cast spells during combat .
+Multiple creatures may attack at the same time , but the turn player may only declare their list of attackers once .
+BEGINNING OF COMBAT Section::::Beginning of combat .
+No specific actions take place at the beginning of combat step .
+This step mainly exists to allow players to cast spells and activate abilities that may alter how combat progresses .
+As the most common example , only untapped creatures may attack , so the defending player may cast instants or activate abilities that will tap a creature , preventing it from attacking .
+DECLARE ATTACKERS Section::::Declare attackers .
+The player whose turn it is declares which creatures he or she controls will attack .
+In most cases , creatures that are tapped , or that entered the battlefield this turn ( i.e. , creatures with summoning sickness ) may not attack .
+Attacking causes a creature to become tapped .
+Both players are given a chance to cast instants and activate abilities after attackers have been declared .
+DECLARE BLOCKERS Section::::Declare blockers .
+After the attacking player declares attackers , the defending player chooses which creatures he or she will block with .
+A creature must be untapped in order for it to block .
+Unlike attacking , the act of blocking does not cause the blocking creatures to tap , and creatures with summoning sickness can block .
+Each creature can only block a single attacker , but the defending player may choose to block an attacking creature with more than one creature .
+Both players are given a chance to cast instants and activate abilities after blockers have been declared .
+If the blocker decides to combine defenses , the attacker gets to decide how attack points are distributed between the combined cards .
+END OF COMBAT Section::::End of combat .
+Like the beginning of combat , nothing normally happens during this .
+Then the phase ends .
+SECOND MAIN PHASE Section::::Second main phase .
+After the combat phase there is another main phase .
+The second main phase is identical to the first , except you can not put down land unless you did not in your first main phase .
+ENDING PHASE
+Section::::Ending phase .
+The ending phase has two steps : " end step " and " cleanup " .
+During the end step , abilities that trigger " at the beginning of the end step " go on the stack .
+This is the last chance players have to cast instants or activate abilities this turn .
+During the cleanup step , the active player discards down to his or her maximum hand size(usually 7 ( seven ) ) , then simultaneously , all damage marked on permanents is removed and all " until end of turn " and " this turn " effects end .
+The game then checks for any state based actions that need to be performed or if any triggered abilities are waiting to be put on to the stack , if there are , all state based actions are performed and then all triggered abilities are put on to the stack and the active player gets priority .
+once the stack is empty and all players pass priority , a new cleanup step begins .
+If there are no triggered abilities put onto the stack during the cleanup step , no player receives priority during the cleanup step , so no spells can be cast and no activated abilities can be activated .
+TIMING AND THE STACK Section::::Timing and the stack .
+The most versatile aspect of Magic is that after most spells and abilities are cast or activated , but before they actually take effect ( " resolve " ) , all players get a chance to " respond " to them .
+This means they can cast a different spell or activate another ability that will resolve first , often either invalidating or reinforcing the effect of the first spell .
+The mechanism that accomplishes this is called " the stack " .
+It is where spells and abilities go to wait for any responses that may get played .
+Spells that are permanents that end up on the battlefield ; sorcery spells ; and abilities that say " activate this ability only any time you could cast a sorcery " can not be cast or activated as responses .
+They can only be cast or activated when the stack is empty , only on the turn of whoever casts or activates them , and only in a main phase .
+In contrast , activated abilities , instant spells , and spells that have the ability can be played on anybody 's turn and in most steps of the game , go on the stack " on top of " anything that is already there , and will resolve first .
+Many players refer to this difference as " speed " , but that is a misleading term , because neither is " faster " than the other ; the only difference is when they can be played .
+Playing lands , most abilities that produce mana , and certain other special actions do not use the stack ; they bypass the rules below and take effect immediately .
+THE STACK Section::::The stack .
+When a player casts a spell or activates an ability , it does not immediately take effect .
+Instead , it is placed on the stack .
+That player then receives priority again , which gives him or her a chance to respond to it with spells or abilities .
+Each new spell or ability is put on top of the stack in turn , with the newest on top and the oldest at the bottom .
+A player with priority can add as many spells or abilities to the stack as he or she can pay for , but is not required to ; if a player declines to respond to the latest spell or ability , he or she " passes priority " to the next player in turn order .
+When all players have passed priority in succession , the top - most spell or ability on the stack resolves .
+If it was a sorcery , instant , or ability , the player carries out the instructions ; if it would create a permanent , it enters the battlefield .
+Every time a spell or ability finishes resolving , players ( starting with the player whose turn it is ) can once again add more to the stack ; if they do n't , the new top - most spell or ability will resolve .
+When the stack is empty , the player whose turn it is gets priority first .
+If all players pass priority while the stack is empty , the game proceeds to the next step or phase of the turn .
+EXAMPLE Section::::Example .
+Tom is attacking Norman with a , a 3/3 creature ( meaning it has 3 power and 3 toughness ) .
+Norman chooses to block with his , a weaker 2/2 creature .
+If nothing else happened , the Hill Giant would deal 3 damage to the Grizzly Bears and kill them , while the Bears would deal 2 damage to the Giant , making Hill Giant " the winner " .
+However , Norman decides to cast his spell to give +3/+3 to his Grizzly Bears before combat damage is dealt .
+He taps a Forest to pay for the spell , and puts Giant Growth on the stack .
+Tom , who does not want to give the Grizzly Bears a chance to grow to 5/5 and kill his Hill Giant , responds by casting targeting the Grizzly Bears .
+He taps one Mountain to pay for the spell , and puts Shock on the stack on top of Giant Growth .
+If Norman had no other spells , then Tom 's Shock would resolve first and deal 2 damage to the Grizzly Bears , killing them .
+His Giant Growth would then go to the graveyard with no effect because the Bears would no longer be on the battlefield and would thus be an illegal target .
+Fortunately for Norman , he has another spell to cast .
+He taps a Plains and casts targeting his Grizzly Bears .
+Now Mending Hands is on top of the stack , with Shock and then Giant Growth beneath it .
+Since both players are out of spells to cast , the top spell on the stack resolves .
+Mending Hands creates a " damage prevention shield " that will prevent up to 4 points of damage to Norman 's Bears , and is put into Norman 's graveyard after it resolves .
+Neither player chooses to cast anything else at this point , so Tom 's Shock resolves .
+It attempts to deal 2 damage to Grizzly Bears , but Norman 's Mending Hands prevents the damage , and Shock is put into Tom 's graveyard .
+Finally , Norman 's Giant Growth resolves and makes Grizzly Bears a 5/5 creature until end of turn .
+Giant Growth then goes to Norman 's graveyard .
+Once combat damage is dealt , the now 5/5 Grizzly Bears deal 5 damage to the Hill Giant and easily kills it .
+Hill Giant attempts to deal 3 damage to the Grizzly Bears , but the remainder of Norman 's damage prevention shield prevents a further 2 damage ( totaling 4 damage ) and Grizzly Bears only takes 1 damage .
+When Tom 's turn ends , the single point of damage is removed from the Grizzly Bears , and the Giant Growth effect wears off at the same time .
+As Norman 's turn begins , his Grizzly Bears are undamaged and 2/2 .
+COUNTERING Section::::Countering .
+Certain spells ( and abilities ) allow a player to counter other spells ( or abilities ) .
+These spells must be cast while the spells they will affect are still on the stack .
+If a spell is countered , it is moved from the stack to its owner 's graveyard when counterspell resolves .
+It does not resolve , and has no effect unless the card states otherwise .
+If the spell would create a permanent , it never enters the battlefield .
+Some spells state that they can not be countered .
+There is one other way for a spell to be " countered " .
+If the spell targets something ( such as Giant Growth or Shock ) , then the target must be legal both when the spell is cast and when it resolves .
+A spell ca n't be cast without a legal target ; if the target becomes illegal while the spell is on the stack , then the spell is countered by the game rules ( for having an illegal target ) just before it would start to resolve .
+If a spell is countered this way , then no part of the spell — even a non - targeting part of the spell 's effect — takes place .
+This is referred to as ' Countered Upon Resolution ' ( formerly " Fizzling " ) .
+COUNTERED
+UPON RESOLUTION
+Section::::Countered upon resolution .
+When certain spells and abilities allow a player to target other spells , abilities , or permanents , if the spell or ability is responded to in a way that makes the targeted spell , ability , or permanent illegal , the targeting spell will be countered upon resolution ( this used to be referred to as " fizzling " ) and no effects of the countered spell will resolve .
+If a spell has multiple targets , then all of them must be legal for it to be cast , and all must be made illegal for the spell to be countered .
+For example , the card destroys two target nonblack creatures , but its controller will lose 5 life .
+If there is only one legal target for Reckless Spite , then it can not be cast .
+If it is initially cast on two legal targets , but one legal target becomes an illegal target before Reckless Spite resolves ( for example , if an instant is cast that grants to that creature ) the other will still be destroyed and Reckless Spite 's caster will lose 5 life .
+If it is initially cast on two legal targets , and both targets are both made illegal targets before Reckless Spite resolves , then the entire spell is countered .
+KEYWORD ABILITIES
+Section::::Keyword abilities .
+Some cards have abilities that are not fully explained on the card .
+These are known as " keyword " abilities , and consist of a word or phrase whose meaning is defined by the rules .
+Keyword abilities are usually given reminder text in the set in which they are introduced .
+There are over forty such abilities .
+In most cases , multiple instances of the same keyword on an object have no additional effect .
+The Various different keywords can be classified into two different types : Evergreen or Mechanics .
+Some common evergreen keywords are Flying(Creature can only be blocked by creatures with flying or reach ) , Indestructible(Creature can not be destroyed or damaged ) , Trample(Excess damage dealt beyond killing blocking creature can be dealt to defending player ) , or Life - link(Attacking player Gains life equal to damage dealt ) .
+The mechanics however are not as common due to them rotating out in various formats .
+In spite of this some of them have gained popularity .
+These being :
+Flashback(Pay cost and recast a spell that is already in your graveyard )
+, Cycling(Pay cost and discard the card to draw a card ) , Storm(The spell is repeated for the number of spells cast in that turn ) , Madness(If the spell is discarded pay the cost and cast it ) .
+REFERENCES EXTERNAL LINKS
+* Magic : The Gathering Comprehensive Rules

@@ -1,0 +1,52 @@
+BLUES SCALE
+The term blues scale refers to several different scales with differing numbers of pitches and related characteristics .
+TYPES HEXATONIC Section::::Types .
+Section::::Hexatonic .
+The hexatonic , or six - note , blues scale consists of the minor pentatonic scale plus the 5th degree of the original heptatonic scale .
+This added note can be spelled as either a 5 or a 4 .
+\override Score .
+TimeSignature # ' stencil =
+# # f \relative c ' { A major feature of the blues scale is the use of blue notes ; however , since blue notes are considered alternative inflections , a blues scale may be considered to not fit the traditional definition of a scale .
+At its most basic , a single version of this blues scale is commonly used over all changes ( or chords ) in a twelve bar blues progression .
+Likewise , in contemporary jazz theory , its use is commonly based upon the key rather than the individual chord .
+The evolution of this scale may be traced back to Asia ( pentatonic major ) through native North America ( pentatonic minor ) with the addition of the flat 5 blue note ( slave trade / Africa ) .
+Greenblatt defines two blues scales , the major and the minor .
+The major blues scale is C , D , D / E , E , G , A and the minor is C , E , F , F / G , G , B.
+The latter is the hexatonic scale ( top ) .
+HEPTATONIC
+Section::::Heptatonic .
+The heptatonic , or seven - note , conception of the blues scale is as a diatonic scale ( a major scale ) with lowered third , fifth , and seventh degrees Blues practice is derived from the " conjunction of ' African scales ' and the diatonic western scales " .
+\override Score .
+TimeSignature # ' stencil =
+# # f \relative c ' { Steven Smith argues that , " to assign blue notes to a ' blues scale '
+is a momentous mistake , then , after all , unless we alter the meaning of ' scale ' " .
+NONATONIC Section::::Nonatonic .
+An essentially nine - note blues scale is defined by Benward and Saker as a chromatic variation of the major scale featuring a flat third and seventh degrees ( in effect substitutions from Dorian mode ) which , " alternating with the normal third and seventh scale degrees are used to create the blues inflection .
+These ' blue notes ' represent the influence of African scales on this music . "
+\override Score .
+TimeSignature # ' stencil =
+# # f \relative c ' { A different and non - formal way of playing the scale is by the use of quarter tones , added to the 3rd and 7th degrees of the minor blues scale .
+For example , the A minor blues scale with quarter tones is A – B – C – D – E – F –
+G , where is a half sharp .
+Also , the note D can be used as an additional note .
+Guitar players can raise a given note by a quarter tone through bending .
+USAGE Section::::Usage .
+In jazz , the blues scale is used by improvising musicians in a variety of harmonic contexts .
+It can be played for the entire duration of a twelve bar blues progression constructed off the root of the first dominant seventh chord .
+For example , a C hexatonic blues scale could be used to improvise a solo over a C blues chord progression .
+The blues scale can also be used to improvise over a minor chord .
+Jazz educator Jamey Aebersold describes the sound and feel of the blues scale as " funky , " " down - home , " " earthy , " or " bluesy . "
+The blues scale is also used in other genres to reference the blues idiom .
+SEE ALSO
+* Altered chord
+REFERENCES
+FURTHER
+READING
+* Hewitt , Michael .
+2013 .
+Musical Scales of the World , .
+The Note Tree . .
+EXTERNAL LINKS
+* Blues Scale diagrams for guitar mapped out in all positions * The Blues Scale and Its Applications for Guitar *
+The Jazz Resource How to play on the blues scale
+* Slowhand Blues guitar Detailed information on Blues scales

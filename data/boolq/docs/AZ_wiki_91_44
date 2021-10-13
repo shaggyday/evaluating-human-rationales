@@ -1,0 +1,89 @@
+LONE PAIR
+In chemistry , a lone pair refers to a pair of valence electrons that are not shared with another atom and is sometimes called a non - bonding pair .
+Lone pairs are found in the outermost electron shell of atoms .
+They can be identified by using a Lewis structure .
+Electron pairs are therefore considered lone pairs if two electrons are paired but are not used in chemical bonding .
+Thus , the number of lone pair electrons plus the number of bonding electrons equals the total number of valence electrons around an atom .
+Lone pair is a concept used in valence shell electron pair repulsion theory ( VSEPR theory ) which explains the shapes of molecules .
+They are also referred to in the chemistry of Lewis acids and bases .
+However , not all non - bonding pairs of electrons are considered by chemists to be lone pairs .
+Examples are the transition metals where the non - bonding pairs do not influence molecular geometry and are said to be stereochemically inactive .
+In molecular orbital theory ( fully delocalized or otherwise ) , the concept of a lone pair is less distinct , but orbitals that are occupied but nonbonding ( or mostly nonbonding ) in character are frequently regarded as " lone pairs " as well .
+A single lone pair can be found with atoms in the nitrogen group such as nitrogen in ammonia , two lone pairs can be found with atoms in the chalcogen group such as oxygen in water and the halogens can carry three lone pairs such as in hydrogen chloride .
+In VSEPR theory
+the electron pairs on the oxygen atom in water form the vertices of a tetrahedron with the lone pairs on two of the four vertices .
+The H – O – H bond angle is with 104.5 ° , less than the 109 ° predicted for a tetrahedral angle , and this can be explained by a repulsive interaction between the lone pairs .
+Various computational criteria for the presence of lone pairs have been proposed .
+While electron density ρ(r ) itself generally does not provide useful guidance in this regard , the laplacian of the electron density is revealing , and one criterion for the location of the lone pair is where L(r ) =
+– ∇ρ(r ) is a local maximum .
+The minima of the electrostatic potential V(r ) is another proposed criterion .
+Yet another considers the electron localization function ( ELF ) .
+DIFFERENT DESCRIPTIONS OF THE LONE PAIRS OF WATER Section::::Different descriptions of the lone pairs of water .
+In elementary chemistry courses , the lone pairs of water are described as " rabbit ears " : two equivalent electron pairs of approximately sp hybridization , while the HOH bond angle is 104.5 ° , slightly smaller than the ideal tetrahedral angle of arccos(–1/3 )
+≈ 109.47 ° .
+The smaller bond angle is rationalized by VSEPR theory by ascribing a larger space requirement for the two identical lone pairs compared to the two bonding pairs .
+At a higher degree of sophistication , this basic picture is modified using the theory of isovalent hybridization , in which sp hybrids with nonintegral values of x are allowed .
+In this picture , the O – H bonds are considered to be constructed from O bonding orbitals of ~sp hybridization ( ~80 % p character , ~20 % s character ) , which leaves behind O lone pairs orbitals of ~sp hybridization ( ~70 % p character , ~30 % s character ) .
+These deviations from idealized sp hybridization are consistent with Bent 's rule .
+However , an alternative description of water treats the lone pairs of water as energetically and geometrically distinct and possessing different symmetry
+( σ and π ) .
+In this model , one lone pair is represented by a lower energy σ - symmetry in - plane hybrid orbital that mixes s and p character ( σ(out ) ) , while the other lone pair is represented by a higher energy π - symmetry orbital perpendicular to the plane of the molecule of pure 2p character ( p ) .
+In the fully delocalized canonical molecular orbital picture , these orbitals are given the Mulliken labels a and b , in which the " nonbonding " a orbital actually consists of σ(out ) mixed with the in - phase symmetry - adapted linear combination of the H(1s ) orbitals ( the small back lobe of σ(out ) is able to interact ) .
+Thus , a is actually weakly bonding in character while b is truly nonbonding .
+Both models are of value , but one must be careful of their applicability .
+Since only the canonical MOs ( as opposed to any variety of localized MOs ) are eigenfunctions of the effective Hamiltonian , one must look at inequivalent , fully delocalized lone pair orbitals when interpreting the photoelectron spectrum of water ( Koopmans ' theorem ) , which does indeed show two signals corresponding to different energy levels for the lone pairs .
+However , any set of orbitals obtained by taking linear combination of symmetry - adapted orbitals via unitary transformations , as the equivalent lone pair hybrid orbitals are , result in the same electron density as the original set of orbitals .
+In this case , we can construct the two equivalent lone pair hybrid orbitals h and h ' by taking linear combinations h = cσ(out )
++ cp and h ' = cσ(out ) – cp for an appropriate choice of coefficients c and c. For chemical and physical properties of water that depend on the overall electron distribution of the molecule , the use of h and h ' is just as valid as the use of σ(out ) and p.
+In some cases , such a view is intuitively useful .
+For example , the hydrogen bonds of water form along the directions of the " rabbit ears " lone pairs , as a reflection of the increased availability of electrons in these regions .
+This view is supported computationally .
+Because of the popularity of VSEPR theory , the treatment of the water lone pairs as equivalent is prevalent in introductory chemistry courses , and many practicing chemists continue to regard it as a useful model .
+A similar situation arises when describing the two lone pairs on the carbonyl oxygen of a ketone .
+However , the question of whether it is physically sound and conceptually useful to derive equivalent orbitals from symmetry - correct ones , from the standpoint of bonding theory and pedagogy and in light of modern experimental and computational data , is still a controversial one , with recent ( 2014 and 2015 )
+articles opposing and supporting the practice .
+ANGLE CHANGES
+Section::::Angle changes .
+The pairs often exhibit a negative polar character with their high charge density and are located closer to the atomic nucleus on average compared to the bonding pair of electrons .
+The presence of a lone pair decreases the bond angle between the bonding pair of electrons , due to their high electric charge which causes great repulsion between the electrons .
+They are also used in the formation of a dative bond .
+For example , the creation of the hydronium ( HO ) ion occurs when acids are dissolved in water and is due to the oxygen atom donating a lone pair to the hydrogen ion .
+This can be seen more clearly when looked at it in two more common molecules .
+For example , in carbon dioxide ( CO ) , the oxygen atoms are on opposite sides of the carbon , whereas in water ( HO ) there is an angle between the hydrogen atoms of 104.5º. Due to the repulsive force of the oxygen atom 's lone pairs , the hydrogens are pushed further away , to a point where the forces of all electrons on the hydrogen atom are in equilibrium .
+This is an illustration of the VSEPR theory .
+DIPOLE MOMENTS
+Section::::Dipole moments .
+Lone pairs can make a contribution to a molecule 's dipole moment .
+NH has a dipole moment of 1.47 D.
+As the electronegativity of nitrogen ( 3.04 ) is greater than that of hydrogen ( 2.2 ) the result is that the N - H bonds are polar with a net negative charge on the nitrogen atom and a smaller net positive charge on the hydrogen atoms .
+There is also a dipole associated with the lone pair and this reinforces the contribution made by the polar covalent N - H bonds to ammonia 's dipole moment .
+In contrast to NH , NF has a much lower dipole moment of 0.24 D. Fluorine is more electronegative than nitrogen and the polarity of the N - F bonds is opposite to that of the N - H bonds in ammonia , so that the dipole due to the lone pair opposes the N - F bond dipoles , resulting in a low molecular dipole moment .
+UNUSUAL LONE
+PAIRS Section::::Unusual lone pairs .
+A stereochemically active lone pair is also expected for divalent lead and tin ions due to their formal electronic configuration of ns .
+In the solid state this results in the distorted metal coordination observed in the litharge structure adopted by both PbO and SnO.
+The formation of these heavy metal ns lone pairs which was previously attributed to intra - atomic hybridization of the metal s and p states has recently been shown to have a strong anion dependence .
+This dependence on the electronic states of the anion can explain why some divalent lead and tin materials such as PbS and SnTe show no stereochemical evidence of the lone pair and adopt the symmetric rocksalt crystal structure .
+In molecular systems the lone pair can also result in a distortion in the coordination of ligands around the metal ion .
+The lead lone pair effect can be observed in supramolecular complexes of lead(II )
+nitrate , and in 2007 a study linked the lone pair to lead poisoning .
+Lead ions can replace the native metal ions in several key enzymes , such as zinc cations in the ALAD enzyme , which is also known as porphobilinogen synthase , and is important in the synthesis of heme , a key component of the oxygen - carrying molecule hemoglobin .
+This inhibition of heme synthesis appears to be the molecular basis of lead poisoning ( also called " saturnism " or " plumbism " ) .
+Computational experiments reveal that although the coordination number does not change upon substitution in calcium - binding proteins , the introduction of lead distorts the way the ligands organize themselves to accommodate such an emerging lone pair : consequently , these proteins are perturbed .
+This lone - pair effect becomes dramatic for zinc - binding proteins , such as the above - mentioned porphobilinogen synthase , as the natural substrate can not bind anymore - in those cases the protein is inhibited .
+In Group 14 elements ( the carbon group ) , lone pairs can manifest themselves by shortening or lengthening single ( bond order 1 ) bond lengths , as well as in the effective order of triple bonds as well .
+The familiar alkynes have a carbon - carbon triple bond ( bond order 3 ) and a linear geometry of 180 ° bond angles ( figure A in reference ) .
+However , further down in the group ( silicon , germanium , and tin ) , formal triple bonds have an effective bond order 2 with one lone pair ( figure B ) and trans - bent geometries .
+In lead , the effective bond order is reduced even further to a single bond , with two lone pairs for each lead atom ( figure C ) .
+In the organogermanium compound ( Scheme 1 in the reference ) , the effective bond order is also 1 , with complexation of the acidic isonitrile ( or isocyanide ) C - N groups , based on interaction with germanium 's empty 4p orbital .
+STEREOGENIC LONE
+PAIRS Section::::Stereogenic lone pairs . colspan=3 align
+=
+right
+A lone pair can contribute to the existence of chirality in a molecule , when three other groups attached to an atom all differ .
+The effect is seen in certain amines , phosphines , sulfonium and oxonium ions , sulfoxides , and even carbanions .
+The resolution of enantiomers where the stereogenic center is an amine is usually precluded because the energy barrier for nitrogen inversion at the stereo center is low , which allow the two stereoisomers to rapidly interconvert at room temperature .
+As a result , such chiral amines can not be resolved , unless the amine 's groups are constrained in a cyclic structure ( such as in Tröger 's base ) .
+SEE ALSO
+* Coordination complex *
+Highest occupied molecular orbital * Inert pair effect * Ligand * Shared pair REFERENCES

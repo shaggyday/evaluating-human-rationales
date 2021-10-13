@@ -1,0 +1,144 @@
+COMPUTER POKER
+PLAYER
+A computer poker player is a computer program designed to play the game of poker against human opponents or other computer opponents .
+It is commonly referred to as pokerbot or just simply bot .
+ON THE INTERNET Section::::On
+the Internet .
+These bots or computer programs are used often in online poker situations as either legitimate opponents for humans players or a form of cheating .
+Whether or not the use of bot constitutes cheating is typically defined by the poker room that hosts the actual poker games .
+Most ( if not all ) cardrooms forbid the use of bots although the level of enforcement from site operators varies considerably .
+PLAYER BOTS
+Section::::Player bots .
+The subject of player bots and computer assistance , while playing online poker , is very controversial .
+Player opinion is quite varied when it comes to deciding which types of computer software fall into the category unfair advantage .
+One of the primary factors in defining a bot is whether or not the computer program can interface with the poker client ( in other words , play by itself ) without the help of its human operator .
+Computer programs with this ability are said to have or be an autoplayer and are universally defined to be in the category of bots regardless of how well they play poker .
+The issue of unfair advantage has much to do with what types of information and artificial intelligence are available to the computer program .
+In addition , bots can play for many hours at a time without human weaknesses such as fatigue and can endure the natural variances of the game without being influenced by human emotion ( or " tilt " ) .
+On the other hand , bots have some significant disadvantages - for example , it is very difficult for a bot to accurately read a bluff or adjust to the strategy of opponents the way humans can .
+HOUSE ENFORCEMENT Section::::House enforcement .
+While the terms and conditions of poker sites generally forbid the use of bots , the level of enforcement depends on the site operator .
+Some will seek out and ban bot users through the utilization of a variety of software tools .
+The poker client can be programmed to detect bots although this is controversial in its own right as it might be seen as tantamount to embedding spyware in the client software .
+Another method is to use CAPTCHAs at random intervals during play .
+HOUSE
+BOTS
+Section::::House bots .
+The subject of house bots is even more controversial due to the conflict of interest it potentially poses .
+By the strictest definition , a house bot is an automated player operated by the online poker room itself , although some would define more indirect examples ( for example , a player operating bots with the knowledge and consent of the operator ) as " house bots " as well .
+These type of bots would be the equivalent of brick and mortar shills .
+In a brick and mortar casino , a house player does not subvert the fairness of the game being offered as long as the house is dealing honestly .
+In an online setting the same is also true .
+By definition , an honest online poker room that chooses to operate house bots would guarantee that the house bots did not have access to any information not also available to any other player in the hand ( the same would apply to any human shill as well ) .
+The problem is that in an online setting the house has no way to prove their bots are not receiving sensitive information from the card server .
+This is further exacerbated by the ease with which clandestine information sharing can be accomplished in a digital environment .
+It is essentially impossible even for the house to prove that they do not control some players - probably the only real way that could be done would be to disclose the confidential personal information of every player and that obviously can not be done due to privacy considerations .
+ARTIFICIAL INTELLIGENCE Section::::Artificial Intelligence .
+Poker is a game of imperfect information ( because some cards in play are concealed ) thus making it difficult for anyone ( including a computer ) to deduce the final outcome of the hand .
+Because of this lack of information , the computer 's programmers have to implement systems based on the Bayes theorem , Nash equilibrium , Monte Carlo simulation or neural networks , all of which are imperfect techniques .
+AIs like PokerSnowie and Claudico have been created by allowing the computer to determine the best possible strategy by letting it play itself an enormous number of times .
+This seems to be the current approach to poker AI , as opposed to attempting to make a computer that plays like a human .
+This results in odd bet sizing and a much different strategy than humans are used to seeing .
+Methods are being developed to at least approximate perfect poker strategy from the game theory perspective in the heads - up ( two player ) game , and increasingly good systems are being created for the multi - player game .
+Perfect strategy has multiple meanings in this context .
+From a game - theoretic optimal point of view , a perfect strategy is one that can not expect to lose to any other player 's strategy ; however , optimal strategy can vary in the presence of sub - optimal players who have weaknesses that can be exploited .
+In this case , a perfect strategy would be one that correctly or closely models those weaknesses and takes advantage of them to make a profit , such as those explained above .
+RESEARCH GROUPS COMPUTER POKER RESEARCH GROUP ( UNIVERSITY OF ALBERTA , CANADA ) Section::::Research groups .
+Section::::Computer Poker Research Group ( University of Alberta , Canada ) .
+A large amount of the research into computer poker players is being performed at the University of Alberta by the Computer Poker Research Group , led by Dr. Michael Bowling .
+The group developed the agents Poki , PsOpti , Hyperborean and Polaris .
+Poki has been licensed for the entertainment game STACKED featuring Canadian poker player Daniel Negreanu .
+PsOpti was available under the name " SparBot " in the poker training program " Poker Academy " .
+The series of Hyperborean programs have competed in the Annual Computer Poker Competition , most recently taking three gold medals out of six events in the 2012 competition .
+The same line of research also produced Polaris , which played against human professionals in 2007 and 2008 , and became the first computer poker program to win a meaningful poker competition .
+In January 2015 , an article in Science by Michael Bowling , Neil Burch , Michael Johanson , and Oskari Tammelin claimed that their poker bot Cepheus had " essentially weakly solved " the game of heads - up limit Texas hold 'em .
+SCHOOL OF COMPUTER SCIENCE FROM CARNEGIE MELLON UNIVERSITY Section::::School of Computer Science from Carnegie Mellon University .
+T. Sandholm and A. Gilpin from Carnegie Mellon University have started poker AI research in 2004 beginning with unbeatable agent for 3-card game called Rhode - Island Hold 'em .
+Next step was GS1 which outperformed the best commercially available poker bots .
+Since 2006 poker agents from this group have participated in annual computer competitions .
+" At some point we will have a program better than the best human players " – claims Sandholm .
+His bot , Claudico , faced off against four human opponents in 2015 .
+In 2017 the program 's latest software , Libratus , faced off against four professional poker players .
+By the end of the experiment the four human players had lost a combined $ 1.8 million .
+THE UNIVERSITY OF AUCKLAND GAME AI GROUP
+Section::::The University of Auckland Game AI Group .
+A team from the University of Auckland consists of a small number of scientists who employ case - based reasoning to create and enhance Texas Hold'em poker agents .
+The group applies different AI techniques to a number of games including participation in the commercial projects Small Worlds and Civilization ( video game ) .
+NEO POKER LABORATORY Section::::Neo Poker Laboratory .
+Neo Poker Lab is an established science team focused on the research of poker artificial intelligence .
+For several years it has developed and applied state - of - the - art algorithms and procedures like regret minimization and gradient search equilibrium approximation , decision trees , recursive search methods as well as expert algorithms to solve a variety of problems related to the game of poker .
+HISTORIC CONTESTS ICCM 2004
+POKERBOT COMPETITION Section::::Historic contests .
+Section::::ICCM 2004
+PokerBot competition .
+One of the earliest no - limit poker bot competitions was organized in 2004 by International Conference on Cognitive Modelling .
+The tournament hosted five bots from various universities from around the world .
+The winner was Ace Gruber , from University of Toronto .
+ACM COMPETITIONS Section::::ACM competitions .
+The ACM has hosted competitions where the competitors submit an actual piece of software able to play poker on their specific platform .
+The event hosts operate everything and conduct the contest and report the results .
+( citations and references and links needed ) .
+THE 2005 WORLD SERIES OF POKER ROBOTS Section::::The 2005 World Series of Poker Robots .
+In the summer 2005 , the online poker room Golden Palace hosted a promotional tournament in Las Vegas , at the old Binions , with a $ 100k giveaway prize .
+It was billed as the 2005 World Series of Poker Robots .
+The tournament was bots only with no entry fee .
+The bot developers were computer scientists from six nationalities who traveled at their own expense .
+The host platform was Poker Academy .
+The event also featured a demonstration headsup event with Phil Laak .
+UNIVERSITY OF ALBERTA 'S MAN
+V MACHINE
+EXPERIMENTS
+Section::::University of Alberta 's Man V Machine experiments .
+In the summer 2007 , the University of Alberta hosted a highly specialized headsup tournament between humans and their Polaris bot , at the AAAI conference in Vancouver , BC , Canada .
+The host platform was written by the University of Alberta .
+There was a $ 50k maximum giveaway purse with special rules to motivate the humans to play well .
+The humans paid no entry fee .
+The unique tournament featured four duplicate style sessions of 500 hands each .
+The humans won by a narrow margin .
+In the summer of 2008 , the University of Alberta and the poker coaching website Stoxpoker ran a second tournament during the World Series of Poker in Las Vegas .
+The tournament had six duplicate sessions of 500 hands each , and the human players were Heads - Up Limit specialists .
+Polaris won the tournament with 3 wins , 2 losses and a draw .
+The results of the tournament , including the hand histories from the matches , are available on the competition website .
+THE 2015 BRAINS VS AI COMPETITION BY RIVERS CASINO , CMU AND MICROSOFT Section::::The
+2015 Brains vs AI competition by Rivers Casino , CMU and Microsoft .
+From April – May 2015 , Carnegie Mellon University Sandholm 's latest bot , Claudico , faced off against four human opponents , in a series of no - limit Texas Hold'em matches .
+Finally , after playing 80,000 hands , humans were up by a combined total of $ 732,713 .
+But even though humans technically won , scientists considered the win
+as statistically insignificant ( rather , a statistical tie ) when that $ 732,713 is compared to the total betting amount of $ 170,000,000 ( $ 170 million ) .
+However , some have determined this claim to be disingenuous .
+Statistically insignificant here means that the programmers of Claudico can not say with 95 % confidence ( a 95 % confidence interval ) that humans are better than the computer program .
+However , it is a statistically significant win on a 90 % confidence interval .
+This means that the human players are somewhere between a 10 to 1 and 20 to 1 favorite .
+The way the tournament was structured was in two sets of two players each .
+In each of the two sets , the players got the opposite cards .
+Meaning if the computer has As9c
+( Ace of Spades & Nine of Clubs ) and the human has Jh8d on one computer , the other of the two players in the set will have As9c up against the computer 's Jh8d .
+However , even with the human players winning more than the computer — not all of the players were positive in their head to head match ups .
+The totals for each of the players winnings were as follows :
+* Douglas Polk : + $ 213,671
+* Dong Kim : + $ 70,491 * Bjorn Li : + $ 529,033
+* Jason Les :
+-$80,482
+THE ANNUAL COMPUTER POKER COMPETITION Section::::The Annual Computer Poker Competition .
+Since 2006 , the Annual Computer Poker Competition has run a series of competitions for poker programs .
+In 2011 , three types of poker were played : Heads - Up Limit Texas Hold'em , Heads - Up No - Limit Texas Hold'em , and 3-player Limit Texas Hold'em .
+Within each event , two winners are named : the agent that wins the most matches , and the agent that wins the most money .
+These winners are often not the same agent , as one evaluation rewards robust players , and the other rewards players that are good at exploiting the other agents ' mistakes .
+The competition is motivated by scientific research , and there is an emphasis on ensuring that all of the results are statistically significant by running millions of hands of poker .
+The 2012 competition had the same formats with more than 70 million hands played to eliminate luck factor .
+Some researchers developed web application where people could play and assess quality of the AI .
+So as of December 2012 the following top groups and individual researchers ' agents could be found :
+* Hyperborean ( 9 gold , 5 silver and 3 bronze ) * Bluffbot ( 1 gold , 3 silver and 2 bronze medals ) * Sartre ( 1 gold , 5 silver and 3 bronze medals ) * Neo Poker Bot ( 1 gold , 5 bronze medals )
+RESULTS
+SEE ALSO
+* Polaris ( poker bot ) * Cepheus ( poker bot )
+REFERENCES
+EXTERNAL LINKS
+* The Annual Computer Poker Competition * Programming Poker AI Article by the programmer of the AI for the World Series of Poker Game
+*
+MSNBC
+Article - 2004-Sep
+* Science News : The Ultimate Poker Face
+* NYTimes.com : Poker Bots
+Invade Online Gambling
+* CMU deals a winning hand for Texas Hold 'em Article about Carnegie Mellon University poker AI research group

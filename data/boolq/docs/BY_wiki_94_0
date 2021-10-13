@@ -1,0 +1,106 @@
+PART NUMBER
+A part number ( often abbreviated PN , P / N , part no . , or part # ) is an identifier of a particular part design used in a particular industry .
+Its purpose is to simplify reference to that part .
+A part number unambiguously identifies a part design within a single corporation , and sometimes across several corporations .
+For example , when specifying a screw , it is easier to refer to " HSC0424PP " than saying " Hardware , screw , machine , 4 - 40 , 3/4 " long , pan head , Phillips " .
+In this example , " HSC0424PP " is the part number , and it may be prefixed in database fields as " PN HSC0424PP " or " P / N HSC0424PP " .
+THE PART DESIGN
+VERSUS INSTANTIATIONS OF IT
+Section::::The part design versus instantiations of it .
+As a part number is an identifier of a part design ( independent of its instantiations ) , a serial number is a unique identifier of a particular instantiation of that part design .
+In other words , a part number identifies any particular ( physical ) part as being made to that one unique design ; a serial number , when used , identifies a particular ( physical ) part ( one physical instance ) , as differentiated from the next unit that was stamped , machined , or extruded right after it .
+This distinction is not always clear , as natural language blurs it by typically referring to both part designs , and particular instantiations of those designs , by the same word , " part(s ) " .
+Thus if you buy a muffler of P / N 12345 today , and another muffler of P / N 12345 next Tuesday , you have bought " two copies of the same part " , or " two parts " , depending on the sense implied .
+USER PART
+NUMBERS VERSUS MANUFACTURING
+PART NUMBERS ( MPN ) Section::::User part numbers versus manufacturing part numbers ( MPN ) .
+A business using a part will often use a different part number than the various manufacturers of that part do .
+This is especially common for catalog hardware , because the same or similar part design ( say , a screw with a certain standard thread , of a certain length ) might be made by many corporations ( as opposed to unique part designs , made by only one or a few ) .
+For example , when referring to a " Hardware , screw , machine , 4 - 40 , 3/4 " long , Phillips " : * Manufacturer A uses part number " 4 - 40 - 3/4"-pan - phil " ,
+* Manufacturer B uses part number " 100 - 440 - 0.750 - 3434-A " .
+* Manufacturer C uses part number " TSR-1002 " .
+The business using such a screw may buy screws from any of those manufacturers , because each supplier manufactures the parts to the same specification .
+To identify such screws , the user does n't want to use any of those manufacturer 's part numbers , because * it would imply that one manufacturer is acceptable and the other ones are n't , and , *
+it wishes to use a consistent format for the part numbers of all of the parts it uses .
+Therefore , the user devises its own part numbering system .
+In such a system , the user may use the part number " HSC0424PP " for that screw .
+There are also some national and industry - association initiatives which help producers and consumers codify the product based on a unified scheme to establish a common language between industrial and commercial sectors .
+For example : * The Iranian national classification and codification system known as Irancode is a 16 digit code to codify the products in a nationally unified manner .
+* The U.S. government , and most especially its Department of Defense , has standardized various part numbering systems over the decades for it and its suppliers to use , such as the AN ( Army - Navy ) and MS ( Military Standard ) hardware classification and numbering systems .
+*
+The Aerospace Industries Association maintains the NAS system ( National Aerospace Standards ) , which is gradually replacing the AN and MS systems .
+SIGNIFICANT VERSUS
+NON - SIGNIFICANT PART NUMBERS Section::::Significant versus non - significant part numbers .
+In general , there are two types of part numbering systems :
+significant ( a.k.a . " intelligent " ) and non - significant ( a.k.a . " non - intelligent " ) .
+*
+In a significant part numbering system , the part numbers are assigned intelligently , according to an encoding system , and thus they give an indication of salient characteristics of the component .
+For example , a screw may have the part number " HSC0424PP " ; in this case , the letters indicate characteristics of the component :
+* H =
+" Hardware " * S = " Machine Screw " * C0424 = " 4 - 40 , 3/4 " long " * PP = " Panhead Phillips " *
+In a non - significant part numbering system , part numbers are assigned in some other fashion , such as sequentially or arbitrarily .
+For example , a screw may have the part number " 1002 " , which may not tell the user anything about its thread size , length of shank , or drive type .
+Significant part numbering systems are easier to use if you are trying to identify an item through the use of its code inside your company rather than a long description ; however , many variations can start to appear when the code is used by other companies , which may be your distributors , and then people can become confused .
+Non - significant part numbers are easier to assign and manage .
+You can still create a structure where you can have a category and then a sequential number
+e.g. 231 - 1002 ( 2 = Hardware 3 = Screw 1 = Phillips then the unique number 1002 )
+This is also more efficient for data entry where using numbers and dashes
+are part of a normal keypad which means you do n't have to use both hands on a keyboard .
+One other bonus is that people usually understand numbers easier , and when you store products in a warehouse , you can put items in numerical order ( for example , lower numbers at one end of an aisle , and as you continue , the numbers increase ) .
+DASH NUMBERS Section::::Dash numbers .
+There is a strong tradition in part numbering practice , in use across many corporations , to use suffixes consisting of a " dash " followed by a number comprising 1 or 2 digits ( occasionally more ) .
+These suffixes are called dash numbers , and they are a common way of logically associating a set of detail parts or subassemblies that belong to a common assembly or part family .
+For example , the part numbers 12345 - 1 , 12345 - 2 , and 12345 - 3 are three different dash numbers of the same part family .
+In precise typographical and character encoding terms , it is actually a hyphen , not a dash , that is usually used ; but the word " dash " is firmly established in the spoken and written usage of the engineering and manufacturing professions ; " dash number " , not " hyphen number " , is the standard term .
+This comes from the era before computers , when most typographical laypeople did not need to differentiate the characters or glyphs precisely .
+Some companies follow a convention of circling the dash numbers on a drawing , such as in view designators and subpart callouts .
+RELATIONSHIP OF PART NUMBERS TO DRAWING NUMBERS Section::::Relationship of part numbers to drawing numbers .
+Another widespread tradition is using the drawing number as the root ( or stem ) of the part number ; in this tradition , the various dash - number parts usually appear as views on the self - same drawing .
+For example , drawing number 12345 may show an assembly , P / N 12345 - 1 , which comprises detail parts -2 ( " dash two " ) , -3 , -4 , -8 , and -11 .
+Even drawings for which there is currently only one part definition existing will often designate that part with a part number comprising drawing number plus -1 ( " dash one " ) .
+This is to provide extensibility of the part numbering system , in anticipation of a day when it might be desired to add another part definition to the family , which can then become -2 ( " dash two " ) , followed by -3 ( " dash three " ) , and so on .
+Some corporations make no attempt to encode part numbers and drawing numbers with common encoding ; they are paired arbitrarily .
+PARAMETRIC FAMILIES OF PARTS , AND TABULATIONS OF PART NUMBERS WITH PARAMETER VALUES Section::::Parametric families of parts , and tabulations of part numbers with parameter values .
+Often more than one version of a part design will be specified on one drawing .
+This allows for easy updating of one drawing that covers a family of parts , and it keeps the specifications for similar parts on one drawing .
+For example : + M6 Machine Screw , Philips Head !
+Dash number ! !
+Length ! !
+Thread size ! !
+Drive style
+A common application of tabulation of part families is multiple dimensions within a general design , e.g. bushing : + Bushing , 10 mm !
+Dash number ! !
+Length ! !
+Outer diameter ! !
+Inner diameter DESIGN MODIFICATION SUFFIXES Section::::Design modification suffixes .
+It is a common concept in many corporations to add certain suffixes beyond , or in place of , the regular dash numbers , in order to designate a part that is mostly in conformance with the part design ( that is , mostly " to print " ) , but intentionally lacks certain features .
+The suffixes are usually " intelligent " , that is , they use an encoding system , although the encoding systems are usually corporation - specific ( and thus cryptic , and of little use , to outsiders ) .
+An example of such a design modification suffix is adding " V " or " Z " to the end of the part number to designate the variant of the part that is purchased " less paint " , " less plating " , " with the holes not yet drilled " , " intentionally oversize by .01 mm " , or any of countless other modifications .
+The intent is usually that the feature in question ( such as holes not yet drilled , or paint not yet sprayed ) will be added at a higher assembly level ; or that maintenance workers in the field will choose from a kit of undersize and oversize parts ( such as bushings ) in order to achieve a certain fit ( sliding fit , light press fit , etc . ) .
+Sometimes the terms " engineering part number " and " manufacturing part number " are used to differentiate the " normal " or " basic " part number ( engineering PN ) from the modification - suffixed part number ( manufacturing PN ) .
+SYMMETRICAL PARTS Section::::Symmetrical parts .
+Many assemblies with reflection symmetry , such as the fuselages and wings of aircraft , the hulls of ships and boats , and the bodies of cars and trucks , require matched pairs of parts that are identical , or nearly identical , except for being mirror images of each other .
+( For example , the left and right wings of an airplane , or the left and right fenders or doors of a car . )
+Often these related parts are designated left - hand ( LH ) and right - hand ( RH ) parts .
+It is a common practice to give them sequential dash numbers , or -LH and -RH part number suffixes .
+It is also not uncommon to show only one of them on the drawing , and to define the symmetrical counterpart simply by stating that it is " opposite " .
+Common notations include " left - hand shown , right - hand opposite " or " -1 , LH ( shown ) ; -2 , RH ( opposite ) " .
+PHANTOM PARTS Section::::Phantom parts .
+The term phantom part is sometimes used to describe a series of parts that collectively make up an assembly or subassembly .
+This concept is helpful in the database management of engineering and production ( such as in product data management applications ) when it is useful to think of a certain combination of subparts as " one part " ( and thus one database record ) for ordering , production , or billing purposes .
+SYNTHETIC PARTS Section::::Synthetic parts .
+It is common in the engineering of parts , subassemblies , and higher assemblies to treat the definition of a certain part as a very well - defined concept , with every last detail controlled by the engineering drawing or its accompanying TDP documents .
+This is necessary because of the separation of concerns that often exists in production , in which the maker of each part ( whether an in - house department or a vendor ) does not have all the information needed to decide whether any particular small variation is acceptable or not ( that is , " whether the part will still work " or " whether it will still fit into the assembly " interchangeably ) .
+The sizes of fillets and edge breaks are common examples of such details where production staff must say , " it may easily be trivial , but it could possibly matter , and we 're not the ones who can tell which is true in this case " .
+However , a challenge to this paradigm ( of perfectly frozen part definition ) is that sometimes it is necessary to obtain a part that is " mostly like " part A but that also incorporates some of the features of parts B and C.
+For example , a new variant of model of next - higher assembly may require this .
+Although this " blending " of part designs could happen very informally in a non - mass - production environment ( such as an engineering lab , home business , or prototyping toolroom ) , it requires more forethought when the concerns are more thoroughly separated ( such as when some production is outsourced to vendors ) .
+In the latter case , a new part definition , termed a synthetic part ( because its definition synthesizes features from various other parts ) , is created .
+Ideally it is then formally defined with a new drawing ; but often in the imperfect reality of the business world , to save time and expense , an improvised TDP will be prepared for it consisting of several existing drawings and some notes about which features to synthesize .
+MACHINE - READABLE PART MARKING Section::::Machine - readable part marking .
+It is common today for part numbers ( as well as serial numbers or other information ) to be marked on the part in ways that facilitate machine - readability , such as barcodes or QR codes .
+Today 's advanced state of optical character recognition ( OCR ) technology also means that machines can often read the human - readable format of Arabic numerals and Latin script .
+Current revisions of major part marking standards ( such as the U.S. military 's MIL - STD-130 ) take pains to codify the most advantageous combinations of machine - readable information ( MRI ) and human - readable information ( HRI ) .
+SEE ALSO
+* Builder 's plate * Manufacturer model number * Global Trade Item Number ( GTIN ) * Stock Keeping Unit
+( SKU ) * Serial code REFERENCES

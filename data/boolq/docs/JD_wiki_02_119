@@ -1,0 +1,36 @@
+URL A Uniform Resource Locator ( URL ) , colloquially termed a web address , is a reference to a web resource that specifies its location on a computer network and a mechanism for retrieving it .
+A URL is a specific type of Uniform Resource Identifier ( URI ) , although many people use the two terms interchangeably .
+URLs occur most commonly to reference web pages ( http ) , but are also used for file transfer ( ftp ) , email ( mailto ) , database access ( JDBC ) , and many other applications .
+Most web browsers display the URL of a web page above the page in an address bar .
+A typical URL could have the form codice_1 , which indicates a protocol ( codice_2 ) , a hostname ( codice_3 ) , and a file name ( codice_4 ) .
+HISTORY Section::::History .
+Uniform Resource Locators were defined in in 1994 by Tim Berners - Lee , the inventor of the World Wide Web , and the URI working group of the Internet Engineering Task Force ( IETF ) , as an outcome of collaboration started at the IETF Living Documents Birds of a feather session in 1992 .
+The format combines the pre - existing system of domain names ( created in 1985 ) with file path syntax , where slashes are used to separate directory and filenames .
+Conventions already existed where server names could be prefixed to complete file paths , preceded by a double slash ( codice_5 ) .
+Berners - Lee later expressed regret at the use of dots to separate the parts of the domain name within URIs , wishing he had used slashes throughout , and also said that , given the colon following the first component of a URI , the two slashes before the domain name were unnecessary .
+An early ( 1993 ) draft of the HTML Specification referred to " Universal " Resource Locators .
+This was dropped some time between June 1994 ( RFC 1630 ) and October 1994 ( draft-ietf-uri-url-08.txt ) .
+SYNTAX Section::::Syntax .
+Every HTTP URL conforms to the syntax of a generic URI .
+A web browser will usually dereference a URL by performing an HTTP request to the specified host , by default on port number 80 .
+URLs using the codice_6 scheme require that requests and responses will be made over a secure connection to the website .
+INTERNATIONALIZED URL Section::::Internationalized URL .
+Internet users are distributed throughout the world using a wide variety of languages and alphabets and expect to be able to create URLs in their own local alphabets .
+An Internationalized Resource Identifier ( IRI ) is a form of URL that includes Unicode characters .
+All modern browsers support IRIs .
+The parts of the URL requiring special treatment for different alphabets are the domain name and path .
+The domain name in the IRI is known as an Internationalized Domain Name ( IDN ) .
+Web and Internet software automatically convert the domain name into punycode usable by the Domain Name System ; for example , the Chinese URL
+codice_7 becomes codice_8 .
+The codice_9 indicates that the character was not originally ASCII .
+The URL path name can also be specified by the user in the local writing system .
+If not already encoded , it is converted to UTF-8 , and any characters not part of the basic URL character set are escaped as hexadecimal using percent - encoding ; for example , the Japanese URL codice_10 becomes codice_11 .
+The target computer decodes the address and displays the page .
+PROTOCOL - RELATIVE URLS Section::::Protocol - relative URLs .
+Protocol - relative links ( PRL ) , also known as protocol - relative URLs ( PRURL ) , are URLs that have no protocol specified .
+For example , codice_12 will use the protocol of the current page , either HTTP or HTTPS .
+SEE ALSO
+* CURIE ( Compact URI )
+* Use of slashes in networking * Fragment identifier * Internationalized resource identifier ( IRI )
+* Semantic URL * Typosquatting * Uniform Resource Identifier * URL normalization NOTES CITATIONS
+REFERENCES EXTERNAL LINKS * URL specification at WHATWG

@@ -1,0 +1,161 @@
+REMOTE DESKTOP SERVICES Remote Desktop Services ( RDS ) , known as Terminal Services in Windows Server 2008 and earlier , is one of the components of Microsoft Windows that allow a user to take control of a remote computer or virtual machine over a network connection .
+RDS is Microsoft 's implementation of thin client , where Windows software , and the entire desktop of the computer running RDS , are made accessible to a remote client machine that supports Remote Desktop Protocol ( RDP ) .
+With RDS , only software user interfaces are transferred to the client system .
+All input from the client system is transmitted to the server , where software execution takes place .
+This is in contrast to application streaming systems , like Microsoft App - V , in which computer programs are streamed to the client on - demand and executed on the client machine .
+RemoteFX was added to RDS as part of Windows Server 2008 R2 Service Pack 1 .
+OVERVIEW
+Section::::Overview .
+RDS was first released as " Terminal Server " in " Windows NT Server 4.0 Terminal Server Edition " a stand - alone operating system including SP3 and fixes built in .
+Starting with Windows 2000 , it was an optional role and became a mainstay of the Windows NT family of operating systems and was improved with each version of Windows .
+The rename to " Remote Desktop Services " occurred with Windows Server 2008 R2 in 2009 .
+Windows includes three client components that use RDS : *
+Windows Remote Assistance
+*
+* Remote Desktop Connection ( RDC )
+*
+* Fast User Switching *
+The first two are individual utilities that allow a user to take control of a remote computer over the network .
+In case of Remote Assistance , the remote user needs to receive an invitation and the control is cooperative .
+In case of RDC , however , the remote user opens a new session on the remote computer and has every power granted by its user account 's rights and restrictions .
+Fast User Switching allows users to switch between user accounts on the local computer without quitting software and logging out .
+Fast User Switching is part of Winlogon and uses RDS to accomplish its switching feature .
+Third - party developers have also created client software for RDS .
+For example , rdesktop supports Unix platforms .
+Although RDS is shipped with most editions of all versions of Windows NT since Windows 2000 , its functionality differs in each version .
+Windows XP Home Edition does not accept any RDC connections at all , reserving RDS for Fast User Switching and Remote Assistance only .
+Other client versions of Windows only allow a maximum of one remote user to connect to the system at the cost of the user who has logged onto the console being disconnected .
+Windows Server allows two users to connect at the same time .
+This licensing scheme , called " Remote Desktop for Administration " , facilitates administration of unattended or headless computers .
+Only by acquiring additional licenses ( in addition to that of Windows ) can a computer running Windows Server service multiple remote users at one time and achieve virtual desktop infrastructure .
+For an organization , RDS allows the IT department to install applications on a central server instead of multiple computers .
+Remote users can log on and use those applications over the network .
+Such centralization can make maintenance and troubleshooting easier .
+RDS and Windows authentication systems prevent unauthorized users from accessing apps or data .
+Microsoft has a long - standing agreement with Citrix to facilitate sharing of technologies and patent licensing between Microsoft Terminal Services and Citrix XenApp ( formerly Citrix MetaFrame and Citrix Presentation Server ) .
+In this arrangement , Citrix has access to key source code for the Windows platform , enabling its developers to improve the security and performance of the Terminal Services platform .
+In late December , 2004 the two companies announced a five - year renewal of this arrangement to cover Windows Vista .
+ARCHITECTURE
+Section::::Architecture .
+The server component of RDS is Terminal Server ( codice_1 ) , which listens on TCP port 3389 .
+When a Remote Desktop Protocol ( RDP ) client connects to this port , it is tagged with a unique SessionID and associated with a freshly spawned console session ( Session 0 , keyboard , mouse and character mode UI only ) .
+The login subsystem ( winlogon.exe ) and the GDI graphics subsystem is then initiated , which handles the job of authenticating the user and presenting the GUI .
+These executables are loaded in a new session , rather than the console session .
+When creating the new session , the graphics and keyboard / mouse device drivers are replaced with RDP - specific drivers : codice_2 and codice_3 .
+The codice_2 is the device driver and it captures the UI rendering calls into a format that is transmittable over RDP .
+codice_3 acts as keyboard and mouse driver ; it receives keyboard and mouse input over the TCP connection and presents them as keyboard or mouse inputs .
+It also allows creation of virtual channels , which allow other devices , such as disc , audio , printers , and COM ports to be redirected , i.e. , the channels act as replacement for these devices .
+The channels connect to the client over the TCP connection ; as the channels are accessed for data , the client is informed of the request , which is then transferred over the TCP connection to the application .
+This entire procedure is done by the terminal server and the client , with the RDP mediating the correct transfer , and is entirely transparent to the applications .
+RDP communications are encrypted using 128-bit RC4 encryption .
+Windows Server 2003 onwards , it can use a FIPS 140 compliant encryption schemes .
+Once a client initiates a connection and is informed of a successful invocation of the terminal services stack at the server , it loads up the device as well as the keyboard / mouse drivers .
+The UI data received over RDP is decoded and rendered as UI , whereas the keyboard and mouse inputs to the Window hosting the UI is intercepted by the drivers , and transmitted over RDP to the server .
+It also creates the other virtual channels and sets up the redirection .
+RDP communication can be encrypted ; using either low , medium or high encryption .
+With low encryption , user input ( outgoing data ) is encrypted using a weak ( 40-bit RC4 ) cipher .
+With medium encryption , UI packets ( incoming data ) are encrypted using this weak cipher as well .
+The setting " High encryption ( Non - export ) " uses 128-bit RC4 encryption and " High encryption ( Export ) " uses 40-bit RC4 encryption .
+TERMINAL SERVER
+Section::::Terminal Server .
+Terminal Server is the server component of Terminal services .
+It handles the job of authenticating clients , as well as making the applications available remotely .
+It is also entrusted with the job of restricting the clients according to the level of access they have .
+The Terminal Server respects the configured software restriction policies , so as to restrict the availability of certain software to only a certain group of users .
+The remote session information is stored in specialized directories , called Session Directory which is stored at the server .
+Session directories are used to store state information about a session , and can be used to resume interrupted sessions .
+The terminal server also has to manage these directories .
+Terminal Servers can be used in a cluster as well .
+In Windows Server 2008 , it has been significantly overhauled .
+While logging in , if the user logged on to the local system using a Windows Server Domain account , the credentials from the same sign - on can be used to authenticate the remote session .
+However , this requires Windows Server 2008 to be the terminal server OS , while the client OS is limited to Windows Server 2008 , Windows Vista and Windows 7 .
+In addition , the terminal server may be configured to allow connection to individual programs , rather than the entire desktop , by means of a feature named RemoteApp .
+Terminal Services Web Access ( TS Web Access ) makes a RemoteApp session invocable from the web browser .
+It includes the TS Web Access Web Part control which maintains the list of RemoteApps deployed on the server and keeps the list up to date .
+Terminal Server can also integrate with Windows System Resource Manager to throttle resource usage of remote applications .
+Terminal Server is managed by the Terminal Server Manager Microsoft Management Console snap - in .
+It can be used to configure the sign in requirements , as well as to enforce a single instance of remote session .
+It can also be configured by using Group Policy or Windows Management Instrumentation .
+It is , however , not available in client versions of Windows OS , where the server is pre - configured to allow only one session and enforce the rights of the user account on the remote session , without any customization .
+REMOTE DESKTOP GATEWAY Section::::Remote Desktop Gateway .
+The Remote Desktop Gateway service component , also known as RD Gateway , can tunnel the RDP session using a HTTPS channel .
+This increases the security of RDS by encapsulating the session with Transport Layer Security ( TLS )
+This also allows the option to use Internet Explorer as the RDP client .
+The official MS RDP client for Mac OS X supports RD Gateway as of version 8 .
+This is also available for iOS and Android .
+This feature was introduced in the Windows Server 2008 and Windows Home Server products .
+ROLES
+Remote Desktop Gateway :
+Enables authorized users to connect to virtual desktops , Remote - App programs , and session - based desktops over a private network or the Internet .
+Remote Desktop Connection Broker Role : Allows users to reconnect to their existing virtual desktop , RemoteApp programs , and session - based desktops .
+It enables even load distribution across RD Session Host servers in a session collection or across pooled virtual desktops in a pooled virtual desktop collection , and provides access to virtual desktops in a virtual desktop collection .
+Remote Desktop Session Host
+: Enables a server to host RemoteApp programs as session - based desktops .
+Users can connect to RD Session Host servers in a session collection to run programs , save files , and use resources on those servers .
+Users can access Remote Desktop Session Host server by using the Remote Desktop Connection client or by using RemoteApp programs .
+Remote Desktop Virtualization Host : Enables users to connect to virtual desktops by using RemoteApp and Desktop Connection .
+Remote Desktop Web Access : Enables users to access RemoteApp and Desktop Connection through the Start Menu or through a web browser .
+RemoteApp and Desktop Connection provides users with a customized view of RemoteApp programs , session - based desktops , and virtual desktops .
+Remote Desktop Licensing : Enables a server to manage RDS client access licenses ( RDS CALs ) that are required for each device or user to connect to a Remote Desktop Session Host server .
+RDS CALs are managed using the Remote Desktop Licensing Manager application .
+REMOTEAPP
+Section::::RemoteApp .
+RemoteApp ( or TS RemoteApp ) is a special mode of RDS , available in Windows Server 2008 R2 and later , where remote session configuration is integrated into the client operating system .
+The RDP 6.1 client ships with Windows XP SP3 , KB952155 for Windows XP SP2 users , Windows Vista SP1 and Windows Server 2008 .
+The UI for the RemoteApp is rendered in a window over the local desktop , and is managed like any other window for local applications .
+The end result of this is that remote applications behave largely like local applications .
+The task of establishing the remote session , as well as redirecting local resources to the remote application , is transparent to the end user .
+Multiple applications can be started in a single RemoteApp session , each with their own windows .
+A RemoteApp can be packaged either as a codice_6 file or distributed via an codice_7 Windows Installer package .
+When packaged as an codice_6 file ( which contains the address of the RemoteApp server , authentication schemes to be used , and other settings ) , a RemoteApp can be launched by double clicking the file .
+It will invoke the Remote Desktop Connection client , which will connect to the server and render the UI .
+The RemoteApp can also be packaged in a Windows Installer database , installing which can register the RemoteApp in the Start menu as well as create shortcuts to launch it .
+A RemoteApp can also be registered as handler for file types or URIs .
+Opening a file registered with RemoteApp will first invoke Remote Desktop Connection , which will connect to the terminal server and then open the file .
+Any application which can be accessed over Remote Desktop can be served as a RemoteApp .
+Windows 7 includes built - in support for RemoteApp publishing , but it has to be enabled manually in registry , since there is no RemoteApp management console in client versions of Microsoft Windows .
+CLIENT SOFTWARE
+REMOTE DESKTOP CONNECTION Section::::Client software .
+Section::::Remote Desktop Connection .
+Remote Desktop Connection ( RDC , also called Remote Desktop , formerly Microsoft Terminal Services Client , mstsc or tsclient ) is the client application for RDS .
+It allows a user to remotely log into a networked computer running the terminal services server .
+RDC presents the desktop interface ( or application GUI ) of the remote system , as if it were accessed locally .
+In addition to regular username / password for authorizing for the remote session , RDC also supports using smart cards for authorization .
+With RDC 6.0 , the resolution of a remote session can be set independently of the settings at the remote computer .
+With version 6.0 , if the Desktop Experience component is plugged into the remote server , remote application user interface elements ( e.g. , application windows borders , Maximize , Minimize , and Close buttons etc . ) will take on the same appearance of local applications .
+In this scenario , the remote applications will use the Aero theme if the user connects to the server from a Windows Vista machine running Aero .
+Later versions of the protocol also support rendering the UI in full 32-bit color , as well as resource redirection for printers , COM ports , disk drives , mice and keyboards .
+With resource redirection , remote applications can use the resources of the local computer .
+Audio is also redirected , so that any sounds generated by a remote application are played back at the client system .
+Moreover , a remote session can also span multiple monitors at the client system , independent of the multi - monitor settings at the server .
+RDC can also be used to connect to Windows Media Center ( WMC )
+remote sessions ; however , since WMC does not stream video using RDP , only the applications can be viewed this way , not any media .
+RDC prioritizes UI data as well as keyboard and mouse inputs , as opposed to print jobs or file transfers .
+so as to make the applications more responsive .
+It redirects plug and play devices such as cameras , portable music players , and scanners , so that input from these devices can be used by the remote applications as well .
+RDC can also be used to connect to computers which are exposed via Windows Home Server RDP Gateway over the Internet .
+Finally , RDC can be used to reboot the remote computer with the key combination .
+WINDOWS DESKTOP SHARING
+Section::::Windows Desktop Sharing .
+Windows Vista onwards , Terminal Services also includes a multi - party desktop sharing capability known as Windows Desktop Sharing .
+Unlike Terminal Services , which creates a new user session for every RDP connection , Windows Desktop Sharing can host the remote session in the context of the currently logged in user without creating a new session , and make the Desktop , or a subset of it , available over RDP .
+Windows Desktop Sharing can be used to share the entire desktop , a specific region , or a particular application .
+Windows Desktop Sharing can also be used to share multi - monitor desktops .
+When sharing applications individually ( rather than the entire desktop ) , the windows are managed ( whether they are minimized or maximized ) independently at the server and the client side .
+The functionality is only provided via a public API , which can be used by any application to provide screen sharing functionality .
+Windows Desktop Sharing API exposes two objects : codice_9 for the sharing session and codice_10 for the viewer .
+Multiple viewer objects can be instantiated for one Session object .
+A viewer can either be a passive viewer , who is just able to watch the application like a screencast , or an interactive viewer , who is able to interact in real time with the remote application .
+The codice_9 object contains all the shared applications , represented as codice_12 objects , each with codice_13 objects representing their on - screen windows .
+Per - application filters capture the application Windows and package them as codice_13 objects .
+A viewer must authenticate itself before it can connect to a sharing session .
+This is done by generating an codice_15 using the codice_9 .
+It contains an authentication ticket and password .
+The object is serialized and sent to the viewers , who need to present the codice_15 when connecting .
+Windows Desktop Sharing API is used by Windows Meeting Space and Windows Remote Assistance for providing application sharing functionality among network peers .
+SEE ALSO
+* Windows MultiPoint Server
+* Microsoft NetMeeting , a discontinued Microsoft product also provides Shared - desktop feature , in the similar time - frame of Windows NT Terminal Services Edition * Virtual Network
+Computing REFERENCES EXTERNAL LINKS
+*
+Welcome to Remote Desktop Services

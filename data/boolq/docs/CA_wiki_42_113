@@ -1,0 +1,734 @@
+NATIONAL IDENTIFICATION NUMBER
+A national identification number , national identity number , or national insurance number is used by the governments of many countries as a means of tracking their citizens , permanent residents , and temporary residents for the purposes of work , taxation , government benefits , health care , and other governmentally - related functions .
+The number appears on identity documents issued by several of the countries .
+The ways in which such a system is implemented vary among countries , but in most cases citizens are issued an identification number upon reaching legal age , or when they are born .
+Non - citizens may be issued such numbers when they enter the country , or when granted a temporary or permanent residence permit .
+Many countries issued such numbers for a singular purpose , but over time , they become a de facto national identification number .
+For example , the United States developed its Social Security number ( SSN ) system as a means of organizing disbursing of Social Security benefits .
+However , due to function creep , the number has become used for other purposes to the point where it is almost essential to have one to , among other things , open a bank account , obtain a credit card , or drive a car .
+Although some countries are required to collect Taxpayer Identification Number ( TIN ) information for overseas payment procedures , some countries , like the US , are not required to collect other nations ' TIN if other requirements are met , such as date of birth .
+Authorities use databases and they need a unique identifier in order to be that data actually refer to the searched person .
+In countries where there is no established nationwide number , authorities need to create their own number for each person , though there is a risk of mismatching people .
+AFRICA NIGERIA Section::::Africa .
+Section::::Nigeria .
+The Nigerian National Identification Number ( NIN ) is issued and managed by National Identity Management Commission ( NIMC ) , and it 's a set of eleven digits ( e.g. : 134789009 ) , assigned to 16 + years old Nigerians and legal residents by the Government .
+SOUTH AFRICA Section::::South Africa .
+In the Republic of South Africa every citizen must apply for an Identity Document from the age of 16 years .
+The ID number is already allocated at the time the birth certificate is generated and required for child passport applications .
+This passport - size document contains only 8 pages - the first page containing the national identification number ( also in barcoded format ) , name of bearer , district or country of birth , as well as a photograph of the bearer .
+The other pages are used for recording of voting participation , a page for driver 's license information ( although it is no longer used since the introduction of plastic card type licenses ) , as well as pages for fire arms licenses ( also plastic card type now ) .
+The document is required to apply for a passport , car learner 's license ( over 17 ) , motorcycle learner 's license ( over 16 ) , driving license ( over 18 ) , motorcycle license ( over 16 or 18 depending on cc ) and to vote ( over 18 ) .
+The Identity Document is not used for international travel purposes ( a separate passport is issued ) but usually is acceptable photographic identification for internal flights , and mainly serves as proof of identification .
+Some authorities may accept the driver 's license as proof of identity , but the Identity Document is the only universally accepted form of identification .
+The government has started issuing ID cards which contains a biometric chip which , in turn , holds biographical information which is unique to the holder of that specific card .
+The South African government wishes to phase out the old Green Barcoded ID book and replace it with the Identity Card .
+The Identity number is also used when the holder applies for a grant from the South African Social Security Agency ( SASSA ) .
+VALIDATION
+Section::::Validation .
+A South African person identification number is a 13-digit number containing only numeric characters , and no whitespace , punctuation , or alpha characters .
+It is defined as YYMMDDSSSSCAZ : *
+YYMMDD represents the date of birth ( DoB ) ;
+* SSSS is a sequence number registered with the birth date ( where females are assigned sequential numbers starting with 0 to 4 and males from 5 to 9 )
+* C is the citizenship with 0 if the person is a SA citizen , 1 if the person is a permanent resident ; *
+A is 8 or 9 .
+Prior to 1994 this number was used to indicate the holder 's race ; * Z is a checksum digit .
+Using ID Number 8001015009087 as an example , it would read as follows :
+The ID indicates that a male citizen was born on 1 January 1980 ; he was the 10th male to be registered ( assuming that the first male to be registered on that day would be assigned the sequence number 5000 ) .
+The checksum digit is calculated using the Luhn algorithm : *
+A =
+the sum of the digits in the ID number in the odd positions ( excluding Z )
+* B =
+the number formed by the concatenation of the digits in the ID number in the even positions
+* C = the sum of the digits in ( 2 * B )
+* D =
+A +
+C * Z
+= 10 -
+( D mod 10 )
+RACIAL CLASSIFICATION Section::::Racial classification .
+During the apartheid era the next to last digit , " A " , denoted " race " .
+Since these documents were not then issued to the majority population , the " race " code does not include those classified as Black .
+i.e. 7605300675088 " A " Classification : * 0 :
+White * 1 :
+Cape Coloured * 2 : Malay * 3 :
+Griqua * 4 : Chinese * 5 : Indian * 6 :
+Other Asian * 7 :
+Other Coloured After about 1987 , the racial classification was eliminated , and all existing numbers were reissued with new digits in the last two fields ( AZ ) .
+HANIS
+Section::::HANIS .
+In contrast to other countries the South African ID number is not unique , at least because of the use of a two - digit year .
+Other issues with duplications exist : however the Department of Home Affairs HANIS Project has planned to rectify that with ID smart cards .
+The timeline for that is undetermined as the last budget request for 08/09 and 09/10 included requests for budget for it despite the project being active since 1997 .
+Upon reaching the age of 16 the applicant then has to go to the registrar generals offices in their district to obtain a national ID .
+Foreigners in Zimbabwe have their ID number with the district of origin as 00 meaning they are foreigners so their ID number would look like 12 345678 A00 .
+Zimbabweans who are not of black race also get a district of origin shown as 00 , even those who are of mixed race .
+AMERICAS ARGENTINA Section::::Americas .
+Section::::Argentina .
+In Argentina the only nationally issued identification is the DNI , Documento Nacional de Identidad ( National Identity Document ) .
+It is a number not related to anything in particular about the person ( except for immigrants who get assigned numbers starting at 92,000,000 ) .
+It is assigned at birth by the Registro Nacional de las Personas ( National Registry for People ) , but parents need to sign up their children , and because of this there are some people , especially the poor , who do not have a DNI .
+The ID is required for applying for credit , opening a bank account , and for voting .
+Law requires a person to show his or her DNI when using a credit card .
+Prior to the DNI the LC ( Libreta Cívica , for women ) , and LE ( Libreta de Enrolamiento , for men ) were used .
+This was later unified in the DNI .
+For taxpaying purposes , the CUIT and CUIL ( Código Único de Identificación Tributaria , Unique Code for Taxpaying Identification and Código Único de Identificación Laboral , Unique Code for Laboral Identification ) .
+An example of the ID is 20 - 10563145 - 8 .
+It is based on the DNI and appends 2 numbers at the beginning and one at the end .
+For example , 20 and 23 for men , 27 for women , and one control digit at the end .
+Employees have a CUIL ( assigned at the moment the DNI is created ) , and employers have a CUIT .
+The first two digits to identify the CUIT for companies are for instance : 30 or 33 .
+If a person decides to open a company of its own , his CUIL usually becomes his CUIT .
+The CUIT was needed because a different identification is required for companies , who can not be identified by a DNI number .
+BRAZIL
+Section::::Brazil .
+In Brazil there are two systems .
+The first , the Registro Geral ( RG ) is a number associated to the official ID card .
+Although the ID cards are supposedly national , the RG numbers are assigned by the states and a few other organizations , such as the armed forces .
+So , not only is it possible for a person to have the same RG number as a person from other state ( which is usually dealt with by specifying the state which issued the ID card ) , but it is also possible to ( legally ) have more than one RG , from different states .
+The other system , the Cadastro de Pessoas Físicas ( CPF ) is federal and supposedly unique ( barring fraud ) , but it was created originally for purposes of taxation ( a related system is used for companies , which is called Cadastro Nacional de Pessoas Jurídicas - CNPJ ) .
+One , the other or both numbers are required for many common tasks in Brazil , such as opening a bank account or getting a driver 's license .
+The RG system is more widespread , but its shortcomings have led to debate about merging both systems into a new one , which would be based around the CPF .
+Another type of registration is the Social Security Number , which is originated when a person creates one in the National Social Security Institute 's site or starts to work for a company , when this one has to register the employee in the Social Integration Program .
+There is another number for elections , which are mandatory participation for citizens from 18 to 70 years old .
+CANADA Section::::Canada .
+The use of the Social Insurance Number ( SIN ) as a de facto ID number ended in 2004 with passage of The Personal Information Protection and Electronic Documents Act .
+There are only certain instances where an organization may ask for a SIN ( namely for tax or retirement benefit related issues ) .
+The SIN must be guarded as confidential personal information , and therefore can not be used as a general ID number .
+Nevertheless , the SIN is still used as a unique identifier for the Canada Revenue Agency to track individuals who are filing their income tax returns .
+CHILE Section::::Chile .
+In Chile the National Identification Number is called RUN ( Rol Único Nacional ) , but is usually called RUT ( Rol Único Tributario ) since the number is the same as the one used for tax purposes .
+The main difference between them is that RUN is only assigned to natural persons , while juristic persons can only get a RUT number .
+In the case of natural persons , RUN / RUT number is used as a national identification number , tax payer number , social insurance number , driver 's license number , for employment , etc .
+It is also commonly used as a customer number in banks , retailers , insurance companies , airlines , etc .
+Until the end of August 2013 , the RUN was also used as the passport number .
+After this date , Chilean passports have had unique numbers .
+Since well before 1990 , every baby born is given a RUN number ; previously it was assigned at the moment of applying to get the ID card .
+Non - Chilean residents also get a RUN and an identification card .
+Every company or organization also must have a RUT for taxation purposes .
+The RUN or RUT has 7 or 8 digits ( for people alive today ; in the past , there were persons with a 5- or 6-digit one , but have died off ) plus a check digit or letter ( xx.xxx.xxx-z , z is { 0 - 9 , K } ) .
+Some open source libraries have been already written for Java and Clojure .
+COLOMBIA Section::::Colombia .
+In Colombia , each person is issued a basic ID card during childhood ( Tarjeta de Identidad ) .
+The ID number includes the date of birth and a short serial number .
+Upon reaching the age of 18 , every citizen is reissued a citizenship card ( Cédula de Ciudadanía ) , and the ID number on it is used and required in all instances , public and private .
+Every Colombian national traveling abroad is issued a passport document ( which includes a passport number related to the national identification number ) ; in this manner foreign governments can track Colombian nationals with their consulates .
+There is as well a number assigned to companies : NIT ( Número de Identificación Tributaria ) .
+Tributary Identification Number ( for its Spanish acronym ) .
+Among other things , it is used for tax reports .
+RUT ( Registro único tributario ) ( taxpayer identification number )
+As of 2003 created the NUIP ( Número Único de Identificación Personal ) , starting the numbering per billion ( 1,000,000,000 ) .
+MEXICO Section::::Mexico .
+In Mexico , the ID number is called the CURP ( Clave Única de Registro de Población )
+although the most important and accepted ID card would be the election card ( " credencial de elector " or else " credencial del INE , " as per the initials of " Instituto Nacional Electoral / National Institute of Elections , the institution responsible for electoral procedures ) .
+There are , however , other important ID numbers in Mexico : for instance , the social security number , which is the number assigned by Instituto Mexicano del Seguro Social ( Mexican Institute of Social Security , or IMSS ) to every citizen who starts working , or the RFC ( Registro Federal del Contribuyente ) which is assigned by the Treasury and has the same format as the CURP but a shorter length .
+UNITED STATES Section::::United States .
+In the United States , a Selective Service Number must be applied for by all male citizens and immigrant non - citizens turning age 18 .
+An optional national identity number is the Social Security number ( SSN ) , a nine - digit number issued to U.S. citizens , permanent residents , and temporary ( working ) residents .
+Its purpose was to identify individuals for the purposes of Social Security , but it is now also used to track individuals for taxation purposes .
+There is no legal requirement to have a SSN if it is not required for Social Security or taxation purposes , but in practice one is required for many other purposes , for example to open a bank account or apply for a driving license , so that nearly all U.S. citizens and permanent residents have one .
+The SSN has therefore become a de facto national identification number , despite the fact that originally it was expressly not for this purpose .
+In fact , a valid SSN can be easily guessed , as they were issued serially prior to June 25 , 2011 .
+VENEZUELA Section::::Venezuela .
+In Venezuela , the Administrative Service of Identification , Migration , and Immigration ( SAIME ) issues an ID card for individuals in their teens ( Cédula de Identidad ) .
+The ID card includes date of birth , a correlative number ( population continuous number for nationals , greater than 80,000,000 for foreign - born residents ) , a photo , marital status , expiration date ( an expired ID card is still valid for nationals ) , and a fingerprint .
+Newly issued ID cards are valid for 10 years .
+Private companies and public entities are assigned a RIF ( Fiscal Information Registry ) number for taxable purposes .
+For natural persons , it is their ID number + checksum digit .
+ASIA BAHRAIN Section::::Asia .
+Section::::Bahrain .
+In Bahrain every citizen and resident must hold an Identification Card ( ) and thus has a Personal Number ( ) which consists of 8 digits followed by a check digit ( Total : 9 digits ) .
+In general , it has the following format : YYMMNNNNC , where YYMM is the year and month of birth , NNNN is a random number , C is the check digit .
+However , a minority of citizens and residents have Personal Numbers that do not follow that format .
+It is possible to obtain a Distinctive Personal Number ( ) , only for newborn infants and it is optional and not compulsory , for a fee ( US$ 130 , 200 , or 260 depending on the category ) .
+Another local name for the Personal number is Central Population Registration ( CPR ) Number ( ) which was used before the inception of the Central Informatics Organization ( CIO ) ( ) .
+BANGLADESH Section::::Bangladesh .
+In Bangladesh national ID card is issued by Election Commission .
+CHINA Section::::China .
+In China , an ID card is mandatory for all citizens who are over 16 years old .
+The ID number has 18 digits and is in the format RRRRRRYYYYMMDDSSSC , which is the sole and exclusive identification code for the holder ( an old ID card only has 15 digits in the format RRRRRRYYMMDDIII ) .
+RRRRRR is a standard code for the administrative division where the holder is born ( county or a district of a city ) , YYYYMMDD is the birth date of the holder , and SSS is a sequential code for distinguishing people with identical birthdates and birthplaces .
+The sequential code is odd for males and even for females .
+The final character , C , is a checksum value over the first 17 digits .
+To calculate the checksum , each digit in order is multiplied by a weight in the ordered set [ 7 9 10 5 8 4 2 1 6 3 7 9 10 5 8 4 2 ] and summed together .
+The sum modulus 11 is used as an index into the ordered set [ 1 0
+X 9 8 7 6 5 4 3 2 ] , with the first index being zero .
+The indexed value is the checksum digit .
+In 15 digit IDs , III is an identification number created through certain mathematical methods ( the last digit might be an English letter , such as X ) .
+The ID card is used for residential registration , army enrollment registration , registration of marriage / divorce , going abroad , taking part in national exams , and other social or civil matters .
+HONG KONG Section::::Hong Kong .
+In Hong Kong , a Hong Kong Identity Card ( HKID ) is mandatory for all residents aged over 11 , subject to limited exceptions .
+HKID cards contain the bearer 's HKID number , of which the standard format is X123456(A ) .
+X represents one or two letters of the alphabet .
+The numerals may represent any Arabic number .
+A is the check digit , which has 11 possible values from 0 to 9 and A.
+The letters and numbers are not assigned arbitrarily .
+Additionally , one can view the international securities identification numbers organization that helps assign ISIN codes to securities .
+INDIA Section::::India .
+As World 's biggest Biometric ID Programme , the Indian Government on 28 January 2009 , established an Authority called the Unique Identification Authority of India ( UIDAI ) to issue a Unique Identification Number to all residents of India .
+UIDAI 's Aadhaar card project gives each Indian eligible resident a unique 12 digit identification number , along with recording their biometrics such as iris scan and fingerprints on a UIDAI database and the card is being rolled out to all such residents .
+Though contrary to popular belief Aadhaar is not a proof for citizenship .
+The first Aadhaar number was launched in Maharashtra in the village of Tembhli , on 29 September 2010 .
+So far up to August 2018 , 1.19 billion Aadhaar Numbers have been issued .
+In October 2015 , 93 percent of adult Indians have an Aadhaar card .
+There is no Aadhaar smart card but UID information of a card can be printed on a piece of paper or on a plastic card .
+Before Aadhaar , the closest India has come to this is the Permanent account number ( PAN ) , issued by the Income Tax Office , for purposes of tracking income and income taxes .
+It has gained use as a means of identification for activities like getting a phone connection .
+A total of 24.37 crore ( 243.7 million ) PANs have been allotted as of 24 February 2016 .
+INDONESIA
+Section::::Indonesia .
+In Indonesia , 16 digit number is used as a unique number for each citizens .
+It is known as Nomor Induk Kependudukan .
+The number is given to all Indonesian citizen .
+The format is PPRRSSDDMMYYXXXX where PP is two digits province code , RR is two digits regency or city code , SS is two digits sub - district code , DDMMYY is date of birth ( DD is added by 40 for female ) , and XXXX is a four digits computerized number .
+The number is stated in Indonesian identity card .
+Add with individual state code as per issue state a unique no of district .
+and its no to be reflected from ( like District no+state
+No+India National N
+This program is designed on the basis of UIDAI of India .
+Though Indonesia started late , Indonesia National ID program is growing at much rapid pace and assumed to complete earlier than India due to smaller population .
+Since 2012 , the government rolls out e - KTP ( " Elektronik Kartu Tanda Penduduk " , " Electronic Citizen ID Card " ) which is an RFID card containing encrypted information of the electronic signature , iris scan , ten - finger fingerprint scan and a high - resolution passport photo .
+IRAN , ISLAMIC REPUBLIC OF Section::::Iran , Islamic Republic of .
+In IranID card named ( کارت ملی )
+Iranian national identity card karte - meli , ID card is mandatory for all citizens who are over 15 years old and National Identification Number is a 10-digit number in the format of XXX - XXXXXX - X ; ( e.g. 012 - 345678 - 9 ) .
+The government started NIDs and 10-digit postal codes in 1989 .
+IRAQ , REPUBLIC OF Section::::Iraq , Republic of .
+Every Iraqi citizen must have a Nationality Certificate ( شهادة الجنسية ) and a civil Identification Document ( هوية الأحوال المدنية ) .
+In 2016 , both documents were replaced with National Card ( البطاقة الوطنية ) , a biometric ID card .
+ISRAEL Section::::Israel .
+An Identity Number ( Hebrew : מספר זהות Mispar Zehut ) is issued to all Israeli citizens at birth by the Ministry of the Interior .
+It is composed of nine digits : a one - digit prefix , seven digits , and a final check digit .
+Blocks of numbers are distributed to hospitals , and individual numbers are issued to babies upon discharge from hospital .
+Temporary residents ( category A-5 ) are assigned a number when they receive temporary resident status .
+An Identity Card , ( Hebrew : Teudat Zehut ) , bearing an Identity Number , is issued to all residents over 16 years old who have legal temporary or permanent residence status , including non - citizens .
+JAPAN Section::::Japan .
+Japan 's national identification number system , known within the country as " My Number " ( Japanese : マイナンバー ) , went into effect from 2016 .
+The number consists of 12 digits , and one is assigned to each resident of Japan , including non - Japanese long - term residents with valid residency permits .
+KAZAKHSTAN Section::::Kazakhstan .
+In Kazakhstan there is a 12-digit Individual Identification Number for natural persons ( abbreviated in , ZhSN ; in , IIN , with first six digits representing person 's date of birth in the YYMMDD format ) and a 12-digit Business Identification Number for legal entities ( companies ) .
+Until its abolishment on 1 January 2013 , the 12-digit Taxpayer 's Registration Number (; , usually abbreviated as РНН , RNN ) was more popular in dealings with authorities as well as with businesses .
+KUWAIT Section::::Kuwait .
+In Kuwait , the 12-digit national identification number is the Civil Number ( ) , it follows the format ( NYYMMDDNNNNN ) , and is issued and put on the Civil ID and managed by Public Agency for Civil Information ( PACI ) .
+The Civil ID contains holder 's name in Arabic and English , picture , gender , date of birth , current address and a digital memory .
+The Civil Number is issued for citizens and residents , and it 's used for a lot of tasks like opening a bank account , getting free medical care or even for taking some tests like the IELTS exam .
+Passports can be used instead for those who do n't have Civil IDs like tourists .
+MACAU Section::::Macau .
+In Macau , there are two types of ID cards : Permanent Resident Identity Card ( BIRP ) and Non - Permanent Resident Identity Card ( BIRNP ) .
+The identification number has 8-digit standard format : NNNNNNN(N ) , where N is a numeric digit 0 - 9 .
+The first numeric digit N has special meaning , and it can be one of the following digits : ' 1 ' , ' 5 ' or ' 7 ' .
+* ' 1 ' : The first - time date of issuance of ID card to the bearer was 1992 or later .
+* ' 5 ' :
+The predecessor of the ID card was the Portuguese National Identity Card ( BI ) , issued by Macau Civil Authority .
+* ' 7 ' :
+The predecessor of the ID card is Macau Identity Card , issued by Macau Public Security Police .
+During Portuguese rule , Macau had no unified identification system , and several departments had the authority to issue identity cards to Macau citizens and residents .
+Since 1992 , the Identification Department ( once known as SIM , now called DSI ) has become the unitary authority to issue identity cards .
+It has adopted the above - mentioned numbering policy .
+Macau 's Finance Department has also adopted identification number as a tax reporting number , for tax filing purposes .
+MALAYSIA Section::::Malaysia .
+In Malaysia , a 12-digit number ( format : YYMMDD - SS-###G , since 1991 ) known as the National Registration Identification Card Number ( NRIC No . ) is issued to citizens and permanent residents on a MyKad .
+Prior to January 1 , 2004 , a separate social security ( SOCSO ) number ( also the old IC number in format ' S # # # # # # # # # ' , S denotes state of birth or country of origin ( alphabet or number ) , # is a 9-digit serial number ) was used for social security - related affairs .
+The first group of numbers ( YYMMDD ) are the date of birth .
+The second group of numbers ( SS ) represents the place of birth of the holder - the states ( 01 - 13 ) , the federal territories ( 14 - 16 ) or the country of origin ( 60 - 85 ) .
+The last group of numbers ( # # # G ) is a serial number in an unidentified pattern which is randomly generated .
+The last digit ( G ) is an odd number for a male , while an even number is given for a female .
+NEPAL Section::::Nepal .
+Nepal is soon introducing National Identification Card .
+It is a Bio - metric smart card which will hold all the important details of an individual .
+A department level central body under the Ministry of Home Affairs named National ID Management Center has been established on 2011 - 07 - 17 AD , pursuant to the decision of 2010 - 06 - 30 AD of Nepal Government .
+PAKISTAN Section::::Pakistan .
+After the independence of Pakistan , Prime Minister Liaquat Ali Khan launched the Personal Identity System ( PIS ) program to issue national identification cards to the citizens of Pakistan and Muslim refugees settling in Pakistan .
+Since the 1960s , Pakistan has been issuing National Identity Card ( commonly known by the acronym , NIC ) numbers to its citizens .
+These numbers are assigned at birth when the parents complete the child 's birth registration form ( B - Form ) , and then a National Identity Card ( NIC ) with the same number is issued at the age of 18 .
+Until , 2001 NIC numbers were 11 digits long .
+In 2001–2002 , the National Database and Registration Authority ( NADRA ) , started issuing 13-digit NIC numbers along with their new biometric ID cards .
+The first 5 digits are based on the applicant 's locality , the next 7 are serial numbers , and the last digit is a check digit .
+The last digit also indicates the gender of the applicant ; an even number indicates a female and an odd number indicates a male .
+The old numbers are invalid as of 2004 .
+As of 2012 , NADRA has started to issue SMART ID cards which include an encrypted chip .
+The SMART card plan is to be extended to disburse social benefits as well as to allow the heirs of the card to get life insurance at the death of the card holder .
+Every citizen has an NIC number for activities such as paying taxes , opening a bank account , getting a utility connection ( phone , cell phone , gas , electricity ) .
+However , since a majority of births in the country are not registered , and a large number of Pakistanis do not conduct any of the activities described above , most do not have ID cards .
+Obtaining an NIC card costs 100 rupees ( US$ 1.66 - almost the average daily income ) , and this reduces the number of people who can afford it .
+In 2006 , NADRA announced that it had issued 50 million CNIC ( the C standing for Computerized ) numbers , which is approximately one - third of the population .
+In June 2008 , the federal government announced it would start issuing CNIC cards for free .
+In addition to NIC / CNIC companies and individuals in business and employment with taxable income are required to register with Central Board of Revenue and have their National Tax Number ( commonly known as NTN ) .
+The tax number is mainly used only for taxation purposes and is rarely used otherwise as compared to other countries .
+New NTN certificates are being issued with computerized NIC numbers and old NTN certificates bearing old NIC numbers will become invalid .
+PHILIPPINES
+Section::::Philippines .
+Filipino citizens as well as resident aliens will be eligible to obtain a PhilSys ID .
+PhilSys ID card will be issued to all Filipino citizens and foreign residents aged 18 and above .
+The PhilSys ID will store 13 sets of information .
+The identification document shall display the assigned PhilSys number ( PSN ) , full name , sex , blood type , birth date , birthplace , marital status(optional ) , and photograph of the bearer .
+It will also store the bearer 's mobile number(optional ) , email address(optional ) , and biometrics data ( full fingerprints set and iris scan ) in the PhilSys Registry .
+SINGAPORE
+Section::::Singapore .
+In Singapore the National Registration Identity Card ( NRIC ) is issued to Singapore citizens and permanent residents .
+Permanent residents ( PR ) are issued with NRIC number similar to citizens .
+The NRIC contains a unique number that identifies the person holding it , and is used for almost all identification purposes in Singapore , including authentication when accessing the Singapore government 's web portal .
+Citizens and permanent residents are issued with identity number starts with prefix S ( born before 2000 ) and T ( born in or after year 2000 ) , followed with a 7-digit number and a checksum alphabet .
+For citizens and permanent residents born after 1968 , the first two digits of the 7-digit number indicate their birth year .
+Long - term pass holders ( e.g. people holding work permits , employment passes or student passes ) are issued a similarly formatted Foreign Identification Number ( FIN ) on their long - term passes , with prefix F ( registered before year 2000 ) and G ( registered in or after year 2000 ) .
+SOUTH KOREA Section::::South Korea .
+In South Korea , every Korean resident is assigned a Resident 's Registration Number ( 주민등록번호 ) , which has the form 000000 - 0000000 .
+The first six digits is his / her birthday in the format YYMMDD .
+The first digit of the last seven digits is determined by the century of birth and the gender as follows : * 1 : males , holding Korean nationality , born 1900–1999
+* 2 : females , holding Korean nationality , born 1900–1999
+* 3 : males , holding Korean nationality , born 2000–2099
+* 4 : females , holding Korean nationality , born 2000–2099
+* 5 : male foreigners sojourn in Korea , born 1900–1999
+* 6 : female foreigners sojourn in Korea , born 1900–1999
+* 7 : male foreigners sojourn in Korea , born 2000–2099
+* 8 : female foreigners sojourn in Korea , born 2000–2099
+* 9 : males , holding Korean nationality , born before 1900 * 0 : females , holding Korean nationality , born before 1900
+The next four digits mean the region of his / her birth registration , and the next 1 digit is a serial number of registration within the date and the region .
+The last digit is a check digit .
+SRI LANKA Section::::Sri Lanka .
+In Sri Lanka , all citizens over the age of 16 need to apply for a National Identity Card ( NIC ) .
+Each NIC has a unique 10 digit number , in the format 000000000A ( where 0 is a digit and A is a letter ) .
+The first two digits of the number are your year of birth ( e.g. : 88xxxxxxxx for someone born in 1988 ) .
+Add 500 to middle 3 numbers after first two numbers for females .
+The final letter is generally a ' V ' or ' X ' .
+An NIC number is required to apply for a passport ( over 16 ) , driving license ( over 18 ) and to vote ( over 18 ) .
+In addition , all citizens are required to carry their NIC on them as proof of identity .
+NICs are not issued to non - citizens , but they too are required to carry some form of photo identification ( such as a photocopy of their passport or foreign driving license ) .
+TAIWAN Section::::Taiwan .
+In Taiwan , an ID card is mandatory for all citizens who are over 14 years old .
+Every citizen has a unique ID number .
+The ID card has been uniformly numbered since 1965 .
+A valid National Identification number consists of one letter and nine - digits , in the format
+A########C.
+The letter ( " A " ) records the card holder 's first location of household registration , which is usually where they were born .
+The first digit depends on gender ; 1 for male , 2 for female .
+The last digit ( " C " ) is a checksum .
+Thus the total number of IDs is 208,000,000 .
+The letter usage ( i.e. , indicating the household registration location ) is as follows : valign =
+top !
+Letter ! !
+City / county valign =
+top !
+Letter ! !
+City / county valign =
+top !
+Letter ! !
+Original division ! !
+Date of final issue ! !
+Current division THAILAND Section::::Thailand .
+In Thailand , the Population Identification Code has been issued by the Department of Provincial Administration of the Ministry of Interior since 1976 .
+It consists of a 13-digit string in the format N - NNNN - NNNNN - NN - N , which is assigned at birth or upon receiving citizenship .
+The first digit signifies type of citizenship , the second to fifth the office where the number was issued , the sixth to twelfth are group and sequence numbers , and the last digit acts as a check digit .
+UNITED ARAB EMIRATES
+Section::::United Arab Emirates .
+The Emirates Identity Authority ( ) issues an Identity Card ( ) to each citizen and resident .
+The cardholder 's name , nationality , gender and date of birth are printed on the card .
+The card also bears a unique 15-digit Identification Number ( ) , which is used for identity verification by the government and some private entities .
+Inside the card is an electronic chip which contains personal and biometric data about the cardholder .
+The Identification Number has the following format : 784-YYYY - NNNNNNN - C , where 784 is the ISO 3166 - 1 numeric code for the UAE , YYYY is the year of birth , NNNNNNN is a random 7-digit number , and C is a check digit .
+VIETNAM Section::::Vietnam .
+In Vietnam , a Vietnam ID card ( ) , is issued by Provincial Police Department for Vietnamese citizens .
+The ID card number is a combination of 12 digits .
+The expiry date of the ID card is 15 years .
+EUROPE
+ALBANIA Section::::Europe .
+Section::::Albania .
+In Albania , the Identity Number ( ( NID ) ) is issued by the Central Civic Registry Service ( Ministry of Interior ) .
+The coding structure and algorithm is regulated by a decision of the Council of Ministers of Albania ( No.827 , Dated 11.12.2003 ) .
+From 2004 to 2007 , the Identity Number was referred to as the Citizen Identity Number ( ( NISH ) ) .
+As of 2007 , with the introduction the new legislation regarding the new biometric ID cards and biometric passports , it is referred to as the Identity Number .
+The Albanian national identification number appears in the Albanian national ID cards and biometric passports under the ' personal no . ' section .
+The Albanian Identity Number is a unique personal identification number of 10 characters in the format YYMMDDSSSC , where YYMMDD indicates the date of birth and sex ( for males MM is 01 - 12 , for females 50 is added to the month of birth so that MM is 51 - 62 ) , SSS is a sequence number of persons born on the same date ( 001–999 ) , and C is a checksum letter ( A – W ) .
+The YY part of the date of birth is calculated from the following table :
+e.g. For people born in the year 2003 , YY would be K3 .
+AUSTRIA Section::::Austria .
+In Austria there are two schemes to identify individuals : Sector - Specific Personal Identifier :
+The Sector - Specific Personal Identifier ( ssPIN ) tries to do away with the problems of the SSN .
+Its legal foundation is the Austrian E - Government Act , and it is derived from the Central Register of Residents ( CRR ) .
+Its specification is related with the Austrian Citizen Card .
+Its computation ( specification ) is a two - stage process : The CCR ID is encoded into the Source Identification Number ( Source PIN ) with a symmetrical crypto - function .
+This is again one - way encoded into the ssPIN per sector of governmental activity .
+For the storage of SourcePINs is not limited to citizen cards , and an application can not convert a ssPIN from one sector to the ssPIN from applications of other sectors , the link - up of data of sectors by PINs is constricted .
+However , there is a legal exception to this rule : applications may query for and store ssPINs from other sectors if they are encrypted in a way that makes them only usable in the target application .
+This enables the application to communicate across sectors .
+Sample values :
+* CCR - ID : 000247681888
+( 12-digit ) * SourcePIN : MDEyMzQ1Njc4OWFiY2RlZg== ( 24 bytes base64 )
+* ssPIN(BW ) :
+MswQO / UhO5RG+nR+klaOTsVY+CU= ( 28 bytes base64 )
+* BW ( Bauen + Wohnen ) is the public sector related to " construction and habitation " .
+*
+There are approximately 30 sectors like health , taxes , statistics , and security .
+BELGIUM Section::::Belgium .
+In Belgium every citizen has a National Register Number , which is created by using the citizen 's date of birth ( encoded in six digits ) , followed by a serial number ( three digits ) and a checksum ( two digits ) .
+The serial number is used so that men get the odd numbers , while women get the even numbers ; thus , there can be only 500 men or women on each day .
+The national number is unique to each person and in that capacity used by most government institutions ; however , because one can immediately read the date of birth and the sex of the numbers ' holder and because it is the key in most government databases ( including that of the tax administration , the social security , and others ) , it is considered a privacy - sensitive number .
+For that reason , although it is put on the identity card by default , with the old ID cards a citizen could request that this would not be done .
+With the newer Digital ID cards that Belgium is rolling out , this is no longer possible , since the National Number is used as the serial number for the private cryptography keys on the card ..
+BOSNIA AND HERZEGOVINA Section::::Bosnia and Herzegovina .
+Each citizen receives 13 number Unique Master Citizen Number
+( Bosnian : Jedinstveni matični broj građana ) upon birth .
+Unique Master Citizen Number comprises 13 digits in DDMMYYY RR XXX C format .
+DD / MM / YYY represents citizens birth date .
+RR indicates one of 10 Bosnian regions ( 10 : Banja Luka , 11 : Bihać , 12 : Doboj , 13 : Goražde , 14 : Livno , 15 :
+Mostar , 16
+: Prijedor , 17 : Sarajevo , 18 : Tuzla , 19 : Zenica ) where the citizen was born .
+XXX is a unique sequential number where 000 - 499 is used for males and 500 - 999 for females .
+The final number is a check - sum .
+Foreign citizens born or residing in Bosnia & Herzegovina can also receive a Unique Master Citizen Number ( UMCN ) .
+The RR sequence foreign nationals is 01 .
+Upon gaining Bosnian citizenship , a former foreign national can request new UMCN where the RR part is represented by the region where they were first registered .
+BULGARIA Section::::Bulgaria .
+Every citizen or permanent resident of Bulgaria has a unique 10-digit Uniform Civil Number ( Bulgarian : Единен граждански номер , Edinen grazhdanski nomer , usually abbreviated as ЕГН , EGN ) , generated from the person 's date of birth ( encoded in six digits in the form YYMMDD ) , followed by a three - digit serial number and a single - digit checksum .
+The last digit of serial number indicates gender : odd numbers are used for females and even numbers for males .
+For persons born prior to 1900 , the month identifier ( third and fourth digits ) is increased by 20 ( e.g. 952324XXXX denotes a person born on 24 March 1895 ) .
+Similarly , 40 is added to denote that a person was born after 1999
+( e.g. 054907XXXX denotes a person born on 7 September 2005 ) .
+EGNs were introduced in 1977 and are used in virtually all dealings with public service agencies , and often with private businesses .
+EGNs are also printed on Bulgarian identity cards and passports , under the heading " ЕГН / Personal number " .
+CROATIA Section::::Croatia .
+In Croatia , the Personal Identification Number ( ( OIB ) ) , is used for identifying the citizens and legal persons in many government and civilian systems .
+The OIB - system was introduced on January 1 , 2009 and replaced the old JMBG system , renamed to Master Citizen Number ( Croatian :
+Matični broj građana ( MBG ) )
+in 2002 , that was used in former Yugoslavia .
+The OIB consists of eleven random digits and the last number is a control number .
+Although the OIB is in use , the MBG is still issued and used for data coordination among government registries .
+CZECH REPUBLIC AND SLOVAKIA Section::::Czech Republic and Slovakia .
+Czech Republic and Slovakia uses a system called Birth Number ( Czech / Slovak : rodné číslo ( RČ ) ) .
+The system was introduced in the former Czechoslovakia .
+The form is YYXXDD / SSSC , where XX = MM ( month of birth ) for male ( numbers 01 - 12 ) and XX = MM+50 for female ( numbers 51 - 62 ) , SSS is a serial number separating persons born on the same date and C is a check digit , but for people born before 1 January 1954 the form is without the check digit - YYXXDD / SSS .
+This enables the system to work until the year 2054 .
+The whole number must be divisible by 11 .
+The system is raising privacy concerns , since the age and the gender of the bearer can be decoded from the number .
+Therefore , the birth number is considered a sensitive piece of personal information .
+DENMARK Section::::Denmark .
+A Personal Identification Number ( Da .
+CPR , Det Centrale Personregister ) in Denmark is used in dealings with public agencies , from health care to the tax authorities .
+It is also used as a customer number in banks and insurance companies .
+People must be registered with a CPR number if they reside in Denmark , if they own property or if they pay tax .
+In Denmark , there has been a systematic registration since 1924 , however it was in 1968 that the electronic CPR register was established .
+In the 1980s , the electronic system was exported to Kuwait , Jamaica , Malaysia , Thailand , Romania , Cyprus , Estonia , Latvia , Slovakia , and Saint Petersburg .
+The CPR number is a ten - digit number with the format DDMMYY - SSSS , where DDMMYY is the date of birth and SSSS is a sequence number .
+The first digit of the sequence number encodes the century of birth ( so that centenarians are distinguished from infants , 0 - 4 in odd centuries , 5 - 9 in even centuries ) , and the last digit of the sequence number is odd for males and even for females .
+Prior to 2007 , the last digit was also a check digit such that less than 240 SSSS values were available for any given combination of gender and date of birth , but due to an administrative practice of assigning Jan 1 and similar dates for immigrants with unknown date of birth , any SSSS value consistent with gender and century of birth may now be issued , even for birth dates prior to 2007 .
+Companies and other taxable non - humans are issued an eight - digit " CVR " number which is a mostly sequential number , there is no defined rule preventing the issuance of a CVR number with the same digits as a CPR number of an unrelated person , so the type of number must always be indicated , but CPR are always 10-digit and CVR 8-digit . VAT registration numbers for Danish companies are simply " DK " followed by the CVR number , but far from all CVR numbered entities are VAT registered ( companies with no need for a VAT number , such as holding companies , typically do not request a VAT registration for their CVR ) .
+Government entities are numbered in a variety of ways , but since 2003 all government entities ( however small ) now have EAN numbers for billing purposes .
+Some Government entities also have CVR numbers .
+Only one Government Entity ( the Queen ) has a CPR number .
+The CPR number gives government agencies access to state - controlled databases with information about the person .
+The information includes : The person 's marital status and spouse , parents , children , current and former addresses , the cars the person has owned , the criminal record and other information about the person .
+Foreigners who are not eligible to get a CPR - number , but who need one , includes persons who have witnessed a crime , persons who have been charged with a crime , or are victims of a crime .
+These persons are registered with a CPR - number with the format : DDMMYY - XXXX where XXXX are four letters instead of four numbers .
+ESTONIA Section::::Estonia .
+In Estonia , a Personal Identification Code
+( Estonian : isikukood ( IK ) ) is defined as a number formed on the basis of the sex and date of birth of a person which allows the identification of the person and used by government and other systems where identification is required , as well as by digital signatures using the nation ID - card and its associated certificates .
+An Estonian Personal identification code consists of 11 digits , generally given without any whitespace or other delimiters .
+The form is GYYMMDDSSSC , where G shows sex and century of birth ( odd number male , even number female , 1 - 2 19th century , 3 - 4 20th century , 5 - 6 21st century ) , SSS is a serial number separating persons born on the same date and C a checksum .
+EUROPEAN ECONOMIC AREA / SWITZERLAND Section::::European Economic Area / Switzerland .
+Within the European Economic Area and Switzerland , a card known as the European Health Insurance Card is issued to any resident who so wishes , proving the right of health care anywhere in the area .
+This card lists a code called " Identification Number " , which in some cases may be the national identification number of the residence country , for Germany the health insurance number .
+FINLAND Section::::Finland .
+In Finland , the Personal Identity Code ( Finnish : henkilötunnus ( HETU ) , Swedish : personbeteckning ) , also known as Personal Identification Number , was introduced in 1964 and it is used for identifying the citizens in government and many corporate and other transactions .
+It consists of eleven characters of the form DDMMYYCZZZQ , where DDMMYY is the date of birth , C the century sign , ZZZ the individual number and Q the control character ( checksum ) .
+The sign for the century is either + ( 1800–1899 ) , - ( 1900–1999 ) , or A ( 2000–2099 ) .
+The individual number ZZZ is odd for males and even for females and for people born in Finland its range is 002 - 899 ( larger numbers may be used in special cases ) .
+An example of a valid code is 311280 - 888Y.
+The control character is calculated as the remainder of DDMMYYZZZ divided by 31 , i.e. drop the century sign and divide the resulting nine digit number by 31 .
+For remainders below ten , the remainder itself is the control character , otherwise pick the corresponding character from string " 0123456789ABCDEFHJKLMNPRSTUVWXY " .
+For example , 311280888 divided by 31 gives the remainder as 30 , and since A=10 , B=11 , etc .
+ending up with Y=30 .
+A Personal Identity Code is given to every Finnish citizen born in Finland .
+Foreign citizens whose residence in Finland is permanent or exceeds one year are also issued a personal identity code by law .
+The Personal Identity Code is a means to distinguish between individuals having the same name .
+It can be found in some public documents ( such as the deed of purchase of real estate ) .
+Therefore , knowing the code should not be used as a proof of identity , although this sometimes happens in the commercial sector .
+Employers need the personal identity code to report payment of wages to Finnish Tax Administration , the pension funds , etc .
+The number is shown in all forms of valid identification :
+* national ID card * electronic national ID card ( with a chip )
+* driver 's license ( old A6-size and new credit card - size )
+* passport
+During 1964–1970 the personal identity code was known as sosiaaliturvatunnus ( SOTU , Social Security number ) .
+The term is still widely in use unofficially ( and incorrectly ) .
+FRANCE Section::::France .
+In France , the INSEE code is used as a social insurance number , a national identification number , for taxation purposes , for employment , etc .
+It was invented under the Vichy regime .
+GERMANY
+Section::::Germany .
+In Germany , there is no national identification number in the full meaning of the term .
+Until 2007 only decentralized databases were kept by social insurance companies , who allocate a social insurance number to almost every person .
+Since 2008 new Taxpayer Identification Numbers ( German : Steuerliche Identifikationsnummer or Steuer - IdNr ) replace the former Tax File Number .
+Persons who are both employees and self - employed at the same time may receive two taxpayer identification numbers .
+The corresponding number for organizations , also issued by the tax administration , is named economy identification number ( Wirtschafts - Identifikationsnummer ) .
+These numbering concepts are national systems , organized by the Federal Central Tax Office .
+For special purpose further value - added tax identification numbers are issued for persons and organizations that are subject to paying VAT as a deduct from their revenues .
+This is a Europe - wide unified concept .
+Additionally for all persons joining the military service , a Service Number is issued .
+None of these numbers are commonly used for other than their specific purpose , nor is such ( ab)use legal .
+German identity documents do not contain any of the mentioned numbers , only a document number .
+People are not expected to know their number when dealing with an authority , so there are some troubles about people being mismatched .
+For some time , the West German government intended to create a 12-digit personal identification number ( Personenkennzeichen , PKZ ) for all citizens , registered alien residents on its territory , as well as for all non - resident Nazi victims entitled to compensation payments .
+The system , which was to be implemented by the 1973 federal law on civil registry , was rejected in 1976 , when the Bundestag found the concept of an identification system for the entire population to be incompatible with the existing legal framework .
+In East Germany , a similar system named Personenkennzahl ( PKZ ) was set up in 1970 and remained in use until the state ceased to exist in 1990 .
+When applying for the Visa Waiver Program : As Germany is part of the Visa Waiver Program German citizens can enter the USA for up to 90 days without the need of a visa .
+In order to participate in this program it is required to fill out an online form called ESTA .
+This formular specifically asks German citizens about a national identification number .
+US authorities expect to provide the document number of the German identity card .
+GREECE Section::::Greece .
+In Greece , there are a number of national identification numbers .
+* The standard identity card , which has the format A-999999 where A can be any of the 24 letters of the Greek alphabet , is issued to all Greek citizens at the age of 12 .
+* New Greek identity cards have a number formatted like this : XX-999999 where X is a letter , whose uppercase glyph occurs in both the Greek and the Latin alphabet ( ABEZHIKMNOPTYX ) .
+The letters and numbers are assigned with sequential order .
+*
+The Tax Identity Number ( AFM - ΑΦΜ - Αριθμός Φορολογικού Μητρώου - Tax Registry Number ) , which is used by citizens and companies for tax purposes .
+It has nine digits , of which the last one is a check digit .
+*
+The Social Security Number ( AMKA - Αριθμός Μητρώου Κοινωνικής Ασφάλισης ) which is the work and insurance ID of every employee , pensioner and dependent member of their family in Greece .
+Its first six digits is the owner 's date of birth in the ddmmyy format .
+The ID card number is not unique and changes if the person gets a new identity card .
+The tax identity number is unique for every citizen and company .
+Social security number is also unique .
+HUNGARY Section::::Hungary .
+In Hungary , there is no national identification number .
+The Constitutional Court decided in 1991 : " A general , uniform personal identification code which may be used without restriction ( i.e. a personal number ) distributed to every citizen and to every resident of the country based on an identical principle is unconstitutional . "
+Although the universal use of national identification number ( known as " Personal Identification Number " ) is considered to be unconstitutional , it is still used in many places .
+The structure of such number is GYYMMDDXXXC , whereas G is the gender ( 1-male , 2-female , other numbers are also possible for citizens born before 1900 or citizens with double citizenship ) , YYMMDD is the birth date year , month , day , XXX is the serial number , and C is a checksum digit .
+The meanings of the first number : * 1 male , born between 1900 and 1999
+* 2 female , born between 1900 and 1999 * 3 male , born before 1900 or after 1999 * 4 female , born before 1900 or after 1999 Until 1997 also were used the following first numbers : * 5 male , foreign citizen living in Hungary , born between 1900 and 1999 *
+6 female , foreign citizen living in Hungary , born between 1900 and 1999 * 7 male , foreign citizen living in Hungary , born before 1900 or after 1999 * 8 female , foreign citizen living in Hungary , born before 1900 or after 1999
+As the " Personal Identification Number " is considered to be unconstitutional , another identification form , the ID - card number is in use .
+So an average Hungarian has these identifiers : personal identification number , ID card identification number , social security number ( " TAJ " number ) , tax identification number .
+They may also have passport identification number , driving license number .
+ICELAND Section::::Iceland .
+All Icelanders , as well as foreign citizens residing in Iceland and corporations and institutions , have a kennitala ( lit .
+identification number )
+identifying them in the National Register .
+The number is composed of 10 digits , of which the first six are the individual 's birth date or corporation 's founding date in the format DDMMYY .
+The next two digits are chosen at random
+when the kennitala is allocated , the ninth digit is a check digit , and the last digit indicates the century in which the individual was born ( for instance , ' 9 ' for the period 1900–1999 , or ' 0 ' for the period 2000–2099 ) .
+An example would be 120174 - 3399 , the person being born on the twelfth day of January 1974 .
+The Icelandic system is similar to that in other Scandinavian and European countries , but the use of the identification number is unusually open and extensive in Iceland .
+Businesses and universities use the kennitala as a customer or student identifier , and all banking transactions include it .
+The National Registry ( ) oversees the system .
+A database matching names to numbers is freely accessible ( after login ) on all Icelandic online banking sites .
+Given this openness , the kennitala is never used as an authenticator .
+It is worth noting that the completeness of the National Register eliminates any need for Iceland to take censuses .
+IRELAND Section::::Ireland .
+In Ireland the Personal Public Service Number ( PPS No ) is gaining the characteristics of a national identification number as it is used for a variety of public services - although it is stated that it is not a national identifier and its use is defined by law .
+The PPS No . is in the basic form of 1234567 T ( PPS Numbers allocated from 1 January 2013 will have the format 1234567TA ) and is unique to each person .
+For certain public services the collection or retention of numbers of the general public is not allowed , thus Garda Síochána ( Irish police ) is only given an exemption for its own employees or other people defined under the Immigration Act , 2003 - the latter who are people who are not European Union nationals .
+Similarly the Irish Defence Forces may only collect and retain the number for their own employees .
+The PPS Number can not be used for private or commercial transactions .
+The number is used in the private sector , but is limited to a few procedures that lawfully required the production of a number , for transactions with public services and in this regard the private sector will be acting as the agent of a public body entitled to collect and retain the number .
+Thus , for instance , students who attend college or university will have their number ( or other personal data ) collected at registration - this will then be sent to Department of Social Protection to ensure that a student is not simultaneously claiming social welfare .
+Banks may collect the number for the administration of accounts that give interest or tax reliefs which the state funds , through the Revenue Commissioners .
+A bank may not use the number as a customer identification number .
+ITALY Section::::Italy .
+In Italy , the fiscal code ( Italian : Codice fiscale ) is issued to Italians at birth .
+It is in the format " SSSNNNYYMDDZZZZX " , where : SSS are the first three consonants in the family name ( the first vowel
+and then an X are used if there are not enough consonants )
+; NNN is the first name , of which the first , third and fourth consonants are used — exceptions are handled as in family names ; YY are the last digits of the birth year ; M is the letter for the month of birth — letters are used in alphabetical order , but only the letters A to E , H , L , M , P , R to T are used ( thus , January is A and October is R ) ; DD is the day of the month of birth — in order to differentiate between genders , 40 is added to the day of birth for women ( thus a woman born on May 3 has ... E43 ... ) ; ZZZZ is an area code specific to the municipality where the person was born — country - wide codes are used for foreign countries ; X is a parity character as calculated by adding together characters in the even and odd positions , and dividing them by 26 .
+Numerical values are used for letters in even positions according to their alphabetical order .
+Characters in odd positions have different values .
+A letter is then used which corresponds to the value of the remainder of the division in the alphabet .
+An exception algorithm exists in case of perfectly matching codes for two persons .
+Issuance of the code is centralized to the Ministry of Treasure .
+The fiscal code uniquely identifies an Italian citizen or permanently resident alien , and is thus used .
+However , since it can be calculated from personal information ( whether real , or not ) , it is not generally regarded as an extremely reserved piece of information , nor as official proof of identity / existence of an individual .
+colspan="8
+" UNEVEN ALPHANUMERIC CHARACTERS ! Character!!Value!!Character!!Value!!Character!!Value!!Character!!Value 0
+1 9 21
+I 19 R 8 1 0
+A 1 J 21 S 12 2 5 B 0
+K 2 T 14 3 7
+C 5 L 4 U 16 4 9 D 7 M 18 V 10 5 13 E 9 N 20
+W 22 6 15 F 13 O 11
+X 25 7 17 G 15 P 3
+Y 24 8 19 H 17 Q 6 Z 23
+LATVIA Section::::Latvia .
+In Latvia the Personal Code ( ) consists of 11 digits in form DDMMYY - XNNNC where the first six digits are person 's date of birth , the next one stands for
+a century person was born in ( 0 for XIX , 1 for XX and 2 for XXI ) , NNN is birth serial number in that day , and C is checksum digit .
+From July 1 , 2017 Personal Codes are issued without indication to date of birth .
+LITHUANIA Section::::Lithuania .
+In Lithuania the Personal Code ( ) consists of 11 digits , and currently is in the form G
+YYMMDD NNN C , where G is gender & birth century ,
+YYMMDD is the birthday , NNN is a serial number , C is a checksum digit .
+In this scheme , the first number ( G ) shows both the person 's gender ( odd if male , even if female ) and birth century .
+For example , 4 would mean female , born between 1900–1999 .
+This number can be calculated as : The checksum is calculated using this formula ( provided here as JavaScript code ) :
+function lt_nin_checksum(code ) { C = lt_nin_checksum("3840915201 " ) ; Recently ( as of May 2015 ) there are plans to start issuing opaque codes instead , keeping the same overall format and checksum , but containing no personal information .
+LUXEMBOURG Section::::Luxembourg .
+Luxembourg uses a 13-digit identification code , existing of the birth date formatted as YYYYMMDD followed by a number XXX ensuring persons born on the same date have a unique national ID , and then a first check on YYYYMMDDXXX using the LUHN10 algorithm , and finally a check using the VERHOEFF algorithm .
+MACEDONIA Section::::Macedonia .
+Macedonia uses a 13-number identification code Unique Master Citizen Number ( , acronym ЕМБГ ) .
+The Unique Master Citizen Number is composed of 13 digits ( DDMMYYYRRSSSC ) arranged in six groups : two digits ( DD ) for the citizen 's day of birth , two digits ( MM ) for the month of birth , last three digits ( YYY ) of the year of birth , two digits ( RR ) as a registry number , three digits ( SSS ) as a combination of the citizen 's sex and ordinal number of birth , and one digit ( C ) as a control number .
+The two digit registry number depends on the citizens place of birth .
+There are nine registry codes that define the place of birth : 41 for the municipalities of Bitola , Demir Hisar and Resen ; 42 for the municipalities of Kumanovo , Kratovo and Kriva Palanka ; 43 for the municipalities of Ohrid , Struga , Debar and Kičevo ; 44 for the municipalities of Prilep , Kruševo and Makedonski Brod ; 45 for the City of Skopje ; 46 for the municipalities of Strumica , Valandovo and Radoviš ; 47 for the municipalities of Tetovo and Gostivar ; 48 for the municipalities of Veles , Gevegelija , Kavadarci and Negotino ; and 49 for the municipalities of Štip , Berovo , Vinica , Delčevo , Kočani , Probištip and Sveti Nikole .
+The combination of the citizen 's sex and ordinal number of birth is presented as a 3 digit number - from 000 to 499 for the male , and from 500 to 999 for the female citizens .
+The last digit is a computer generated control digit .
+MOLDOVA Section::::Moldova .
+In the Republic of Moldova , all citizens receive at birth a Personal Code ( IDNP - Numarul de Identificare ) , which is composed of 13 digits .
+This code is shown on all identity documents :
+* internal ID cards * driving licenses *
+passports * as well as all civil status documents : birth certificates , marriage certificates , death certificates
+etc .
+MONTENEGRO Section::::Montenegro .
+Montenegro uses a 13-number identification code Jedinstveni matični broj građana/Јединствени матични број грађана ( JMBG ) - Unique Master Citizen Number .
+NETHERLANDS
+Section::::Netherlands .
+In the Netherlands , all people receive a Burgerservicenummer ( BSN ) ( Citizen Service Number ) when they are born .
+It is printed on driving licenses , passports and international ID cards , under the header Personal Number .
+Before 2007 , the BSN was known as sofinummer ( the acronym sofi stands for so - ciaal ( social ) fi - scaal ( fiscal ) ) .
+The number is unique .
+However , initially it was issued by regionally operating branches of the tax department which were all assigned ranges ; in densely populated areas the assigned ranges would overflow thus causing duplicate numbers .
+This mistake was corrected during the transition from SOFI to BSN by issuing a new number to people having a duplicate one .
+The number does not contain any information about the person to whom it is assigned ( i.e. no information , such as gender or date of birth , can be derived from a BSN ) .
+NORWAY Section::::Norway .
+Norway 's eleven - digit birth number ( fødselsnummer ) is assigned at birth , or on migration into the country .
+The register is maintained by the Norwegian Tax Office .
+The number has been in use since the 1960s and was first introduced to the public in 1968 .
+The number is not as widely and openly used as in some other Scandinavian countries , and a 2007 report criticized the common misperception by the Norwegian public that the number is suitable for use as a PIN code .
+Historically , the number has been composed of the date of birth ( DDMMYY ) , a three digit individual number , and two check digits .
+The individual number and the check digits are collectively known as the Personal Number .
+* The individual number has been selected from a range depending on century of birth : for the years 1854–1899 the range is 500–749 , for the years 1900–1999 the range is 000 - 499 , for the years 2000–2039 the range is 500–999 .
+*
+The first check digit is calculated through an algorithm involving modulo 11 of weighted sum of the nine first digits .
+* People who do not permanently reside in Norway have been assigned a D - number upon registration in the population register .
+The D - number is like a birth number , but with the day of the month increased by 40 .
+D comes from the Norwegian name of an authority for sailors , which previously issued those numbers , usually to sailors on board Norwegian ships .
+Nowadays foreign seasonal workers , for example in the tourist industry , get D - numbers .
+In 2017 , the Norwegian Ministry of Finance approved changes to the numbering system .
+After the changes , the number will no longer indicate gender , and the first check digit will be ' released ' to become part of the individual number .
+POLAND Section::::Poland .
+In Poland , a Public Electronic Census System ( Polish Powszechny Elektroniczny System Ewidencji Ludności - PESEL ) number is mandatory for all permanent residents of Poland and for temporary residents living in Poland for over 2 months .
+It has the form
+YYMMDDZZZXQ , where YYMMDD is the date of birth ( with century encoded in month field ) , ZZZ is the personal identification number ,
+X denotes sex ( even for females , odd for males ) and Q is a parity number .
+PORTUGAL
+Section::::Portugal .
+The Constitution of Portugal - in its 35th Article - expressly prohibits the assignment of a national single number to the citizens .
+This prohibition is related with the protection of the personal rights , liberties and guaranties .
+As such , a national identification number does not exist , but instead each citizen has several different identification numbers for use in the different single purposes .
+The existing main identification numbers are : * Civil identification number ( or NIC ) - also referred informally as the Citizen Card 's number or the BI 's number ( BI being the acronym of the old civil identification document ) ; *
+* Tax identification Number ( Número de identificação fiscal or NIF ) - also referred informally as the taxpayer 's number ( número do contribuinte ) ; * * Social Security number ( Número de Segurança Social ) ; * * Healthcare user number ( Número de utente da Saúde ) ; * * Voter 's number ( Número de eleitor ) ; * * Driver 's license number ( Número de carta de condução ) .
+*
+The NIC and the NIF are the mostly commonly used identification numbers in Portugal .
+These two numbers are used for a broad number of purposes - both in the public and the private sectors - and not only for the specific purposes for which they were originally conceived .
+In the past , to each of the above identification numbers corresponded a separate identification document .
+However , in 2006 , the single Citizen Card was implemented .
+This card includes the civil identification , the tax identification , the Social Security and the Healthcare user numbers , replacing the old corresponding identification cards .
+Besides this , the Citizen Card also replaced the previous Voter 's Card , although not including the voter 's number .
+The replacing of the previous separate identification documents by the single Citizen Card is a gradual process , only being mandatory for a citizen , when one of his / her old documents expires .
+The driver 's license continues to be an entirely separate document .
+ROMANIA Section::::Romania .
+In Romania each citizen has a Personal Numerical Code ( Cod Numeric Personal , CNP ) , which is created by using the citizen 's gender and century of birth ( 1/3/5/7 for male , 2/4/6/8 for female and 9 for foreign citizen ) , date of birth ( six digits , YYMMDD ) , the country zone ( two digits , from 01 to 52 , or 99 ) , followed by a serial number ( 3 digits ) , and finally a checksum digit .
+The first digit encodes the gender of person as follows :
+The country zone is a code of Romanian county in alphabetical order .
+For Bucharest the code is 4 followed by the sector number .
+To calculate the checksum digit , every digit from CNP is multiplied with the corresponding digit in number 279146358279 ; the sum of all these multiplications is then divided by 11 .
+If the remainder is 10 then the checksum digit is 1 , otherwise it 's the remainder itself .
+SAN MARINO Section::::San Marino .
+In San Marino there exists the Codice ISS ( Istituto Sicurezza Sociale ) , which is composed of 5 digits .
+It is given to all San Marino citizens and permanent residents .
+SERBIA Section::::Serbia .
+Serbia uses a 13-number identification code Unique Master Citizen Number ( Serbian : Јединствени матични број грађана / Jedinstveni matični broj građana , acronym JMBG ) .
+SLOVAKIA Section::::Slovakia .
+In Slovakia there are two kinds of National identification numbers .
+The first one is the Birth Number ( Slovak : Rodné číslo ( RČ ) ) , issued at birth by the civic records authority ( Slovak : matrika ) and recorded on the birth certificate .
+Its format is YYMMDD / XXXX with YYMMDD being the date of birth and XXXX being a semi - unique identifier .
+For females , the month of the date of birth is advanced by 50 .
+Full identification number in the form
+YYMMDDXXXX must be divisible by 11 .
+Since this system does not provide a truly unique identifier ( the numbers are repeated every century ) and contains what might be considered private information , it may be updated in the future .
+The second system is the Citizen 's Identification Card Number ( Slovak : Číslo občianskeho preukazu ( ČOP ) ) which is in the form AA XXXXXX ( A - alphabetic , X - numeric ) and is used on Slovak identity cards .
+Identification Cards are issued by the state authority ( police ) for every citizen who reaches 15 years of age .
+In contrast to the Birth Number , this identifier can change over the citizen 's lifetime if a new ID card is issued , for reasons such as expiration , loss or change of residence .
+The ID number is used , among other things , for voter registration ( because of the domicile record verification provided by the ID ) .
+A similar system , with both types of identification numbers , is used in the Czech Republic .
+SLOVENIA Section::::Slovenia .
+Slovenia uses a 13-number identification code Enotna matična številka občana ( EMŠO ) - Unique Master Citizen Number .
+It is composed of 13 digits as follows DDMMYYYRRSSSX .
+DD - day of birth > MM - month of birth YYY - year of birth , last three digits RR - a constant value 50
+This is a remnant of Yugoslavia , a registry number that marked the birth zone : - 00 - 09
+– foreigners - 10 - 19 – Bosnia and Herzegovina - 20 - 29 – Montenegro - 30 - 39 – Croatia ( 33 - Zagreb ) - 40 - 49 – Macedonia - 50 - 59 – Slovenia ( only 50 is used ) - 60 - 69 – ( not in use ) - 70 - 79 – Central Serbia ( 71 - Belgrade ) - 80 - 89 – Province of Vojvodina ( 80 – Novi Sad ) - 90 - 99 – Province of Kosovo SSS - serial number or combination of sex and serial numbers for persons born on the same day ( 000 - 499 for men and 500 - 999 for women ) X - checksum of first 12 SPAIN Section::::Spain .
+In Spain , all resident Spanish citizens can obtain ( mandatorily after 14 years old ) a National Identity Document ( Spanish : Documento Nacional de Identidad ( DNI ) ) , with a unique number , in the format 00000000-A , where 0 is a digit and A is a checksum letter .
+Since 2010 , foreign residents are no longer issued with identity cards , although they are assigned a number in the format
+X-0000000-A ( again , 0 is a digit , A is a checksum letter , and X is a letter , generally X but lately also Y ) , called an NIE Number ( Número de Identificación de Extranjeros , Foreigner 's Identification Number ) .
+The DNI is required for all transactions related with tax authority , as well as to access the ubiquitous Spanish National Health System ( although it has its own insured identification document ) , apply for marriage licences , receive unemployment compensation , and in general all interactions with law enforcement and any government or government - supervised institution .
+Foreign residents are required to use their passports together with the document containing their NIE number SWEDEN Section::::Sweden .
+In Sweden a Personal Identity Number ( ) is used in dealings with public agencies , from health care to the tax authorities .
+Public record .
+It appears on all approved identity documents .
+It is also used as a customer code by banks , insurance companies , and landlords .
+Most companies that keep records of their customers store it .
+The number uses ten digits , YYMMDD - NNGC .
+The first six give the birth date in YYMMDD format .
+Digits seven to nine ( NNG ) are used to make the number unique , where digit nine ( G ) is odd for men and even for women .
+For numbers issued before 1990 , the seventh and eighth digit identify the county of birth or foreign - born people , but privacy - related criticism caused this system to be abandoned for new numbers .
+The tenth digit ( C ) is created using the Luhn , or " mod 10 " , checksum algorithm .
+Registration numbers of Swedish corporations and other legal entities follow the same ten - digit format , but are not based on dates .
+SWITZERLAND
+Section::::Switzerland .
+Since the introduction of a national pension scheme in 1948 , most persons resident in Switzerland are allocated a Social Security Number ( AHV - Nr .
+[ de ] /
+No AVS [ fr ] ) , which is also used for other governmental purposes .
+The eleven - digit format in use since 1968 is of the form AAA.BB.CCC.DDD and encodes information about the name , birth date and sex of its holder :
+* The " AAA " digits encode the family name .
+* The " BB " digits are equal to the last two digits of the year of birth .
+* The " CCC " digits encode the birth day as a trimester number ( 1 - 4 ) followed by the number of the day in the trimester .
+An offset of 400 is added for female persons ( e.g. 101 is January 1 for men and 501
+is January 1 for women ) .
+* The " DDD " digits are used to be an origin code depending which country the person came from and or if this person was a Swiss citizen through birth or naturalisation .
+As of 2008 , an anonymous thirteen - digit number is being issued to all Swiss residents .
+It is of the form 756.XXXX.XXXX.XY , where 756 is the ISO 3166 - 1 code for Switzerland , XXXX.XXXX.X is a random number and Y is an EAN-13 check digit .
+TURKEY Section::::Turkey .
+During the application for a national ID card , every Turkish citizen is assigned a unique personal identification number called Turkish Identification Number ( or abbreviated as T.C. Kimlik No . ) , an 11-digit number with two trailing check digits .
+This assignment is organized through the MERNIS ( abbreviation for ) project that started on 28 October 2000 .
+The national ID card is compulsory for every citizen and is issued at birth .
+Parents need to register to the authorities with the child 's birth certificate .
+The identification number is used by public institutions in their certificates and documents like identity card , passport , international family book , driving license , form and manifesto they issue to citizens .
+It is used by services such as taxation , security , voting , education , social security , health care , military recruitment , and banking .
+UKRAINE Section::::Ukraine .
+Individual Identification Number is a 10 digit number issued by the tax administration .
+The first 5 digits represent birthday as the number of days since 01/01/1900 ( more numbers can be assigned to the same day , this additional or alternative numbers have greate first digit , typically 8) .
+The next four digits is a serial number , it is used so that men get the odd numbers , and women get the even numbers .
+The last digit is a check digit .
+The algorithm is not publicly revealed .
+Similar numbers are issued to residents and foreigners .
+A person can opt out of receiving an Individual Identification Number based on religious or other beliefs , however it is associated with minor tax disadvantages .
+The Individual Identification Numbers are issued according to a Law of Ukraine 320/94-BP passed on December 22 , 1994 .
+Since 2016 , identification no .
+is one details of Ukrainian identity card ( compared to being a separate paper document ( still in force during transition period ) in the past ) .
+It takes up to 5 days to obtain a taxpayer identification number or tax ID in Ukraine .
+UNITED KINGDOM Section::::United Kingdom .
+There is no legal requirement in UK to obtain or carry any identification document or other proof of identity , however some form of identification is required for many things like renting a flat .
+A National Insurance number , generally called an NI Number ( NINO ) , is used to administer state benefits , but has not gained the ubiquity of its US equivalent , and is not considered proof of identity .
+As it is the only number that is unique to each individual , does not change during the course of the person 's lifetime , and is issued to virtually every adult throughout the UK , it is used by Her Majesty 's Revenue and Customs ( HMRC ) to track individuals for income tax purposes .
+The number is stylised as LL NN NN NN L , for example AA 01 23 44 B.
+Each baby born in the England and Wales is issued a National Health Service number , taking the form NNN - NNN - NNNN , for example 122 - 762 - 9257
+( the last number being a check digit ) .
+They were formerly of the style " LLLNNL NNN " , for example
+KWB91 M 342 , which continued patterns used in World War II identity cards .
+However , due to the decentralized nature of local NHS organizations issuing the numbers , some patients have been allocated several numbers , the ratio is more often more ( one person : many numbers ) than ( one person : one number ) .
+The National Programme for Information Technology ( NPfIT ) has also shown that one person can have many numbers , although measures are being undertaken to fix duplicates in the data .
+Babies born in Scotland are issued a CHI ( Community Health Index ) number , taking the form DDMMYY - NNNN , with the DDMMYY representing their date of birth and a four digit unique number thereafter ( e.g. someone born on 1 January 2010 , would have the number 010110-NNNN , with the four digit number allocated upon entering newborn details on to the local health board 's patient administration system ) .
+The second last N is even for females and odd for males .
+OCEANIA
+AUSTRALIA
+Section::::Oceania .
+Section::::Australia .
+In Australia , the Tax File Number ( TFN ) is issued by the Australian Taxation Office ( ATO ) to individuals and businesses to track them for income tax purposes .
+Similar to the Social Security Number ( SSN ) in the US , each individual 's TFN is unique , and does not change throughout their lifetime .
+However , unlike its U.S. counterpart , Australian law specifically prohibits the use of the TFN as a national identification number , and restricts the use of the TFN to tracking individuals for filing income taxes , superannuation contributions and receiving state welfare benefits .
+NEW ZEALAND Section::::New Zealand .
+In New Zealand , an Inland Revenue Department ( IRD ) number is issued by the IRD to every taxpayer ( a natural or juristic person ) , and is needed with dealings with the IRD .
+It must be given to any employer or bank responsible for charging withholding tax , and to apply for or use a student loan .
+Driver 's licences carry a unique number , often recorded when providing them as identification .
+The social security and student support services of the Ministry of Social Development ( Work and Income , and StudyLink ) issue a Work and Income client number , assigned at the occurrence of a person 's first contact with either service .
+A general letter of enquiry about a service appears to be sufficient for one to be logged and may be assigned without the letter writer 's knowledge .
+A National Health Index ]
+( NHI ) number is assigned to all New Zealanders at birth , and those who use a health and disability support service that do not already have one .
+The small population means a name and date of birth can usually uniquely identify someone , though identity theft is easily possible when two people share a name and birthdate .
+SEE ALSO * VAT identification number * International identifiers ( for companies ) * Business Identifier Code ( BIC / ISO 9362 , a normalized code for trade , especially popular in banking area as the international Bank code - also known as Bank Identifier Code , Bank International Code and SWIFT code ) , ...
+REFERENCES * RealVirtual.ro - free online Romanian national identification number ( Personal Numeric Code , Cod Numeric Personal - CNP ) EXTERNAL LINKS
+* Guide to South African ID
+no .
+validation
+* Explanation on the National ID for Luxembourg ( in French )

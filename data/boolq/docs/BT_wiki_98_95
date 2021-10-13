@@ -1,0 +1,78 @@
+RETURNS TO SCALE
+In economics , returns to scale and economies of scale are related but different concepts that describe what happens as the scale of production increases in the long run , when all input levels including physical capital usage are variable ( chosen by the firm ) .
+The concept of returns to scale arises in the context of a firm 's production function .
+It explains the behavior of the rate of increase in output ( production ) relative to the associated increase in the inputs ( the factors of production ) in the long run .
+In the long run all factors of production are variable and subject to change due to a given increase in size ( scale ) .
+While economies of scale show the effect of an increased output level on unit costs , returns to scale focus only on the relation between input and output quantities .
+There are three possible types of returns to scale : increasing returns to scale , constant returns to scale , and diminishing ( or decreasing ) returns to scale .
+If output increases by the same proportional change as all inputs change then there are constant returns to scale ( CRS ) .
+If output increases by less than that proportional change in all inputs , there are decreasing returns to scale ( DRS ) .
+If output increases by more than the proportional change in all inputs , there are increasing returns to scale ( IRS ) .
+A firm 's production function could exhibit different types of returns to scale in different ranges of output .
+Typically , there could be increasing returns at relatively low output levels , decreasing returns at relatively high output levels , and constant returns at one output level between those ranges .
+In mainstream microeconomics , the returns to scale faced by a firm are purely technologically imposed and are not influenced by economic decisions or by market conditions ( i.e. , conclusions about returns to scale are derived from the specific mathematical structure of the production function in isolation ) .
+EXAMPLE Section::::Example .
+When the usages of all inputs increase by a factor of 2 , new values for output will be : *
+Twice the previous output if there are constant returns to scale ( CRS ) * Less than twice the previous output if there are decreasing returns to scale ( DRS ) * More than twice the previous output if there are increasing returns to scale ( IRS )
+Assuming that the factor costs are constant ( that is , that the firm is a perfect competitor in all input markets ) and the production function is homothetic , a firm experiencing constant returns will have constant long - run average costs , a firm experiencing decreasing returns will have increasing long - run average costs , and a firm experiencing increasing returns will have decreasing long - run average costs .
+However , this relationship breaks down if the firm does not face perfectly competitive factor markets ( i.e. , in this context , the price one pays for a good does depend on the amount purchased ) .
+For example , if there are increasing returns to scale in some range of output levels , but the firm is so big in one or more input markets that increasing its purchases of an input drives up the input 's per - unit cost , then the firm could have diseconomies of scale in that range of output levels .
+Conversely , if the firm is able to get bulk discounts of an input , then it could have economies of scale in some range of output levels even if it has decreasing returns in production in that output range .
+FORMAL DEFINITIONS
+Section::::Formal definitions .
+Formally , a production function formula_1 is defined to have :
+* Constant returns to scale if ( for any constant a greater than 0 )
+formula_2 * Increasing returns to scale if ( for any constant a greater than 1 )
+formula_3
+* Decreasing returns to scale if ( for any constant a greater than 1 )
+formula_4 where K and L are factors of production — capital and labor , respectively .
+In a more general set - up , for a multi - input - multi - output production processes , one may assume technology can be represented via some technology set , call it formula_5 , which must satisfy some regularity conditions of production theory .
+In this case , the property of constant returns to scale is equivalent to saying that technology set formula_5 is a cone , i.e. , satisfies the property formula_7 .
+In turn , if there is a production function that will describe the technology set formula_5 it will have to be homogeneous of degree 1 .
+FORMAL EXAMPLE
+Section::::Formal example .
+The Cobb – Douglas functional form has constant returns to scale when the sum of the exponents is 1 .
+In that case the function is : where formula_10 and formula_11 .
+Thus Here as input usages all scale by the multiplicative factor a , output also scales by a
+and so there are constant returns to scale .
+But if the Cobb – Douglas production function has its general form with formula_14
+then there are increasing returns if b + c > 1 but decreasing returns if b + c < 1 , since which for a > 1 is greater than or less than formula_16 as b+c is greater or less than one .
+SEE ALSO
+* Diseconomies of scale and Economies of scale * Economies of agglomeration * Economies of scope
+* Experience curve effects
+* Ideal firm size * Homogeneous function
+* Mohring effect
+* Moore 's law REFERENCES FURTHER READING
+* Susanto Basu ( 2008 ) .
+" Returns to scale measurement , " The New Palgrave Dictionary of Economics , 2nd Edition .
+Abstract .
+* James M. Buchanan and Yong J. Yoon , ed .
+( 1994 )
+The Return to Increasing Returns .
+U.Mich .
+Press .
+Chapter - preview links .
+* John Eatwell ( 1987 ) .
+" Returns to scale , " , v. 4 , pp .
+165–66 .
+* Färe , R. , S. Grosskopf and C.A.K. Lovell ( 1986 ) , " Scale economies and duality " Zeitschrift für Nationalökonomie 46:2 , pp .
+175–182 .
+* Hanoch , G. ( 1975 ) " The elasticity of scale and the shape of average costs , " American Economic Review 65 , pp .
+492–497 .
+* Panzar , J.C. and R.D. Willig ( 1977 )
+" Economies of scale in multi - output production , Quarterly Journal of Economics 91 , 481 - 493 .
+* Joaquim Silvestre ( 1987 ) .
+"
+Economies and diseconomies of scale , " The New Palgrave : A Dictionary of Economics , v. 2 , pp . 80–84 .
+*
+Spirros Vassilakis ( 1987 ) .
+"
+Increasing returns to scale , " The New Palgrave : A Dictionary of Economics , v. 2 , pp .
+761–64 .
+* Zelenyuk , V. ( 2013 ) "
+A scale elasticity measure for directional distance function and its dual : Theory and DEA estimation .
+" European Journal of Operational Research 228:3 , pp 592–600
+* Zelenyuk V. ( 2014 ) "
+Scale efficiency and homotheticity : equivalence of primal and dual measures " Journal of Productivity Analysis 42:1 , pp 15 - 24 .
+EXTERNAL LINKS
+* Economies of Scale and Returns to Scale * Video Lecture on Returns to Scale in Macroeconomics

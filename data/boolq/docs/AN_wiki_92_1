@@ -1,0 +1,23 @@
+INFINITE SET
+In set theory , an infinite set is a set that is not a finite set .
+Infinite sets may be countable or uncountable .
+Some examples are : * the set of all integers , { ... , -1 , 0 , 1 , 2 , ... } , is a countably infinite set ; and * the set of all real numbers is an uncountably infinite set .
+PROPERTIES Section::::Properties .
+The set of natural numbers ( whose existence is postulated by the axiom of infinity ) is infinite .
+It is the only set that is directly required by the axioms to be infinite .
+The existence of any other infinite set can be proved in Zermelo – Fraenkel set theory ( ZFC ) only by showing that it follows from the existence of the natural numbers .
+A set is infinite if and only if for every natural number the set has a subset whose cardinality is that natural number .
+If the axiom of choice holds , then a set is infinite if and only if it includes a countable infinite subset .
+If a set of sets is infinite or contains an infinite element , then its union is infinite .
+The power set of an infinite set is infinite .
+Any superset of an infinite set is infinite .
+If an infinite set is partitioned into finitely many subsets , then at least one of them must be infinite .
+Any set which can be mapped onto an infinite set is infinite .
+The Cartesian product of an infinite set and a nonempty set is infinite .
+The Cartesian product of an infinite number of sets each containing at least two elements is either empty or infinite ; if the axiom of choice holds , then it is infinite .
+If an infinite set is a well - ordered set , then it must have a nonempty subset that has no greatest element .
+In ZF , a set is infinite if and only if the power set of its power set is a Dedekind - infinite set , having a proper subset equinumerous to itself .
+If the axiom of choice is also true , infinite sets are precisely the Dedekind - infinite sets .
+If an infinite set is a well - orderable set , then it has many well - orderings which are non - isomorphic .
+SEE ALSO
+* Aleph number REFERENCES EXTERNAL LINKS

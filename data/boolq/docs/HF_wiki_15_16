@@ -1,0 +1,71 @@
+CARD SECURITY CODE
+A card security code ( CSC ; also called card verification data [ CVD ] , card verification number , card verification value [ CVV ] , card verification value code , card verification code [ CVC ] , verification code [ V - code or V code ] , or signature panel code
+[ SPC ] ) is a security feature for " card not present " payment card transactions instituted to reduce the incidence of credit card fraud .
+The CSC is in addition to the bank card number which is embossed or printed on the card .
+The CSC is used as a security feature , in situations where a PIN can not be used .
+The PIN is not printed or embedded on the card but is manually entered by the cardholder during point - of - sale ( card present ) transactions .
+Contactless card and chip cards may electronically generate their own code , such as iCVV or a dynamic CVV .
+CSC was originally developed in the UK as an eleven character alphanumeric code by Equifax employee Michael Stone in 1995 .
+After testing with the Littlewoods Home Shopping group and NatWest bank , the concept was adopted by APACS ( the UK Association of Payment Clearing Services ) and streamlined to the three - digit code known today .
+MasterCard started issuing CVC2 numbers in 1997 and Visa in the United States issued them by 2001 .
+American Express started to use the CSC in 1999 , in response to growing Internet transactions and card member complaints of spending interruptions when the security of a card has been brought into question .
+In 2016 , a new e - commerce technology called Motioncode was introduced , designed to automatically refresh the CVV code to a new one every hour or so .
+DESCRIPTION Section::::Description .
+The codes have different names :
+* " CID " : " Card I d " , " Card Identification Number " , or " Card Identification Code"Discover , American Express ( four digits on front of card ) * " CSC " or " Card Security Code"debit cards , American Express ( three digits on back of card )
+* " CVC2 " or " Card Validation Code"MasterCard
+* " CVD " or " Card Verification Data"Discover , sometimes used as the common initialism for this kind of code * " CVE " or " Elo Verification Code"Elo in Brazil
+* " CVN2 " or " Card Validation Number 2"China
+UnionPay
+* " CVV2 " or " Card Verification Value 2"Visa TYPES OF CODES Section::::Types of codes .
+There are several types of security codes :
+* The first code , called CVC1 or CVV1 , is encoded on track two of the magnetic stripe of the card and used for card present transactions .
+The purpose of the code is to verify that a payment card is actually in the hand of the merchant .
+This code is automatically retrieved when the magnetic stripe of a card is read ( swiped ) on a point - of - sale ( card present ) device and is verified by the issuer .
+A limitation is that if the entire card has been duplicated and the magnetic stripe copied , then the code is still valid .
+( See credit card fraud § skimming . )
+* The second code , and the most cited , is CVV2 or CVC2 .
+This code is often sought by merchants for card not present transactions occurring by mail , fax , telephone or Internet .
+In some countries in Western Europe , card issuers require a merchant to obtain the code when the cardholder is not present in person .
+* Contactless cards and chip cards may supply their own electronically generated codes , such as iCVV or a dynamic CVV .
+LOCATION OF CODE Section::::Location of code .
+The card security code is typically the last three or four digits printed , not embossed like the card number , on the signature strip on the back of the card .
+On American Express cards , however , the card security code is the four digits printed ( not embossed ) on the front towards the right .
+The card security code is not encoded on the magnetic stripe but is printed flat .
+* American Express cards have a four - digit code printed on the front side of the card above the number .
+* Diners Club , Discover , JCB , MasterCard , and Visa credit and debit cards have a three - digit card security code .
+The code is the final group of numbers printed on the back signature panel of the card .
+* New North American MasterCard and Visa cards feature the code in a separate panel to the right of the signature strip .
+This has been done to prevent overwriting of the numbers by signing the card .
+SECURITY BENEFITS Section::::Security benefits .
+As a security measure , merchants who require the CVV2 for " card not present " payment card transactions are required by the card issuer not to store the CVV2 once the individual transaction is authorized .
+This way , if a database of transactions is compromised , the CVV2 is not included , and the stolen card numbers are less useful .
+Virtual terminals and payment gateways do not store the CVV2 code ; therefore , employees and customer service representatives with access to these web - based payment interfaces , who otherwise have access to complete card numbers , expiration dates , and other information , still lack the CVV2 code .
+The Payment Card Industry Data Security Standard ( PCI DSS ) also prohibits the storage of CSC ( and other sensitive authorisation data ) post transaction authorisation .
+This applies globally to anyone who stores , processes or transmits card holder data .
+Since the CSC is not contained on the magnetic stripe of the card , it is not typically included in the transaction when the card is used face to face at a merchant .
+However , some merchants in North America , such as Sears and Staples , require the code .
+For American Express cards , this has been an invariable practice ( for " card not present " transactions ) in European Union ( EU ) countries like Ireland and the United Kingdom since the start of 2005 .
+This provides a level of protection to the bank / cardholder , in that a fraudulent merchant or employee can not simply capture the magnetic stripe details of a card and use them later for " card not present " purchases over the phone , mail order or Internet .
+To do this , a merchant or its employee would also have to note the CVV2 visually and record it , which is more likely to arouse the cardholder 's suspicion .
+Supplying the CSC code in a transaction is intended to verify that the customer has the card in their possession .
+Knowledge of the code proves that the customer has seen the card , or has seen a record made by somebody who saw the card .
+LIMITATIONS
+*
+The use of the CSC can not protect against phishing scams , where the cardholder is tricked into entering the CSC among other card details via a fraudulent website .
+The growth in phishing has reduced the real - world effectiveness of the CSC as an anti - fraud device .
+There is now also a scam where a phisher has already obtained the card account number ( perhaps by hacking a merchant database or from a poorly designed receipt ) and gives this information to the victims ( lulling them into a false sense of security ) before asking for the CSC ( which is all that the phisher needs and the purpose of the scam in the first place ) .
+*
+Since the CSC may not be stored by the merchant for any length of time ( after the original transaction in which the CSC was quoted and then authorized ) , a merchant who needs to regularly bill a card for a regular subscription would not be able to provide the code after the initial transaction .
+Payment gateways , however , have responded by adding " periodic bill " features as part of the authorization process .
+* Some card issuers do not use the CSC .
+However , transactions without CSC are possibly subjected to higher card processing cost to the merchants , and fraudulent transactions without CSC are more likely to be resolved in favour of the cardholder .
+*
+It is not mandatory for a merchant to require the security code for making a transaction , hence the card may still be prone to fraud even if only its number is known to phishers .
+*
+It is possible for a fraudster to guess the CSC by using a distributed attack .
+GENERATION Section::::Generation .
+The CSC for each card ( form 1 and 2 ) is generated by the card issuer when the card is issued .
+It is calculated by encrypting the bank card number and expiration date ( two fields printed on the card ) with encryption keys known only to the card issuer , and decimalising the result .
+SEE ALSO * Credit card fraud
+* ISO 8583 ( data element # 44 carries the Security Code response ) NOTES REFERENCES

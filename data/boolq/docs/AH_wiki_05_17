@@ -1,0 +1,81 @@
+CARBONIC ACID Carbonic acid is a chemical compound with the chemical formula ( equivalently OC(OH ) ) .
+It is also a name sometimes given to solutions of carbon dioxide in water ( carbonated water ) , because such solutions contain small amounts of HCO .
+In physiology , carbonic acid is described as volatile acid or respiratory acid , because it is the only acid excreted as a gas by the lungs .
+It plays an important role in the bicarbonate buffer system to maintain acid – base homeostasis .
+Carbonic acid , which is a weak acid , forms two kinds of salts : the carbonates and the bicarbonates .
+In geology , carbonic acid causes limestone to dissolve , producing calcium bicarbonate , which leads to many limestone features such as stalactites and stalagmites .
+It was long believed that carbonic acid could not exist as a pure compound .
+However , in 1991 it was reported that NASA scientists had succeeded in making solid HCO samples .
+CHEMICAL EQUILIBRIUM
+Section::::Chemical equilibrium .
+When carbon dioxide dissolves in water it exists in chemical equilibrium with carbonic acid :
+The hydration equilibrium constant at 25 ° C is called K , which in the case of carbonic acid is [ HCO]/[CO ] ≈
+1.7×10 in pure water and
+≈ 1.2×10 in seawater .
+Hence , the majority of the carbon dioxide is not converted into carbonic acid , remaining as CO molecules .
+In the absence of a catalyst , the equilibrium is reached quite slowly .
+The rate constants are 0.039 s for the forward reaction ( CO + HO → HCO ) and 23 s for the reverse reaction ( HCO → CO + HO ) .
+The addition of two molecules of water to CO would give orthocarbonic acid , C(OH ) , which exists only in minute amounts in aqueous solution .
+Addition of base to an excess of carbonic acid gives bicarbonate ( hydrogen carbonate ) .
+With excess base , carbonic acid reacts to give carbonate salts .
+ROLE OF CARBONIC ACID IN BLOOD Section::::Role of carbonic acid in blood .
+Bicarbonate is an intermediate in the transport of CO out of the body by respiratory gas exchange .
+The hydration reaction of CO is generally very slow in the absence of a catalyst , but red blood cells contain carbonic anhydrase , which increases the reaction rate , producing bicarbonate ( HCO ) dissolved in the blood plasma .
+This catalysed reaction is reversed in the lungs , where it converts the bicarbonate back into CO and allows it to be expelled .
+This equilibration plays an important role as a buffer in mammalian blood .
+A 2016 theoretical report suggests that carbonic acid may play a pivotal role in protonating various nitrogen bases in blood serum .
+ROLE OF CARBONIC ACID IN OCEAN CHEMISTRY Section::::Role of carbonic acid in ocean chemistry .
+The oceans of the world have absorbed almost half of the CO emitted by humans from the burning of fossil fuels .
+It has been estimated that the extra dissolved carbon dioxide has caused the ocean 's average surface pH to shift by about −0.1 unit from pre - industrial levels .
+This is known as ocean acidification , even though the ocean remains basic .
+ACIDITY OF CARBONIC ACID Section::::Acidity of carbonic acid .
+Carbonic acid is a carboxylic acid with a hydroxyl group as the substituent .
+It is also a polyprotic acid — specifically it is diprotic , meaning that it has two protons that may dissociate from the parent molecule .
+Thus , there are two dissociation constants , first of which is for the dissociation into the bicarbonate ( also called hydrogen carbonate ) ion HCO :
+Care must be taken when quoting and using the first dissociation constant of carbonic acid .
+In aqueous solution , carbonic acid exists in equilibrium with carbon dioxide , and the concentration of HCO is much lower than the concentration of CO .
+In many analyses , HCO includes dissolved CO ( referred to as CO(aq ) ) , HCO * is used to represent the two species when writing the aqueous chemical equilibrium equation .
+The equation may be rewritten as follows : Whereas this apparent pK is quoted as the dissociation constant of carbonic acid , it is ambiguous : it might better be referred to as the acidity constant of dissolved carbon dioxide , as it is particularly useful for calculating the pH of CO - containing solutions .
+A similar situation applies to sulfurous acid ( HSO ) , which exists in equilibrium with substantial amounts of unhydrated sulfur dioxide .
+The second constant is for the dissociation of the bicarbonate ion into the carbonate ion CO :
+The three acidity constants are defined as follows : PH AND COMPOSITION OF CARBONIC ACID SOLUTIONS Section::::pH and composition of carbonic acid solutions .
+At a given temperature , the composition of a pure carbonic acid solution ( or of a pure CO solution ) is completely determined by the partial pressure formula_4 of carbon dioxide above the solution .
+To calculate this composition , account must be taken of * the following equilibrium between the dissolved CO and the gaseous CO above the solution : * the hydration equilibrium between dissolved CO and HCO with constant formula_7 ( see above ) * the first dissociation equilibrium of carbonic acid ( see K above )
+* the second dissociation equilibrium of carbonic acid ( see K above ) * the dissociation equilibrium of water : formula_10 * the charge neutrality condition formula_11 *
+In the total range of pressure , the pH is always much lower than pK (= 10.3 ) so that the CO concentration is always negligible with respect to HCO concentration .
+In fact , CO plays no quantitative role in the present calculation ( see remark below ) .
+* For vanishing formula_4 , the pH is close to the one of pure water ( pH = 7 ) , and the dissolved carbon is essentially in the HCO form .
+*
+For normal atmospheric conditions ( formula_16 atm ) , we get a slightly acidic solution ( pH = 5.7 ) , and the dissolved carbon is now essentially in the CO and HCO forms .
+*
+For a CO pressure typical for bottled carbonated drinks ( formula_4 ~ 2.5 atm ) , we get a relatively acidic medium ( pH = 3.7 ) with a high concentration of dissolved CO .
+These features contribute to the sour and sparkling taste of these drinks .
+* Between 2.5 and 10 atm , the pH crosses the pK value ( 3.60 ) , giving [ HCO ] >
+[ HCO ] at high pressures .
+* A plot of the equilibrium concentrations of these different forms of dissolved inorganic carbon ( and which species is dominant ) as a function of the pH of the solution is known as a Bjerrum plot .
+Remark
+As noted above , [ CO ] may be neglected for this specific problem , resulting in the following very precise analytical expression for [ H ] :
+PURE CARBONIC ACID Section::::Pure carbonic acid .
+It was long believed that carbonic acid could not exist as a pure compound .
+However , in 1991 scientists at NASA 's Goddard Space Flight Center ( USA ) succeeded in making solid HCO samples .
+They did so by exposing a frozen mixture of water and carbon dioxide to high - energy proton radiation , and then warming to remove the excess water .
+The carbonic acid that remained was characterized by infrared spectroscopy .
+The fact that the carbonic acid was prepared by irradiating a solid HO + CO mixture , or even by irradiation of dry ice alone , has given rise to suggestions that HCO might be found in outer space or on Mars , where frozen ices of HO and CO are found , as well as cosmic rays .
+It was announced in 1993 that solid carbonic acid had been created by a cryogenic reaction of potassium bicarbonate and HCl dissolved in methanol .
+Later work showed that in fact the methyl ester had been formed , but other methods were successful .
+Theoretical calculations showed that a single molecule of water can catalyze the decomposition of a gas - phase carbonic acid molecule to carbon dioxide and water .
+In the absence of water , the dissociation of gaseous carbonic acid has been predicted to be very slow , with a half - life of 180,000 years .
+This only applies if the molecules are few and far between , because it has also been predicted that gas - phase carbonic acid will catalyze its own decomposition by forming dimers , which then break apart into two molecules each of water and carbon dioxide .
+For a while it was thought that there were two polymorphs of solid carbonic acid , called α and β .
+The polymorph denoted β - carbonic acid was prepared by heating alternating layers of glassy aqueous solutions of bicarbonate and acid in vacuum , which causes protonation of the bicarbonate , followed by removal of the solvent .
+The previously suggested α - carbonic acid , which was prepared by the same technique using methanol rather than water as a solvent , was later shown to be a monomethyl ester CHOCOOH .
+SEE ALSO * Carbonated water ( soft drink )
+* Carbon dioxide * Dihydroxymethylidene ( carbonous acid )
+* Nonvolatile acid * Ocean acidification
+REFERENCES
+FURTHER READING
+EXTERNAL LINKS
+* Ask a Scientist : Carbonic Acid Decomposition
+* Why was the existence of carbonic acid unfairly doubted for so long ?
+* Carbonic acid / bicarbonate / carbonate equilibrium in water : pH of solutions , buffer capacity , titration and species distribution vs. pH computed with a free spreadsheet
+* How to calculate concentration of Carbonic Acid in Water

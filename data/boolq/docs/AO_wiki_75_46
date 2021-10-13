@@ -1,0 +1,75 @@
+RCA CONNECTOR An RCA connector , sometimes called a phono connector or ( in other languages )
+Cinch connector , is a type of electrical connector commonly used to carry audio and video signals .
+The name RCA derives from the Radio Corporation of America , which introduced the design by the early 1940s for internal connection of the pickup to the chassis in home radio - phonograph consoles .
+It was originally a low - cost , simple design , intended only for mating and disconnection when servicing the console .
+Refinement came with later designs , although they remained compatible .
+RCA connectors began to replace the older quarter - inch phone connectors for many other applications in the consumer audio world when component high - fidelity systems started becoming popular in the 1950s .
+However , quarter - inch phone connectors are still common in professional audio , while miniature phone connectors ( 3.5 mm ) predominated in personal stereo systems .
+The connection 's plug is called an RCA plug or phono plug , for " phonograph .
+"
+The name " phono plug " is sometimes confused with a " phone plug " which may refer to a quarter - inch " phone plug " – Tip / Sleeve ( TS ) or Tip / Ring / Sleeve ( TRS ) connector – or to a 4P4C connector used for a telephone ( which is often , though incorrectly , called " RJ9 " , " RJ10 " , or " RJ22 " ) .
+ORIGIN Section::::Origin .
+The word phono in phono connector is an abbreviation of the word phonograph , because this connector was originally created to allow the connection of a phonograph turntable to a radio receiver , using the radio as an amplifier .
+This setup was present in most radios manufactured in the 1930s onward by the Radio Corporation of America ( RCA ) , who later marketed a special turntable for 45 RPM records , the model 9JY .
+PHONO INPUT
+Section::::Phono input .
+A " phono input " is a set of input jacks , usually RCA jacks , located on the rear panel of a preamp , mixer or amplifier , especially on early radio sets , to which a phonograph or turntable is attached .
+Modern styli ( phonograph needles ) and phono cartridges give a very low level output signal of the order of a few millivolts which the circuitry amplifies and equalizes .
+Phonograph recordings are made with high frequencies boosted and the low frequencies attenuated : during playback the frequency response changes are reversed .
+This reduces background noise , including clicks or pops , and also conserves the amount of physical space needed for each groove , by reducing the size of the larger low - frequency undulations .
+This is accomplished in the amplifier with a phono input that incorporates standardized RIAA equalization circuitry .
+Through at least the 1980s , the phono input was widely available on consumer stereo equipment — even some larger boomboxes had them .
+By the 2000s only very sophisticated and expensive stereo receivers retained the phono input , since most users were expected to use digital music formats such as CD or satellite radio .
+Some newer low - cost turntables include built - in amplifiers to produce line - level ( one volt ) outputs ; devices are available that perform this conversion for use with computers ; or older amplifiers or radio receivers can be used .
+Nearly all DJ mixers have two or more phono inputs , together with two or more one - volt line inputs that also use RCA connectors .
+This " phono input " designed for the millivolt signal from an unamplified turntable should not be confused with the modern standard one - volt line input and output that also uses RCA connectors and is found on video cameras , recorders and similar modern equipment .
+OTHER USES
+Section::::Other uses .
+In the most normal use , cables have a standard plug on each end , consisting of a central male connector , surrounded by a ring .
+The ring is often segmented to provide spring gripping pressure when mated .
+Devices mount the socket ( female jack ) , consisting of a central hole with a ring of metal around it .
+The ring is slightly larger in diameter and longer than the ring on the plug , allowing the plug 's ring to fit tightly over it .
+The jack has a small area between the outer and inner rings which is filled with an insulator , typically plastic ( very early versions , or those made for use as RF connectors , used ceramic ) .
+The connector was initially used for audio signals .
+As with many other connectors , the RCA has been adopted for other uses than originally intended , including as a DC power connector , an RF connector , and as a connector for loudspeaker cables .
+Its use as a connector for composite video signals is extremely common , but provides poor impedance matching .
+RCA connectors and cable are also commonly used to carry S / PDIF - formatted digital audio , with plugs colored orange to differentiate them from other typical connections .
+Connections are made by pushing the cable 's plug into the female jack on the device .
+The signal - carrying pin protrudes from the plug , and often comes into contact with the socket before the grounded rings meet , resulting in loud hum or buzz if the audio components do not share a common ground and are powered while making connections .
+Continuous noise can occur if the plug partially falls out of the jack , breaking the ground connection but not the signal .
+Some variants of the plug , especially cheaper versions , also give very poor grip and contact between the ground sheaths due to their lack of spring action .
+They are often color - coded , yellow for composite video , red for the right audio channel , and white or black for the left channel of stereo audio .
+This trio ( or pair ) of jacks can be found on the back of almost all audio and video equipment .
+One or more sets are often found on TV sets to facilitate connection of camcorders , other portable video sources and video game consoles .
+Although nearly all connectors , including analog and S / PDIF audio as well as composite and component video , can use identical 75 Ω cables , sales of special - purpose cables for each use have proliferated .
+Varying cable quality means that a cheap line - level audio cable might not successfully transfer component video .
+For digital audio , as long as a connection is successfully made using the cables the sound will remain faithful to the original signal because a digital signal can only be fully received or not received at all .
+Cables should meet the S / PDIF specification as defined by the international standard IEC 60958 - 3 for assured performance .
+The male plug has a center pin which is 3.175 mm ( 1/8 inch ) in diameter , and is surrounded by an outer shell which is 8.25 mm ( 1/3 inch ) in diameter .
+DISADVANTAGES Section::::Disadvantages .
+One problem with the RCA connector is that , when connecting the male into the female , the inner ' hot ' ( signal ) connection is made before the ' cold ' ( ground ) connection has been guaranteed ; this often produces a loud buzz .
+Another problem with the RCA connectors is that each signal requires its own plug .
+Even the simple case of attaching a cassette deck may need four of them , two for stereo input and two for stereo output .
+In any common setup this quickly leads to a disarray of cables and confusion in how to connect them , which is made worse if one considers more complex signals like component video ( a total of three for video and two for analog audio or one for digital coaxial audio ) .
+There have been attempts to introduce combined audio / video connectors for direct signals , but in the analog realm none of these has ever become common , with the exception of Europe where the SCART connector was very successful .
+For a time the 5-pin DIN connector was popular for bi - directional stereo connection between A / V equipment , but it has been entirely displaced on modern consumer devices .
+Though RF modulators inherently transmit combined A / V signals in video applications , they depend on broadcast television systems and RF connectors which are not universal worldwide ; RF signals are also generally inferior to direct signals due to protocol conversion and the RF limitations of the three major analog TV systems ( NTSC , PAL and SECAM ) .
+Before HD television became a standard , nearly all TV sets , VCRs , and DVD players sold in Europe had SCART connectors , although these are sometimes supplemented by RCA and/or RF connectors .
+SCART - RCA adapters also exist , which usually allow input of composite video and stereo audio .
+Outside Europe , separate RCA connectors are usually used , supplemented by RF connectors for backward compatibility and simplicity .
+Although mini - DIN connectors are used for S - Video connections , composite video , component video , and analog audio ( mono or stereo ) all use RCA connectors unless the signals are sent via SCART .
+In the digital realm , however , combined A / V connectors are gaining ground ; HDMI is commonly used today for consumer electronics , and DisplayPort , a potential competitor to HDMI , is often found on home computers and peripherals .
+The " hot " signal wire and signal ground provided by an RCA connection implement an unbalanced connection .
+A true balanced connection is generally preferred in certain applications , particularly professional settings , because it allows for the use of long cables while reducing susceptibility to external noise .
+COLOR CODING IN CONSUMER EQUIPMENT
+Section::::Color coding in consumer equipment .
+Plugs and sockets on consumer equipment are conventionally color - coded to aid correct connections .
+The standard colors for the various signals are shown below ; however , beyond 7.1 audio , the standard has degraded to a more general white / yellow , red / blue , and green / yellow color scheme for each cable respectively .
+Stereo audio applications use either black and red , grey and red or white and red RCA connectors ; in all three cases , red denotes right .
+White or purple may also be replaced by black .
+Some older tape recorders , and equipment like receivers designed to connect to them , use a 5-pin DIN connector to connect left and right for record and playback with a single cable .
+Adapters between this connector and RCA connectors have used white and red for left and right channel recording , and blue ( or sometimes black ) and yellow for playback , but this is not universal .
+Most modern equipment with RCA connectors for recording devices simply uses white and red for all stereo pairs , whether record or playback .
+While these are the standard colors found on commercially made products , cables with different - colored connectors may be used , as long as the cable itself is compatible with the application ( for example , cables with 75 ohms impedance for video and SPDIF ) .
+align="right"Composite analog videosurroundS /
+PDIF SEE ALSO * XLR connector REFERENCES

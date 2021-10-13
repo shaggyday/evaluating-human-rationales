@@ -1,0 +1,169 @@
+REGULAR POLYGON !
+bgcolor=#e7dcc3 colspan=2Set of
+convex regular n - gons align = center colspan=2
+Regular polygons bgcolor=#e7dcc3Edges and verticesn bgcolor=#e7dcc3Coxeter –
+Dynkin diagram bgcolor=#e7dcc3Symmetry groupD , order 2n bgcolor=#e7dcc3Dual polygonSelf - dual bgcolor=#e7dcc3Properties Convex , cyclic , equilateral , isogonal , isotoxal
+In Euclidean geometry , a regular polygon is a polygon that is equiangular ( all angles are equal in measure ) and equilateral ( all sides have the same length ) .
+Regular polygons may be either convex or star .
+In the limit , a sequence of regular polygons with an increasing number of sides approximates a circle , if the perimeter or area is fixed , or a regular apeirogon ( effectively a straight line ) , if the edge length is fixed .
+GENERAL PROPERTIES
+Section::::General properties .
+These properties apply to all regular polygons , whether convex or star .
+A regular n - sided polygon has rotational symmetry of order n.
+All vertices of a regular polygon lie on a common circle ( the circumscribed circle ) ; i.e. , they are concyclic points .
+That is , a regular polygon is a cyclic polygon .
+Together with the property of equal - length sides , this implies that every regular polygon also has an inscribed circle or incircle that is tangent to every side at the midpoint .
+Thus a regular polygon is a tangential polygon .
+A regular n - sided polygon can be constructed with compass and straightedge if and only if the odd prime factors of n are distinct Fermat primes .
+See constructible polygon .
+SYMMETRY Section::::Symmetry .
+The symmetry group of an n - sided regular polygon is dihedral group D ( of order 2n ) :
+D , D , D , ...
+It consists of the rotations in C , together with reflection symmetry in n axes that pass through the center .
+If n is even then half of these axes pass through two opposite vertices , and the other half through the midpoint of opposite sides .
+If n is odd then all axes pass through a vertex and the midpoint of the opposite side .
+REGULAR CONVEX POLYGONS Section::::Regular convex polygons .
+All regular simple polygons ( a simple polygon is one that does not intersect itself anywhere ) are convex .
+Those having the same number of sides are also similar .
+An n - sided convex regular polygon is denoted by its Schläfli symbol { n } .
+For n < 3 , we have two degenerate cases : Monogon { 1 } : Degenerate in ordinary space .
+( Most authorities do not regard the monogon as a true polygon , partly because of this , and also because the formulae below do not work , and its structure is not that of any abstract polygon . )
+Digon { 2 } ; a " double line segment " : Degenerate in ordinary space .
+( Some authorities do not regard the digon as a true polygon because of this . )
+In certain contexts all the polygons considered will be regular .
+In such circumstances it is customary to drop the prefix regular .
+For instance , all the faces of uniform polyhedra must be regular and the faces will be described simply as triangle , square , pentagon , etc .
+ANGLES Section::::Angles .
+For a regular convex n - gon , each interior angle has a measure of : and
+each exterior angle ( i.e. , supplementary to the interior angle ) has a measure of formula_10 degrees , with the sum of the exterior angles equal to 360 degrees or 2π radians or one full turn .
+As the number of sides , n approaches infinity , the internal angle approaches 180 degrees .
+For a regular polygon with 10,000 sides ( a myriagon )
+the internal angle is 179.964 ° .
+As the number of sides increase , the internal angle can come very close to 180 ° , and the shape of the polygon approaches that of a circle .
+However the polygon can never become a circle .
+The value of the internal angle can never become exactly equal to 180 ° , as the circumference would effectively become a straight line .
+For this reason , a circle is not a polygon with an infinite number of sides .
+DIAGONALS Section::::Diagonals .
+For n > 2 , the number of diagonals is formula_11 ; i.e. , 0 , 2 , 5 , 9 , … , for a triangle , square , pentagon , hexagon , … .
+The diagonals divide the polygon into 1 , 4 , 11 , 24 , … pieces .
+For a regular n - gon inscribed in a unit - radius circle , the product of the distances from a given vertex to all other vertices ( including adjacent vertices and vertices connected by a diagonal ) equals n. POINTS IN THE PLANE Section::::Points in the plane .
+For a regular simple n - gon with circumradius R and distances d from an arbitrary point in the plane to the vertices , we have INTERIOR POINTS
+Section::::Interior points .
+For a regular n - gon , the sum of the perpendicular distances from any interior point to the n sides is n times the apothem ( the apothem being the distance from the center to any side ) .
+This is a generalization of Viviani 's theorem for the n=3 case .
+CIRCUMRADIUS
+Section::::Circumradius .
+The circumradius R from the center of a regular polygon to one of the vertices is related to the side length s or to the apothem a by For constructible polygons , algebraic expressions for these relationships exist ; see Bicentric polygon#Regular polygons .
+The sum of the perpendiculars from a regular n - gon 's vertices to any line tangent to the circumcircle equals n times the circumradius .
+The sum of the squared distances from the vertices of a regular n - gon to any point on its circumcircle equals 2nR where R is the circumradius .
+The sum of the squared distances from the midpoints of the sides of a regular n - gon to any point on the circumcircle is 2nR − , where s is the side length and R is the circumradius .
+DISSECTIONS Section::::Dissections .
+Coxeter states that every zonogon ( a 2m - gon whose opposite sides are parallel and of equal length ) can be dissected into formula_14 or m(m-1)/2 parallelograms .
+These tilings are contained as subsets of vertices , edges and faces in orthogonal projections m - cubes .
+In particular this is true for regular polygons with evenly many sides , in which case the parallelograms are all rhombi .
+The list gives the number of solutions for smaller polygons .
++ Example dissections for select
+even - sided regular polygons !
+2
+m !
+6 !
+8 !
+10 !
+12 !
+14 !
+16 !
+18 !
+20 !
+24 !
+30 ! 40 !
+50 !
+Image !
+Rhombs 3 6 10 15 21 28 36 45 66 105 190 300 AREA Section::::Area .
+The area A of a convex regular n - sided polygon having side s , circumradius R , apothem a , and perimeter p is given by For regular polygons with side s = 1 , circumradius R = 1 , or apothem a = 1 , this produces the following table :
+( Note that since formula_16 as formula_17 , the area when formula_18 is tending to formula_19 as formula_20 grows large . ) Of all n - gons with a given perimeter , the one with the largest area is regular .
+CONSTRUCTIBLE POLYGON Section::::Constructible polygon .
+Some regular polygons are easy to construct with compass and straightedge ; other regular polygons are not constructible at all .
+The ancient Greek mathematicians knew how to construct a regular polygon with 3 , 4 , or 5 sides , and they knew how to construct a regular polygon with double the number of sides of a given regular polygon .
+This led to the question being posed : is it possible to construct all regular n - gons with compass and straightedge ?
+If not , which n - gons are constructible and which are not ?
+Carl Friedrich Gauss proved the constructibility of the regular 17-gon in 1796 .
+Five years later , he developed the theory of Gaussian periods in his Disquisitiones Arithmeticae .
+This theory allowed him to formulate a sufficient condition for the constructibility of regular polygons : ( A Fermat prime is a prime number of the form formula_21 )
+Gauss stated without proof that this condition was also necessary , but never published his proof .
+A full proof of necessity was given by Pierre Wantzel in 1837 .
+The result is known as the Gauss – Wantzel theorem .
+Equivalently , a regular n - gon is constructible if and only if the cosine of its common angle is a constructible number — that is , can be written in terms of the four basic arithmetic operations and the extraction of square roots .
+REGULAR
+SKEW POLYGONS Section::::Regular skew polygons .
+valign =
+top
+The cube contains a skew regular hexagon , seen as 6 red edges zig - zagging between two planes perpendicular to the cube 's diagonal axis .
+The zig - zagging side edges of a n - antiprism represent a regular skew 2n - gon , as shown in this 17-gonal antiprism .
+A regular skew polygon in 3-space can be seen as nonplanar paths zig - zagging between two parallel planes , defined as the side - edges of a uniform antiprism .
+All edges and internal angles are equal .
+The Platonic solids ( the tetrahedron , cube , octahedron , dodecahedron , and icosahedron ) have Petrie polygons , seen in red here , with sides 4 , 6 , 6 , 10 , and 10 respectively .
+More generally regular skew polygons can be defined in n - space .
+Examples include the Petrie polygons , polygonal paths of edges that divide a regular polytope into two halves , and seen as a regular polygon in orthogonal projection .
+In the infinite limit regular skew polygons become skew apeirogons .
+REGULAR STAR
+POLYGONS Section::::Regular star polygons .
++ Regular star polygons !
+colspan=2 2 < 2q < p , gcd(p , q ) = 1 !
+Schläfli symbol !
+Vertices and Edges !
+Density !
+Coxeter diagram !
+Symmetry group !
+Dual polygon !
+Internal angle(degrees )
+A non - convex regular polygon is a regular star polygon .
+The most common example is the pentagram , which has the same vertices as a pentagon , but connects alternating vertices .
+For an n - sided star polygon , the Schläfli symbol is modified to indicate the density or " starriness " m of the polygon , as { n / m } .
+If m is 2 , for example , then every second point is joined .
+If m is 3 , then every third point is joined .
+The boundary of the polygon winds around the center m times .
+The ( non - degenerate ) regular stars of up to 12 sides are : * Pentagram – { 5/2 } * Heptagram – { 7/2 } and { 7/3 } * Octagram – { 8/3 } * Enneagram – { 9/2 } and { 9/4 } * Decagram – { 10/3 } * Hendecagram – { 11/2 } , { 11/3 } , { 11/4 } and { 11/5 } * Dodecagram – { 12/5 } m and n must be coprime , or the figure will degenerate .
+The degenerate regular stars of up to 12 sides are : * Tetragon – { 4/2 } * Hexagons – { 6/2 } , { 6/3 } * Octagons – { 8/2 } , { 8/4 } * Enneagon – { 9/3 } * Decagons – { 10/2 } , { 10/4 } , and { 10/5 } * Dodecagons – { 12/2 } , { 12/3 } , { 12/4 } , and { 12/6 } !
+Doubly - wound hexagon !
+Hexagram as a compoundof
+two triangles
+Depending on the precise derivation of the Schläfli symbol , opinions differ as to the nature of the degenerate figure .
+For example , { 6/2 } may be treated in either of two ways :
+* For much of the 20th century ( see for example ) , we have commonly taken the /2 to indicate joining each vertex of a convex { 6 } to its near neighbors two steps away , to obtain the regular compound of two triangles , or hexagram .
+Coxeter clarifies this regular compound with a notation { kp}[k{p}]{kp } for the compound { p / k } , so the hexagram is represented as { 6}[2{3}]{6 } .
+More compactly Coxeter also writes 2{n/2 } , like 2{3 } for a hexagram as compound as alternations of regular even - sided polygons , with italics on the leading factor to differentiate it from the coinciding interpretation .
+* Many modern geometers , such as Grünbaum ( 2003 ) , regard this as incorrect .
+They take the /2 to indicate moving two places around the { 6 } at each step , obtaining a " double - wound " triangle that has two vertices superimposed at each corner point and two edges along each line segment .
+Not only does this fit in better with modern theories of abstract polytopes , but it also more closely copies the way in which Poinsot ( 1809 ) created his star polygons – by taking a single length of wire and bending it at successive points through the same angle until the figure closed .
+DUALITY OF REGULAR POLYGONS Section::::Duality of regular polygons .
+All regular polygons are self - dual to congruency , and for odd n they are self - dual to identity .
+In addition , the regular star figures ( compounds ) , being composed of regular polygons , are also self - dual .
+REGULAR POLYGONS
+AS FACES OF POLYHEDRA Section::::Regular polygons as faces of polyhedra .
+A uniform polyhedron has regular polygons as faces , such that for every two vertices there is an isometry mapping one into the other ( just as there is for a regular polygon ) .
+A quasiregular polyhedron is a uniform polyhedron which has just two kinds of face alternating around each vertex .
+A regular polyhedron is a uniform polyhedron which has just one kind of face .
+The remaining ( non - uniform )
+convex polyhedra with regular faces are known as the Johnson solids .
+A polyhedron having regular triangles as faces is called a deltahedron .
+SEE ALSO
+* Euclidean tilings by convex regular polygons
+* Platonic solid * Apeirogon –
+An infinite - sided polygon can also be regular , { ∞ } .
+* List of regular polytopes and compounds * Equilateral polygon
+* Carlyle circle
+NOTES
+REFERENCES
+* Grünbaum , B. ; Are your polyhedra the same as my polyhedra ? , Discrete and comput .
+geom : the Goodman - Pollack festschrift , Ed .
+Aronov et al . , Springer ( 2003 )
+, pp .
+461–488 .
+*
+Poinsot , L. ; Memoire sur les polygones et polyèdres .
+J. de l'École Polytechnique 9 ( 1810 ) , pp .
+16–48 .
+EXTERNAL LINKS
+* Regular Polygon description With interactive animation
+* Incircle of a Regular Polygon With interactive animation
+* Area of a Regular Polygon Three different formulae , with interactive animation * Renaissance artists ' constructions of regular polygons at Convergence

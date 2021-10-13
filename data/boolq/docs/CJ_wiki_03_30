@@ -1,0 +1,124 @@
+ENGLISH DRAUGHTS English draughts ( British English ) or checkers ( American English ; see spelling differences ) , also called American checkers or straight checkers , is a form of the strategy board game draughts .
+It is played on an 8×8 chequered board with 12 pieces per side .
+The pieces move and capture diagonally forward , until they reach the opposite end of the board , when they are crowned and can thereafter move and capture both backward and forward .
+As in all forms of draughts , English draughts is played by two opponents , alternating turns on opposite sides of the board .
+The pieces are traditionally black , red , or white .
+Enemy pieces are captured by jumping over them .
+The 8×8 variant of draughts was weakly solved in 2007 by the team of Canadian computer scientist Jonathan Schaeffer .
+From the standard starting position , both players can guarantee a draw with perfect play .
+PIECES Section::::Pieces .
+Though pieces are traditionally made of wood , now many are made of plastic , though other materials may be used .
+Pieces are typically flat and cylindrical .
+They are invariably split into one darker and one lighter colour .
+Traditionally and in tournaments , these colours are red and white , but black and red are common in the United States , as well as dark- and light - stained wooden pieces .
+The darker - coloured side is commonly referred to as " Black " ; the lighter - coloured side , " White " .
+There are two classes of pieces : men and kings .
+Men are single pieces .
+Kings consist of two men of the same colour , stacked one on top of the other .
+The bottom piece is referred to as crowned ( or kinged in the U.S. ) .
+Some sets have pieces with a crown molded , engraved or painted on one side , allowing the player to simply turn the piece over or to place the crown - side up on the crowned man , further differentiating kings from men .
+Pieces are often manufactured with indentations to aid stacking .
+RULES
+STARTING POSITION Section::::Rules .
+Section::::Starting position .
+Each player starts with 12 men on the dark squares of the three rows closest to that player 's side ( see diagram ) .
+The row closest to each player is called the kings row or crownhead .
+The player with the darker - coloured pieces moves first .
+MOVE RULES
+Section::::Move rules .
+There are two different ways to move in English draughts :
+* Simple move : A simple move consists of moving a piece one square diagonally to an adjacent unoccupied dark square .
+Uncrowned pieces can move diagonally forward only ; kings can move in any diagonal direction .
+*
+* Jump :
+A jump consists of moving a piece that is diagonally adjacent an opponent 's piece , to an empty square immediately beyond it in the same direction .
+( Thus " jumping over " the opponent 's piece . )
+Men can jump diagonally forward only ; kings can jump in any diagonal direction .
+A jumped piece is considered " captured " and removed from the game .
+Any piece , king or man , can jump a king .
+* Multiple jumps are possible , if after one jump , another piece is immediately eligible to be jumped — even if that jump is in a different diagonal direction .
+If more than one multi - jump is available , the player can choose which piece to jump with , and which sequence of jumps to make .
+The sequence chosen is not required to be the one that maximizes the number of jumps in the turn ; however , a player must make all available jumps in the sequence chosen .
+Jumping is always mandatory : if a player has the option to jump , he must take it , even if doing so results in disadvantage for the jumping player .
+For example , a mandated single jump might set up the player such that the opponent has a multi - jump in reply .
+KINGS Section::::Kings .
+If a man moves into the kings row on the opponent 's side of the board , it is crowned as a king and gains the ability to move both forward and backward .
+If a man jumps into the kings row , the current move terminates ; the piece is crowned as a king but can not jump back out as in a multi - jump , until another move .
+END OF GAME Section::::End of game .
+A player wins by capturing all of the opponent 's pieces or by leaving the opponent with no legal move .
+The game ends in a draw if neither side can force a win , or by agreement ( one side offering a draw , the other accepting ) .
+RULE VARIATIONS
+*
+In tournament English draughts , a variation called three - move restriction is preferred .
+The first three moves are drawn at random from a set of accepted openings .
+Two games are played with the chosen opening , each player having a turn at either side .
+This tends to reduce the number of draws and can make for more exciting matches .
+Three - move restriction has been played in the U.S. championship since 1934 .
+A two - move restriction was used from 1900 until 1934 in the United States and in the British Isles until the 1950s .
+Before 1900 , championships were played without restriction , a style is called Go As You Please ( GAYP ) .
+*
+One rule of long standing that has fallen out of favour is the huffing rule .
+In this variation jumping is not mandatory , but if a player does not take their jump ( either deliberately or by failing to see it ) , the piece that could have made the jump is blown or huffed , i.e. removed from the board .
+After huffing the offending piece , the opponent then takes their turn as normal .
+Huffing has been abolished by both the American Checker Federation ( ACF ) and the English Draughts Association .
+* Two common rule variants , not recognised by player associations , are : * Capturing with a king precedes capturing with a man .
+In this case , any available capture can be made at the player 's choice .
+*
+* A man that has jumped to become a king , can then in the same turn continue to capture other pieces in a multi - jump .
+* NOTATION Section::::Notation .
+There is a standardised notation for recording games .
+All 32 reachable board squares are numbered in sequence .
+The numbering starts in Black 's double - corner .
+Black 's squares on the first rank are numbered 1 to 4 ; the next rank 5 to 8 , and so on .
+Moves are recorded as " from - to " , so a move from 9 to 14 would be recorded 9 - 14 .
+Captures are notated with an " x " connecting the start and end squares .
+The game result is often abbreviated as BW / RW ( Black / Red wins ) or WW ( White wins ) .
+SAMPLE GAME Section::::Sample game .
+White resigned after Black 's 46th move .
+UNICODE Section::::Unicode .
+In Unicode , the draughts are encoded in block Miscellaneous Symbols : SPORT Section::::Sport .
+The men 's World Championship in English draughts dates to the 1840s , predating the men 's Draughts World Championship , the championship for men in International draughts , by several decades .
+Noted world champions include Andrew Anderson , James Wyllie , Robert Martins , Robert D. Yates , James Ferrie , Alfred Jordan , Newell W. Banks , Robert Stewart , Asa Long , Walter Hellman , Marion Tinsley , Derek Oldbury , Ron King , Michele Borghetti , Alex Moiseyev , Patricia Breen , and Amangul Durdyyeva .
+Championship held in GAYP ( Go As You Please ) and 3-Move versions .
+The winners in men 's have been from the United Kingdom , United States , Barbados , and most recently Italy in the 3-Move division .
+The woman 's championship is more recent and started in 1993 , the winners have been from Ireland , Turkmenistan , and the Ukraine .
+The European Cup has been held since 2013 ; the World Cup , since 2015 .
+COMPUTER PLAYERS Section::::Computer players .
+The first English draughts computer program was written by Christopher Strachey , M.A. at the National Physical Laboratory , London .
+Strachey finished the programme , written in his spare time , in February 1951 .
+It ran for the first time on NPL 's Pilot ACE on 30 July 1951 .
+He soon modified the programme to run on the Manchester Mark 1 .
+The second computer program was written in 1956 by Arthur Samuel , a researcher from IBM .
+Other than it being one of the most complicated game playing programs written at the time , it is also well known for being one of the first adaptive programs .
+It learned by playing games against modified versions of itself , with the victorious versions surviving .
+Samuel 's program was far from mastering the game , although one win against a blind checkers master gave the general public the impression that it was very good .
+In the 1990s , the strongest program was Chinook , written in 1989 by a team from the University of Alberta led by Jonathan Schaeffer .
+Marion Tinsley , world champion from 1955–1962 and from 1975–1991 , won a match against the machine in 1992 .
+In 1994 , Tinsley had to resign in the middle of an even match for health reasons ; he died shortly thereafter .
+In 1995 , Chinook defended its man - machine title against Don Lafferty in a thirty - two game match .
+The final score was 1–0 with 31 draws for Chinook over Don Lafferty .
+In 1996 Chinook won in the U.S. National Tournament by the widest margin ever , and was retired from play after that event .
+The man - machine title has not been contested since .
+In July 2007 , in an article published in Science Magazine , Chinook 's developers announced that the program had been improved to the point where it could not lose a game .
+If no mistakes were made by either player , the game would always end in a draw .
+After eighteen years , they have computationally proven a weak solution to the game of checkers .
+Using between two hundred desktop computers at the peak of the project and around fifty later on , the team made just 10 calculations to search from the initial position to a database of positions with at most ten pieces .
+However , the solution is only for the initial position rather than for all 156 accepted random 3 move openings of tournament play .
+COMPUTATIONAL COMPLEXITY
+Section::::Computational complexity .
+The number of possible positions in English draughts is 500,995,484,682,338,672,639 and it has a game - tree complexity of approximately 10 .
+By comparison , chess is estimated to have between 10 and 10 legal positions .
+When draughts is generalized so that it can be played on an n×n board , the problem of determining if the first player has a win in a given position is EXPTIME - complete .
+The July 2007 announcement by Chinook 's team stating that the game had been solved must be understood in the sense that , with perfect play on both sides , the game will always finish with a draw .
+However , not all positions that could result from imperfect play have been analysed .
+LIST OF TOP DRAUGHTS PROGRAMS * Cake
+* Chinook * KingsRow SEE ALSO
+* Alquerque * High Jump
+* International draughts
+* Konane * List of draughts players
+* List of world championships in mind sports
+* List winners of Czech Republic championship in English draughts
+* Tanzanian draughts
+* World Checkers / Draughts Championship REFERENCES EXTERNAL LINKS
+* World Checkers Draughts Federation ( WCDF )
+* American Checker Federation ( ACF ) * English Draughts Association * List of world checkers champions

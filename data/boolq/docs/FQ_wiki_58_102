@@ -1,0 +1,45 @@
+OBSERVER EFFECT ( PHYSICS )
+In physics , the observer effect is the theory that simply observing a situation or phenomenon necessarily changes that phenomenon .
+This is often the result of instruments that , by necessity , alter the state of what they measure in some manner .
+A commonplace example is checking the pressure in an automobile tire ; this is difficult to do without letting out some of the air , thus changing the pressure .
+Similarly , it is not possible to see any object without light hitting the object , and causing it to reflect that light .
+While the effects of observation are oftentimes negligible , the object still experiences a change .
+This effect can be found in many domains of physics , but can usually be reduced to insignificance by using different instruments or observation techniques .
+An especially unusual version of the observer effect occurs in quantum mechanics , as best demonstrated by the double - slit experiment .
+Physicists have found that even passive observation of quantum phenomena ( by changing the test apparatus and passively ' ruling out ' all but one possibility ) , can actually change the measured result .
+A particularly famous example is the 1998 Weizmann experiment .
+Despite the " observer " in this experiment being an electronic detector — possibly due to the assumption that the word " observer " implies a person — its results have led to the popular belief that a conscious mind can directly affect reality .
+The need for the " observer " to be conscious has been rejected by mainstream science as a misconception rooted in a poor understanding of the quantum wave function and the quantum measurement process , apparently being the generation of information at its most basic level that produces the effect .
+PARTICLE PHYSICS Section::::Particle physics .
+For an electron to become detectable , a photon must first interact with it , and this interaction will inevitably change the path of that electron .
+It is also possible for other , less direct means of measurement to affect the electron .
+It is necessary to distinguish clearly between the measured value of a quantity and the value resulting from the measurement process .
+In particular , a measurement of momentum is non - repeatable in short intervals of time .
+A formula ( one - dimensional for simplicity ) relating involved quantities , due to Niels Bohr ( 1928 ) is given by where The measured momentum of the electron is then related to , whereas its momentum after the measurement is related to .
+This is a best - case scenario .
+ELECTRONICS Section::::Electronics .
+In electronics , ammeters and voltmeters are usually wired in series or parallel to the circuit , and so by their very presence affect the current or the voltage they are measuring by way of presenting an additional real or complex load to the circuit , thus changing the transfer function and behavior of the circuit itself .
+Even a more passive device such as a current clamp , which measures the wire current without coming into physical contact with the wire , affects the current through the circuit being measured because the inductance is mutual .
+THERMODYNAMICS Section::::Thermodynamics .
+In thermodynamics , a standard mercury - in - glass thermometer must absorb or give up some thermal energy to record a temperature , and therefore changes the temperature of the body which it is measuring .
+QUANTUM MECHANICS Section::::Quantum mechanics .
+The theoretical foundation of the concept of measurement in quantum mechanics is a contentious issue deeply connected to the many interpretations of quantum mechanics .
+A key focus point is that of wave function collapse , for which several popular interpretations assert that measurement causes a discontinuous change into an eigenstate of the operator associated with the quantity that was measured , a change which is not time - reversible .
+More explicitly , the superposition principle ( of quantum physics dictates that for a wave function , a measurement will result in a state of the quantum system of one of the possible eigenvalues , of the operator which in the space of the eigenfunctions .
+Once one has measured the system , one knows its current state ; and this prevents it from being in one of its other state ⁠ — it has apparently decohered from them without prospects of future strong quantum interference .
+This means that the type of measurement one performs on the system affects the end - state of the system .
+An experimentally studied situation related to this is the quantum Zeno effect , in which a quantum state would decay if left alone , but does not decay because of its continuous observation .
+The dynamics of a quantum system under continuous observation are described by a quantum stochastic master equation known as the Belavkin equation .
+Further studies have shown that even observing the results after the photon is produced leads to collapsing the wave function and loading a back - history as shown by delayed choice quantum eraser .
+When discussing the wave function which describes the state of a system in quantum mechanics , one should be cautious of a common misconception that assumes that the wave function amounts to the same thing as the physical object it describes .
+This flawed concept must then require existence of an external mechanism , such as the mind of a conscious observer , that lies outside the principles governing the time evolution of the wave function , in order to account for the so - called " collapse of the wave function " after a measurement has been performed .
+But the wave function is not a physical object like , for example , an atom , which has an observable mass , charge and spin , as well as internal degrees of freedom .
+Instead , is an abstract mathematical function that contains all the statistical information that an observer can obtain from measurements of a given system .
+In this case , there is no real mystery in that this mathematical form of the wave function must change abruptly after a measurement has been performed .
+In the ambit of the so - called hidden - measurements interpretation of quantum mechanics , the observer - effect can be understood as an instrument effect which results from the combination of the following two aspects : ( a ) an invasiveness of the measurement process , intrinsically incorporated in its experimental protocol ( which therefore can not be eliminated ) ; ( b ) the presence of a random mechanism ( due to fluctuations in the experimental context ) through which a specific measurement - interaction is each time actualized , in a non - predictable ( non - controllable ) way .
+A consequence of Bell 's theorem is that measurement on one of two entangled particles can appear to have a nonlocal effect on the other particle .
+Additional problems related to decoherence arise when the observer is modeled as a quantum system , as well .
+The uncertainty principle has been frequently confused with the observer effect , evidently even by its originator , Werner Heisenberg .
+The uncertainty principle in its standard form describes how precisely we may measure the position and momentum of a particle at the same time — if we increase the precision in measuring one quantity , we are forced to lose precision in measuring the other .
+An alternative version of the uncertainty principle , more in the spirit of an observer effect , fully accounts for the disturbance the observer has on a system and the error incurred , although this is not how the term " uncertainty principle " is most commonly used in practice .
+REFERENCES

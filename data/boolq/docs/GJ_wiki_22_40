@@ -1,0 +1,192 @@
+LIGHT - DEPENDENT REACTIONS
+In photosynthesis , the light - dependent reactions take place on the thylakoid membranes .
+The inside of the thylakoid membrane is called the lumen , and outside the thylakoid membrane is the stroma , where the light - independent reactions take place .
+The thylakoid membrane contains some integral membrane protein complexes that catalyze the light reactions .
+There are four major protein complexes in the thylakoid membrane :
+Photosystem II ( PSII ) , Cytochrome b6f complex , Photosystem I ( PSI ) , and ATP synthase .
+These four complexes work together to ultimately create the products ATP and NADPH .
+The four photosystems absorb light energy through pigments — primarily the chlorophylls , which are responsible for the green color of leaves .
+The light - dependent reactions begin in photosystem II .
+When a chlorophyll a molecule within the reaction center of PSII absorbs a photon , an electron in this molecule attains a higher energy level .
+Because this state of an electron is very unstable , the electron is transferred from one to another molecule creating a chain of redox reactions , called an electron transport chain ( ETC ) .
+The electron flow goes from PSII to cytochrome b6f to PSI .
+In PSI , the electron gets the energy from another photon .
+The final electron acceptor is NADP .
+In oxygenic photosynthesis , the first electron donor is water , creating oxygen as a waste product .
+In anoxygenic photosynthesis various electron donors are used .
+Cytochrome b6f and ATP synthase work together to create ATP .
+This process is called photophosphorylation , which occurs in two different ways .
+In non - cyclic photophosphorylation , cytochrome b6f uses the energy of electrons from PSII to pump protons from the stroma to the lumen .
+The proton gradient across the thylakoid membrane creates a proton - motive force , used by ATP synthase to form ATP .
+In cyclic photophosphorylation , cytochrome b6f uses the energy of electrons from not only PSII but also PSI to create more ATP and to stop the production of NADPH .
+Cyclic phosphorylation is important to create ATP and maintain NADPH in the right proportion for the light - independent reactions .
+The net - reaction of all light - dependent reactions in oxygenic photosynthesis is : The two photosystems are protein complexes that absorb photons and are able to use this energy to create an electron transport chain .
+Photosystem
+I and II are very similar in structure and function .
+They use special proteins , called light - harvesting complexes , to absorb the photons with very high effectiveness .
+If a special pigment molecule in a photosynthetic reaction center absorbs a photon , an electron in this pigment attains the excited state and then is transferred to another molecule in the reaction center .
+This reaction , called photoinduced charge separation , is the start of the electron flow and is unique because it transforms light energy into chemical forms .
+THE REACTION CENTER Section::::The reaction center .
+The reaction center is in the thylakoid membrane .
+It transfers light energy to a dimer of chlorophyll pigment molecules near the periplasmic ( or thylakoid lumen ) side of the membrane .
+This dimer is called a special pair because of its fundamental role in photosynthesis .
+This special pair is slightly different in PSI and PSII reaction center .
+In PSII , it absorbs photons with a wavelength of 680 nm , and it is therefore called P680 .
+In PSI , it absorbs photons at 700 nm , and it is called P700 .
+In bacteria , the special pair is called P760 , P840 , P870 , or P960 .
+Where " P " means pigment , and the number following it is the wavelength of light absorbed .
+If an electron of the special pair in the reaction center becomes excited , it can not transfer this energy to another pigment using resonance energy transfer .
+In normal circumstances , the electron should return to the ground state , but , because the reaction center is arranged so that a suitable electron acceptor is nearby , the excited electron can move from the initial molecule to the acceptor .
+This process results in the formation of a positive charge on the special pair ( due to the loss of an electron ) and a negative charge on the acceptor and is , hence , referred to as photoinduced charge separation .
+In other words , electrons in pigment molecules can exist at specific energy levels .
+Under normal circumstances , they exist at the lowest possible energy level they can .
+However , if there is enough energy to move them into the next energy level , they can absorb that energy and occupy that higher energy level .
+The light they absorb contains the necessary amount of energy needed to push them into the next level .
+Any light that does not have enough or has too much energy can not be absorbed and is reflected .
+The electron in the higher energy level , however , does not want to be there ; the electron is unstable and must return to its normal lower energy level .
+To do this , it must release the energy that has put it into the higher energy state to begin with .
+This can happen various ways .
+The extra energy can be converted into molecular motion and lost as heat .
+Some of the extra energy can be lost as heat energy , while the rest is lost as light .
+( This re - emission of light energy is called fluorescence . )
+The energy , but not the e- itself , can be passed onto another molecule .
+( This is called resonance . )
+The energy and the e- can be transferred to another molecule .
+Plant pigments usually utilize the last two of these reactions to convert the sun 's energy into their own .
+This initial charge separation occurs in less than 10 picoseconds ( 10 seconds ) .
+In their high - energy states , the special pigment and the acceptor could undergo charge recombination ; that is , the electron on the acceptor could move back to neutralize the positive charge on the special pair .
+Its return to the special pair would waste a valuable high - energy electron and simply convert the absorbed light energy into heat .
+In the case of PSII , this backflow of electrons can produce reactive oxygen species leading to photoinhibition .
+Three factors in the structure of the reaction center work together to suppress charge recombination nearly completely .
+*
+Another electron acceptor is less than 10 Å away from the first acceptor , and so the electron is rapidly transferred farther away from the special pair .
+*
+An electron donor is less than 10 Å away from the special pair , and so the positive charge is neutralized by the transfer of another electron
+* The electron transfer back from the electron acceptor to the positively charged special pair is especially slow .
+The rate of an electron transfer reaction increases with its thermodynamic favorability up to a point and then decreases .
+The back transfer is so favourable that it takes place in the inverted region where electron - transfer rates become slower .
+Thus , electron transfer proceeds efficiently from the first electron acceptor to the next , creating an electron transport chain that ends if it has reached NADPH .
+PHOTOSYNTHETIC ELECTRON TRANSPORT CHAINS IN CHLOROPLASTS Section::::Photosynthetic electron transport chains in chloroplasts .
+The photosynthesis process in chloroplasts begins when an electron of P680 of PSII attains a higher - energy level .
+This energy is used to reduce a chain of electron acceptors that have subsequently lowered redox - potentials .
+This chain of electron acceptors is known as an electron transport chain .
+When this chain reaches PS I , an electron is again excited , creating a high redox - potential .
+The electron transport chain of photosynthesis is often put in a diagram called the z - scheme , because the redox diagram from P680 to P700 resembles the letter z.
+The final product of PSII is plastoquinol , a mobile electron carrier in the membrane .
+Plastoquinol transfers the electron from PSII to the proton pump , cytochrome b6f .
+The ultimate electron donor of PSII is water .
+Cytochrome b6f proceeds the electron chain to PSI through plastocyanin molecules .
+PSI is able to continue the electron transfer in two different ways .
+It can transfer the electrons either to plastoquinol again , creating a cyclic electron flow , or to an enzyme called FNR ( Ferredoxin — NADP(+ ) reductase ) , creating a non - cyclic electron flow .
+PSI releases FNR into the stroma , where it reduces to NADPH .
+Activities of the electron transport chain , especially from cytochrome b6f , lead to pumping of protons from the stroma to the lumen .
+The resulting transmembrane proton gradient is used to make ATP via ATP synthase .
+The overall process of the photosynthetic electron transport chain in chloroplasts is : PHOTOSYSTEM II Section::::Photosystem II .
+PS II is extremely complex , a highly organized transmembrane structure that contains a water - splitting complex , chlorophylls and carotenoid pigments , a reaction center ( P680 ) , pheophytin ( a pigment similar to chlorophyll ) , and two quinones .
+It uses the energy of sunlight to transfer electrons from water to a mobile electron carrier in the membrane called plastoquinone : Plastoquinone , in turn , transfers electrons to cyt , which feeds them into PS I. THE WATER - SPLITTING COMPLEX Section::::The water - splitting complex .
+The step → P680 is performed by a poorly understood structure embedded within PS II called the water - splitting complex or the oxygen - evolving complex .
+It catalyzes a reaction that splits water into electrons , protons and oxygen : 2 → 4H + 4e +
+The actual steps of the above reaction are running in the following way ( Dolai 's diagram of S - states ) : The electrons are transferred to special chlorophyll molecules ( embedded in PS II ) that are promoted to a higher - energy state by the energy of photons .
+THE REACTION CENTER Section::::The reaction center .
+The excitation P680 → P680of the reaction center pigment P680 occurs here .
+These special chlorophyll molecules embedded in PS II absorb the energy of photons , with maximal absorption at 680 nm .
+Electrons within these molecules are promoted to a higher - energy state .
+This is one of two core processes in photosynthesis , and it occurs with astonishing efficiency ( greater than 90 % ) because , in addition to direct excitation by light at 680 nm , the energy of light first harvested by antenna proteins at other wavelengths in the light - harvesting system is also transferred to these special chlorophyll molecules .
+This is followed by the step P680→ pheophytin , and then on to plastoquinone , which occurs within the reaction center of PS II .
+High - energy electrons are transferred to plastoquinone before it subsequently picks up two protons to become plastoquinol .
+Plastoquinol is then released into the membrane as a mobile electron carrier .
+This is the second core process in photosynthesis .
+The initial stages occur within picoseconds , with an efficiency of 100 % .
+The seemingly impossible efficiency is due to the precise positioning of molecules within the reaction center .
+This is a solid - state process , not a chemical reaction .
+It occurs within an essentially crystalline environment created by the macromolecular structure of PS II .
+The usual rules of chemistry ( which involve random collisions and random energy distributions ) do not apply in solid - state environments .
+LINK OF WATER - SPLITTING COMPLEX AND CHLOROPHYLL EXCITATION Section::::Link of water - splitting complex and chlorophyll excitation .
+When the chlorophyll passes the electron to pheophytin , it obtains an electron from P.
+In turn , P can oxidize the Z ( or Y ) molecule .
+Once oxidized , the Z molecule can derive electrons from the oxygen - evolving complex ( OEC ) .
+Dolai 's S - state diagrams show the reactions of water splitting in the oxygen - evolving complex .
+SUMMARY Section::::Summary .
+PS II is a transmembrane structure found in all chloroplasts .
+It splits water into electrons , protons and molecular oxygen .
+The electrons are transferred to plastoquinone , which carries them to a proton pump .
+Molecular oxygen is released into the atmosphere .
+The emergence of such an incredibly complex structure , a macromolecule that converts the energy of sunlight into potentially useful work with efficiencies that are impossible in ordinary experience , seems almost magical at first glance .
+Thus , it is of considerable interest that , in essence , the same structure is found in purple bacteria .
+CYTOCHROME Section::::Cytochrome .
+PS II and
+PS I are connected by a transmembrane proton pump , cytochrome ' complex ( plastoquinol — plastocyanin reductase ; ) .
+Electrons from PS II are carried by plastoquinol to cyt ' , where they are removed in a stepwise fashion ( reforming plastoquinone ) and transferred to a water - soluble electron carrier called plastocyanin .
+This redox process is coupled to the pumping of four protons across the membrane .
+The resulting proton gradient ( together with the proton gradient produced by the water - splitting complex in PS II ) is used to make ATP via ATP synthase .
+The similarity in structure and function between cytochrome ' ( in chloroplasts ) and cytochrome ' ( Complex III in mitochondria ) is striking .
+Both are transmembrane structures that remove electrons from a mobile , lipid - soluble electron carrier ( plastoquinone in chloroplasts ; ubiquinone in mitochondria ) and transfer them to a mobile , water - soluble electron carrier ( plastocyanin in chloroplasts ; cytochrome c in mitochondria ) .
+Both are proton pumps that produce a transmembrane proton gradient .
+PHOTOSYSTEM
+I
+Section::::Photosystem I. PS
+I accepts electrons from plastocyanin and transfers them either to NADPH ( noncyclic electron transport ) or back to cytochrome ( cyclic electron transport ) :
+PS
+I , like PS II , is a complex , highly organized transmembrane structure that contains antenna chlorophylls , a reaction center ( P700 ) , phylloquinine , and a number of iron - sulfur proteins that serve as intermediate redox carriers .
+The light - harvesting system of
+PS I uses multiple copies of the same transmembrane proteins used by PS II .
+The energy of absorbed light ( in the form of delocalized , high - energy electrons ) is funneled into the reaction center , where it excites special chlorophyll molecules ( P700 , maximum light absorption at 700 nm ) to a higher energy level .
+The process occurs with astonishingly high efficiency .
+Electrons are removed from excited chlorophyll molecules and transferred through a series of intermediate carriers to ferredoxin , a water - soluble electron carrier .
+As in PS II , this is a solid - state process that operates with 100 % efficiency .
+There are two different pathways of electron transport in PS I.
+In noncyclic electron transport , ferredoxin carries the electron to the enzyme ferredoxin reductase ( FNR ) that reduces to NADPH .
+In cyclic electron transport , electrons from ferredoxin are transferred ( via plastoquinone ) to a proton pump , cytochrome .
+They are then returned ( via plastocyanin ) to P700 .
+NADPH and ATP are used to synthesize organic molecules from .
+The ratio of NADPH to ATP production can be adjusted by adjusting the balance between cyclic and noncyclic electron transport .
+It is noteworthy that PS I closely resembles photosynthetic structures found in green sulfur bacteria , just as PS II resembles structures found in purple bacteria .
+PHOTOSYNTHETIC ELECTRON TRANSPORT CHAINS IN BACTERIA Section::::Photosynthetic electron transport chains in bacteria .
+PS II , PS I , and cytochrome are found in chloroplasts .
+All plants and all photosynthetic algae contain chloroplasts , which produce NADPH and ATP by the mechanisms described above .
+In essence , the same transmembrane structures are also found in cyanobacteria .
+Unlike plants and algae , cyanobacteria are prokaryotes .
+They do not contain chloroplasts .
+Rather , they bear a striking resemblance to chloroplasts themselves .
+This suggests that organisms resembling cyanobacteria were the evolutionary precursors of chloroplasts .
+One imagines primitive eukaryotic cells taking up cyanobacteria as intracellular symbionts in a process known as endosymbiosis .
+CYANOBACTERIA
+Section::::Cyanobacteria .
+Cyanobacteria contain structures similar to PS II and PS I in chloroplasts .
+Their light - harvesting system is different from that found in plants ( they use phycobilins , rather than chlorophylls , as antenna pigments ) , but their electron transport chain is , in essence , the same as the electron transport chain in chloroplasts .
+The mobile water - soluble electron carrier is cytochrome in cyanobacteria , plastocyanin in plants .
+Cyanobacteria can also synthesize ATP by oxidative phosphorylation , in the manner of other bacteria .
+The electron transport chain is where the mobile electron carriers are plastoquinone and cytochrome ' , while the proton pumps are NADH dehydrogenase , ' and cytochrome .
+Cyanobacteria are the only bacteria that produce oxygen during photosynthesis .
+Earth 's primordial atmosphere was anoxic .
+Organisms like cyanobacteria produced our present - day oxygen - containing atmosphere .
+The other two major groups of photosynthetic bacteria , purple bacteria and green sulfur bacteria , contain only a single photosystem and do not produce oxygen .
+PURPLE BACTERIA
+Section::::Purple bacteria .
+Purple bacteria contain a single photosystem that is structurally related to PS II in cyanobacteria and chloroplasts :
+This is a cyclic process in which electrons are removed from an excited chlorophyll molecule ( bacteriochlorophyll ; P870 ) , passed through an electron transport chain to a proton pump ( cytochrome ' complex , similar but not identical to cytochrome ' in chloroplasts ) , and then returned to the chlorophyll molecule .
+The result is a proton gradient , which is used to make ATP via ATP synthase .
+As in cyanobacteria and chloroplasts , this is a solid - state process that depends on the precise orientation of various functional groups within a complex transmembrane macromolecular structure .
+To make NADPH , purple bacteria use an external electron donor ( hydrogen , hydrogen sulfide , sulfur , sulfite , or organic molecules such as succinate and lactate ) to feed electrons into a reverse electron transport chain .
+GREEN
+SULFUR BACTERIA
+Section::::Green sulfur bacteria .
+Green sulfur bacteria contain a photosystem that is analogous to PS I in chloroplasts :
+There are two pathways of electron transfer .
+In cyclic electron transfer , electrons are removed from an excited chlorophyll molecule , passed through an electron transport chain to a proton pump , and then returned to the chlorophyll .
+The mobile electron carriers are , as usual , a lipid - soluble quinone and a water - soluble cytochrome .
+The resulting proton gradient is used to make ATP .
+In noncyclic electron transfer , electrons are removed from an excited chlorophyll molecule and used to reduce NAD to NADH .
+The electrons removed from P840 must be replaced .
+This is accomplished by removing electrons from , which is oxidized to sulfur ( hence the name " green sulfur bacteria " ) .
+Purple bacteria and green sulfur bacteria occupy relatively minor ecological niches in the present day biosphere .
+They are of interest because of their importance in precambrian ecologies , and because their methods of photosynthesis were the likely evolutionary precursors of those in modern plants .
+HISTORY Section::::History .
+The first ideas about light being used in photosynthesis were proposed by Colin Flannery in 1779 who recognized it was sunlight falling on plants that was required , although Joseph Priestley had noted the production of oxygen without the association with light in 1772 .
+Cornelis Van Niel proposed in 1931 that photosynthesis is a case of general mechanism where a photon of light is used to photo decompose a hydrogen donor and the hydrogen being used to reduce .
+Then in 1939 , Robin Hill showed that isolated chloroplasts would make oxygen , but not fix showing the light and dark reactions occurred in different places .
+Although they are referred to as light and dark reactions , both of them take place only in the presence of light .
+This led later to the discovery of photosystems I and II .
+SEE ALSO
+* Light - independent reaction * Photosynthetic reaction centre * Photosystem II
+* Compensation point REFERENCES

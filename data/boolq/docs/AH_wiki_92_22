@@ -1,0 +1,117 @@
+IONIZATION ENERGY
+In physics and chemistry , ionization energy ( American English spelling ) or ionisation energy ( British English spelling ) , denoted E , is the minimum amount of energy required to remove the most loosely bound electron , the valence electron , of an isolated neutral gaseous atom or molecule .
+It is quantitatively expressed as where is any atom or molecule capable of ionization , is that atom or molecule with an electron removed , and is the removed electron .
+This is generally an endothermic process .
+Generally , the closer the outermost electrons are to the nucleus of the atom , the higher the atom 's or element 's ionization energy .
+The sciences of physics and chemistry use different measures of ionization energy .
+In physics , the unit is the amount of energy required to remove a single electron from a single atom or molecule , expressed as electronvolts .
+In chemistry , the unit is the amount of energy required for all of the atoms in a mole of substance to lose one electron each : molar ionization energy or enthalpy , expressed as kilojoules per mole ( kJ / mol ) or kilocalories per mole ( kcal / mol ) .
+Comparison of E of elements in the periodic table reveals two periodic trends :
+* E generally increases as one moves from left to right within a given period ( that is , row ) .
+*
+* E generally decreases as one moves from top to bottom in a given group ( that is , column ) .
+*
+The latter trend results from the outer electron shell being progressively farther from the nucleus , with the addition of one inner shell per row as one moves down the column .
+The nth ionization energy refers to the amount of energy required to remove an electron from the species with a charge of ( n-1 ) .
+For example , the first three ionization energies are defined as follows : The term ionization potential is an older name for ionization energy , because the oldest method of measuring ionization energy was based on ionizing a sample and accelerating the electron removed using an electrostatic potential .
+However this term is now considered obsolete .
+Some factors affecting the ionization energy include : *
+Nuclear charge :
+the greater the magnitude of nuclear charge the more tightly
+the electrons are held by the nucleus and hence more will be ionization energy .
+* * Number of electron shells : the greater the size of the atom less tightly the electrons are held by the nucleus and ionization energy will be less * * Effective nuclear charge ( Z ) : the greater the magnitude of electron shielding and penetration the less tightly the electrons are held by the nucleus , the lower the Z of the electron , and hence less will be the ionization energy .
+* * Type of orbital ionized : the atom having a more stable electronic configuration has less tendency to lose electrons and consequently has high ionization energy .
+* * Occupancy of the orbital matters : if the orbital is half or completely filled then it is harder to remove electrons * VALUES AND TRENDS Section::::Values and trends .
+Generally , the ( n+1)th ionization energy is larger than the nth ionization energy .
+When the next ionization energy involves removing an electron from the same electron shell , the increase in ionization energy is primarily due to the increased net charge of the ion from which the electron is being removed .
+Electrons removed from more highly charged ions of a particular element experience greater forces of electrostatic attraction ; thus , their removal requires more energy .
+In addition , when the next ionization energy involves removing an electron from a lower electron shell , the greatly decreased distance between the nucleus and the electron also increases both the electrostatic force and the distance over which that force must be overcome to remove the electron .
+Both of these factors further increase the ionization energy .
+Some values for elements of the third period are given in the following table : + Successive ionization energy values / kJmol
+( 96.485 kJ / mol ≡ 1 eV ) !
+Element !
+First !
+Second !
+Third !
+Fourth !
+Fifth !
+Sixth !
+Seventh ! align="center
+"
+Na ! align="center
+" Mg ! align="center " Al ! align="center
+"
+Si ! align="center
+" P ! align="center " S ! align="center " Cl !
+align="center " Ar Large jumps in the successive molar ionization energies occur when passing noble gas configurations .
+For example , as can be seen in the table above , the first two molar ionization energies of magnesium ( stripping the two 3s electrons from a magnesium atom ) are much smaller than the third , which requires stripping off a 2p electron from the neon configuration of Mg .
+That electron is much closer to the nucleus than the previous 3s electron .
+Ionization energy is also a periodic trend within the periodic table organization .
+Moving left to right within a period , or upward within a group , the first ionization energy generally increases , with some exceptions such as aluminum and sulfur in the table above .
+As the nuclear charge of the nucleus increases across the period , the atomic radius decreases and the electron cloud becomes closer towards the nucleus .
+ELECTROSTATIC EXPLANATION Section::::Electrostatic explanation .
+Atomic ionization energy can be predicted by an analysis using electrostatic potential and the Bohr model of the atom , as follows ( note that the derivation uses Gaussian units ) .
+Consider an electron of charge -e and an atomic nucleus with charge + Ze , where Z is the number of protons in the nucleus .
+According to the Bohr model , if the electron were to approach and bond with the atom , it would come to rest at a certain radius a.
+The electrostatic potential V at distance a from the ionic nucleus , referenced to a point infinitely far away , is : formula_1 Since the electron is negatively charged , it is drawn inwards by this positive electrostatic potential .
+The energy required for the electron to " climb out " and leave the atom is : formula_2
+This analysis is incomplete , as it leaves the distance a as an unknown variable .
+It can be made more rigorous by assigning to each electron of every chemical element a characteristic distance , chosen so that this relation agrees with experimental data .
+It is possible to expand this model considerably by taking a semi - classical approach , in which momentum is quantized .
+This approach works very well for the hydrogen atom , which only has one electron .
+The magnitude of the angular momentum for a circular orbit is : formula_3
+The total energy of the atom is the sum of the kinetic and potential energies , that is : formula_4 Velocity can be eliminated from the kinetic energy term by setting the Coulomb attraction equal to the centripetal force , giving :
+formula_5
+Solving the angular momentum for v and substituting this into the expression for kinetic energy , we have :
+formula_6
+This establishes the dependence of the radius on n. That is : formula_7
+Now the energy can be found in terms of Z , e , and r. Using the new value for the kinetic energy in the total energy equation above , it is found that : formula_8 At its smallest value , n is equal to 1 and r
+is the Bohr radius a which equals formula_9 .
+Now , the equation for the energy can be established in terms of the Bohr radius .
+Doing so gives the result : formula_10 QUANTUM - MECHANICAL EXPLANATION Section::::Quantum - mechanical explanation .
+According to the more complete theory of quantum mechanics , the location of an electron is best described as a probability distribution within an electron cloud , i.e. atomic orbital .
+The energy can be calculated by integrating over this cloud .
+The cloud 's underlying mathematical representation is the wavefunction which is built from Slater determinants consisting of molecular spin orbitals .
+These are related by Pauli 's exclusion principle to the antisymmetrized products of the atomic or molecular orbitals .
+In general , calculating the nth ionization energy requires calculating the energies of formula_11 and formula_12 electron systems .
+Calculating these energies exactly is not possible except for the simplest systems ( i.e. hydrogen ) , primarily because of difficulties in integrating the electron correlation terms .
+Therefore , approximation methods are routinely employed , with different methods varying in complexity ( computational time ) and in accuracy compared to empirical data .
+This has become a well - studied problem and is routinely done in computational chemistry .
+At the lowest level of approximation , the ionization energy is provided by Koopmans ' theorem .
+VERTICAL AND ADIABATIC IONIZATION ENERGY IN MOLECULES Section::::Vertical and adiabatic ionization energy in molecules .
+Ionization of molecules often leads to changes in molecular geometry , and two types of ( first ) ionization energy are defined – adiabatic and vertical .
+ADIABATIC IONIZATION ENERGY Section::::Adiabatic ionization energy .
+The adiabatic ionization energy of a molecule is the minimum amount of energy required to remove an electron from a neutral molecule , i.e. the difference between the energy of the vibrational ground state of the neutral species ( v " = 0 level ) and that of the positive ion ( v ' = 0 ) .
+The specific equilibrium geometry of each species does not affect this value .
+VERTICAL IONIZATION ENERGY
+Section::::Vertical ionization energy .
+Due to the possible changes in molecular geometry that may result from ionization , additional transitions may exist between the vibrational ground state of the neutral species and vibrational excited states of the positive ion .
+In other words , ionization is accompanied by vibrational excitation .
+The intensity of such transitions are explained by the Franck – Condon principle , which predicts that the most probable and intense transition corresponds to the vibrational excited state of the positive ion that has the same geometry as the neutral molecule .
+This transition is referred to as the " vertical " ionization energy since it is represented by a completely vertical line on a potential energy diagram ( see Figure ) .
+For a diatomic molecule , the geometry is defined by the length of a single bond .
+The removal of an electron from a bonding
+molecular orbital weakens the bond and increases the bond length .
+In Figure 1 , the lower potential energy curve is for the neutral molecule and the upper surface is for the positive ion .
+Both curves plot the potential energy as a function of bond length .
+The horizontal lines correspond to vibrational levels with their associated vibrational wave functions .
+Since the ion has a weaker bond , it will have a longer bond length .
+This effect is represented by shifting the minimum of the potential energy curve to the right of the neutral species .
+The adiabatic ionization is the diagonal transition to the vibrational ground state of the ion .
+Vertical ionization involves vibrational excitation of the ionic state and therefore requires greater energy .
+In many circumstances , the adiabatic ionization energy is often a more interesting physical quantity since it describes the difference in energy between the two potential energy surfaces .
+However , due to experimental limitations , the adiabatic ionization energy is often difficult to determine , whereas the vertical detachment energy is easily identifiable and measurable .
+ANALOGS OF IONIZATION ENERGY TO OTHER SYSTEMS Section::::Analogs of ionization energy to other systems .
+While the term ionization energy is largely used only for gas - phase atomic or molecular species , there are a number of analogous quantities that consider the amount of energy required to remove an electron from other physical systems .
+ELECTRON BINDING ENERGY Section::::Electron binding energy .
+Electron binding energy is a generic term for the ionization energy that can be used for species with any charge state .
+For example , the electron binding energy for the chloride ion is the minimum amount of energy required to remove an electron from the chlorine atom when it has a charge of -1 .
+In this particular example , the electron binding energy has the same magnitude as the electron affinity for the neutral chlorine atom .
+In another example , the electron binding energy refers the minimum amount of energy required to remove an electron from the dicarboxylate dianion OC(CH)CO .
+WORK FUNCTION Section::::Work function .
+Work function is the minimum amount of energy required to remove an electron from a solid surface .
+SEE ALSO * Electron affinity – a closely related concept describing the energy released by adding an electron to a neutral atom or molecule .
+* Electronegativity is a number that shares some similarities with ionization energy .
+* Koopmans ' theorem , regarding the predicted ionization energies in Hartree – Fock theory .
+* Di - tungsten tetra(hpp ) has the lowest recorded ionization energy for a stable chemical compound .
+REFERENCES

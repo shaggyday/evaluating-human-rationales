@@ -1,0 +1,76 @@
+FREEZING RAIN Freezing rain is the name given to rain precipitation maintained at temperatures below freezing by the ambient air mass that causes freezing on contact with surfaces .
+Unlike sleet , a mixture of rain and snow , ice pellets , or hail , freezing rain is made entirely of liquid droplets .
+The raindrops become supercooled while passing through a sub - freezing layer of air hundreds of meters above the ground , and then freeze upon impact with any surface they encounter , including the ground , trees , electrical wires , aircraft , and automobiles .
+The resulting ice , called glaze ice , can accumulate to a thickness of several centimeters and cover all exposed surfaces .
+The METAR code for freezing rain is FZRA .
+A storm that produces a significant thickness of glaze ice from freezing rain is often referred to as an ice storm .
+Although these storms are not particularly violent , freezing rain is notorious for causing travel problems on roadways , breaking tree limbs , and downing power lines from the weight of accumulating ice .
+Downed power lines cause power outages in affected areas while accumulated ice can also pose significant overhead hazards .
+It is also known for being extremely dangerous to aircraft since the ice can effectively ' remould ' the shape of the airfoil and flight control surfaces .
+( See atmospheric icing . )
+MECHANISM Section::::Mechanism .
+Freezing rain is often associated with the approach of a warm front , when subfreezing air ( temperatures at or below freezing ) is trapped in the lowest levels of the atmosphere while warm air advects in aloft .
+This happens , for instance , when a low pressure system moves from the Mississippi River Valley toward the Appalachian Mountains and the Saint Lawrence River Valley of North America during the cold season , with a strong high pressure system sitting further east .
+This setup is known as cold - air damming , and is characterized by very cold and dry air at the surface within the region of high pressure .
+The warm air from the Gulf of Mexico is often the fuel for freezing precipitation .
+Freezing rain develops when falling snow encounters a layer of warm air aloft , typically around the 800 mbar ( 800 hPa ) level , causing the snow to melt and become rain .
+As the rain continues to fall , it passes through a layer of subfreezing air just above the surface and cools to a temperature below freezing ( ) .
+If this layer of subfreezing air is sufficiently deep , the raindrops may have time to freeze into ice pellets ( sleet ) before reaching the ground .
+However , if the subfreezing layer of air at the surface is very shallow , the rain drops falling through it will not have time to freeze and they will hit the ground as supercooled rain .
+When these supercooled drops make contact with the ground , power lines , tree branches , aircraft , or anything else below , a portion of the drops instantly freezes , forming a thin film of ice , hence freezing rain .
+The specific physical process by which this occurs is called nucleation .
+OBSERVATIONS Section::::Observations .
+Surface observations by manned or automatic stations are the only direct confirmation of freezing rain .
+One can never see directly freezing rain , rain or snow on weather radars , Doppler or conventional .
+However , it is possible to estimate the area covered by freezing rain with radars indirectly .
+The intensity of the radar echoes ( reflectivity ) is proportional to the form ( water or ice ) of the precipitation and its diameter .
+In fact , rain has much stronger reflective power than snow but its diameter is much smaller .
+So the reflectivity of rain coming from melted snow is only slightly higher .
+However , in the layer where the snow is melting , the wet flakes still have a large diameter and are coated with water so the returns to the radar is much stronger .
+The presence of this brightband indicates that there is a warm layer above ground where snow melts .
+This could be producing rain on the ground or the possibility of freezing rain if the temperature is below freezing .
+This artifact can be located , like on the image at left , with a cross - section through radar data .
+The height and slope of the brightband will give clues to the extent of the region where melting occurs .
+Then it is possible to associate this clue with surface observations and numerical models prediction to produce output such as the ones seen on television weather programs that divide radar echoes into rain , mixed and snow precipitations .
+EFFECTS
+AT GROUND LEVEL Section::::Effects .
+Section::::At ground level .
+Freezing rain often causes major power outages by forming glaze ice .
+When the freezing rain or drizzle is light and not prolonged , the ice formed is thin and usually causes only minor damage ( relieving trees of their dead branches , etc . ) .
+When large quantities accumulate , however , it is one of the most dangerous types of winter hazard .
+When the ice layer exceeds approximately , tree limbs with branches heavily coated in ice can break off under the enormous weight and fall onto power lines .
+Windy conditions and lightning , when present , will exacerbate the damage .
+Power lines coated with ice become extremely heavy , causing support poles , insulators and lines to break .
+The ice that forms on roadways makes vehicle travel dangerous .
+Unlike snow , wet ice provides almost no traction , and vehicles will slide even on gentle slopes .
+Because freezing rain does not hit the ground as an ice pellet ( called " sleet " ) but still as a rain droplet , it conforms to the shape of the ground , or object such as a tree branch or car .
+This makes one thick layer of ice , often called " glaze " .
+Freezing rain and glaze ice on a large scale is called an ice storm .
+Effects on plants can be severe , as they can not support the weight of the ice .
+Trees may snap as they are dormant and fragile during winter weather .
+Pine trees are also victims of ice storms as their needles will catch the ice , but not be able to support the weight .
+In February 1994 , a severe ice storm caused over $ 1 billion in damage in the Southern United States , primarily in Mississippi , Tennessee , Alabama , and Western North Carolina , especially the Appalachians .
+One particularly severe ice storm struck eastern Canada and northern parts of New York and New England in the North American ice storm of 1998 .
+AIRCRAFT Section::::Aircraft .
+Freezing rain is considered to be an extreme hazard to aircraft , as it causes very rapid structural icing .
+Most helicopters and small airplanes lack the necessary deicing equipment to fly in freezing rain of any intensity , and heavy freezing rain can overwhelm even the most sophisticated deicing systems on large airplanes .
+Icing can increase an aircraft 's weight but not typically enough to cause a hazard .
+The main danger comes from the ice changing the shape of its airfoils .
+This will reduce lift and increase drag .
+All three factors increase stalling speed and reduce aircraft performance , making it very difficult to climb or even maintain level altitude .
+An aircraft can most easily avoid freezing rain by moving into warmer air — under most conditions , this would require aircraft to descend , which it can usually do safely and easily even with a moderate accumulation of structural ice .
+However , freezing rain is accompanied by a temperature inversion aloft , meaning that aircraft are required to climb to move into warmer air , which is a potentially difficult and dangerous task with even a small amount of ice accumulation .
+For example , in 1994 , American Eagle Flight 4184 encountered heavy air traffic and poor weather that postponed the arrival of this flight at Chicago 's O'Hare International Airport , where it was to have landed en route from Indianapolis , Indiana .
+The ATR-72 , a twin - engine turboprop carrying 68 people , entered a holding pattern southeast of O'Hare .
+As the plane circled , supercooled cloud droplets , freezing rain or freezing drizzle formed a ridge of ice on the upper surface of its wings , eventually causing the aircraft 's autopilot to suddenly disconnect and the pilots to lose control .
+The ATR disintegrated on impact with a field below ; all passengers and crew were killed .
+SEE ALSO
+*
+Black ice * Freezing drizzle *
+Hail
+*
+Ice pellets *
+Ice storm
+* Icing conditions
+* List of ice storms REFERENCES EXTERNAL LINKS * Graphic Explanation
+* Freezing rain in Moscow of 2010

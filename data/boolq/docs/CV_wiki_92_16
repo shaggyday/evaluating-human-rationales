@@ -1,0 +1,80 @@
+TIME IN CHINA
+The time in China follows a single standard time offset of ( eight hours ahead of Coordinated Universal Time ) , despite China spanning five geographical time zones .
+The official national standard time is called Beijing Time ( ) domestically and China Standard Time ( CST ) internationally .
+Daylight saving time has not been observed since 1991 .
+The special administrative regions ( SARs ) maintain their own time authorities , with standards called Hong Kong Time ( ) and Macau Standard Time ( ) .
+These have been equivalent to Beijing time since 1992 .
+In addition , it has been proposed during 2005 's NPC & CPPCC of China that provinces in the west ( such as Shaanxi , Sichuan , and Chongqing ) should use the time offset of UTC+07:00 .
+However , this proposal has not been voted upon yet ..
+HISTORY Section::::History .
+In the 1870s , the Shanghai Xujiahui Observatory was constructed by a French Catholic missionary .
+In 1880s officials in Shanghai French Concession started to provide a time announcement service using the Shanghai Mean Solar Time provided by the aforementioned observatory for ships into and out of Shanghai .
+By the end of 19th century , the time standard provided by the observatory had been switched to GMT+8 .
+The practice has spread to other coastal ports , and in 1902 the " Coastal Time " was proposed to be the universal timezone for all the coastal ports in China .
+However , the timezone for the rest of China remained undetermined .
+Until 1913 , the official time standard for the whole of China was still the apparent solar time of Beijing , the capital of the country at the time .
+Starting in 1914 , the Republic of China government began adopting the Beijing Local Mean Solar Time as the official time standard .
+By 1918 , five standard time zones had been proposed by the Central Observatory of Beiyang government of Republic of China , including the Kunlun ( ) , Sinkiang - Tibet ( ) , Kansu - Szechwan ( ) , Chungyuan ( ) , and Changpai ( ) .
+After the defeat of Beiyang government in 1928 , the mission of the Central Observatory was moved to Nanjing , and the reference time standard used for the construction of traditional Chinese Calendar was shifted from Beijing Mean Solar Time to GMT+8 .
+In 1930s , the proposed five timezones had not been fully observed , causing regions in inner China area to adopt their own time standards , resulting in chaos .
+On 9 March 1939 , when the Ministry of the Interior organized a Standard Time Conference in Chongqing , it was decided to adopt the five timezone proposal with slight modification of their borders starting from 1 June , however it was also decided that the entire country would use the Kansu - Szechwan Time ( GMT+7 ) during the Second Sino - Japanese War which began at the time .
+Following the end of World War II , the five - timezone system was resumed , although there is little information about the historical usage of time in the Kunlun and Changpai zones .
+A further refined system with adjustment to zone assignment in the Northwest part of Gansu was announced in 1947 for adoption in 1948 .
+However , as the Chinese Civil War came to its end in 1949 - 1950 , regional governments under the influence of Communist Party of China , other than those in Xinjiang and Tibet , switched to use the same time as Beijing , which is GMT+8 , and is later known as Beijing Time or China Standard Time .
+There are two independent sources that claim the Communist Party of China , and/or the People 's Republic of China , were using apparent solar time for Beijing Time before the period between 27 September 1949 and 6 October 1949 , and they adopted the time of GMT+8 within that period of time , but such claim is dubious .
+The change in use of time in Tibet is undocumented but is known to use till at least mid-1950s , and the use of time in Xinjiang have been switched back and forth between GMT+6 and GMT+8 during the period of 1969 and 1986 and resulted in the current multiple time standard situation in the area .
+( see " Xinjiang " section below for detail )
+Daylight saving time was observed from 1945 to 1948 , and from 1986 to 1991 .
+In 1997 and 1999 , Hong Kong and Macau were transferred to China from the United Kingdom and Portugal and they were established as special administrative regions .
+Although the sovereignty of the SARs belongs to China , they retain their own policies regarding time zones for historical reasons .
+Due to their geographical locations , both are within the time zone , which is the same as the national standard — Beijing time .
+GEOGRAPHY
+Section::::Geography .
+As an illustration of the wide range , the daylight hours for the Chinese westernmost — not including Xinjiang due to local customs ( see below)—and easternmost county seats are included : !
+colspan=3Division!!colspan=2Daylight time !
+Location!!County!!Province!!1 January!!1 July
+WesternmostAktoXinjiang 09:41 – 19:49 07:40 –
+21:50 EasternmostFuyuanHeilongjiang 06:54 – 15:18 03:05 – 19:08
+The border with Afghanistan at the Wakhjir Pass has the sharpest official change of clocks of any international land frontier :
+UTC+8 in China to in Afghanistan .
+REGIONS WITH SPECIAL TIME REGULATIONS XINJIANG Section::::Regions with special time regulations .
+Section::::Xinjiang .
+In Xinjiang , two time standards , namely , Beijing Time and Xinjiang Time , are used in parallel .
+Xinjiang Time , also known as Ürümqi Time ( ) , is set due to its geographical location in the westernmost part of the country .
+The time offset is , which is two hours behind Beijing , and is shared with neighbouring Kazakhstan and Kyrgyzstan .
+Currently , timezone usage within Xinjiang is roughly split along the ethnic divide , with most ethnic Han following Beijing time and most ethnic Uyghurs following Ürümqi Time .
+Some local authorities are now using both time standards side by side .
+Television stations schedule programmes in different time standards according to their nature .
+The coexistence of two timezones within the same region causes some confusion among the local population , especially when inter - racial communication occurs .
+When a time is mentioned in conversation between Han and Uyghur , it is necessary to either explicitly make clear whether the time is in Xinjiang Time or Beijing Time , or convert the time according to the ethnicity of the other party .
+The double time standard is particularly observable in Xinjiang Television , which schedules its Chinese channel according to Beijing time and its Uyghur and Kazakh channels according to Xinjiang time .
+Regardless , Beijing Time users in Xinjiang usually schedule their daily activities two hours later than those who live in eastern China .
+As such , stores and offices in Xinjiang are commonly open from 10 am to 7 pm Beijing Time , which equals 8 am to 5 pm in Ürümqi Time .
+This is known as the work / rest time in Xinjiang .
+In most areas of Xinjiang , the opening time of local authorities is additionally modified by shifting the morning session 30–60 minutes backward and the afternoon session 30 minutes forward to extend the lunch break for 60–90 minutes , so as to avoid the intense heat during noon time in the area during summer .
+HONG KONG Section::::Hong Kong .
+Hong Kong maintains its own time authority after transfer of sovereignty in 1997 .
+The Hong Kong Time ( ) is all year round , and daylight saving time has not been used since 1979 .
+Greenwich Mean Time was adopted as the basis in 1904 , and UTC was adopted as a standard in 1972 .
+Before that , local time was determined by astronomical observations at Hong Kong Observatory using a 6-inch Lee Equatorial and a 3-inch Transit Circle .
+MACAU
+Section::::Macau .
+Macau maintains its own time authority after transfer of sovereignty in 1999 .
+The Macau Standard Time (; ) is the time in Macau .
+The time is all year round , and daylight saving time has not been used since 1980 .
+IANA TIME ZONE DATABASE Section::::IANA time zone database .
+The territory of the People 's Republic of China is covered in the IANA time zone database by the following zones .
+The reason why Asia / Shanghai is used instead of Beijing is because Shanghai is the most populous location in the zone .
+Columns marked with * are from the file zone.tab of the database . !
+c.c.*!!coordinates*!!TZ*!!comments*!!Standard
+time!!Summer time!!Notes t — t — t — t —
+BACKWARD COMPATIBILITY ZONE Section::::Backward compatibility zone .
+The following zones , including Asia / Kashgar , Asia / Chongqing , and Asia / Harbin , are kept in the " backzone " file of the IANA timezone database for backward compatibility . !
+c.c.*!!coordinates*!!TZ*!!comments*!!Standard
+time!!Summer time!!Notes t — linked back to Asia / Shanghai t — linked back to Asia / Shanghai t — linked back to Asia / Ürümqi SEE ALSO
+* Historical time zones of China
+*
+Hong Kong Time
+REFERENCES EXTERNAL LINKS Government departments responsible for time services :
+* National Time Service Center , the Chinese Academy of Sciences * Hong Kong Observatory ( Hong Kong )
+* Direcção dos Serviços Meteorológicos e Geofísicos ( Macau )

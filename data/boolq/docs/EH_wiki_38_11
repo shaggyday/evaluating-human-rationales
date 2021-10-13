@@ -1,0 +1,30 @@
+COMPLEX CONJUGATE ROOT THEOREM
+In mathematics , the complex conjugate root theorem states that if P is a polynomial in one variable with real coefficients , and a + bi is a root of P with a and b real numbers , then its complex conjugate a − bi is also a root of P.
+It follows from this ( and the fundamental theorem of algebra ) , that if the degree of a real polynomial is odd , it must have at least one real root .
+That fact can also be proven by using the intermediate value theorem .
+EXAMPLES AND CONSEQUENCES
+*
+The polynomial x + 1 = 0 has roots ±i .
+*
+Any real square matrix of odd degree has at least one real eigenvalue .
+For example , if the matrix is orthogonal , then 1 or −1 is an eigenvalue .
+*
+The polynomial *
+If the roots are and , they form a quadratic If the third root is , this becomes COROLLARY ON ODD - DEGREE POLYNOMIALS Section::::Examples and consequences .
+Section::::Corollary on odd - degree polynomials .
+It follows from the present theorem and the fundamental theorem of algebra that if the degree of a real polynomial is odd , it must have at least one real root .
+This can be proved as follows .
+*
+Since non - real complex roots come in conjugate pairs , there are an even number of them ; *
+But a polynomial of odd degree has an odd number of roots ; * Therefore some of them must be real .
+This requires some care in the presence of multiple roots ; but a complex root and its conjugate do have the same multiplicity ( and this lemma is not hard to prove ) .
+It can also be worked around by considering only irreducible polynomials ; any real polynomial of odd degree must have an irreducible factor of odd degree , which ( having no multiple roots ) must have a real root by the reasoning above .
+This corollary can also be proved directly by using the intermediate value theorem .
+PROOF Section::::Proof .
+One proof of the theorem is as follows : Consider the polynomial where all a are real .
+Suppose some complex number ζ is a root of P , that is P(ζ ) = 0 .
+It needs to be shown that as well .
+If P(ζ ) = 0 , then which can be put as Now and given the properties of complex conjugation , Since , it follows that That is ,
+Note that this works only because the a are real , that is , formula_17 .
+If any of the coefficients were nonreal , the roots would not necessarily come in conjugate pairs .
+NOTES

@@ -1,0 +1,224 @@
+POWER OVER ETHERNET Power over Ethernet or PoE
+describes any of several standard or ad - hoc systems which pass electric power along with data on twisted pair Ethernet cabling .
+This allows a single cable to provide both data connection and electric power to devices such as wireless access points , IP cameras , and VoIP phones .
+There are several common techniques for transmitting power over Ethernet cabling .
+Three of them have been standardized by IEEE 802.3 since 2003 .
+These standards are known as Alternative A , Alternative B , and 4PPoE.
+For 10BASE - T and 100BASE - TX , only two of the four signal pairs in typical Cat 5 cable are used .
+Alternative B separates the data and the power conductors , making troubleshooting easier .
+It also makes full use of all four twisted pairs in a typical Cat 5 cable .
+The positive voltage runs along pins 4 and 5 , and the negative along pins 7 and 8 . Alternative A transports power on the same wires as data for 10 and 100 Mbit / s Ethernet variants .
+This is similar to the phantom power technique commonly used for powering condenser microphones .
+Power is transmitted on the data conductors by applying a common voltage to each pair .
+Because twisted - pair Ethernet uses differential signaling , this does not interfere with data transmission .
+The common - mode voltage is easily extracted using the center tap of the standard Ethernet pulse transformer .
+For Gigabit Ethernet and faster , all four pairs are used for data transmission , so both Alternatives A and B transport power on wire pairs also used for data .
+4PPoE provides power using all four pairs of a twisted - pair cable .
+This enables higher power for applications like PTZ cameras , high - performance wireless access points , or even charging laptop batteries .
+In addition to standardizing existing practice for spare - pair ( Alternative B ) , common - mode data pair power ( Alternative A ) and 4-pair transmission ( 4PPoE ) , the IEEE PoE standards provide for signaling between the power sourcing equipment ( PSE ) and powered device ( PD ) .
+This signaling allows the presence of a conformant device to be detected by the power source , and allows the device and source to negotiate the amount of power required or available .
+STANDARDS DEVELOPMENT Section::::Standards development .
+The original IEEE 802.3af-2003 PoE standard provides up to of DC power ( minimum and ) on each port .
+Only is assured to be available at the powered device as some power dissipates in the cable .
+The updated IEEE 802.3at-2009 PoE standard also known as PoE+ or PoE plus , provides up to of power for " Type 2 " devices .
+The 2009 standard prohibits a powered device from using all four pairs for power .
+Both of these standards have since been incorporated into the IEEE 802.3 - 2012 publication .
+The IEEE 802.3bu-2016 amendment introduced single - pair Power over Data Lines ( PoDL ) for the single - pair Ethernet standards 100BASE - T1 and 1000BASE - T1 intended for automotive and industrial applications .
+On the two - pair or four - pair standards power is transmitted only between pairs , so that within each pair there is no voltage present other than that representing the transmitted data .
+With single - pair Ethernet , power is transmitted in parallel to the data .
+PoDL defines 10 power classes , ranging from .5 to 50 W ( at PD ) .
+Looking at ways of increasing the amount of power transmitted , IEEE has defined IEEE 802.3bt 4PPoE in September 2018 .
+The standard introduces two additional power types : up to 55 W ( Type 3 ) and up to 90 - 100 W ( Type 4 ) .
+Each pair of twisted pairs needs to handle a current of up to 600 mA
+( Type 3 ) or 960 mA ( Type 4 ) .
+Additionally , support for 2.5GBASE - T , 5GBASE - T and 10GBASE - T is included .
+This development opens the door to new applications and expands the use of applications such as high - performance wireless access points and surveillance cameras .
+USES Section::::Uses .
+Examples of devices powered by PoE include : * VoIP phones * IP cameras including pan – tilt – zoom cameras *
+Wireless access points
+* IPTV decoders
+* Network routers
+* A mini network switch installed in distant rooms , to support a small cluster of ports from one uplink cable .
+( Mini - switches do not usually provide PoE on their output ports . )
+( Many modern VoIP phones include a two - port mini - switch that can provide a network connection for a nearby computer . )
+* Intercom , paging and public address systems and hallway speaker amplifiers
+* Wall clocks in rooms and hallways , with time set using Network Time Protocol
+* Outdoor roof mounted radios with integrated antennas , 4G / LTE , 802.11 or 802.16 based wireless CPEs ( customer premises equipment ) used by wireless ISPs
+* Outdoor point to point microwave and millimeter wave radios and some free space optics
+( FSO ) units usually featuring proprietary PoE
+* Industrial control system components including sensors , controllers , meters etc .
+* Access control components including help - points , intercoms , entry cards , keyless entry , etc .
+*
+Intelligent lighting controllers and LED Lighting fixtures
+* Stage and Theatrical devices , such as networked audio breakout and routing boxes
+* Remote point of sale kiosks * Inline Ethernet extenders TERMINOLOGY POWER SOURCING EQUIPMENT Section::::Terminology .
+Section::::Power sourcing equipment .
+Power sourcing equipment ( PSE ) refers to devices such as a network switch that provides ( sources ) power on the Ethernet cable .
+When the device is a switch , it is commonly called an endspan ( although IEEE 802.3af refers to it as endpoint ) .
+Otherwise , if it 's an intermediary device between a non PoE capable switch and a PoE device , it 's called a midspan .
+An external PoE injector is a midspan device .
+POWERED DEVICE Section::::Powered device .
+Powered device ( PD ) refers to devices powered by a PSE and thus consuming energy .
+Examples include wireless access points , VoIP phones , and IP cameras .
+Many powered devices have an auxiliary power connector for an optional , external , power supply .
+Depending on the PD design , some , none , or all power can be supplied from the auxiliary port , with the auxiliary port sometimes acting as backup power in case PoE - supplied power fails .
+POWER MANAGEMENT FEATURES AND INTEGRATION
+Section::::Power management features and integration .
+Advocates of PoE expect PoE to become a global long term DC power cabling standard and replace a multiplicity of individual AC adapters , which can not be easily centrally managed .
+Critics of this approach argue that PoE is inherently less efficient than AC power due to the lower voltage , and this is made worse by the thin conductors of Ethernet .
+Advocates of PoE , like the Ethernet Alliance , point out that quoted losses are for worst case scenarios in terms of cable quality , length and power consumption by powered devices .
+In any case , where the central PoE supply replaces several dedicated AC circuits , transformers and inverters , the power loss in cabling can be justifiable .
+INTEGRATING EEE AND POE Section::::Integrating EEE and PoE. After integration of PoE with the IEEE 802.3az
+Energy - Efficient Ethernet ( EEE ) standard potentially produces additional energy savings .
+Pre - standard integrations of EEE and PoE ( such as Marvell 's EEPoE outlined in a May 2011 white paper ) claim to achieve a savings upwards of 3 W per link .
+This saving is especially significant as higher power devices come online .
+Marvell claims that : STANDARD IMPLEMENTATION Section::::Standard implementation .
+The IEEE standards for PoE require category 5 cable or better for high power levels but allow using category 3 cable if less power is required .
+Power is supplied in common mode over two or more of the differential pairs of wires found in the Ethernet cables and comes from a power supply within a PoE - enabled networking device such as an Ethernet switch or can be injected into a cable run with a midspan power supply .
+A midspan power supply , also known as a PoE power injector , is an additional PoE power source that can be used in combination with a non - PoE switch .
+Standards - based Power over Ethernet is implemented following the specifications in IEEE 802.3af-2003 ( which was later incorporated as clause 33 into IEEE 802.3 - 2005 ) or the 2009 update , IEEE 802.3at .
+A phantom power technique is used to allow the powered pairs to also carry data .
+This permits its use not only with 10BASE - T and 100BASE - TX , which use only two of the four pairs in the cable , but also with 1000BASE - T ( gigabit Ethernet ) , which uses all four pairs for data transmission .
+This is possible because all versions of Ethernet over twisted pair cable specify differential data transmission over each pair with transformer coupling ; the DC supply and load connections can be made to the transformer center - taps at each end .
+Each pair thus operates in common mode as one side of the DC supply , so two pairs are required to complete the circuit .
+The polarity of the DC supply may be inverted by crossover cables ; the powered device must operate with either pair : spare pairs 4–5 and 7–8 or data pairs 1–2 and 3–6 .
+Polarity is required on data pairs , and ambiguously implemented for spare pairs , with the use of a diode bridge .
++ Comparison of PoE parameters !
+Property ! 802.3af
+" PoE " ! "
+PoE+ " ! "
+4PPoE " Notes : POWERING DEVICES Section::::Powering devices .
+Three modes , A , B , and 4-pair are available .
+Mode A delivers power on the data pairs of 100BASE - TX or 10BASE - T. Mode B delivers power on the spare pairs .
+4-pair delivers power on all four pairs .
+PoE can also be used on 1000BASE - T Ethernet , in which case there are no spare pairs and all power is delivered using the phantom technique .
+Mode A has two alternate configurations ( MDI and MDI - X ) , using the same pairs but with different polarities .
+In mode A , pins 1 and 2 ( pair # 2 in T568B wiring ) form one side of the 48 V DC , and pins 3 and 6 ( pair # 3 in T568B ) form the other side .
+These are the same two pairs used for data transmission in 10BASE - T and 100BASE - TX , allowing the provision of both power and data over only two pairs in such networks .
+The free polarity allows PoE to accommodate for crossover cables , patch cables and Auto MDI - X.
+In mode B , pins 4–5 ( pair # 1 in both T568A and T568B ) form one side of the DC supply and pins 7–8
+( pair # 4 in
+both T568A and T568B ) provide the return ; these are the " spare " pairs in 10BASE - T and 100BASE - TX .
+Mode B , therefore , requires a 4-pair cable .
+The PSE ( power sourcing equipment ) , not the PD ( powered device ) , decides whether power mode A or B shall be used .
+PDs that implement only Mode A or Mode B are disallowed by the standard .
+The PSE can implement mode A or B or both .
+A PD indicates that it is standards - compliant by placing a 25 kΩ resistor between the powered pairs .
+If the PSE detects a resistance that is too high or too low ( including a short circuit ) , no power is applied .
+This protects devices that do not support PoE.
+An optional " power class " feature allows the PD to indicate its power requirements by changing the sense resistance at higher voltages .
+To stay powered , the PD must continuously use 5–10 mA for at least 60 ms with no more than 400 ms since last use or else it will be unpowered by the PSE .
+There are two types of PSEs : endspans and midspans .
+Endspans ( commonly called PoE switches ) are Ethernet switches that include the power over Ethernet transmission circuitry .
+Midspans are power injectors that stand between a regular Ethernet switch and the powered device , injecting power without affecting the data .
+Endspans are normally used on new installations or when the switch has to be replaced for other reasons ( such as moving from 10/100 Mbit / s to 1 Gbit / s or adding security protocols ) , which makes it convenient to add the PoE capability .
+Midspans are used when there is no desire to replace and configure a new Ethernet switch , and only PoE needs to be added to the network .
++ Stages of powering up a PoE link !
+rowspan=2 Stage !
+rowspan=2 Action !
+colspan=2 Volts specified[V ] !
+802.3af ! 802.3at
+align = center — align = center align = center —
+align = center align = center —
+align = center IEEE 802.3at capable devices are also referred to as " type 2 " .
+An 802.3at PSE may also use layer2 communication to signal 802.3at capability .
++ Power levels available !
+Class ! !
+Usage ! !
+Classification current[mA ] ! !
+Power range at PD per pair[W ] ! !
+Power from PSE per pair[W ] ! !
+Class description
+Class 4 can only be used by IEEE 802.3at ( type 2 ) devices , requiring valid Class 2 and Mark 2 currents for the power up stages .
+An 802.3af device presenting a class 4 current is considered non - compliant and , instead , will be treated as a Class 0 device .
+CONFIGURATION
+VIA ETHERNET LAYER 2 LLDP Section::::Configuration via Ethernet layer 2 LLDP .
++ LLDPTLVOUITLVOUI ( ) !
+IEEE 802.3 subtype ( ) !
+MDI power support ( ) !
+PSE power pair ( ) !
+Power class ( )
++
+Legacy LLDP- MEDTLVMEDMDITIA OUI ( ) !
+Extended power via MDI subtype ( ) !
+Power type ( ) !
+Power source ( ) !
+Power priority ( ) !
+Power value ( )
+The setup phases are as follows : * PSE ( provider ) tests PD ( consumer ) physically using 802.3af phase class 3 .
+* PSE powers up PD .
+* PD sends to PSE :
+I 'm a PD , max power =
+X , max power requested =
+X. * PSE sends to PD : I 'm a PSE , max power allowed =
+X. * PD may now use the amount of power as specified by the PSE .
+The rules for this power negotiation are : * PD shall never request more power than physical 802.3af
+class
+* PD shall never draw more than max power advertised by PSE * PSE may deny any PD drawing more power than max allowed by PSE * PSE shall not reduce power allocated to PD that is in use * PSE may request reduced power , via conservation mode NON - STANDARD IMPLEMENTATIONS CISCO Section::::Non - standard implementations .
+Section::::Cisco .
+Some Cisco manufactured WLAN access points and IP phones supporting a proprietary form of PoE many years before there was an IEEE standard for delivering PoE. Cisco 's original PoE implementation is not software upgradeable to the IEEE 802.3af standard .
+Cisco 's original PoE equipment is capable of delivering up to per port .
+The amount of power to be delivered is negotiated between the endpoint and the Cisco switch based on a power value that was added to the Cisco proprietary Cisco Discovery Protocol ( CDP ) .
+CDP is also responsible for dynamically communicating the Voice VLAN value from the Cisco switch to the Cisco IP Phone .
+Under Cisco 's pre - standard scheme , the PSE ( switch ) will send a Fast Link Pulse ( FLP ) on the transmit pair .
+The PD ( device ) connects the transmit line to the receive line via a low pass filter .
+And thus the PSE gets the FLP in return .
+And a common mode current between pair 1 and 2 will be provided resulting in and default of allocated power .
+The PD has then to provide Ethernet link within to the auto - negotiation mode switch port .
+A later CDP message with a type - length - value tells the PSE its final power requirement .
+A discontinued link pulses shuts down power .
+In 2014 , Cisco created another non - standard PoE implementation called Universal Power over Ethernet ( UPOE ) .
+UPOE can use all 4 pairs , after negotiation , to supply up to 60 W. LINEAR TECHNOLOGY Section::::Linear Technology .
+A proprietary high - power development called LTPoE++
+using a single CAT-5e Ethernet cable is capable of supplying varying levels at 38.7 W , 52.7 W , 70 W , and 90 W in addition to being backwards compatible with IEEE 802.at .
+MICROSEMI
+Section::::Microsemi .
+PowerDsine , acquired by Microsemi in 2007 , has been selling midspan power injectors since 1999 with its proprietary Power over LAN solution .
+Several companies such as Polycom , 3Com , Lucent and Nortel utilize PowerDsine 's Power over LAN .
+PASSIVE Section::::Passive .
+The common 100 Mbit / s passive applications use the pinout of 802.3af mode B - with DC plus on pins 4 and 5 and DC minus on 7 and 8 ( see chart below ) and data on 1 - 2 and 3 - 6 .
+Gigabit passive injectors use a transformer on the data pins to allow power and data to share the cable and is typically compatible with 802.3af Mode A.
+In the common " passive " PoE system , the injector does not communicate with the powered device to negotiate its voltage or wattage requirements , but merely supplies power at all times .
+Passive midspan injectors up to 12 ports simplify installations .
+Devices needing 5 Volts can not typically use PoE at 5 V on Ethernet cable beyond short distances ( about ) as the voltage drop of the cable becomes too significant , so a 24 V or 48 V to 5 V DC - DC converter is required at the remote end .
+Passive PoE power sources are commonly used with a variety of indoor and outdoor wireless radio equipment , most commonly from Motorola ( now Cambium ) , Ubiquiti , Mikrotik and others .
+Earlier versions of passive PoE 24VDC power sources shipped with 802.11a , 802.11 g and 802.11n based radios are commonly 100 Mbit / s only .
+Specifications vary by manufacturer and model , but some of the common specifications include : * 24VDC 0.5A 100 Mbit / s or 1 Gbit / s
+* 24VDC 1.0A 100 Mbit / s or 1 Gbit / s
+* 48VDC 1.0A 100 Mbit / s or 1 Gbit / s
+* 56VDC 1.0A and 2.0A 1 Gbit / s ( used for 45W+ load point to point microwave and millimeter band radios )
+Passive DC - to - DC injectors also exist which convert a 9 V to 36 V DC , or 36 V to 72 V DC power source to a stabilized 24 V 1 A , 48 V 0.5 A , or up to 48V 2.0A PoE feed with ' + ' on pins 4 & 5 and ' − ' on pins 7 & 8 .
+These DC - to - DC PoE injectors are used in various telecom applications .
+POWER CAPACITY LIMITS
+Section::::Power capacity limits .
+The ISO / IEC TR 29125 and Cenelec EN 50174 - 99 - 1 draft standards outline the cable bundle temperature rise that can be expected from the use of 4PPoE. A distinction is made between two scenarios : 1 . )
+bundles heating up from the inside to the outside , and
+2 . ) bundles heating up from the outside to match the ambient temperature .
+The second scenario largely depends on the way that the cable bundle has been installed , whereas the first is solely influenced by the physical make - up of the cable .
+In a standard U / UTP cable , the PoE - related temperature rise increases by a factor of 5 .
+In a shielded cable , this value drops to between 2.5 and 3 , depending on the design .
+Put another way , the temperature increases by twice as much in a U / UTP cable bundle than in a comparable bundle of S / FTP cables .
+PINOUTS Section::::Pinouts .
++ 802.3af
+Standards A and B from the power sourcing equipment perspective !
+Pins at switch !
+T568A color !
+T568B color !
+colspan=2 10/100 mode B , DC on spares !
+colspan=2 10/100 mode A , mixed DC & data !
+colspan=2 1000 ( 1 gigabit ) mode B , DC & bi - data !
+colspan=2 1000 ( 1 gigabit )
+mode A , DC & bi - data !
+Pin 1 !
+Pin 2 !
+Pin 3 !
+Pin 4 !
+Pin 5 !
+Pin 6 !
+Pin 7 !
+Pin 8 REFERENCES
+EXTERNAL LINKS
+* ieee802.org : Download the IEEE 802.3 standards * ieee802.org :
+IEEE 802.3af Task Force
+* ieee802.org : IEEE 802.3at Task Force
+* POE pinouts of various manufacturers

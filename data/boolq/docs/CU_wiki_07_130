@@ -1,0 +1,54 @@
+REGISTRY CLEANER
+A registry cleaner is a class of third party software utility designed for the Microsoft Windows operating system , whose purpose is to remove redundant items from the Windows registry .
+Registry cleaners are not supported by Microsoft , but vendors of registry cleaners claim that they are useful to repair inconsistencies arising from manual changes to applications , especially COM - based programs .
+The effectiveness of registry cleaners is a controversial topic .
+The issue is further clouded by the fact that malware and scareware are often associated with utilities of this type .
+ADVANTAGES AND DISADVANTAGES Section::::Advantages and disadvantages .
+Due to the sheer size and complexity of the registry database , manually cleaning up
+redundant and invalid entries may be impractical , so registry cleaners try to automate the process of looking for invalid entries , missing file references or broken links within the registry and resolving or removing them .
+The correction of an invalid registry key can provide some benefits ; but the most voluminous will usually be quite harmless , obsolete records linked with COM - based applications whose associated files are no longer present .
+REGISTRY DAMAGE Section::::Registry damage .
+Some registry cleaners make no distinction as to the severity of the errors , and many that do may erroneously categorize errors as " critical " with little basis to support it .
+Removing or changing certain registry data can prevent the system from starting , or cause application errors and crashes .
+It is not always possible for a third party program to know whether any particular key is invalid or redundant .
+A poorly designed registry cleaner may not be equipped to know for sure whether a key is still being used by Windows or what detrimental effects removing it may have .
+This may lead to loss of functionality and/or system instability , as well as application compatibility updates from Microsoft to block problematic registry cleaners .
+The Windows Installer CleanUp Utility was a Microsoft - supported utility for addressing Windows Installer related issues .
+MALWARE PAYLOADS Section::::Malware payloads .
+Registry cleaners have been used as a vehicle by a number of trojan applications to install malware , typically through social engineering attacks that use website popups or free downloads that falsely report problems that can be " rectified " by purchasing or downloading a registry cleaner .
+The worst of the breed are products that advertise and encourage a " free " registry scan ; however , the user typically finds the product has to be purchased for a substantial sum , before it will effect any of the anticipated " repairs " .
+Rogue registry cleaners " WinFixer " have been ranked as one of the most prevalent pieces of malware currently in circulation .
+SCANNERS
+AS SCAREWARE
+Section::::Scanners as scareware .
+Rogue registry cleaners are often marketed with alarmist advertisements that falsely claim to have pre - analyzed your PC , displaying bogus warnings to take " corrective " action ; hence the descriptive label " scareware " .
+In October 2008 , Microsoft and the Washington attorney general filed a lawsuit against two Texas firms , Branch Software and Alpha Red , producers of the " Registry Cleaner XP " scareware .
+The lawsuit alleges that the company sent incessant pop - ups resembling system warnings to consumers ' personal computers stating " CRITICAL ERROR MESSAGE ! - REGISTRY DAMAGED AND CORRUPTED " , before instructing users to visit a web site to download Registry Cleaner XP at a cost of $ 39.95 .
+METRICS OF PERFORMANCE BENEFIT Section::::Metrics of performance benefit .
+On Windows 9x computers , it was possible that a very large registry could slow down the computer 's start - up time .
+However this is less of an issue with NT - based operating systems ( including Windows XP and Vista ) , due to a different on - disk structure of the registry , improved memory management and indexing .
+Furthermore , versions of Windows prior to Server 2003 may fail to start up if the registry and kernel files are unable to fit within the first 16 MB of memory .
+Slowdown due to registry bloat is thus far less of an issue in modern versions of Windows .
+Conversely , defragmenting the underlying registry files ( e.g. using the free Microsoft - supported PageDefrag tool ) , rather than attempting to clean the registry 's contents , has a measurable benefit and has therefore been recommended in the past by experts such as Mark Russinovich .
+( A form of defragmentation capability has been built directly into Windows since Vista . )
+The Windows Performance Toolkit is specifically designed to troubleshoot performance - related issues under Windows , and it does not include registry cleaning as one of its optimizations .
+UNDELETABLE REGISTRY KEYS Section::::Undeletable registry keys .
+Most registry cleaners can not repair scenarios such as undeletable registry keys caused by embedded null characters in their names ; only specialized tools such as the RegDelNull utility ( part of the free Sysinternals software ) are able to do this .
+RECOVERY CAPABILITY
+LIMITATIONS Section::::Recovery capability limitations .
+A registry cleaner can not repair a registry hive that can not be mounted by the system , making the repair via " slave mounting " of a system disk impossible .
+A corrupt registry can be recovered in a number of ways that are supported by Microsoft ( e.g. Automated System Recovery , from a " last known good " boot menu , by re - running setup or by using System Restore ) . "
+Last known good " restores
+the last system registry hive ( containing driver and service configuration ) that successfully booted the system .
+MALWARE REMOVAL Section::::Malware removal .
+These tools are also difficult to manage in a non - boot situation , or during an infestation , compared to a full system restore from a backup .
+In the age of rapidly evolving malware , even a full system restore may be unable to rid a hard drive of a bootkit .
+Registry cleaners are likewise not designed for malware removal , although minor side - effects can be repaired , such as a turned - off System Restore .
+However , in complex scenarios where malware such as spyware , adware and viruses are involved , the removal of system - critical files may result .
+APPLICATION VIRTUALIZATION Section::::Application virtualization .
+A registry cleaner is of no use for cleaning registry entries associated with a virtualised application since all registry entries in this scenario are written to an application - specific virtual registry instead of the real one .
+Complications of detailed interactions of real - mode with virtual also leaves the potential for incorrect removal of shortcuts and registry entries that point to " disappeared " files , and consequent confusion by the user of cleaner products .
+There is little competent information about this specific interaction , and no integration .
+In general , even if registry cleaners could be arguably considered safe in a normal end - user environment , they should be avoided in an application virtualization environment .
+SEE ALSO
+* Utility software REFERENCES

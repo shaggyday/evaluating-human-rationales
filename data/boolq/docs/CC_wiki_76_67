@@ -1,0 +1,151 @@
+DVD REGION
+CODE DVD ( digital versatile disc ) region codes are a digital rights management technique designed to allow rights holders to control the international distribution of a DVD release , including its content , release date , and price , all according to the appropriate region .
+This is achieved by way of region - locked DVD players , which will play back only DVDs encoded to their region ( plus those without any region code ) .
+The American DVD Copy Control Association also requires that DVD player manufacturers incorporate the regional - playback control ( RPC ) system .
+However , region - free DVD players , which ignore region coding , are also commercially available , and many DVD players can be modified to be region - free , allowing playback of all discs .
+DVDs may use one code , a combination of codes ( multi - region ) , every code ( all region ) or no codes ( region free ) .
+REGION CODES AND COUNTRIES Section::::Region codes and countries .
+!
+Region code !
+Area ! !
+Canada , the United States ( including Puerto Rico ) !
+Europe ( as of 2020 will include Belarus , Ukraine , Moldova , and the 3 Caucasus countries ) , Egypt , West Asia , Japan , South Africa , Greenland , and French Guiana !
+Southeast Asia , South Korea , Taiwan , Hong Kong and Macau !
+Latin America ( the Americas except Canada , French Guiana , Puerto Rico and the United States ) and Oceania ! Africa ( except Egypt and South Africa ) , Russia , Central Asia , South Asia , Mongolia , and North Korea !
+Mainland China ! ! !
+Any combination of regions can be applied to a single disc .
+For example , a DVD designated Region 2/4 is suitable for playback in Western Europe , Oceania , and any other Region 2 or Region 4 area .
+So - called " Region 0 " and " ALL " discs are meant to be playable worldwide .
+Most DVDs sold in Mexico and Latin America carry both region 1 and 4 codes .
+DVDs sold in the Baltic states use both region 2 and 5 codes , having previously been in region 5 ( due to historic links with the USSR ) but EU single market law concerning the free movement of goods causing a switch to region 2 .
+North Korea and South Korea have different DVD region codes ( North Korea : region 5 , South Korea : region 3 ) , but the same Blu - ray region code ( region A ) .
+Egypt and South Africa are in DVD region 2 , while all other African countries are in region 5 , but all African countries have the same Blu - ray region code ( region B ) .
+In China , two DVD region codes are used : Mainland China has region 6 , but Hong Kong and Macau have region 3 .
+There are also two Blu - ray regions used : Mainland China has region C , but Hong Kong and Macau have region A. Region 0 ( playable in all regions except 7 and 8) is widely used by China and the Philippines .
+Most DVDs in India combine the region 2 , region 4 , and region 5 codes , or are region 0 ; Indian Disney discs contain only the region 3 code ( India has region 5 , so region-3 DVDs can not be played there ) .
+European region
+2 DVDs may be sub - coded " D1 " to " D4 " .
+" D1 " are the UK only releases ; " D2 " and " D3 " are not sold in the UK and Ireland ; " D4 " are distributed throughout Europe .
+Overseas territories of the United Kingdom and France ( both in region 2 ) often have other regions ( 4 or 5 , depending on geographical situation ) than their homelands .
+The term " Region 0 " also describes the DVD players designed or modified to incorporate Regions 1–6 , thereby providing compatibility with most discs , regardless of region .
+This apparent solution was popular in the early days of the DVD format , but studios quickly responded by adjusting discs to refuse to play in such machines .
+This system is known as " Regional Coding Enhancement " ( RCE ) .
+REGION - CODE ENHANCED Section::::Region - code enhanced .
+Region - code enhanced , also known as just " RCE " or " REA " , was a retroactive attempt to prevent the playing of one region 's discs in another region , even if the disc was played in a region - free player .
+The scheme was deployed on only a handful of discs .
+The disc contained the main program material region coded as region 1 .
+But it also contained a short video loop of a map of the world showing the regions , which was coded as region 2 , 3 , 4 , 5 , and 6 .
+The intention was that when the disc was played in a non - region 1 player , the player would default to playing the material for its native region .
+This played the aforementioned video loop of a map , which was impossible to escape from , as the user controls were disabled .
+The scheme was fundamentally flawed , as a region - free player tries to play a disc using the last region that worked with the previously inserted disc .
+If it can not play the disc , then it tries another region until one is found that works .
+RCE could be defeated by briefly playing a " normal " region 1 disc , and then inserting the RCE protected region 1 disc , which would now play .
+RCE caused a few problems with genuine region 1 players .
+Many " multi - region " DVD players defeated regional lockout and RCE by automatically identifying and matching a disc 's region code or allowing the user to manually select a particular region .
+Some manufacturers of DVD players now freely supply information on how to disable regional lockout , and on some recent models , it appears to be disabled by default .
+Computer programs such as DVD Shrink , Digiarty WinX DVD Ripper Platinum can make copies of region - coded DVDs without RCE restriction .
+PURPOSE
+Section::::Purpose .
+One purpose of region coding is controlling release dates .
+A practice of movie marketing threatened by the advent of digital home video is to release a movie to cinemas , and then for general sale , later in some countries than in others .
+This is common partly because releasing a movie at the same time worldwide used to be prohibitively expensive .
+For example , a physical film copy for a cinema is expensive and the most copies are required for the first weeks after release , so a spread release allows for reuse of some copies in other regions .
+Videotapes were inherently regional since formats had to match those of the encoding system used by television stations in that particular region , such as NTSC and PAL , although from early 1990s PAL machines increasingly offered NTSC playback .
+DVDs are less restricted in this sense , and region coding allows movie studios to better control the global release dates of DVDs .
+Also , the copyright in a title may be held by different entities in different territories .
+Region coding enables copyright holders to ( attempt to ) prevent a DVD from a region from which they do not derive royalties from being played on a DVD player inside their region .
+Region coding attempts to dissuade importing of DVDs from one region into another .
+PAL / SECAM VS .
+NTSC Section::::PAL / SECAM vs. NTSC .
+DVDs are also formatted for use on two conflicting regional television systems :
+480i/60 Hz and 576i/50 Hz , which in analog contexts are often referred to as 525/60 ( NTSC ) and 625/50 ( PAL / SECAM ) respectively .
+Strictly speaking , PAL and SECAM are analog color television signal formats which have no relevance in the digital domain ( as evident in the conflation of PAL and SECAM , which are actually two distinct analog color systems ) .
+However , the DVD system was originally designed to encode the information necessary to reproduce signals in these formats , and the terms continue to be used ( incorrectly ) as a method of identifying refresh rates and vertical resolution .
+However , an " NTSC " , " PAL " or " SECAM " DVD player that has one or more analog composite video output ( baseband or modulated ) will only produce NTSC , PAL or SECAM signals , respectively , from those outputs , and may only play DVDs identified with the corresponding format .
+NTSC is the analog TV format historically associated with the United States , Canada , Japan , South Korea , Mexico , Philippines , Taiwan , and other countries .
+PAL is the analog color TV format historically associated with most of Europe , most of Africa , China , India , Australia , New Zealand , Israel , North Korea , and other countries ( Brazil adopted the variant PAL - M , which uses the refresh rate and resolution commonly associated with NTSC ) .
+SECAM , a format associated with French - speaking Europe , while using the same resolution and refresh rate as PAL , is a distinct format which uses a very different system of color encoding .
+Some DVD players can only play discs identified as NTSC , PAL or SECAM , while others can play multiple standards .
+In general , it is easier for consumers in PAL / SECAM countries to view NTSC DVDs than vice versa .
+Almost all DVD players sold in PAL / SECAM countries are capable of playing both kinds of discs , and most modern PAL TVs can handle the converted signal .
+NTSC discs may be output from a PAL DVD player in three different ways : * using a non - chroma encoded format such as RGB SCART or YPP component video .
+* using PAL 60 encoded composite video / S - Video — a " hybrid " system which uses NTSC 's 525/60 line format along with PAL 's chroma subcarrier * using NTSC encoded composite video / S - Video .
+However , most NTSC players can not play PAL discs , and most NTSC TVs do not accept 576i video signals as used on PAL / SECAM DVDs .
+Those in NTSC countries , such as the United States , generally require both a region - free , multi - standard player and a multi - standard television to view PAL discs , or a converter box , whereas those in PAL countries generally require only a region - free player to view NTSC discs .
+There are also differences in pixel aspect ratio ( 720 × 480 vs. 720 × 576 with the same image aspect ratio ) and display frame rate ( 29.97 vs. 25 ) .
+Most computer - based DVD software and hardware can play both NTSC and PAL video and both audio standards .
+IMPLEMENTATIONS OF REGION CODES STANDALONE DVD PLAYERS Section::::Implementations of region codes .
+Section::::Standalone DVD players .
+Usually a configuration flag is set in each player 's firmware at the factory .
+This flag holds the region number that the machine is allowed to play .
+Region - free players are DVD players shipped without the ability to enforce regional lockout ( usually by means of a chip that ignores any region coding ) , or without this flag set .
+However , if the player is not region - free , it can often be unlocked with an unlock code entered via the remote control .
+This code simply allows the user to change the factory - set configuration flag to another region , or to the special region " 0 " .
+Once unlocked this way , the DVD player allows the owner to watch DVDs from any region .
+Many websites exist on the Internet offering these codes , often known informally as hacks .
+Many websites provide instructions for different models of standalone DVD players , to hack , and their factory codes .
+COMPUTER DVD DRIVES Section::::Computer DVD drives .
+Older DVD drives use RPC-1
+( " Regional Playback Control " ) firmware , which means the drive allows DVDs from any region to play .
+Newer drives use RPC-2 firmware , which enforces the DVD region coding at the hardware level .
+These drives can often be reflashed or hacked with RPC-1 firmware , effectively making the drive region - free .
+This may void the drive warranty .
+Some drives may come set as region - free , so the user is expected to assign their region when they buy it .
+In this case , some DVD programs may prompt the user to select a region , while others may actually assign the region automatically based on the locale set in the operating system .
+In most computer drives , users are allowed to change the region code up to five times .
+If the number of allowances reaches zero , the region last used will be permanent even if the drive is transferred to another computer .
+This limit is built into the drive 's controller software , called firmware .
+Resetting the firmware count can be done with first- or third - party software tools , or by reflashing ( see above ) to RPC-1 firmware .
+Since some software does not work correctly with RPC-1 drives , there is also the option of reflashing the drive with a so - called auto - reset firmware .
+This firmware appears as RPC-2 firmware to software , but will reset the region changes counter whenever power is cycled , reverting to the state of a drive that has never had its region code changed .
+SOFTWARE DVD PLAYERS Section::::Software DVD players .
+Most freeware and open source DVD players ignore region coding .
+VLC , for example , does not attempt to enforce region coding ; however , it requires access to the DVD 's raw data to overcome CSS encryption , and such access may not be available on some drives with RPC-2 firmware when playing a disc from a different region than the region to which the drive is locked .
+Most commercial players are locked to a region code , but can be easily changed with software .
+Other software , known as DVD region killers , transparently remove ( or hide )
+the DVD region code from the software player .
+Some can also work around locked RPC-2 firmware .
+CIRCUMVENTION Section::::Circumvention .
+The region coding of a DVD can be circumvented by making a copy that adds flags for all region codes , creating an all - region DVD .
+DVD backup software can do this , and some can also remove Macrovision , CSS , and disabled user operations ( UOps ) .
+In common region - locked DVDs ( but not in RCE - DVDs ) , the region code is stored in the file " VIDEO_TS.IFO " ( table " VMGM_MAT " ) , byte offsets 34 and 35 .
+The eight regions each correspond to a value which is a power of 2 :
+Region 1 corresponds to 1 ( 2 ) , Region 2 to 2 ( 2 ) , Region 3 to 4 ( 2 ) , and so on through Region 8 , which corresponds to 128 ( 2 ) .
+The values of each region that the disc is not encoded for are added together to give the value in the file .
+For example , a disc that is encoded for Region 1 but not Regions 2–8 will have the value 2 + 4 + 8 + 16 + 32 + 64 + 128=254 .
+A disc encoded for Regions 1 , 2 and 4 will have the value 4 + 16 + 32 + 64 + 128=244 .
+A region - free or RCE - protected DVD will carry the value zero , since no regions are excluded .
+VIDEO GAME CONSOLES Section::::Video game consoles .
+The Xbox , Xbox 360 , PlayStation 2 and PlayStation 3
+consoles are all region - locked for DVD playback .
+The PlayStation 2 can be modified to have its regional - locking disabled through the use of modchips .
+Although region locked on film DVDs and film Blu - ray Discs , the PlayStation 3 , PlayStation 4 and Xbox One are region free for video games , though Add - on content on the online store is region locked and must match the region of the disc .
+BLU - RAY DISC REGION CODES Section::::Blu - ray Disc region codes .
+Blu - ray Discs use a much simpler region - code system than DVD with only three regions , labeled A , B and C.
+As with DVDs many Blu - rays are encoded region 0
+( region free ) , making them suitable for players worldwide .
+!
+Region code !
+Area Unlike DVD regions , Blu - ray regions are verified only by the player software , not by the computer system or the drive .
+The region code is stored in a file and/or the registry , and there are hacks to reset the region counter of the player software .
+In stand - alone players , the region code is part of the firmware .
+For bypassing region codes , there are software and multi - regional players available .
+A new form of Blu - ray region coding tests not only the region of the player / player software , but also its country code .
+This means , for example , although both USA and Japan are Region A , some American discs will not play on devices / software installed in Japan or vice versa , since the two countries have different country codes ( the United States has 21843 or Hex 5553 ( " US " in ASCII , according to ISO 3166 - 1 ) , and Japan has 19024 , or Hex 4a50 ( " JP " ) ; Canada has 17217 or Hex 4341 ( " CA " ) ) .
+Although there are only three Blu - ray regions , the country code allows a much more precise control of the regional distribution of Blu - ray discs than the six ( or eight ) DVD regions .
+In Blu - ray discs , there are no " special regions " such as the regions 7 and 8 in DVDs .
+UMD REGION CODES Section::::UMD region codes .
+For the UMD , a disc type used for the PlayStation Portable , UMD movies are region - locked , and use roughly the same regions as DVDs do , but UMD video games are region - free .
+CRITICISM AND LEGAL CONCERNS Section::::Criticism and legal concerns .
+Region - code enforcement has been discussed as a possible violation of World Trade Organization free trade agreements or competition law .
+The Australian Competition and Consumer Commission ( ACCC ) has warned that DVD players that enforce region - coding may violate their Competition and Consumer Act 2010 .
+Under New Zealand copyright law , DVD region codes and the mechanisms in DVD players to enforce them have no legal protection .
+The practice has also been criticized by the European Commission which as of 2001 March 14 is investigating whether the resulting price discrimination amounts to a violation of EU competition law .
+The only entities that seem to be really benefiting from DVD Region Coding are the movie studios , the marketers of Code - Free DVD players and DVD decrypters .
+The Washington Post has highlighted how DVD region - coding has been a major inconvenience for travelers who wish to legally purchase DVDs abroad and return with them to their countries of origin , students of foreign languages , immigrants who want to watch films from their homeland and foreign film enthusiasts .
+Another criticism is that region - coding allows for local censorship .
+For example , the Region 1 DVD of the 1999 drama film Eyes Wide Shut contains the digital manipulations necessary for the film to secure an MPAA R - rating , whereas these manipulations are not evident in non – region 1 discs .
+SEE ALSO
+* Broadcast television systems
+* DVD Copy Control Association * Regional lockout
+REFERENCES EXTERNAL LINKS * DVD region information with regards to RCE from Home Theater Info * Region Coding - Explanations & Help from The DVDCodes Source * DVD Code Region Mapping from The Home of DVD Unlocks * Amazon.co.uk DVD Regions guide

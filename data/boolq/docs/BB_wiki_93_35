@@ -1,0 +1,112 @@
+CHECK VALVE
+A check valve , clack valve , non - return valve , reflux valve , retention valve or one - way valve is a valve that normally allows fluid ( liquid or gas ) to flow through it in only one direction .
+Check valves are two - port valves , meaning they have two openings in the body , one for fluid to enter and the other for fluid to leave .
+There are various types of check valves used in a wide variety of applications .
+Check valves are often part of common household items .
+Although they are available in a wide range of sizes and costs , check valves generally are very small , simple , or inexpensive .
+Check valves work automatically and most are not controlled by a person or any external control ; accordingly , most do not have any valve handle or stem .
+The bodies ( external shells ) of most check valves are made of plastic or metal .
+An important concept in check valves is the cracking pressure which is the minimum differential upstream pressure between inlet and outlet at which the valve will operate .
+Typically the check valve is designed for and can therefore be specified for a specific cracking pressure .
+Heart valves are essentially inlet and outlet check valves for the heart ventricles , since the ventricles act as pumps .
+TECHNICAL TERMINOLOGY Section::::Technical terminology .
+Cracking pressure — Refers to the minimum pressure differential needed between the inlet and outlet of the valve at which the first indication of flow occurs ( steady stream of bubbles ) .
+Cracking pressure is also known as unseating head ( pressure ) or opening pressure .
+Reseal pressure — Refers to the pressure differential between the inlet and outlet of the valve during the closing process of the CV , at which there shall be no visible leak rate .
+Reseal pressure is also known as sealing pressure , seating head ( pressure ) or closing pressure .
+Back pressure — a pressure higher at the outlet of a fitting than that at the inlet or a point upstream
+TYPES OF CHECK VALVES Section::::Types of check valves .
+A ball check valve is a check valve in which the closing member , the movable part to block the flow , is a ball .
+In some ball check valves , the ball is spring - loaded to help keep it shut .
+For those designs without a spring , reverse flow is required to move the ball toward the seat and create a seal .
+The interior surface of the main seats of ball check valves are more or less conically - tapered to guide the ball into the seat and form a positive seal when stopping reverse flow .
+Ball check valves are often very small , simple , and cheap .
+They are commonly used in liquid or gel minipump dispenser spigots , spray devices , some rubber bulbs for pumping air , etc . , manual air pumps and some other pumps , and refillable dispensing syringes .
+Although the balls are most often made of metal , they can be made of other materials ; in some specialized cases out of highly durable or inert materials , such as sapphire .
+High pressure HPLC pumps and similar applications commonly use small inlet and outlet ball check valves with balls of ( artificial ) ruby and seats made of sapphire or both ball and seat of ruby , for both hardness and chemical resistance .
+After prolonged use , such check valves can eventually wear out or the seat can develop a crack , requiring replacement .
+Therefore , such valves are made to be replaceable , sometimes placed in a small plastic body tightly - fitted inside a metal fitting which can withstand high pressure and which is screwed into the pump head .
+There are similar check valves where the disc is not a ball , but some other shape , such as a poppet energized by a spring .
+Ball check valves should not be confused with ball valves , which is a different type of valve in which a ball acts as a controllable rotor to stop or direct flow .
+A diaphragm check valve uses a flexing rubber diaphragm positioned to create a normally - closed valve .
+Pressure on the upstream side must be greater than the pressure on the downstream side by a certain amount , known as the pressure differential , for the check valve to open allowing flow .
+Once positive pressure stops , the diaphragm automatically flexes back to its original closed position .
+A swing check valve or tilting disc check valve is a check valve in which the disc , the movable part to block the flow , swings on a hinge or trunnion , either onto the seat to block reverse flow or off the seat to allow forward flow .
+The seat opening cross - section may be perpendicular to the centerline between the two ports or at an angle .
+Although swing check valves can come in various sizes , large check valves are often swing check valves .
+A common issue caused by swing check valves is known as water hammer .
+This can occur when the swing check closes and the flow abruptly stops , causing a surge of pressure resulting in high velocity shock waves that act against the piping and valves , placing large stress on the metals and vibrations in the system .
+Undetected , water hammer can rupture pumps , valves , and pipes within the system .
+The flapper valve in a flush - toilet mechanism is an example of this type of valve .
+Tank pressure holding it closed is overcome by manual lift of the flapper .
+It then remains open until the tank drains and the flapper falls due to gravity .
+Another variation of this mechanism is the clapper valve , used in applications such firefighting and fire life safety systems .
+A hinged gate only remains open in the inflowing direction .
+The clapper valve often also has a spring that keeps the gate shut when there is no forward pressure .
+Another example is the backwater valve ( for sanitary drainage system ) that protects against flooding caused by return flow of sewage waters .
+Such risk occurs most often in sanitary drainage systems connected to combined sewerage systems and in rainwater drainage systems .
+It may be caused by intense rainfall , thaw or flood .
+A stop - check valve is a check valve with override control to stop flow regardless of flow direction or pressure .
+In addition to closing in response to backflow or insufficient forward pressure ( normal check - valve behavior ) , it can also be deliberately shut by an external mechanism , thereby preventing any flow regardless of forward pressure .
+A lift - check valve is a check valve in which the disc , sometimes called a lift , can be lifted up off its seat by higher pressure of inlet or upstream fluid to allow flow to the outlet or downstream side .
+A guide keeps motion of the disc on a vertical line , so the valve can later reseat properly .
+When the pressure is no longer higher , gravity or higher downstream pressure will cause the disc to lower onto its seat , shutting the valve to stop reverse flow .
+An in - line check valve is a check valve similar to the lift check valve .
+However , this valve generally has a spring that will ' lift ' when there is pressure on the upstream side of the valve .
+The pressure needed on the upstream side of the valve to overcome the spring tension is called the ' cracking pressure ' .
+When the pressure going through the valve goes below the cracking pressure , the spring will close the valve to prevent back - flow in the process .
+A duckbill valve is a check valve in which flow proceeds through a soft tube that protrudes into the downstream side .
+Back - pressure collapses this tube , cutting off flow .
+A pneumatic non - return valve .
+Multiple check valves can be connected in series .
+For example , a double check valve is often used as a backflow prevention device to keep potentially contaminated water from siphoning back into municipal water supply lines .
+There are also double ball check valves in which there are two ball / seat combinations sequentially in the same body to ensure positive leak - tight shutoff when blocking reverse flow ; and piston check valves , wafer check valves , and ball - and - cone check valves .
+APPLICATIONS PUMPS Section::::Applications .
+Section::::Pumps .
+Check valves are often used with some types of pumps .
+Piston - driven and diaphragm pumps such as metering pumps and pumps for chromatography commonly use inlet and outlet ball check valves .
+These valves often look like small cylinders attached to the pump head on the inlet and outlet lines .
+Many similar pump - like mechanisms for moving volumes of fluids around use check valves such as ball check valves .
+The feed pumps or injectors which supply water to steam boilers are fitted with check valves to prevent back - flow .
+Check valves are also used in the pumps that supply water to water slides .
+The water to the slide flows through a pipe which doubles as the tower holding the steps to the slide .
+When the facility with the slide closes for the night , the check valve stops the flow of water through the pipe ; when the facility reopens for the next day , the valve is opened and the flow restarts , making the slide ready for use again .
+INDUSTRIAL PROCESSES
+Section::::Industrial processes .
+Check valves are used in many fluid systems such as those in chemical and power plants , and in many other industrial processes .
+Typical applications in the nuclear industry are feed water control systems , dump lines , make - up water , miscellaneous process systems , N2 systems , and monitoring and sampling systems .
+In aircraft and aerospace , check valves are used where high vibration , large temperature extremes and corrosive fluids are present .
+For example , spacecraft and launch vehicle propulsion propellant control for reaction control systems ( RCS ) and Attitude Control Systems ( ACS ) and aircraft hydraulic systems .
+Check valves are also often used when multiple gases are mixed into one gas stream .
+A check valve is installed on each of the individual gas streams to prevent mixing of the gases in the original source .
+For example , if a fuel and an oxidizer are to be mixed , then check valves will normally be used on both the fuel and oxidizer sources to ensure that the original gas cylinders remain pure and therefore nonflammable .
+In 2010 , NASA 's Jet Propulsion Laboratory slightly modified a simple check valve design with the intention to store liquid samples indicative to life on Mars in separate reservoirs of the device without fear of cross contamination .
+DOMESTIC USE Section::::Domestic use .
+Some types of irrigation sprinklers and drip irrigation emitters have small check valves built into them to keep the lines from draining when the system is shut off .
+Check valves used in domestic heating systems to prevent vertical convection , especially in combination with solar thermal installations , also are called gravity brakes .
+Rainwater harvesting systems that are plumbed into the main water supply of a utility provider may be required to have one or more check valves fitted to prevent contamination of the primary supply by rainwater .
+Hydraulic jacks use ball check valves to build pressure on the lifting side of the jack .
+Check valves are commonly used in inflatables , such as toys , mattresses and boats .
+This allows the object to be inflated without continuous or uninterrupted air pressure .
+HISTORY Section::::History .
+Frank P. Cotter developed a " simple self sealing check valve , adapted to be connected in the pipe connections without requiring special fittings and which may be readily opened for inspection or repair " 1907
+( U.S. patent # 865,631 ) .
+Nikola Tesla invented a deceptively simple one - way valve for fluids in 1916 , called a Tesla valve .
+It was patented in 1920 ( U.S. patent 1,329,559 ) .
+IMAGES
+SEE ALSO
+* Diode , the electrical analog of a check valve
+* Top feed * Vacuum breaker * Reed valve
+* Ball valve *
+Butterfly valve
+* Control valve *
+Gate valve
+* Globe valve *
+Diaphragm valve
+* Needle valve REFERENCES EXTERNAL LINKS
+* Working Principle of Spring Check Valves
+* Check Valves Tutorial
+The operation , benefits , applications and selection of different designs , including lift , disc , swing and wafer check valves are explained in this tutorial * A picture of a microscopic checkvalve , a scaled down version of Tesla 's original fluidic diode .
+* , Tesla 's original fluidic diode ( a test of a design showing very poor performance - n.b .
+the test protocol did not match the conditions described in the patent )
+* Check Valve Installation and Benefits

@@ -1,0 +1,28 @@
+AUXILIARY MEMORY
+Auxiliary memory , also known as auxiliary storage , secondary storage , secondary memory or external memory , is a non - volatile memory ( does not lose stored data when the device is powered down ) that is not directly accessible by the CPU , because it is not accessed via the input / output channels ( it is an external device ) .
+In RAM devices ( as flash memory ) data can be directly deleted or changed .
+FORMS Section::::Forms .
+The most common forms of auxiliary memory are flash memory , optical discs , magnetic disks and magnetic tape .
+The latest addition to the auxiliary memory family is flash memory .
+This form is much faster as compared to its predecessors , as this form of auxiliary memory does not involve any moving parts .
+In some laptops , this type of auxiliary memory is referred to as a solid state drive .
+* Flash memory : An electronic non - volatile computer storage device that can be electrically erased and reprogrammed , and works without any moving parts .
+Examples of this are flash drives , memory cards and solid state drives .
+A version of this is implemented in many notebook and some desktop computers .
+* Optical disc : A storage medium from which data is read and written by lasers .
+Optical disks can store much more data — up to 6 gigabytes more than most portable magnetic media , such as floppies .
+There are three basic types of optical disks : CD / DVD / BD - ROM ( read - only ) , WORM ( write - once read - many ) & EO ( erasable optical disks ) .
+* Magnetic Disk : A magnetic disk is a circular plate constructed of metal or plastic coated with magnetized material .
+Both sides of the disk are used and several disks may be stacked on one spindle with read / write heads available on each surface .
+Bits are stored on the magnetized surface in spots along concentric circles called tracks .
+Tracks are commonly divided into sections called sectors .
+Disks that are permanently attached and can not be removed by the occasional user are called hard disks .
+A disk drive with removable disks is called a floppy disk drive .
+* Magnetic tapes : A magnetic tape transport consists of electric , mechanical and electronic components to provide the parts and control mechanism for a magnetic tape unit .
+The tape itself is a strip of plastic coated with a magnetic recording medium .
+Bits are recorded as magnetic spots on tape along several tracks .
+Seven or nine bits are recorded to form a character together with a parity bit .
+Read / Write heads are mounted in each track so that data can be recorded and read as a sequence of characters .
+SEE ALSO
+* Computer data storage * Data storage device *
+External storage * Mass storage

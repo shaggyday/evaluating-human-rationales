@@ -1,0 +1,260 @@
+HD RADIO HD Radio is a trademarked term for iBiquity 's in - band on - channel ( IBOC ) digital radio technology used by AM and FM radio stations to transmit audio and data by using a digital signal embedded " on - frequency " immediately above and below a station 's standard analog signal , providing the means to listen to the same program in either HD ( digital radio with less noise ) or as a standard broadcast ( analog radio with standard sound quality ) .
+The HD format also provides the means for a single radio station to simultaneously broadcast one or more different programs in addition to the program being transmitted on the radio station 's analog channel .
+In September 2015 iBiquity was acquired by DTS bringing the HD Radio technology under the same banner as DTS ' eponymous theater surround sound systems ..
+It was selected by the U.S. Federal Communications Commission ( FCC ) in 2002 as a digital audio broadcasting method for the United States , and is the only digital system approved by the FCC for digital AM / FM broadcasts in the United States .
+It is officially known as NRSC-5 , with the latest version being NRSC-5-D. Other digital radio systems include FMeXtra , Digital Audio Broadcasting ( DAB ) ( Eureka 147 ) , Digital Radio Mondiale ( DRM30 and DRM+ configurations ) , and Compatible AM - Digital ( CAM - D ) .
+While HD Radio does allow for an all - digital mode , this system currently is used by some AM and FM radio stations to simulcast both digital and analog audio within the same channel ( a hybridized digital - analog signal ) as well as to add new FM channels and text information .
+Although HD Radio broadcasting 's content is currently free - to - air , listeners must purchase new receivers in order to receive the digital portion of the signal .
+By May 2018 , HD Radio technology was claimed to be used by more than 3500 individual services , mostly in the United States .
+This compares with more than 2200 services operating with the DAB system .
+HD Radio increases the bandwidth required in the FM band to 400 kHz for the analog / digital hybrid version .
+This makes adoption outside the United States problematic .
+In the United States the FM broadcast band channels have a spacing of 200 kHz , as opposed to the 100 kHz that is normal elsewhere .
+The 200 kHz spacing means that in practice , stations having concurrent or adjacent coverage areas will not be spaced at less than 400 kHz in order to respect protection ratios which would not be met with 200 kHz spacing .
+This also leaves space for the digital sidebands .
+Outside the US , spacing can be 300 kHz , which causes problems with the digital sidebands .
+The FCC has not indicated any intent to force off analog radio broadcasts as it has with analog television broadcasts , as it would not result in the recovery of any radio spectrum rights which could be sold .
+Thus , there is no deadline by which consumers must buy an HD Radio receiver .
+In addition , there are many more analog AM / FM radio receivers than there were analog televisions , and many of these are car stereos or portable units that can not be upgraded .
+OVERVIEW Section::::Overview .
+Digital information is transmitted using OFDM with an audio compression algorithm called HDC ( High - Definition Coding ) .
+( HDC is a proprietary codec based upon , but incompatible with , the MPEG-4 standard HE - AAC ) .
+HD Radio equipped stations pay a one - time licensing fee for converting their primary audio channel to iBiquity 's HD Radio technology , and 3 % of incremental net revenues for any additional digital subchannels .
+The cost of converting a radio station can run between $ 100,000 and $ 200,000 .
+Receiver manufacturers pay a royalty .
+If the primary digital signal ( HD-1 ) is lost the HD Radio receiver will revert to the analog signal , thereby providing seamless operation between the newer and older transmission methods .
+The extra HD-2 and HD-3 streams are not simulcast on analog , causing the sound to drop - out or " skip " when digital reception degrades ( similar to digital television drop - outs ) .
+Alternatively the HD Radio signal can revert to a more - robust 20 kilobit per second stream , though the sound is reduced to AM - like quality .
+Datacasting is also possible , with metadata providing song titles or artist information .
+iBiquity Digital claims that the system approaches CD quality audio and offers reduction of both interference and static ; however , some listeners have complained of increased interference on the analog AM band ( see AM , below ) .
+AM Section::::AM .
+Sending pure digital data through the approximately 20 kilohertz AM channel is roughly equivalent to sending data through two 33 kbit / s analog telephone lines , thus limiting the maximum throughput possible .
+By using spectral band replication the HDC+SBR codec is able to simulate the recreation of sounds up to 15,000 Hz , thus achieving moderate quality on the bandwidth - tight AM band .
+The HD Radio AM hybrid mode offers two options which can carry approximately 40 or 60 kbit / s of data , but most AM digital stations default to the more - robust 40 kbit / s mode which features redundancy ( same signal broadcast twice ) .
+HD Radio also provides a pure digital mode , which lacks an analog signal for fallback and instead reverts to a 20 kbit / s signal during times of poor reception .
+The pure digital mode transmissions will stay within the AM station 's channel instead of spilling into the channels next to the station transmitting " HD radio " as the hybrid ( digital - analog ) stations do .
+The AM version of HD Radio technology uses the 20 kHz channel ( + /-
+10 kHz ) , and overlaps 5 kHz into the opposite sideband of the adjacent channel on both sides .
+When operating in pure digital mode , the AM HD Radio signal fits inside a standard 20 kHz channel ( 20 - 40 kbit / s ) or an extended 30 kHz channel ( 40 - 60 kbit / s ) , at the discretion of the station manager .
+As AM radio stations are spaced at 9 kHz ( Europe ) or 10 kHz ( Americas ) intervals , much of the digital information overlaps adjacent channels when in hybrid mode .
+Some nighttime listeners have expressed concern this design harms reception of adjacent channels with one formal complaint filed regarding the matter : WYSL owner Bob Savage against WBZ in Boston .
+The digital radio signal received on a conventional AM receiver tuned to an adjacent channel sounds like a large waterfall or similar white noise - like hiss , as can be heard in the audio soundclip referenced in the previous sentence .
+FM Section::::FM .
+The FM hybrid digital / analog mode offers four options which can carry approximately 100 , 112 , 125 , or 150 kbit / s of data carrying ( lossy ) compressed digital audio depending upon the station manager 's power budget and desired range of signal .
+The HD Radio also provides several pure digital modes with up to 300 kbit / s bitrate , and enabling extra features like surround sound .
+Like AM , pure digital FM provides a " fallback " condition where it reverts to a more robust 25 kbit / s signal .
+FM stations have the option to subdivide their datastream into sub - channels ( e.g. , 88.1 HD1 , HD2 , HD3 ) of varying audio quality .
+The multiple services are similar to the digital subchannels found in ATSC - compliant digital television using multiplexed broadcasting .
+For example , some top 40 stations have added hot AC and classic rock to their digital subchannels to provide more variety to listeners .
+Stations may eventually go all - digital , thus allowing as many as three full - power channels and four low - power channels ( seven total ) .
+Alternatively , they could broadcast one single channel at 300 kbit / s .
+Where the digital signal fails , the analog signal is used as a fallback for the main digital channel ( normally HD1 ) , requiring synchronization of the two .
+This requires a significant delay being added to the analog service .
+Current FCC rules require that one channel be a simulcast of the analog signal .
+In some cases , particularly during tropospheric ducting events , an HD Radio receiver will lock on to the digital sidebands of a distant station , even though there is a much stronger local analog - only station on the same frequency .
+With no automatic identification of the station on the analog signal , there is no way for the receiver to recognize that there is no correlation between the two .
+( Station identification is sent by voice , or as RBDS data , but not all stations use RBDS . )
+The listener can possibly turn HD reception off ( to listen to the local station , or avoid random flipping between the two stations ) , or listen to the distant stations and try to get a station ID .
+Although the signals may be synchronized at the transmitter and reach the receiving equipment simultaneously , what the listener hears through an HD unit and an analog radio played together can be distinctly unsynchronized .
+This is because all analog receivers process analog signals faster than HD radios can process digital signals .
+The digital processing of analog signals in an HD radio delays them also .
+The resulting unmistakable " reverb " or echo effect from playing radios of both types in the same room or house can be annoying .
+It is more noticeable with simple voice transmission than with complex musical program content .
+( Multiple HD receivers of the same make and model , or multiple analog receivers in the same room or house , will not cause noticeable echo . )
+Stations can transmit HD Radio through their existing antennas using a diplexer as on AM , or are permitted by the FCC to use a separate antenna at the same location , or at a site licensed as an analog auxiliary , provided it is within a certain distance and height referenced to the analog main signal .
+This limitation assures that the two have about the same broadcast range , and that they maintain the proper ratio of signal strength to each other so as not to cause destructive interference with each other at any given location where they may be received .
+ARTIST EXPERIENCE Section::::Artist Experience .
+HD Radio supports a service called Artist Experience in which the transmission of album art , logos and other artwork can be displayed on the radio .
+Album art and logos are displayed at the station 's discretion and require extra equipment .
+An HD Radio manufacturer should pass the iBiquity certification , which includes displaying the artwork properly .
+EAS ALERTS Section::::EAS Alerts .
+Since 2016 , newer HD radios support Bluetooth and EAS alerts in which the transmission of traffic , weather , AMBER and security alerts can be displayed on the radio .
+As with Artist Experience , emergency alerts are displayed at the station 's discretion and requires extra equipment .
+BANDWIDTH AND POWER Section::::Bandwidth and power .
+FM stations typically require up to 280 kilohertz of spectrum when carrying a stereo transmission .
+The bandwidth of a FM carrier is found by doubling the sum of the peak deviation ( usually 75 kHz ) and the highest baseband modulating frequency ( around 60 kHz when RBDS is used ) .
+Only 15 kHz of the baseband bandwidth is used by analog monaural audio ( baseband ) , with the remainder used for stereo , RBDS , paging , radio reading service , rental to other customers , or as a transmitter / studio link for in - house telemetry .
+In regular hybrid mode a station has ±100 kHz of analog bandwidth and adds an extra ±30 kHz guard band and ±70 kHz for its digital signals , thus taking a full 400 kHz of width .
+FM stations also have the option to discontinue existing subcarrier services ( usually at 92 kHz and 67 kHz ) in order to carry extended HD Radio , though such services can be restored through use of the digital subchannels that are then made available .
+However , this requires the replacement of all related equipment both for the broadcasters and all of the receivers that use the discontinued services .
+The ratio of power of the analog signal to the digital signal was initially standardized at 100:1 ( -20 dBc ) , making the digital signal 1 % of the analog carrier power .
+Unlike with subcarriers , where the total baseband modulation is reduced , there is no reduction to the analog carrier power .
+The National Association of Broadcasters ( NAB ) requested a 10 dB ( 10× ) increase in the digital signal from the FCC .
+This equates to an increase to 10 % of the analog carrier power , but no decrease in the analog signal .
+This was shown to reduce analog coverage because of interference , but results in a dramatic improvement in digital coverage .
+Other levels were also tested , including a 6 dB or fourfold increase to 4 % ( −14dBc or 25:1 ) .
+National Public Radio was opposed to any increase because it is likely to increase interference to their member stations , particularly to their broadcast translators , which are secondary and therefore left unprotected from such interference .
+Other broadcasters are also opposed ( or indifferent ) , as increasing power would require expensive changes in equipment for many , and the already - expensive system has so far given them no benefit .
+There are still some concerns that HD Radio on FM will increase interference between different stations even though HD Radio at the 10 % power level fits within the FCC spectral mask .
+North American FM channels are spaced 200 kHz apart .
+An HD Radio station will not generally cause interference to any analog station within its 1 mV / m service contour , the limit above which the FCC protects most stations .
+However , the IBOC signal resides within the analog signal of the first - adjacent station .
+With the proposed power increase of 10 dB , the potential exists to cause the degradation of the second - adjacent analog signals within its 1 mV / m service contour .
+On January 29 , 2010 , the U.S. FCC approved a report and order to voluntarily increase the maximum digital effective radiated power ( ERP ) to 4 % of analog ERP ( −14 dBc ) , up from the previous maximum of 1 % ( −20dBc ) .
+Individual stations may apply for up to 10 % ( −10dBc ) if they can prove it will not cause harmful interference to any other station .
+If at least six verified complaints of ongoing RF interference to another station come from locations within the other station 's service contour , the interfering station will be required to reduce to the next level down of 4 % , 2 % ( −17 dB ) , or 1 % , until the FCC makes a final determination .
+The station to which the interference is caused bears the burden of proof and its associated expenses , rather than the station that causes the problem .
+For grandfathered FM stations which are allowed to remain over the limit for their class , these numbers are relative to that lower limit rather than their actual power .
+COMPARISON TO OTHER DIGITAL RADIO STANDARDS HD RADIO VERSUS DAB Section::::Comparison to other digital radio standards .
+Section::::HD Radio versus DAB .
+Some countries have implemented Eureka-147 Digital Audio Broadcasting ( DAB ) or its successor DAB+ .
+DAB broadcasts a single station that is approximately 1500 kilohertz wide ( ~1000 kilobits per second ) .
+That station is then subdivided into multiple digital streams of between 9 and 12 programs .
+In contrast FM HD Radio which requires 400 kHz bandwidth is assigned to the traditional 200 kilohertz channel spacing used in the United States , with capability of 300 kbit / s in pure digital mode .
+The first generation DAB uses the MPEG-1 Audio Layer II ( MP2 ) audio codec which has less efficient compression than newer codecs .
+The typical bitrate for DAB stereo programs is 128 kbit / s or less and as a result most radio stations on DAB have a lower sound quality than FM does under similar conditions .
+Many DAB stations also broadcast in mono .
+In contrast , DAB+ uses the newer AAC+ codec and FM HD Radio uses a codec based upon the MPEG-4 HE - AAC standard .
+Before DAB+ was introduced , DAB 's inefficient compression led in some cases to " downgrading " stations from stereophonic to monaural , in order to include more channels in the limited 1000 kbit / s bandwidth .
+Digital radio , such as DAB , DAB+ and FM HD radio currently often have smaller coverage of markets as compared to analog FM , radios are more expensive , and reception inside vehicles and buildings may be poor , depending on the frequencies used .
+HD Radio shares most of these same flaws ( see criticisms below ) .
+On the other hand , digital radio allows for more stations and less susceptibility for disturbances in the signal .
+In the United States , however , other digital broadcast technologies than HD radio ( such as DAB+ ) have not been approved for use on either the FM or AM band .
+HD RADIO
+VERSUS
+DRM
+Section::::HD Radio versus DRM .
+Digital Radio Mondiale ( DRM 30 ) is a system designed primarily for shortwave radio with compatible radios already available for sale .
+DRM 30 is similar to AM HD Radio in that each station is broadcast via channels spaced 10 kHz ( or 9 kHz in some regions ) on frequencies up to 30 MHz .
+The two standards also share the same basic modulation scheme ( COFDM ) , and AM HD Radio uses a proprietary codec .
+DRM 30 operates with any of a number of codecs , including AAC , Opus and HVXC .
+The receiver synchronization and data coding are quite different between HD Radio and DRM 30 .
+As of 2015 there are several radio chipsets available which can decode AM , FM , ( [ DAB ] )
+HD Radio DRM+ and DRM 30 .
+Similar to HD Radio , DRM allows either hybrid digital - analog broadcasts or pure digital broadcasts , DRM allows broadcasters to use multiple options : * Hybrid mode ( digital / analog ) -
+10 kHz analog plus 5 kHz digital bandwidth allows 5 - 16 kbit / s data rate ; * 10 kHz digital - only bandwidth confined to + /-
+5 kHz of the channel center allows 12 - 35 kbit / s ; * 20 kHz digital - only bandwidth using + /-
+10 kHz ( including half of the adjacent channels ) allows 24 - 72 kbit / s . DRM+ , a different system based upon the same principles , operates in the VHF band with 100 kHz digital - only bandwidth which allows 700 kbit / s data rate .
+Actual DRM bit rates vary depending on day versus night transmission ( groundwave versus skywave ) and the amount of bits dedicated for error correction ( signal robustness ) .
+For AM stations DRM offers a growth path for broadcasters .
+Unfortunately DRM shares many of the same flaws as DAB and HD Radio technology :
+the hybrid mode has shorter broadcast distance compared to an analog AM signal ; poor reception inside vehicles and buildings ; and interference with adjacent channels when using the 20 kHz mode though in all - digital mode the signal fits inside the designated channel mask .
+Digital Radio Mondiale is an open standards system .
+HD Radio is based upon the intellectual property of iBiquity Digital Corporation .
+The United States utilizes DRM for HF or " Shortwave " broadcasts .
+ACCEPTANCE AND CRITICISM AWARENESS AND COVERAGE Section::::Acceptance and criticism . Section::::Awareness and coverage .
+According to a survey dated August 8 , 2007 by Bridge Ratings , when asked the question , " Would you buy an HD radio in the next two months ? "
+1.0 % responded " yes " .
+Some broadcast engineers have expressed concern over the new system .
+A survey conducted in September 2008 saw a small percentage of participants that confused HD radio with satellite radio .
+Many first - generation HD Radio tuners had insensitive tuners , which caused issues with reception quality .
+The HD Radio signal is 10 to 20 dB below a station 's analog signal .
+In addition it has been noted that the analog section of some tuners displays inferior reception capabilities compared to older non - digital models .
+However , since 2012 HD capable receiver adoption has significantly increased in most newer cars , and several aftermarket radio systems both for vehicles and home use contain HD radio receivers and special features such as Full Artist Experience .
+iBiquity reports that 78 % of all radio listening is done on stations that broadcast in HD .
+There are an increasing number of stations switching to HD or adding subchannels compatible with digital radio , such as St. Cloud , Minnesota where many local radio outlets find a growing number of listeners tuning in to their HD signals , which in turn has benefited sales .
+DIFFERENT FORMAT AND COMPATIBILITY STANDARDS Section::::Different format and compatibility standards .
+Even though DAB and DRM standards are open - standards and pre - date HD Radio , HD Radio receivers can not be used to receive these stations when sold or moved overseas ( with certain exceptions ; there are HD Radio stations in Sri Lanka , Thailand , Taiwan , Japan , Romania and a few other countries ) .
+DAB and DRM receivers can not receive HD Radio signals in the US .
+The HD Radio system , which enables AM and FM stations to upgrade to digital without changing frequencies , is a different digital broadcasting standard .
+The lack of a common standard means that HD Radios can not receive DAB format broadcasts of other countries and vice versa , and that manufacturers must develop separate products for different countries , which typically are not dual - format .
+Whereas the AAC ( Advanced Audio Coding ) family of codecs are publicly documented standards
+, the HDC codec exists only within the HD Radio system , and is an iBiquity trade secret .
+Similarly DRM and DAB are open specifications , while iBiquity 's HD Radio specification is partly open but mostly private .
+HD Radio does not use ATSC , the standard for digital television in the United States .
+In the days of analog television , the low end of the FM broadcast band ( 87.7 to 87.9 MHz ) overlapped with the audio subcarrier of analog television 's channel 6 , which allowed the audio of television stations that broadcast on that channel to be heard on most FM radios .
+In earlier days of television and radio , several television stations exploited this overlap and operated as radio stations ( a process that still continues with some low - powered stations , which are still allowed to broadcast in analog for the time being ) .
+Full - powered television stations were forced to cease analog broadcasting in June 2009 , with low - powered stations scheduled to cease analog broadcasting by September 2015 .
+Because the digital television and digital radio standards are incompatible with each other , HD radios are not able to receive digital TV signals on the 87.7 frequency , eliminating the antiquated dual - medium compatibility of channel 6 television stations .
+REDUCED - QUALITY
+CONCERNS Section::::Reduced - quality concerns .
+Promotion for HD Radio does not always make clear that some of its capabilities are mutually incompatible with other of its capabilities .
+For example , the FM system has been described as " CD quality ; " however , the FM system also allows multiplexing the data stream between two or more separate programs .
+A program utilizing one half or less of the data stream does not attain the higher audio quality of a single program allowed the full data stream .
+The FCC has declared " one free over - the - air digital stream [ must be ] of equal or greater quality than the station 's existing analog signal " .
+( If the FCC discontinues analog simulcasting , each station will have over 300 kbit / s bandwidth available , allowing for good stereo quality or even surround sound audio together with multiple sub - channels , and to a lesser extent more freedom for personal FM transmitters to pair modern smartphones , computers and other devices to legacy analog FM receivers . )
+The broadcasting industry is seeking FCC approval for conditional access , that is , enabling the extra programs to be available only by paid subscription ( on future models of HD Radio ) .
+NDS , a maker of digital media encryption technology , has a deal with iBiquity to provide HD Radio with an encrypted content - delivery system called RadioGuard .
+NDS claims that RadioGuard will " provide additional revenue - generating possibilities " .
+A few existing FM tuners tuned to a channel broadcasting an HD Radio signal are prone to increased noise on the analog signal , called " HD Radio self - noise " ( ) , due to analog demodulation of the digital signal(s ) .
+In some high fidelity FM tuners in quality playback systems this noise can be audible and irritating .
+A few existing FM tuners might require major internal modifications to the internal filters ( ) or the addition of a post - detection filter ( ) may be required to prevent degradation of the analog signal quality on stations broadcasting with HD Radio .
+REDUCED ANALOG SIGNAL
+Section::::Reduced analog signal .
+Radio stations are licensed in the United States to broadcast at a specific effective radiated power level .
+NPR Labs recently did a study of predicted HD radio operation if power levels were increased to 10 % of maximum power as is now allowed by the FCC under certain circumstances , and found the digital signal would increase RF interference on FM .
+However the boosted digital HD signal coverage would then exceed analog coverage , with 17 % more population covered in vehicles but 17 % less indoors .
+HIGH COSTS Section::::High costs .
+The costs of installing the system , including fees , vary from station to station , according to the station 's size and existing infrastructure .
+Typical costs are at least several tens of thousands of dollars at the outset ( including transmitter , diplexer or antenna / feedline , and labor ) , plus per - channel annual fees ( 3 % of the station 's annual revenue ) to be paid to iBiquity for HD-2 and HD-3 ( HD-1 does not have any royalty charge ) .
+Large companies in larger media markets ( such as iHeartRadio or Cumulus Broadcasting ) can afford to implement the technology for their stations .
+However , community radio stations , both commercial and noncommercial , can not .
+During mid-2010 a new generation of HD Radio broadcasting equipment was introduced greatly lowering the technical costs of implementing the system .
+Current HD Radio receivers cost anywhere from around $ 50 to several hundred dollars , compared to regular FM radios which can sometimes even be found at dollar stores .
+Although costs have historically been higher for HD Radio hardware , as adoption increases , prices are lowering and receivers containing HD Radio are becoming more commonplace , especially as more radio stations broadcast in HD Radio .
+PROGRAMMING Section::::Programming .
+Until 2013 , the HD Digital Radio Alliance , a consortium of major owners such as ABC , CBS , and iHeartMedia ( then known as Clear Channel Communications ) , acted as a liaison for stations to choose unduplicated formats for the extra channels ( HD2 , HD3 , etc . ) .
+Now , iBiquity works with the major owners of the stations to provide various additional choices for listeners instead of having several stations independently deciding to create the same format .
+HD1 stations broadcast the same format as the regular FM ( and some AM ) stations , and many of these stations offer one , two , or even three subchannels ( designated HD2 , HD3 , HD4 ) to complement their main programming .
+iHeartRadio is selling programming of several different music genres to other competing stations , in addition to airing them on its own stations .
+Some stations are simulcasting their local AM or lower - power FM broadcasts on sister stations ' HD2 or HD3 channels , such as KMBZ - FM in Kansas City simulcasting 610 KCSP 's programming on 96.5-HD2 .
+It is common practice to broadcast an older , discontinued format on HD2 channels ; for example , with the recent disappearance of the smooth jazz format from the analog radio dial in many markets , stations such as WDZH in Detroit , Michigan ( formerly WVMV ) , WFAN - FM in New York City , and WNWV in Cleveland , Ohio program smooth jazz on their HD2 or HD3 bands .
+Some HD2 or HD3 stations are even simulcasting sister AM stations .
+In St. Louis , Missouri for example , clear - channel KMOX AM ( 1120 kHz analog and HD ) is simulcast on KEZK FM 102.5 HD3 .
+KBCO in Boulder , Colorado uses its HD2 channel to broadcast exclusive live recordings from their private recording studio .
+CBS Radio is implementing plans to introduce its more popular superstations into distant markets ( KROQ - FM into New York City , WFAN into Florida , and KFRG and KSCF into Los Angeles ) via HD2 and HD3 channels .
+On March 8 , 2009 , CBS Radio inaugurated the first station with an HD4 subchannel , WJFK - FM in Washington , DC , a sports radio station which also carries sister sports operations WJZ - FM from Baltimore ; Philadelphia 's WTEL and WIP ; and WFAN from New York ( though at some point , the WJZ - FM simulcast was replaced with a simulcast of Dallas , Texas sister sports station KRLD - FM ) .
+Since then numerous other channels have implemented HD4 subchannels as well , although with nearly 100 % talk - based formats because of the reduced audio quality .
+For example , KKLQ in Los Angeles operates an HD4 signal and aired The Mormon Channel which was 99 % talk .
+Public broadcasters are also embracing HD Radio .
+Minnesota Public Radio offers a few services : KNOW , the MPR News station in the Twin Cities , offers music service Radio Heartland on 91.1 HD2 and additional news programming called BBC News and More on 91.1 HD3 ; KSJN , the Classical MPR station in the Twin Cities , provides Classical 24 service on 99.5 HD2 ; and The Current , on 89.3 in the Twin Cities , offers Wonderground Radio , music for kids and their parents , on 89.3 HD2 .
+Southern California Public Radio , heard on 89.3 FM in Los Angeles , offers a digital simulcast of its analog channel on 89.3 HD1 and MPR 's music service The Current on 89.3 HD2 in Los Angeles .
+WNYC in New York City broadcasts a locally programmed , all - classical music service called Q2 , on 93.9 HD2 .
+The service launched in March 2006 .
+On October 8 , 2009 , the format was moved to WQXR - HD2 on 105.9 when WQXR was acquired by WNYC as part of a frequency swap with Univision Radio for their former frequency .
+The programming on the WNYC HD2 channel now is a rebroadcast of WQXR in order to give full coverage of WQXR programming in some form , as the 105.9 signal is weaker and does not cover the whole area .
+WMIL - FM in Milwaukee has offered an audio simulcast of Fox affiliate WITI on their HD3 subchannel since August 2009 as part of a news and weather content agreement between iHeartRadio and WITI .
+This restored WITI 's audio to the Milwaukee radio dial after a two - month break after the digital transition ; as a Channel 6 analog television station WITI exploited the 87.7 FM audio quirk as an advantage in order to allow viewers to hear the station 's newscasts and Fox programming on their car radios .
+KYXY , operated by CBS in San Diego on 96.5 FM and offers their HD-2 channel as one of the few ' subchannel only ' independent Christian music based formats on HD Radio .
+Branded as The Crossing , it is operated by Azusa Pacific University .
+College radio has also been impacted by HD radio , stations such as WBJB which is a public station on a college campus offer a student run station as one of the multicast channels .
+Some commercial broadcasters also use their HD2 's to broadcast the programming of noncommercial broadcasters .
+Bonneville International uses its HD2 and HD3 channels to broadcast Mormon Channel which is entirely noncommercial and operates solely as a public service from Bonneville 's owner , The Church of Jesus Christ of Latter - day Saints .
+That network of eight HD2 and HD3 stations was launched on May 18 , 2009 and was fully functional within two weeks .
+Also , in Detroit , WMXD , an urban adult contemporary station , airs the contemporary Christian K - Love format on its HD2 band ( the HD2 also feeds several analog translators around the metropolitan area — see below ) , due to an agreement between iHeartMedia and K - Love owner Educational Media Foundation allowing EMF to program WMXD 's HD2 .
+On a similar note , Los Angeles ' KRRL 92.3 's HD3 signal rebroadcasts EMF 's Air1
+and in Santa Barbara KLSB 97.5 , which airs K - Love on its primary frequency , rebroadcasts Air1 on HD2 though neither one support ' Artist Experience ' .
+In July 2018 , as part of a projected one year experiment , WWFD in Frederick , Maryland became the first AM station to eliminate its analog transmissions and broadcast exclusively in digital .
+TRANSLATORS Section::::Translators .
+Although broadcast translators are prohibited from originating their own programming , the FCC has controversially allowed translator stations to rebroadcast in standard analog FM the audio of an HD Radio channel of the primary station
+the translator is assigned to .
+This also allows station owners , who already usually own multiple stations locally and nationally , to avoid the rulemaking process of changing the table of allotments as would be needed to get a new separately - licensed station , and to avoid exceeding controlling - interest caps intended to prevent the excessive concentration of media ownership .
+Such new translator stations can block new LPFM stations from going on the air in the same footprint .
+Translator stations are allowed greater broadcast range ( via less restrictive height and power limitations ) than locally originated LPFMs , so they may occupy a footprint in which several LPFMs might have been licensed otherwise .
+In addition to the controversial practice of converting the HD Radio - only secondary channels of a primary station into analog FM in areas where the primary station 's signal can already readily be received , translators can also be used in a more traditional manner to extend the range of the full content of the primary station , including the unmodified main signal and any HD radio sub - channels , in areas where the station has poor coverage or reception , as is done at K202BD in Manti , Utah , which rebroadcasts both the analog and digital signals of KUER from Salt Lake City .
+In order to do this , HD Radio may be passed along from the main station via a " bent pipe " setup , where the translator simply makes a frequency shift of the entire channel , often by heterodyning it through the use of an intermediate frequency .
+This may require an increase in bandwidth in both the amplifier and radio antenna if they are too narrowband to pass the wider signal , meaning one or both would have to be replaced .
+Baseband translators which use a separate receiver and transmitter require an HD Radio transmitter , just as does the main station .
+Translators are not required to pass through HD Radio , and the vast majority of existing translators which repeat FM stations running hybrid HD Radio signals do not repeat the HD Radio part of the broadcast due to technical limitations in equipment designed before the prominence of HD Radio .
+RECEIVERS AUTOMOTIVE AND HOME /
+PROFESSIONAL Section::::Receivers .
+Section::::Automotive and home / professional .
+By 2012 , there were several HD Radio receivers available on the market .
+A basic model costs around $ 50 .
+The list of HD Radio automotive receiver manufacturers includes Alpine Electronics , Clarion , Delphi Corporation , Directed Electronics , Dual , Harman , Hirschmann Car Communication GmbH ( now Part of TE Connectivity ) , Insignia , Jensen , JVC , Kenwood , Pioneer , Sony , and Visteon .
+Most car manufacturers offer HD Radio receivers as audio packages in new cars , including Ford , Honda , Hyundai , Kia , Mazda , Subaru , Tesla Motors , Toyota , Volkswagen and , Nissan .
+Home and office listening equipment is currently available from roughly a dozen companies , in both component tuner and tabletop models , including Audio Design Associates , Boston Acoustics ( discontinued ) , DaySequerra , Denon , DICE Electronics , Directed Electronics , Insignia , Jensen Electronics , LG ( discontinued ) , Marantz , McIntosh , Onkyo , Polk Audio , Radiosophy ( discontinued ) , Radio Shack , Rotel , Sangean , Sony , TEAC , Visteon , and Yamaha .
+PORTABLE Section::::Portable .
+Previously , portable HD Radio receivers were unavailable due to the early chipsets either being too large for a portable enclosure or needing too much power to be practical for a battery - operated device .
+However , in January 2008 at the Consumer Electronics Show ( CES ) in Las Vegas iBiquity unveiled a prototype of a new portable receiver , roughly the size of a cigarette pack .
+Two companies are currently making low - power chipsets for HD Radio receivers : Samsung , and Santa Clara startup SiPort , acquired by Intel in 2011 .
+The portable Coby HDR-700 unit receives AM HD and FM HD stations .
+Griffin Technology produced an HD Radio tuner designed to be plugged into the dock connector of an Apple iPod or iPhone , with tuning functionality provided via software through the device 's multi - touch display .
+This product is now discontinued .
+On July 12 , 2009 , Best Buy started selling a house brand portable unit , the Insignia NS - HD01 , which was the second portable HD Radio to come to the general market and features FM - only playback and a non - removable rechargeable battery which charges via mini USB .
+Coby produced the first portable HD radio ( HDR-700 ) .
+The Insignia unit sold in 2009 for around $ 50 , the least expensive receiver available , and continues to be sold as of August 2018 .
+On September 15 , 2009 , Microsoft released the Zune HD , which includes an HD Radio receiver within the media device .
+The Zune HD is now discontinued .
+iBiquity was trying to get HDR chipsets into mobile phones by 2012 .
+OPEN SOURCE SOFTWARE - DEFINED RECEIVER ( SDR ) Section::::Open Source Software - Defined Receiver ( SDR ) .
+As of June 10 , 2017 , a project hosted on GitHub called nrsc5 has been created to allow HD Radio reception via rtl - sdr USB devices .
+REFERENCES EXTERNAL LINKS
+* HD Radio official site
+* U.S. Federal Communications Commission IBOC Page
+* Site with Standards Documents for the NRSC formats of HD Radio
+*
+My HD Radio - Canadian HD Radio stations
+* WOR Transmitter Tour , containing information on an early IBOC installation
+* Marketing challenges for HD radio
+* Open Geek : HD Radio clips Audio samples of actual HD Radio broadcasts

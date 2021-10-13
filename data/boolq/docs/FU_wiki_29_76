@@ -1,0 +1,116 @@
+RATIONAL NUMBER
+In mathematics , a rational number is any number that can be expressed as the quotient or fraction of two integers , a numerator and a non - zero denominator .
+Since may be equal to 1 , every integer is a rational number .
+The set of all rational numbers , often referred to as " the rationals " , the field of rationals or the field of rational numbers is usually denoted by a boldface ( or blackboard bold formula_1 , Unicode ℚ ) ; it was thus denoted in 1895 by Giuseppe Peano after quoziente , Italian for " quotient " .
+The decimal expansion of a rational number always either terminates after a finite number of digits or begins to repeat the same finite sequence of digits over and over .
+Moreover , any repeating or terminating decimal represents a rational number .
+These statements hold true not just for base 10 , but also for any other integer base ( e.g. binary , hexadecimal ) .
+A real number that is not rational is called irrational .
+Irrational numbers include , , , and .
+The decimal expansion of an irrational number continues without repeating .
+Since the set of rational numbers is countable , and the set of real numbers is uncountable , almost all real numbers are irrational .
+Rational numbers can be formally defined as equivalence classes of pairs of integers such that , for the equivalence relation defined by if , and only if .
+With this formal definition , the fraction becomes the standard notation for the equivalence class of .
+Rational numbers together with addition and multiplication form a field which contains the integers and is contained in any field containing the integers .
+In other words , the field of rational numbers is a prime field , and a field has characteristic zero if and only if it contains the rational numbers as a subfield .
+Finite extensions of are called algebraic number fields , and the algebraic closure of is the field of algebraic numbers .
+In mathematical analysis , the rational numbers form a dense subset of the real numbers .
+The real numbers can be constructed from the rational numbers by completion , using Cauchy sequences , Dedekind cuts , or infinite decimals .
+TERMINOLOGY Section::::Terminology .
+The term rational in reference to the set Q refers to the fact that a rational number represents a ratio of two integers .
+In mathematics , " rational " is often used as a noun abbreviating " rational number " .
+The adjective rational sometimes means that the coefficients are rational numbers .
+For example , a rational point is a point with rational coordinates ( that is a point whose coordinates are rational numbers ; a rational matrix is a matrix of rational numbers ; a rational polynomial may be a polynomial with rational coefficients , although the term " polynomial over the rationals " is generally preferred , for avoiding confusion with " rational expression " and " rational function " ( a polynomial is a rational expression and defines a rational function , even if its coefficients are not rational numbers ) .
+However , a rational curve is not a curve defined over the rationals , but a curve which can be parameterized by rational functions .
+ARITHMETIC
+IRREDUCIBLE FRACTION Section::::Arithmetic .
+Section::::Irreducible fraction .
+Every rational number may be expressed in a unique way as an irreducible fraction , where and are coprime integers , and .
+This is often called the canonical form .
+Starting from a rational number , its canonical form may be obtained by dividing and by their greatest common divisor , and , if , changing the sign of the resulting numerator and denominator .
+EMBEDDING OF INTEGERS Section::::Embedding of integers .
+Any integer can be expressed as the rational number , which is its canonical form as a rational number .
+EQUALITY Section::::Equality .
+If both fractions are in canonical form then ORDERING Section::::Ordering .
+If both denominators are positive , and , in particular , if both fractions are in canonical form , If either denominator is negative , each fraction with a negative denominator must first be converted into an equivalent form with a positive denominator by changing the signs of both its numerator and denominator .
+ADDITION Section::::Addition .
+Two fractions are added as follows : If both fractions are in canonical form , the result is in canonical form if and only if and are coprime integers .
+SUBTRACTION
+Section::::Subtraction .
+If both fractions are in canonical form , the result is in canonical form if and only if and are coprime integers .
+MULTIPLICATION
+Section::::Multiplication .
+The rule for multiplication is : Even if both fractions are in canonical form , the result may be a reducible fraction .
+INVERSE
+Section::::Inverse .
+Every rational number has an additive inverse , often called its opposite , If is in canonical form , the same is true for its opposite .
+A nonzero rational number has a multiplicative inverse , also called its reciprocal , If is in canonical form , then the canonical form of its reciprocal is either or , depending on the sign of .
+DIVISION Section::::Division .
+If both and are nonzero , the division rule is Thus , dividing by is equivalent to multiplying by the reciprocal of : EXPONENTIATION TO INTEGER POWER Section::::Exponentiation to integer power .
+If is a non - negative integer , then The result is in canonical form if the same is true for .
+In particular , If , then If is in canonical form , the canonical form of the result is formula_19 if either or is even .
+Otherwise , the canonical form of the result is formula_20
+CONTINUED FRACTION REPRESENTATION Section::::Continued fraction representation .
+A finite continued fraction is an expression such as where a are integers .
+Every rational number a / b can be represented as a finite continued fraction , whose coefficients a can be determined by applying the Euclidean algorithm to ( a , b ) .
+OTHER REPRESENTATIONS * common fraction :
+formula_22
+* mixed numeral : formula_23
+* repeating decimal using a vinculum :
+formula_24 * repeating decimal using parentheses : formula_25 * continued fraction using traditional typography :
+formula_26 * continued fraction in abbreviated notation : [ 2 ; 1 , 2 ]
+* egyptian fraction :
+formula_27
+* prime power decomposition :
+formula_28 *
+quote notation :
+3!6
+Section::::Other representations .
+are different ways to represent the same rational value .
+FORMAL CONSTRUCTION
+Section::::Formal construction .
+The rational numbers may be built as equivalence classes of ordered pairs of integers .
+More precisely , let be the set of the pairs of integers such .
+An equivalence relation is defined on this set by Addition and multiplication can be defined by the following rules :
+This equivalence relation is a congruence relation , which means that it is compatible with the addition and multiplication defined above ; the set of rational numbers is the defined as the quotient set by this equivalence relation , , equipped with the addition and the multiplication induced by the above operations .
+( This construction can be carried out with any integral domain and produces its field of fractions . )
+The equivalence class of a pair is denoted formula_31 Two pairs and belong to the same equivalence class ( that is are equivalent ) if and only if formula_32 this means that formula_33 if and only formula_32 Every equivalence class formula_35 may be represented by infinitely many pairs , since It is often convenient to chose , once for all , in each equivalence class a specific element called the canonical representative element .
+This canonical representative is the unique pair in the equivalence class such that and are coprime , and .
+It is called the representation in lowest terms of the rational number .
+The integers may be considered to be rational numbers identifying the integer with the rational number formula_37
+A total order may be defined on the rational numbers , that extends the natural order of the integers .
+One has formula_38 if PROPERTIES Section::::Properties .
+The set Q , together with the addition and multiplication operations shown above , forms a field , the field of fractions of the integers Z.
+The rationals are the smallest field with characteristic zero : every other field of characteristic zero contains a copy of Q.
+The rational numbers are therefore the prime field for characteristic zero .
+The algebraic closure of Q , i.e. the field of roots of rational polynomials , is the algebraic numbers .
+The set of all rational numbers is countable .
+Since the set of all real numbers is uncountable , we say that almost all real numbers are irrational , in the sense of Lebesgue measure , i.e. the set of rational numbers is a null set .
+The rationals are a densely ordered set : between any two rationals , there sits another one , and , therefore , infinitely many other ones .
+For example , for any two fractions such that ( where formula_41 are positive ) , we have
+Any totally ordered set which is countable , dense ( in the above sense ) , and has no least or greatest element is order isomorphic to the rational numbers .
+REAL NUMBERS AND TOPOLOGICAL PROPERTIES Section::::Real numbers and topological properties .
+The rationals are a dense subset of the real numbers : every real number has rational numbers arbitrarily close to it .
+A related property is that rational numbers are the only numbers with finite expansions as regular continued fractions .
+By virtue of their order , the rationals carry an order topology .
+The rational numbers , as a subspace of the real numbers , also carry a subspace topology .
+The rational numbers form a metric space by using the absolute difference metric and this yields a third topology on Q. All three topologies coincide and turn the rationals into a topological field .
+The rational numbers are an important example of a space which is not locally compact .
+The rationals are characterized topologically as the unique countable metrizable space without isolated points .
+The space is also totally disconnected .
+The rational numbers do not form a complete metric space ; the real numbers are the completion of Q under the metric above .
+P - ADIC NUMBERS Section::::p - adic numbers .
+In addition to the absolute value metric mentioned above , there are other metrics which turn Q into a topological field :
+Let p be a prime number and for any non - zero integer a , let , where p is the highest power of p dividing a.
+In addition set For any rational number a / b , we set
+Then defines a metric on Q.
+The metric space ( Q , d ) is not complete , and its completion is the p - adic number field Q. Ostrowski 's theorem states that any non - trivial absolute value on the rational numbers Q is equivalent to either the usual real absolute value or a p - adic absolute value .
+SEE ALSO
+* Floating point * Ford circles
+* Niven 's theorem *
+Rational data type
+* height of a rational number in lowest term =
+naive height *
+Gaussian rational REFERENCES
+EXTERNAL LINKS
+* " Rational Number " From MathWorld – A Wolfram Web Resource

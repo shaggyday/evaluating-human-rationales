@@ -1,0 +1,32 @@
+FIBER TAPPING Fiber tapping uses a network tap method that extracts signal from an optical fiber without breaking the connection .
+Tapping of optical fiber allows diverting some of the signal being transmitted in the core of the fiber into another fiber or a detector .
+Fiber to the home ( FTTH ) systems use beam splitters to allow many users to share one backbone fiber connecting to a central office , cutting the cost of each connection to the home .
+Test equipment can simply put a bend in the fiber and extract sufficient light to identify a fiber or determine if a signal is present .
+Similar techniques can surreptitiously tap fiber for surveillance , although this is rarely done where electronic equipment used in telecommunication is required to allow access to any phone line for tapping by legal authorization .
+Tapping the fiber means that all signals from every communications source being routed through the fiber are presented and must be sorted for relevant data , an immense task when thousands of sources of data or voice may be present .
+According to reports , the US government used fiber tapping for surveillance following the September 11 , 2001 attacks , and a nuclear submarine , the USS Jimmy Carter , was modified to allow tapping undersea cables .
+DETECTING FIBER TAPS
+Section::::Detecting fiber taps .
+One way to detect fiber tapping is by noting increased attenuation added at the point of tapping .
+Some systems can detect sudden attenuation on a fiber link and will automatically raise an alarm .
+There are , however , tappers which allow tapping without significant added attenuation .
+In either case there should be a change of scattering pattern in that point in line which , potentially , can be detectable .
+However , once the tapper has been detected it may be too late since a part of the information has been already eavesdropped on .
+See the NCS reference below for a more complete explanation .
+COUNTER - MEASURES Section::::Counter - measures .
+One counter - measure is encryption to make the stolen data unintelligible to the thief .
+Another counter - measure is to deploy a fiber - optic sensor into the existing raceway , conduit or armored cable .
+In this scenario , anyone attempting to physically access the data ( copper or fiber infrastructure ) is detected by the alarm system .
+A small number of alarm systems manufacturers provide a simple way to monitor the optical fiber for physical intrusion disturbances .
+There is also a proven solution that utilizes existing unused fiber ( dark fiber ) in a multi - strand cable for the purpose of creating an alarm system .
+In the alarmed cable scenario , the sensing mechanism uses optical interferometry in which modally dispersive coherent light traveling through the multi - mode fiber mixes at the fiber 's terminus , resulting in a characteristic pattern of light and dark splotches called a speckle pattern .
+The laser speckle is stable as long as the fiber remains immobile , but flickers when the fiber is vibrated .
+A fiber - optic sensor works by measuring the time dependence of this speckle pattern and applying digital signal processing to the Fast Fourier Transform ( FFT ) of the temporal data .
+The U.S. government has been concerned about the tapping threat for many years , and it also has a concern about other forms of intentional or accidental physical intrusion .
+In the context of classified information Department of Defense ( DOD ) networks , Protective distribution system ( PDS ) is a set of military instructions and guidelines for network physical protection .
+PDS is defined a system of carriers ( raceways , conduits , ducts , etc . )
+that are used to distribute Military and National Security Information ( NSI ) between two or more controlled areas or from a controlled area through an area of lesser classification , i.e. , outside the Sensitive Compartmented Information Facility ( SCIF ) or other similar area .
+National Security Telecommunications and Information Systems Security Instruction ( NSTISSI 7003 ) , Protective Distribution Systems ( PDS ) , provides guidance for the protection of SIPRNet wire line and optical fiber PDS to transmit unencrypted classified National Security Information ( NSI ) .
+SEE ALSO
+* NSA fiber - optic tapping REFERENCES * National Communications Systems Technical Information Bulletin 00 - 7 ( 2000 )
+" All Optical Networks " ( pdf ) , includes a tutorial on how to tap fiber and detect it .

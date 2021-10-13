@@ -1,0 +1,32 @@
+DOT - DECIMAL
+NOTATION
+Dot - decimal notation is a presentation format for numerical data .
+It consists of a string of decimal numbers , each pair separated by a full stop ( dot ) .
+A common use of dot - decimal notation is in information technology where it is a method of writing numbers in octet - grouped base-10 ( decimal ) numbers separated by dots ( full stops ) .
+In computer networking , Internet Protocol Version 4 addresses ( IPv4 addresses ) are commonly written using the quad - dotted notation of four decimal integers , ranging from 0 to 255 each .
+DEFINITION AND USE Section::::Definition and use .
+Dot - decimal notation is a presentation format for numerical data expressed as a string of decimal numbers each separated by a full stop .
+For example , the hexadecimal number 0xFF000000 may be expressed in dot - decimal notation as 255.0.0.0 .
+In computer networking , the term is often used as a synonym of dotted quad notation , or quad - dotted notation , a specific use to represent IPv4 addresses .
+Object identifiers use a style of dot - decimal notation to represent an arbitrarily deep hierarchy of objects identified by decimal numbers .
+IPV4 ADDRESS Section::::IPv4 address .
+An IPv4 address has 32 bits .
+For purposes of representation , the bits may be divided into four octets written in decimal numbers , ranging from 0 to 255 , concatenated as a character string with full stop delimiters between each number .
+For example , the address of the loopback interface , usually assigned the host name localhost , is 127.0.0.1 .
+It consists of the four octets , written in binary notation : 01111111 , 00000000 , 00000000 , and 00000001 .
+The overall 32-bit number is represented in hexadecimal notation as 0x7F000001 .
+No formal specification of this textual IP address representation exists .
+The first mention of this format in RFC documents was in RFC 780 for the Mail Transfer Protocol published May 1981 , in which the IP address was supposed to be enclosed in brackets or represented as a 32bit decimal integer prefixed by a pound sign .
+A table in RFC 790 ( Assigned Numbers ) used the dotted decimal format , zero - padding each number to three digits .
+RFC 1123
+( Requirements for Internet Hosts – Application and Support ) from October 1989 mentions a requirement on host software to accept " IP address in dotted - decimal ( " # . # . # . # " ) form " , although it notes " [ t]his last requirement is not intended to specify the complete syntactic form for entering a dotted - decimal host number " .
+A separate IETF draft to define textual representation of IP addresses expired .
+A popular implementation of IP networking , originating in 4.2BSD , contains a function inet_aton ( ) for converting IP addresses in character string representation to internal binary storage .
+In addition to the basic four - decimals format and full 32-bit addresses , it also supported intermediate syntax forms of octet.24bits ( e.g. 10.1234567 ; for Class A addresses ) and octet.octet.16bits ( e.g. 172.16.12345 ; for Class B addresses ) .
+It also allowed the numbers to be written in hexadecimal and octal , by prefixing them with 0x and 0 , respectively .
+These features continue to be supported by software until today , even though they are seen as non - standard .
+But this also means addresses where an IP address component is written with a leading zero digit may be interpreted differently by different programs : some will ignore the leading zero , some will interpret the number as octal .
+A POSIX - conforming variant of inet_aton , the inet_pton ( ) function , supports only the 4-decimal variant of IP addresses .
+IP addresses in the dot - decimal notation are also presented in CIDR notation , in which the IP address is suffixed with a slash and a number , used to specify the length of the associated routing prefix .
+For example , 127.0.0.1/8 specifies that the IP address has an 8-bit routing prefix , and therefore the subnet mask 255.0.0.0 . SEE ALSO
+* ISO 2145 REFERENCES

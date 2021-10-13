@@ -1,0 +1,221 @@
+MICROSOFT DYNAMICS GP Microsoft Dynamics GP is a mid - market business accounting software or ERP software package marketed in North and South America , UK and Ireland , the Middle East , Singapore , Australia and New Zealand .
+It is used in many additional countries with partner supported localizations .
+It uses either Microsoft SQL Server 2005 , 2008 , 2012 , 2014 or 2016 to store data .
+It is one of four accounting packages acquired by Microsoft that now share the Microsoft Dynamics Business Solutions brand .
+Dynamics GP is written in a language called Dexterity .
+The Dynamics GP product was originally developed by Great Plains Software , an independent company located in Fargo , North Dakota , which was run by Doug Burgum .
+Dynamics Release 1.0 was released in February 1993 .
+It was one of the first accounting packages in the USA that was designed and written to be multi - user and to run under Windows as 32-bit software .
+In late 2000 , Microsoft announced the purchase of Great Plains Software .
+This acquisition was completed in April 2001 .
+VERSIONS
+* Dynamics GP 2018 was released by Microsoft on December 1 2017 .
+* Dynamics GP 2016 R2 was released by Microsoft on December 1 , 2016 .
+* Dynamics GP 2016 was released by Microsoft on May 1 , 2016 .
+* Dynamics GP 2015 R2 was released by Microsoft on May 29 , 2015 .
+* Dynamics GP 2015 ( Version 14 ) was released by Microsoft on Dec. 1 , 2014 .
+* Dynamics GP 2013 ( Version 12 ) was released by Microsoft on Dec. 19 , 2012 .
+* Dynamics GP 2010R2 was released in April 2011 .
+* Dynamics GP 2010 was released in April 2010 ; * Microsoft Dynamics GP 10.0 was released in June 2007 .
+Section::::Versions .
+The software evolved to a web - enabled application .
+The full client will continue to provide a ' rich ' content , since it is the only way to cover all the modules and third - party products properly in the application .
+The web - enabled client only covered the basic modules ( Financial & Distribution in Phase 1 , HR & Payroll added in Phase 2 , Project Accounting in Phase 3 , Customer support ( Sales ? )
+in Phase 4 and finally Manufacturing in Phase 5 ) .
+The various modules were added over the course of the development between the initial release date and the release date of Dynamics GP 2015 in December 2014 .
+Prior versions were named Microsoft Great Plains and Microsoft Dynamics .
+Previous versions were compatible with Microsoft SQL Server , Pervasive PSQL , Btrieve , and earlier versions also used C - tree , although after the buyout all new versions switched entirely to Microsoft SQL Server databases .
+Previous versions of Microsoft Dynamics GP were available in two editions : * Standard : Up to 10 simultaneous users , and 500 payroll employees for each defined company .
+* Professional : Unlimited users , additional user - level security options , consolidation tools , automatic purchase order generation , and more reporting / analysis options .
+In addition , Professional Edition includes additional manufacturing and field service modules .
+Dynamics GP Release dates and Version Numbers ( incomplete ) !
+Product ! !
+Initial Release ! !
+RTM ! !
+MYTU * ! !
+SP1 ! !
+SP2 ! !
+SP3 ! !
+SP4 ! !
+SP5 ! !
+YETU
+* ! !
+YEU2 * * MYTU = Mid Year Tax Update * YETU
+=
+Year End Tax Update
+* YEU2 = 2nd Year End Tax Update MACROS Section::::Macros .
+Great Plains was one of the first accounting packages with capability to record and play back macros .
+Macros are saved in .MAC files in the Dexterity programming language .
+The .MAC files are editable text files .
+Macro files are very different from the VBA files found in the Microsoft Office products .
+Dynamics GP macros can not make decisions , but merely play back keystrokes recorded by a user .
+Microsoft Dynamics can also have VBA functionality attached to forms and reports to carry out decisions .
+MODULES Section::::Modules .
+Microsoft Dynamics GP is organized in Series , each of which contains several modules .
+The typical Series are Financial , Sales , Purchasing , Inventory , Project , Payroll , Manufacturing , Company and System .
+The last two contain all the necessary modules to configure various company - wide and system - wide options .
+Each Series involves a full cycle of transactions for that particular Series , for example , the Sales Series implements the Quote to Cash process .
+In addition to the typical " out - of - the - box " modules , Microsoft 's community of Independent Software Vendors ( ISV ) has developed a number of add - ons and verticals , all generally referred to as Third Party applications , which complement or enhance the existing functionality of the application .
+Some of these are also written in Dexterity , and so look and function in the same way as Dynamics GP standard modules .
+ANALYTICS Section::::Analytics .
+Management Reporter for Microsoft Dynamics ERP : a corporate performance management solution for the Microsoft Dynamics ERP systems allows easy creation and consolidation of financial statements using a " building block " approach with Rows , Columns , Trees and Report Definitions and the familiar user interface used by Microsoft Office applications .
+Microsoft Forecaster :
+extracts real - time data from General Ledger to create and manage accurate budgets and plans which can be shared across the management team via a Web - based interface .
+Easy to learn : has the look and feel of a spreadsheet .
+Microsoft SQL Server Reporting Services(SSRS )
+: offers customizable reports for Financial , Sales , Purchasing and Manufacturing .
+Reports are run from Internet Explorer and can be rich with charts and graphs for sharing across the organization or with designated suppliers or contractors .
+SSRS is often used to produce dashboard type charts for executive management .
+SmartList Builder : easy to use , yet powerful query tool to output data
+( no matter where records reside ) based on virtually any specified criteria into a user - friendly format for screen view , for print or for saving in Excel or Word ( auto - formatted ) .
+Combine and link data from up to 32 separate tables , including third - party dictionaries .
+Many common data - analysis functions are available in pre - configured SmartList objects that can be downloaded from Microsoft .
+Crystal Reports is widely used in building and designing reports with Microsoft Dynamics GP .
+CUSTOMIZATION TOOLS Section::::Customization Tools .
+It includes customization tools to enable .NET
+developers to create real - time , transactional connections between Microsoft Dynamics GP and other applications and expansion potential for new features and functionality .
+It also integrates and incorporate data with a high degree of safety , flexibility and speed from any source , even those not based on Microsoft platforms .
+Uses a mix of proprietary Microsoft technologies , such as Microsoft BizTalk Server , Component Object Model ( COM ) , the Microsoft .NET Framework , and Microsoft Message Queuing ( MSMQ ) ; as well as industry - standard technologies such as Web services and XML .
+Earlier versions of Great Plains were written in and dependent upon the Dexterity programming language .
+SUPPLY CHAIN MANAGEMENT Section::::Supply Chain Management .
+Advanced Distribution :
+A tool intended to streamline the distribution cycle , gain rapid access to accurate information ( view inventory levels for specific items at a glance and get a snap - shot view of the supply chain cycle via Distribution SmartLists ) , reduce input errors and automate information - sharing through a configurable workflow , allowing the user to define up to 6 stages in the order - to - invoice cycle .
+Advanced Picking : offers the capability to issue consolidated ( bulk ) picking lists across numerous orders for common items ; it can meet multi - site needs .
+It adapts to warehouse layouts by tailoring picking routines .
+This module requires Advanced Distribution to run .
+Available to Promise : maintain up - to - date information concerning stock availability , current and future , so that accurate commitments are made to customers .
+Demand Planner : combines planning and forecasting functionality with an intuitive , easy - to - learn user interface to anticipate future demand and gain deep , multi - dimensional visibility into customer buying patterns .
+Excel Collaboration Plug - in allows for forecast information to be shared and for synchronization of demand management across organization .
+Inventory Management : provides access to detailed inventory information from a central location , has easy to use stock analysis tools and flexible reporting capabilities , improves picking efficiency with multi - bin tracking and enables the creation of personalized pricing schemes to meet customer demands .
+Blends well with other GP modules , such as Sales Order Processing , Invoicing and General Ledger to streamline inventory and sales processes .
+Order Management ( for Business Portal ) : around - the - clock , security - enhanced access via an out - of - the - box , business - to - business portal which allows salespeople and customers to view , place and edit orders online , saving time and increasing accuracy of orders .
+Purchase Order Processing : enter purchase transactions earlier in the cycle to better manage costs and improve efficiency .
+Complete purchasing audit control with comprehensive selection of reports to track and analyze purchase activity ( full historical and performance reporting ) .
+Option to print or e - mail purchase order documents .
+Other features include Auto - Receive , Auto - Invoice , VAT tracking , facility to handle price and quantity variances , approvals option , commitment reporting .
+Integrates smoothly with Payables Management , General Ledger , Sales Order Processing and Inventory .
+Requisition Management ( for Business Portal ) : enter and approve requisitions online and automatically transfer orders to new or existing purchase orders in Dynamics GP Purchase Order Processing .
+Reduces paperwork , repetitive data entry and errors .
+Approval processes can be fully customized .
+Channel information to the right people through roles - based access .
+Sales Order Processing : manages sales processes including quote , order , and invoice .
+Enter quotes , orders , back orders , invoices and returns from one central location without data re - entry to increase office productivity .
+Invoices are auto - generated .
+Customer Priority Ranking feature to quickly identify top customers , and distinguish prospects from customers .
+Customizable data entry , sales documents and sales process to accommodate an organization 's unique business needs .
+Has seamless integration with Inventory , Receivables Management and eCommerce modules .
+FOUNDATION Section::::Foundation .
+Analysis Cubes : for Microsoft Office Excel is a core component of the GP financial system which leverages the power of SQL Server .
+It helps define and extract key data and features the Excel Pivot Table Generator to allow the user to " slice and dice " information , business portal KPIs and a tool to share and increase transparency of financial information via the Business Portal to improve Sarbanes - Oxley compliance .
+Business Portal : A web - based information dissemination system where access is defined by user roles .
+Professional users can have full remote access data entry capability .
+A security - enhanced extranet deployment provides trusted customers and suppliers with access to selected data with the ability to customize their own pages .
+Electronic Document Delivery ( for Business Portal ) : enables scheduled e - mail delivery , according to defined rules , of electronic documents , such as Invoices , Credit Notes , Debit Notes , Finance Charges and Returns in various formats .
+Key Performance Indicators ( for Business Portal ) :
+roles - based to define and deliver personalized views of key business information via Web - based portal .
+Process Server : integrated with Dynamics GP to reduce the burden on client computers by moving heavy background tasks to process servers to eliminate costly slow - downs and delays .
+Report Writer : tool to build reports from scratch or to use one of the hundreds of templates available in the system and customize for specific individuals or groups to achieve consistency in presentation across the entire organization .
+Flexible scheduling options available to publish reports at any time :
+immediately , on a recurring basis or selectively in a variety of file formats including HTML and PDF .
+Reports can be shared across the organization by posting them online for viewing via a Web browser with role - based security options .
+System Manager : a tool to customize Dynamics GP to set up processes and role - based home pages or dashboards specific to business and employee needs .
+Creates queries against data or accesses more than 100 modifiable SmartList queries , exportable to Excel or Word .
+Streamline process set - up to provide audit information and maintain user accountability .
+Extensible Web Services : uses Microsoft technologies , such as SQL Server , Visual Studio and .Net , as well as industry standards , such as Web Services and XML , to increase real - time data sharing and integrate business processes throughout the organization .
+The Web Services layer works with the Business Services layer to provide security , policy validations , defaulting , and exception management for consumers of the Web service .
+These two tiers interact with Business Logic and Persistence layer within eConnect to provide scalable and reliable integration solutions .
+Security Management : manages user security quickly and effectively to protect the Dynamics GP system .
+Different security types can be assigned to fields through Dynamics GP using a single Explorer - style interface and security errors can be identified and fixed quickly using the interactive dialogs to help eliminate the need to change login user and minimize IT administration .
+FINANCIAL MANAGEMENT Section::::Financial Management .
+Analytical Accounting : Analytical Accounting is a tool that helps you to analyze , interpret , and create reports based on your company 's chart of accounts .
+Using Analytical Accounting , you can better assess your company 's accounts .
+You can also store information which can not be computed in monetary terms such as labour hours .
+You can enter detailed analysis information without resorting to segmental accounting .
+You can create budgets using analysis dimensions and compare your actual figures with budgeted figures .
+Bank Reconciliation : customizable summary and detailed views of bank account balances and all transactions : cash , check and credit card .
+Tools available to sort and mark transactions to improve reconciliation capabilities .
+Cash Flow Management : calendar - based interface to view and manage cash inflows and outflows to improve day - to - day financial planning .
+Big picture and full drill - down options available .
+Collections Management : customizable interface enabling the user to enter and view all collections in one central point .
+Allows to target and follow up on overdue customers with automatic delivery and tracking of collection letters , e - mails , statements and invoices .
+eBanking : an aid to reduce administration costs and manual input error as well as improve productivity and cash management in a security - enhanced environment .
+Routine accounting tasks are moved online and bank transactions are electronically enabled and reconciled .
+Transactions are applied to accounts when they occur rather than days or weeks later , such as BACS payments or payment collections via Direct Debits or credit cards .
+Special feature verifies that sort codes and bank account numbers entered for suppliers and customers make sense .
+eExpense Automated Expense Management : enables employees to create and submit expense reports via the Web at any time and from any location ; features electronic receipt imaging .
+Encumbrance Management :
+encumbrance accounting module specifically designed for Not for Profit and Public Sector organizations to ensure that actual expenditures and related commitments do not exceed available funds .
+Fixed Asset Management : create , define and manage an unlimited number of assets .
+Features standard fields and up to 15 user - defined fields with graphical user interface .
+Numerous depreciation methods available to automate depreciation routines .
+Integration into General Ledger to post depreciation journals and into Payables Management to pull in purchase information to fixed assets .
+Location IDs to aid inventory management
+: matching actual with recorded location .
+Information - sharing enabled with standard and custom reports .
+General Ledger : automates key accounting tasks to improve accuracy ( includes automatic correction of posting errors ) and streamlines budget planning and financial decision - making with reports and enquiry tools ( features Excel wizard interface ) .
+Features up to 66 alphanumeric character codes , up to 10 segments and user - defined fields with 50 character descriptions .
+Grant Management :
+tracks grants , demonstrates accountability and compliance and also assists with future funding applications .
+As grant transactions are entered , the Analytical Accounting module will automatically validate them against the budget .
+Multi - currency Management : designed for multinational operations to more easily manage financial statistics and accounting operations involving multiple currencies and dealing with changing exchange rates .
+Payables Management :
+control expenditure , control payments ( check and BACS runs ) with flexible selection criteria and track supplier documents and information .
+Features include unlimited addresses / contacts per supplier , discounts , min / max payments , holds , returns , debit / credit notes , auto - allocation , performance and history reports .
+Receivables Management :
+tracks customer - related documents and information , controls cash , generates simple invoices as well as creates , prints and e - mails statements .
+Produces sophisticated debtor related reports at any point in time and performance reports including turnover , gross profit and payment days .
+Other features are flexible credit limits , unlimited address / contacts per customer , min / max payments and ability to handle insufficient funds , interest charges , debit / credit notes , returns , write - offs and auto - allocation .
+FIELD SERVICE Section::::Field Service .
+Field Service Management : nine powerful elements within a single user interface to manage engineer service calls , preventive maintenance , contract administration .
+Data can be entered remotely .
+PDA and CRM integration .
+Web - based tools allow customers to resolve service issues themselves .
+Applies standard and customized reports .
+Many of the Field Service Management elements perform invoicing through the Sales Order Processing module .
+HUMAN RESOURCE MANAGEMENT Section::::Human Resource Management .
+Human Resources : A module to build comprehensive records of employees to include attendance tracking , run " what if " scenarios with salary adjustment projections , access to numerous standard and customizable templates to streamline the recruitment process , standardize the process for performance reviews , facilitate information - sharing with seamless integration to GP payroll and general ledger applications .
+HRM Self Service Suite : personalized , secure portals to review expenses , pay and benefits , personal profiles , attendance records , recruitment , promotion and training opportunities , enter holiday requests as well as share selected data across the organization .
+Reduces administration costs and eliminates need for paper .
+MANUFACTURING Section::::Manufacturing .
+It captures and consolidates job costings as they occur to give manufacturers a comprehensive view of production profitability .
+Materials Requirements Planning ( MRP ) : for greater accuracy and control in matching material flows and production to current projected demand .
+MRP is a key resource planning instrument to help reduce stock outages , drive down inventory costs and streamline the production process .
+Views can be in time format and with full drill - downs to source any MRP quantity .
+Manufacturing Bill of Materials :
+ensure materials are where they should be , when they are needed .
+Gain tighter control of costs , locations and routings of materials , components and assemblies to maximize production efficiency and lower inventory costs .
+Features intuitive , graphical " tree views " of Bill of Materials for entry and inquiry .
+It also provides the means to collect , organize , validate and authorize process and component changes before they are released to the shop floor to ensure that they are strategically sound before they become orders .
+It tracks detailed production costs ; manages work orders , routings , material requirements planning ( MRP ) , work center definitions , work in progress ( WIP ) , outsourced operations and production costings .
+Facility to " mass change " the status of multiple manufacturing orders at one time .
+The tool designs and refine processes to test the quality of incoming raw materials to meet your manufacturing process .
+Flexible reporting to provide suppliers and customers with customized information on quality assurance testing and processes both quickly and accurately .
+Additionally , it allows users to create forecasts for a range of items or salespeople and to combine these forecasts into a master forecast .
+Integrates with Materials Requirements Planning module so that material requirements plans reflect existing sales forecasts and current sales orders .
+Create statistical forecasting and interactive simulation scenarios with integration into Demand Planner module .
+PROJECT
+ACCOUNTING Section::::Project Accounting .
+It connects project activities with company financials and timelines .
+It also tracks unlimited contracts and projects , and allows creation of client database .
+It has web - based time and expense entry , fixed or variable pricing , as well as revenue recognition methods , profitability and WIP reporting , budgets and forecasts , flexible categories .
+It also allows capture , review and approve project time and expense data / reports via the Web for prompt , customer invoicing and reimbursement for out - of - pocket employee expenses .
+COMMUNITY Section::::Community .
+The GP community consists of professionals , typically employees of Dynamics Partners , End - users and MS MVP 's ( Microsoft Most Valuable Professional ) .
+The Dynamics GP User Group ( GPUG ) is the largest , user - led community for companies using the software .
+EVENTS Section::::Events .
+GPUG Summit GPUG Summit is held each fall and is
+an independent , user - led conference GPUG Amplify GPUG Amplify is robust event for Dynamics GP users , designed to improve attendee skills around reporting , leadership , and industry best practices .
+reIMAGINE reIMAGINE is the only conference dedicated to the technical learning and educational opportunities of Microsoft Dynamics GP Partners .
+ENHANCEMENT Section::::Enhancement .
+Microsoft Dynamics GP 2013 is enhanced with a web client .
+The web client is powered by Silverlight technology .
+Microsoft Dynamics GP 2016 updates the web client to HTML5 , removing the Silverlight dependency and allowing cross - platform and mobile access .
+Microsoft Dynamics GP 2018 had updates to Workflow ( V4.0 ) , Document Attach , Power Suite ( PowerApps and Power BI ) and core Finance & HR community .
+CRITICISM Section::::Criticism .
+Microsoft Dynamics GP does not integrate with Microsoft Active Directory , which precludes single sign - on in deployments where Active Directory could otherwise be used to authenticate Dynamics GP users , and necessitates maintenance of separate SQL Server user accounts specifically for Dynamics GP .
+This has been overcome by some users with third party modules , such as Config AD .
+COMPETITORS
+* Acumatica * Agresso and Coda Financials from Unit4
+* Intacct
+* NetSuite * Sage Group * SAP Business One *
+Eclipse ERP NOTES EXTERNAL LINKS * Microsoft Dynamics GP Official Website * Microsoft Dynamics GP Official Blog - run by the Microsoft Dynamics GP Product Management & Marketing team * Microsoft Dynamics GP Blog run by David Musgrave and the Microsoft GP Developer Support Team

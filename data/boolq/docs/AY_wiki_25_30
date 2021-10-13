@@ -1,0 +1,142 @@
+DELPHI METHOD
+The Delphi method ( ) is a structured communication technique or method , originally developed as a systematic , interactive forecasting method which relies on a panel of experts .
+The experts answer questionnaires in two or more rounds .
+After each round , a facilitator or change agent provides an anonymised summary of the experts ' forecasts from the previous round as well as the reasons they provided for their judgments .
+Thus , experts are encouraged to revise their earlier answers in light of the replies of other members of their panel .
+It is believed that during this process the range of the answers will decrease and the group will converge towards the " correct " answer .
+Finally , the process is stopped after a predefined stop criterion ( e.g. , number of rounds , achievement of consensus , stability of results ) , and the mean or median scores of the final rounds determine the results .
+Delphi is based on the principle that forecasts ( or decisions ) from a structured group of individuals are more accurate than those from unstructured groups .
+The technique can also be adapted for use in face - to - face meetings , and is then called mini - Delphi or Estimate - Talk - Estimate ( ETE ) .
+Delphi has been widely used for business forecasting and has certain advantages over another structured forecasting approach , prediction markets .
+HISTORY Section::::History .
+The name " Delphi " derives from the Oracle of Delphi , although the authors of the method were unhappy with the oracular connotation of the name , " smacking a little of the occult " .
+The Delphi method is based on the assumption that group judgments are more valid than individual judgments .
+The Delphi method was developed at the beginning of the Cold War to forecast the impact of technology on warfare .
+In 1944 , General Henry H. Arnold ordered the creation of the report for the U.S. Army Air Corps on the future technological capabilities that might be used by the military .
+Different approaches were tried , but the shortcomings of traditional forecasting methods , such as theoretical approach , quantitative models or trend extrapolation , quickly became apparent in areas where precise scientific laws have not been established yet .
+To combat these shortcomings , the Delphi method was developed by Project RAND during the 1950 - 1960s ( 1959 ) by Olaf Helmer , Norman Dalkey , and Nicholas Rescher .
+It has been used ever since , together with various modifications and reformulations , such as the Imen - Delphi procedure .
+Experts were asked to give their opinion on the probability , frequency , and intensity of possible enemy attacks .
+Other experts could anonymously give feedback .
+This process was repeated several times until a consensus emerged .
+KEY CHARACTERISTICS Section::::Key characteristics .
+The following key characteristics of the Delphi method help the participants to focus on the issues at hand and separate Delphi from other methodologies : in this technique a panel of experts is drawn from both inside and outside the organisation .
+The panel consist of experts having knowledge of the area requiring decision making .
+Each expert is asked to make anonymous predictions .
+ANONYMITY OF THE PARTICIPANTS Section::::Anonymity of the participants .
+Usually all participants remain anonymous .
+Their identity is not revealed , even after the completion of the final report .
+This prevents the authority , personality , or reputation of some participants from dominating others in the process .
+Arguably , it also frees participants ( to some extent ) from their personal biases , minimizes the " bandwagon effect " or " halo effect " , allows free expression of opinions , encourages open critique , and facilitates admission of errors when revising earlier judgments .
+STRUCTURING OF INFORMATION FLOW
+Section::::Structuring of information flow .
+The initial contributions from the experts are collected in the form of answers to questionnaires and their comments to these answers .
+The panel director controls the interactions among the participants by processing the information and filtering out irrelevant content .
+This avoids the negative effects of face - to - face panel discussions and solves the usual problems of group dynamics .
+REGULAR FEEDBACK Section::::Regular feedback .
+The Delphi Method allows participants to comment on the responses of others , the progress of the panel as a whole , and to revise their own forecasts and opinions in real time .
+ROLE OF THE FACILITATOR Section::::Role of the facilitator .
+The person coordinating the Delphi method is usually known as a facilitator or Leader , and facilitates the responses of their panel of experts , who are selected for a reason , usually that they hold knowledge on an opinion or view .
+The facilitator sends out questionnaires , surveys etc .
+and if the panel of experts accept , they follow instructions and present their views .
+Responses are collected and analyzed , then common and conflicting viewpoints are identified .
+If consensus is not reached , the process continues through thesis and antithesis , to gradually work towards synthesis , and building consensus .
+APPLICATIONS USE IN FORECASTING Section::::Applications .
+Section::::Use in forecasting .
+First applications of the Delphi method were in the field of science and technology forecasting .
+The objective of the method was to combine expert opinions on likelihood and expected development time , of the particular technology , in a single indicator .
+One of the first such reports , prepared in 1964 by Gordon and Helmer , assessed the direction of long - term trends in science and technology development , covering such topics as scientific breakthroughs , population control , automation , space progress , war prevention and weapon systems .
+Other forecasts of technology were dealing with vehicle - highway systems , industrial robots , intelligent internet , broadband connections , and technology in education .
+Later the Delphi method was applied in other places , especially those related to public policy issues , such as economic trends , health and education .
+It was also applied successfully and with high accuracy in business forecasting .
+For example , in one case reported by Basu and Schroeder ( 1977 ) , the Delphi method predicted the sales of a new product during the first two years with inaccuracy of 3–4 % compared with actual sales .
+Quantitative methods produced errors of 10–15 % , and traditional unstructured forecast methods had errors of about 20 % .
+( This is only one example ; the overall accuracy of the technique is mixed . )
+The Delphi method has also been used as a tool to implement multi - stakeholder approaches for participative policy - making in developing countries .
+The governments of Latin America and the Caribbean have successfully used the Delphi method as an open - ended public - private sector approach to identify the most urgent challenges for their regional ICT - for - development eLAC Action Plans .
+As a result , governments have widely acknowledged the value of collective intelligence from civil society , academic and private sector participants of the Delphi , especially in a field of rapid change , such as technology policies .
+Use in Patent Participation Identification
+In the early 1980s
+Jackie Awerman of Jackie Awerman Associates , Inc.designed a modified Delphi method for identifying the roles of various contributors to the creation of a patent - eligible product .
+( Epsilon Corporation , Chemical Vapor Deposition Reactor )
+The results were then used by patent attorneys to determine bonus distribution percentage to the general satisfaction of all team members .
+USE IN POLICY - MAKING Section::::Use in policy - making .
+From the 1970s , the use of the Delphi technique in public policy - making introduces a number of methodological innovations .
+In particular : * the need to examine several types of items ( not only forecasting items but , typically , issue items , goal items , and option items ) leads to introducing different evaluation scales which are not used in the standard Delphi .
+These often include desirability , feasibility ( technical and political ) and probability , which the analysts can use to outline different scenarios : the desired scenario ( from desirability ) , the potential scenario ( from feasibility ) and the expected scenario ( from probability ) ; * the complexity of the issues posed in public policy - making leads to give more importance to the arguments supporting the evaluations of the panelists ; so these are often invited to list arguments for and against each option item , and sometimes they are given the possibility to suggest new items to be submitted to the panel ;
+* for the same reason , the scaling methods , which are used to measure panel evaluations , often include more sophisticated approaches such as multi - dimensional scaling .
+Further innovations come from the use of computer - based ( and later web - based )
+Delphi conferences .
+According to Turoff and Hiltz , in computer - based Delphis : * the iteration structure used in the paper Delphis , which is divided into three or more discrete rounds , can be replaced by a process of continuous ( roundless ) interaction , enabling panelists to change their evaluations at any time ; * the statistical group response can be updated in real - time , and shown whenever a panelist provides a new evaluation .
+According to Bolognini , web - based Delphis offer two further possibilities , relevant in the context of interactive policy - making and e - democracy .
+These are : * the involvement of a large number of participants , * the use of two or more panels representing different groups ( such as policy - makers , experts , citizens ) , which the administrator can give tasks reflecting their diverse roles and expertise , and make them to interact within ad hoc communication structures .
+For example , the policy community members ( policy - makers and experts ) may interact as part of the main conference panel , while they receive inputs from a virtual community ( citizens , associations etc . )
+involved in a side conference .
+These web - based variable communication structures , which he calls Hyperdelphi ( HD ) , are designed to make Delphi conferences " more fluid and adapted to the hypertextual and interactive nature of digital communication " .
+One successful example of a ( partially ) web - based policy Delphi is the five - round Delphi exercise ( with 1,454 contributions ) for the creation of the eLAC Action Plans in Latin America .
+It is believed to be the most extensive online participatory policy - making foresight exercise in the history of intergovernmental processes in the developing world at this time .
+In addition to the specific policy guidance provided , the authors list the following lessons learned include " ( 1 ) the potential of Policy Delphi methods to introduce transparency and accountability into public decision - making , especially in developing countries ; ( 2 ) the utility of foresight exercises to foster multi - agency networking in the development community ; ( 3 ) the usefulness of embedding foresight exercises into established mechanisms of representative democracy and international multilateralism , such as the United Nations ; ( 4 ) the potential of online tools to facilitate participation in resource - scarce developing countries ; and ( 5 ) the resource - efficiency stemming from the scale of international foresight exercises , and therefore its adequacy for resource - scarce regions . "
+ONLINE
+DELPHI SYSTEMS
+Section::::Online Delphi systems .
+A number of Delphi forecasts are conducted using web sites that allow the process to be conducted in real - time .
+For instance , the TechCast Project uses a panel of 100 experts worldwide to forecast breakthroughs in all fields of science and technology .
+Another example is the Horizon Project , where educational futurists collaborate online using the Delphi method to come up with the technological advancements to look out for in education for the next few years .
+VARIATIONS Section::::Variations .
+Traditionally the Delphi method has aimed at a consensus of the most probable future by iteration .
+Other versions , such as the Policy Delphi , is instead a decision support method aiming at structuring and discussing the diverse views of the preferred future .
+In Europe , more recent web - based experiments have used the Delphi method as a communication technique for interactive decision - making and e - democracy .
+The Argument Delphi , was developed by Osmo Kuusi , focuses on ongoing discussion and finding relevant arguments rather than focusing on the output .
+The Disaggregative Policy Delphi , developed by Petri Tapio , uses cluster analysis as a systematic tool to construct various scenarios of the future in the latest Delphi round .
+The respondent 's view on the probable and the preferable future are dealt with as separate cases .
+The computerization of Argument Delphi is relatively difficult because of several problems like argument resolution , argument aggregation and argument evaluation .
+The computerization of Argument Delphi , was developed by Sadi Evren Seker , proposes solutions to such problems .
+ACCURACY Section::::Accuracy .
+Overall the track record of the Delphi method is mixed .
+There have been many cases when the method produced poor results .
+Still , some authors attribute this to poor application of the method and not to the weaknesses of the method itself .
+It must also be realized that in areas such as science and technology forecasting , the degree of uncertainty is so great that exact and always correct predictions are impossible , so a high degree of error is to be expected .
+Another particular weakness of the Delphi method is that future developments are not always predicted correctly by consensus of experts .
+The issue of ignorance is important .
+If panelists are misinformed about a topic , the use of Delphi may only add confidence to their ignorance .
+One of the initial problems of the method was its inability to make complex forecasts with multiple factors .
+Potential future outcomes were usually considered as if they had no effect on each other .
+Later on , several extensions to the Delphi method were developed to address this problem , such as cross impact analysis
+, that takes into consideration the possibility that the occurrence of one event may change probabilities of other events covered in the survey .
+Still the Delphi method can be used most successfully in forecasting single scalar indicators .
+Despite these shortcomings , today the Delphi method is a widely accepted forecasting tool and has been used successfully for thousands of studies in areas varying from technology forecasting to drug abuse .
+DELPHI VS .
+PREDICTION MARKETS Section::::Delphi vs. prediction markets .
+Delphi has characteristics similar to prediction markets as both are structured approaches that aggregate diverse opinions from groups .
+Yet , there are differences that may be decisive for their relative applicability for different problems .
+Some advantages of prediction markets derive from the possibility to provide incentives for participation .
+*
+They can motivate people to participate over a long period of time and to reveal their true beliefs .
+*
+* They aggregate information automatically and instantly incorporate new information in the forecast .
+*
+* Participants do not have to be selected and recruited manually by a facilitator .
+They themselves decide whether to participate if they think their private information is not yet incorporated in the forecast .
+* Delphi seems to have these advantages over prediction markets :
+* Participants reveal their reasoning
+* * It is easier to maintain confidentiality
+*
+* Potentially quicker forecasts if experts are readily available .
+*
+* Delphi is applicable in situations where the bets involved might affect the value of the currency used in bets ( e.g. a bet on the collapse of the dollar made in dollars might have distorted odds ) .
+* SEE ALSO
+* DARPA 's Policy Analysis Market * Nominal group technique
+* Planning poker * Reference class forecasting
+* Wideband delphi
+*
+The Wisdom of Crowds
+REFERENCES
+EXTERNAL LINKS
+*
+The Delphi Method : Techniques and Applications , edited by Harold A. Linstone and Murray Turoff — a comprehensive book on Delphi method ( free download , 11Mb PDF , 618 pages )
+* RAND publications on the Delphi Method Downloadable documents from RAND concerning applications of the Delphi Technique .
+* Principles of Forecasting A free service to support Delphi forecasting and references are available on this site .
+However source code is not currently available .
+* Institute for Futures Studies and Knowledge Management Access to several free studies that illustrate the use of the Real - time Delphi method
+* Using the Delphi Method for Qualitative , Participatory Action Research in Health Leadership , this article provides a detailed description of the use of modified Delphi for qualitative , participatory action research .
+* A cross - validation Delphi method approach to the diagnosis and treatment of personality disorders in older adults , A cross - validation study replicating one completed in the Netherlands and Belgium , and exploring US experts ' views on the diagnosis and treatment of older adults with personality disorders .

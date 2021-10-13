@@ -1,0 +1,156 @@
+PACKING PROBLEMS
+Packing problems are a class of optimization problems in mathematics that involve attempting to pack objects together into containers .
+The goal is to either pack a single container as densely as possible or pack all objects using as few containers as possible .
+Many of these problems can be related to real life packaging , storage and transportation issues .
+Each packing problem has a dual covering problem , which asks how many of the same objects are required to completely cover every region of the container , where objects are allowed to overlap .
+In a bin packing problem , you are given : * ' containers ' ( usually a single two- or three - dimensional convex region , or an infinite space )
+* A set of ' objects ' some or all of which must be packed into one or more containers .
+The set may contain different objects with their sizes specified , or a single object of a fixed dimension that can be used repeatedly .
+Usually the packing must be without overlaps between goods and other goods or the container walls .
+In some variants , the aim is to find the configuration that packs a single container with the maximal density .
+More commonly , the aim is to pack all the objects into as few containers as possible .
+In some variants the overlapping ( of objects with each other and/or with the boundary of the container ) is allowed but should be minimized .
+PACKING INFINITE SPACE
+Section::::Packing infinite space .
+Many of these problems , when the container size is increased in all directions , become equivalent to the problem of packing objects as densely as possible in infinite Euclidean space .
+This problem is relevant to a number of scientific disciplines , and has received significant attention .
+The Kepler conjecture postulated an optimal solution for packing spheres hundreds of years before it was proven correct by Thomas Callister Hales .
+Many other shapes have received attention , including ellipsoids , Platonic and Archimedean solids including tetrahedra , and unequal - sphere dimers .
+HEXAGONAL PACKING OF CIRCLES Section::::Hexagonal packing of circles .
+These problems are mathematically distinct from the ideas in the circle packing theorem .
+The related circle packing problem deals with packing circles , possibly of different sizes , on a surface , for instance the plane or a sphere .
+The counterparts of a circle in other dimensions can never be packed with complete efficiency in dimensions larger than one ( in a one - dimensional universe , the circle analogue is just two points ) .
+That is , there will always be unused space if you are only packing circles .
+The most efficient way of packing circles , hexagonal packing , produces approximately 91 % efficiency .
+SPHERE PACKINGS IN HIGHER DIMENSIONS Section::::Sphere packings in higher dimensions .
+In three dimensions , the face - centered cubic lattice offers the best lattice packing of spheres , and is believed to be the optimal of all packings .
+With ' simple ' sphere packings in three dimensions ( ' simple ' being carefully defined ) there are nine possible defineable packings .
+The 8-dimensional E8 lattice and 24-dimensional Leech lattice have also been proven to be optimal in their respective real dimensional space .
+PACKINGS OF PLATONIC SOLIDS IN THREE DIMENSIONS Section::::Packings of Platonic solids in three dimensions .
+Cubes can easily be arranged to fill three - dimensional space completely , the most natural packing being the cubic honeycomb .
+No other Platonic solid can tile space on its own , but some preliminary results are known .
+Tetrahedra can achieve a packing of at least 85 % .
+One of the best packings of regular dodecahedra is based on the aforementioned face - centered cubic ( FCC ) lattice .
+Tetrahedra and octahedra together can fill all of space in an arrangement known as the tetrahedral - octahedral honeycomb . !
+Solid !
+Optimal density of a lattice packing Simulations combining local improvement methods with random packings suggest that the lattice packings for icosahedra , dodecahedra , and octahedra are optimal in the broader class of all packings .
+PACKING IN 3-DIMENSIONAL CONTAINERS DIFFERENT CUBOIDS INTO A CUBOID
+Section::::Packing in 3-dimensional containers .
+Section::::Different cuboids into a cuboid .
+Determine the minimum number of cuboid containers ( bins ) that are required to pack a given set of item cuboids ( 3 Dimensional rectangles ) .
+The rectangular cuboids to be packed can be rotated by 90 degrees on each axis .
+SPHERES INTO A EUCLIDEAN BALL Section::::Spheres into a Euclidean ball .
+The problem of finding the smallest ball such that formula_1 disjoint open unit balls may be packed inside it has a simple and complete answer in formula_2-dimensional Euclidean space if formula_3 , and in an infinite dimensional Hilbert space with no restrictions .
+It is worth describing in detail here , to give a flavor of the general problem .
+In this case , a configuration of formula_1 pairwise tangent unit balls is available .
+Place the centers at the vertices formula_5 of a regular formula_6 dimensional simplex with edge 2 ; this is easily realized starting from an orthonormal basis .
+A small computation shows that the distance of each vertex from the barycenter is formula_7 .
+Moreover , any other point of the space necessarily has a larger distance from at least one of the formula_8 vertices .
+In terms of inclusions of balls , the formula_8 open unit balls centered at formula_10 are included in a ball of radius formula_11 , which is minimal for this configuration .
+To show that this configuration is optimal , let formula_12 be the centers of formula_8 disjoint open unit balls contained in a ball of radius formula_14 centered at a point formula_15 .
+Consider the map from the finite set formula_16 into formula_17 taking formula_18 in the corresponding formula_19 for each formula_20 .
+Since for all formula_21 , formula_22 this map is 1-Lipschitz and by the Kirszbraun theorem it extends to a 1-Lipschitz map that is globally defined ; in particular , there exists a point formula_23 such that for all formula_24 one has formula_25 , so that also formula_26 .
+This shows that there are formula_8 disjoint unit open balls in a ball of radius
+formula_14
+if and only
+if formula_29 .
+Notice that in an infinite dimensional Hilbert space this implies that there are infinitely many disjoint open unit balls inside a ball of radius
+formula_14
+if and only if formula_31 .
+For instance , the unit balls centered at formula_32 , where formula_33 is an orthonormal basis , are disjoint and included in a ball of radius formula_34 centered at the origin .
+Moreover , for formula_35 , the maximum number of disjoint open unit balls inside a ball of radius r is formula_36 .
+SPHERES IN A CUBOID Section::::Spheres in a cuboid .
+Determine the number of spherical objects of given diameter d that can be packed into a cuboid of .
+IDENTICAL SPHERES IN A CYLINDER Section::::Identical spheres in a cylinder .
+Determine the minimum height h of a cylinder with given radius R that will pack n identical spheres of radius r ( < R ) .
+POLYHEDRA IN SPHERES Section::::Polyhedra in spheres .
+Determine the minimum radius R that will pack n identical , unit volume polyhedra of a given shape .
+PACKING IN 2-DIMENSIONAL CONTAINERS
+PACKING
+CIRCLES CIRCLES IN CIRCLE
+Section::::Packing in 2-dimensional containers .
+Section::::Packing circles .
+Section::::Circles in circle .
+Pack n unit circles into the smallest possible circle .
+This is closely related to spreading points in a unit circle with the objective of finding the greatest minimal separation , d , between points .
+Optimal solutions have been proven for n ≤ 13 , and n =
+19 .
+CIRCLES IN SQUARE Section::::Circles in square .
+Pack n unit circles into the smallest possible square .
+This is closely related to spreading points in a unit square with the objective of finding the greatest minimal separation , d , between points .
+To convert between these two formulations of the problem , the square side for unit circles will be L =
+2 + 2 / d .
+Optimal solutions have been proven for n ≤ 30 .
+CIRCLES IN ISOSCELES
+RIGHT
+TRIANGLE
+Section::::Circles in isosceles right triangle .
+Pack n unit circles into the smallest possible isosceles right triangle .
+Good estimates are known for n<300 .
+CIRCLES IN EQUILATERAL
+TRIANGLE Section::::Circles in equilateral triangle .
+Pack n unit circles into the smallest possible equilateral triangle .
+Optimal solutions are known for n<13 , and conjectures are available for n Packing squares SQUARES IN SQUARE
+Section::::Packing squares .
+Section::::Squares in square .
+Pack n unit squares into the smallest possible square .
+Optimal solutions have been proven for n =
+1–10 , 14–16 , 22–25 , 33–36 , 62–64 , 79–81 , 98–100 , and any square integer .
+The wasted space is asymptotically O(a ) .
+SQUARES IN CIRCLE Section::::Squares in circle .
+Pack n squares in the smallest possible circle .
+Minimum solutions : !
+Number of squares !
+Circle radius 12
+PACKING
+RECTANGLES
+IDENTICAL RECTANGLES IN A RECTANGLE
+Section::::Packing rectangles .
+Section::::Identical rectangles in a rectangle .
+The problem of packing multiple instances of a single rectangle of size ( l , w ) , allowing for 90 ° rotation , in a bigger rectangle of size ( L , W ) has some applications such as loading of boxes on pallets and , specifically , woodpulp stowage .
+For example , it is possible to pack 147 rectangles of size ( 137,95 ) in a rectangle of size ( 1600,1230 ) .
+DIFFERENT RECTANGLES IN A RECTANGLE Section::::Different rectangles in a rectangle .
+The problem of packing multiple rectangles of varying widths and heights in an enclosing rectangle of minimum area (
+but with no boundaries on the enclosing rectangle 's width or height ) has an important application in combining images into a single larger image .
+A web page that loads a single larger image often renders faster in the browser than the same page loading multiple small images , due to the overhead involved in requesting each image from the web server .
+An example of a fast algorithm that packs rectangles of varying widths and heights into an enclosing rectangle of minimum area is here .
+RELATED FIELDS Section::::Related fields .
+In tiling or tessellation problems , there are to be no gaps , nor overlaps .
+Many of the puzzles of this type involve packing rectangles or polyominoes into a larger rectangle or other square - like shape .
+There are significant theorems on tiling rectangles ( and cuboids ) in rectangles ( cuboids ) with no gaps or overlaps :
+The study of polyomino tilings largely concerns two classes of problems : to tile a rectangle with congruent tiles , and to pack one of each n - omino into a rectangle .
+A classic puzzle of the second kind is to arrange all twelve pentominoes into rectangles sized
+3×20 , 4×15 ,
+5×12 or 6×10 .
+PACKING OF IRREGULAR
+OBJECTS
+Section::::Packing of irregular objects .
+Packing of irregular objects is a problem not lending itself well to closed form solutions ; however , the applicability to practical environmental science is quite important .
+For example , irregularly shaped soil particles pack differently as the sizes and shapes vary , leading to important outcomes for plant species to adapt root formations and to allow water movement in the soil .
+SEE ALSO
+* Set packing
+* Bin packing problem
+* Slothouber –
+Graatsma puzzle
+* Conway puzzle
+* Tetris * Covering problem
+* Knapsack problem *
+Tetrahedron packing
+* Cutting stock problem
+* Kissing number problem
+* Close - packing of equal spheres
+*
+Random close pack
+NOTES
+REFERENCES
+EXTERNAL LINKS
+* Optimizing Three - Dimensional Bin Packing * API for 3D bin packing *
+3D Boxes and Cylinders packing with telescoping Many puzzle books as well as mathematical journals contain articles on packing problems .
+* Links to various MathWorld articles on packing
+* MathWorld notes on packing squares .
+*
+Erich 's Packing Center * www.packomania.com
+A site with tables , graphs , calculators , references , etc .
+* " Box Packing " by Ed Pegg , Jr. , the Wolfram Demonstrations Project , 2007 .
+* Best known packings of equal circles in a circle , up to 1100
+* Circle packing challenge problem in Python

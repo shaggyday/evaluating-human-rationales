@@ -1,0 +1,37 @@
+FALLACY OF FOUR TERMS
+The fallacy of four terms ( ) is the formal fallacy that occurs when a syllogism has four ( or more ) terms rather than the requisite three .
+This form of argument is thus invalid .
+DEFINITION Section::::Definition .
+Categorical syllogisms always have three terms : Here , the three terms are : " goldfish " , " fish " , and " fins " .
+Using four terms invalidates the syllogism : The premises do not connect " humans " with " fins " , so the reasoning is invalid .
+Notice that there are four terms : " fish " , " fins " , " goldfish " and " humans " .
+Two premises are not enough to connect four different terms , since in order to establish connection , there must be one term common to both premises .
+In everyday reasoning , the fallacy of four terms occurs most frequently by equivocation : using the same word or phrase but with a different meaning each time , creating a fourth term even though only three distinct words are used :
+The word " nothing " in the example above has two meanings , as presented : " nothing is better " means the thing being named has the highest value possible ; " better than nothing " only means that the thing being described has some value .
+Therefore , " nothing " acts as two different terms in this example , thus creating the fallacy of four terms .
+Another example of equivocation , a more tricky one :
+This is more clear if one uses " is touching " instead of " touches " .
+It then becomes clear that " touching the pen " is not the same as " the pen " , thus creating four terms : " the hand " , " touching the pen " , " the pen " , " touching the paper " .
+A correct form of this statement would be : Now the term " the pen " has been eliminated , leaving three terms .
+Note that this argument is now valid but unsound because the major premise is untrue .
+The fallacy of four terms also applies to syllogisms that contain five or six terms .
+REDUCING TERMS
+Section::::Reducing terms .
+Sometimes a syllogism that is apparently fallacious because it is stated with more than three terms can be translated into an equivalent , valid three term syllogism .
+For example : This EAE-1 syllogism apparently has five terms : " humans " , " people " , " immortal " , " mortal " , and " Greeks " .
+However it can be rewritten as a standard form AAA-1 syllogism by first substituting the synonymous term " humans " for " people " and then by reducing the complementary term " immortal " in the first premise using the immediate inference known as obversion ( that is , "
+No humans are immortal . " is equivalent to " All humans are mortal . " ) .
+CLASSIFICATION Section::::Classification .
+The fallacy of four terms is a syllogistic fallacy .
+Types of syllogism to which it applies include statistical syllogism , hypothetical syllogism , and categorical syllogism , all of which must have exactly three terms .
+Because it applies to the argument 's form , as opposed to the argument 's content , it is classified as a formal fallacy .
+Equivocation of the middle term is a frequently cited source of a fourth term being added to a syllogism ; both of the equivocation examples above affect the middle term of the syllogism .
+Consequently this common error itself has been given its own name : the fallacy of the ambiguous middle .
+An argument that commits the ambiguous middle fallacy blurs the line between formal and informal ( material ) fallacies , however it is usually considered an informal fallacy because the argument 's form appears valid .
+REFERENCES Notes
+Books
+EXTERNAL LINKS
+* Atheismweb : Fallacy of four terms , atheism.about.com
+* Fallacy of the Four Terms ( quaternio terminorum ) , onegoodmove.org
+* The Four Term Fallacy , fallacyfiles.org
+* Ambiguous Middle Term , fallacyfiles.org
