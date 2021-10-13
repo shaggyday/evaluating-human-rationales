@@ -7,7 +7,6 @@ data/scifact
 data/multirc
 data/evidence_inference
 .ipynb_checkpoints/
-*.jsonl
 output/
 *.pyc
 model/__pycache__/
