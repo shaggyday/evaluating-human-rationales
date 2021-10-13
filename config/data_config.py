@@ -44,7 +44,7 @@ dataset_info = {
 		"dev_path": "../csv/scifact/val.csv",
 		"test_path": "../csv/scifact/test.csv",
 		"classes": ['REFUTES', 'SUPPORTS'],
-		"batch_size": 2,
+		"batch_size": 16,
 		"max_rows": None,
 		"max_len": 512,		
 	},
