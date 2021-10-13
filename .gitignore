@@ -1,4 +1,11 @@
-data/
+data/esnli
+data/esnli_flat
+data/movies
+data/cose
+data/cose_simplified
+data/scifact
+data/multirc
+data/evidence_inference
 .ipynb_checkpoints/
 *.jsonl
 output/
