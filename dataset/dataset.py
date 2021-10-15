@@ -7,6 +7,7 @@ import numpy as np
 from inspect import currentframe, getframeinfo
 
 save_data = True
+larger_models = ["longformer", "roberta-large"]
 
 class Dataset(torch.utils.data.Dataset):
 	def __init__(self, X, labels, attention_masks, BATCH_SIZE_FLAG=32):
@@ -61,8 +62,8 @@ def create_tokenized_data(tokenizer, filepath, classes):
 	return data_df
 
 def create_dataloader(model, classes, filepath, batch_size=32, max_rows=None, class_specific=None, max_len=512, return_dataset=False, name=None):
-	if model.name == "longformer":
-		print("loooooooooooooooooooong")
+	if model.name in larger_models:
+		print("decrease batch_size")
 		batch_size = int(batch_size/2)
 	"""Preparing dataloader"""
 	if name == "fever":
@@ -162,8 +163,8 @@ def create_test_dataloader(model,
 						   batch_size=16,
 						   rationale_occlusion_rate=None,
 						   name=None):
-	if model.name == "longformer":
-		print("loooooooooooooooooooong")
+	if model.name in larger_models:
+		print("decrease batch_size")
 		batch_size = int(batch_size/2)
 	"""preparing the test dataloader"""
 	# if name == "fever":
