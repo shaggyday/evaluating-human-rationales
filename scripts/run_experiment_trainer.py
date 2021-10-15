@@ -71,6 +71,9 @@ CREATE_FIDELITY_CURVES = config.CREATE_FIDELITY_CURVES
 NUM_FIDELITY_CURVE_SAMPLES = config.NUM_FIDELITY_CURVE_SAMPLES
 FIDELITY_OCCLUSION_RATES = config.FIDELITY_OCCLUSION_RATES
 
+
+larger_models = ["longformer", "roberta-large"]
+
 """
 for all model types:
 	for all param_combos (dataset, model parameteres, training parameters)
@@ -127,7 +130,7 @@ if __name__ == "__main__":
 					**dataset)
 
 				training_args_config["per_device_train_batch_size"] = dataset["batch_size"]
-				if model_name == "longformer":
+				if model_name in larger_models:
 					training_args_config["per_device_train_batch_size"] = int(training_args_config["per_device_train_batch_size"]/2)
 
 				# Save every epoch checkpoint which could be used for analysis later
