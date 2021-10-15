@@ -14,13 +14,13 @@ class RobertaClassifierL(PreTrainedModel, ABC):
 		super().__init__(config, *inputs, **kwargs)
 		self.max_len = config.max_length
 		self.model = RobertaForSequenceClassification.from_pretrained(
-			'roberta-roberta-large',
+			'roberta-large',
 			num_labels=config.num_labels,
 			return_dict=True,
 			cache_dir = './transformer_cache'
 		)
 
-		self.tokenizer = RobertaTokenizerFast.from_pretrained('roberta-large-base')
+		self.tokenizer = RobertaTokenizerFast.from_pretrained('roberta-large')
 		self.config = self.model.config
 		self.name = "roberta"
 
