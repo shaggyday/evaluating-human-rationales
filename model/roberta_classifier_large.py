@@ -1,40 +1,40 @@
 from abc import ABC
 
 import torch
-from transformers import RobertaForMultipleChoice, RobertaConfig
+from transformers import RobertaForSequenceClassification, RobertaConfig
 from transformers import RobertaTokenizer, RobertaTokenizerFast
 from transformers import PreTrainedModel, PretrainedConfig
 import math
 
 
-class RobertaClassifierMC(PreTrainedModel, ABC):
+class RobertaClassifierL(PreTrainedModel, ABC):
 	config_class = PretrainedConfig
 
 	def __init__(self, config: PretrainedConfig, *inputs, **kwargs):
 		super().__init__(config, *inputs, **kwargs)
 		self.max_len = config.max_length
-		self.model = RobertaForMultipleChoice.from_pretrained(
-			'roberta-base',
+		self.model = RobertaForSequenceClassification.from_pretrained(
+			'roberta-roberta-large',
 			num_labels=config.num_labels,
 			return_dict=True,
 			cache_dir = './transformer_cache'
 		)
 
-		self.tokenizer = RobertaTokenizerFast.from_pretrained('roberta-base')
+		self.tokenizer = RobertaTokenizerFast.from_pretrained('roberta-large-base')
 		self.config = self.model.config
+		self.name = "roberta"
 
-	def tokenize(self, text):
+	def tokenize(self, text, query=None):
 		if type(text) == float:
 			text = ""
-			
 		tokenized_dict = self.tokenizer.encode_plus(
 			text=text,
 			add_special_tokens=True,
 			pad_to_max_length=True,
 			max_length=self.max_len,
 			return_attention_mask=True,
-			truncation=True)
-
+			truncation=True
+		)
 		return tokenized_dict['input_ids'], tokenized_dict['attention_mask']
 
 	# The `max_len` attribute has been deprecated and will be removed in a future version, use `model_max_length` instead.
