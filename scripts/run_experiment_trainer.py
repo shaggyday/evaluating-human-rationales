@@ -47,11 +47,11 @@ def build_compute_metrics_fn() -> Callable[[EvalPrediction], Dict]:
 		# 	preds = np.squeeze(preds)
 		preds = np.argmax(preds, axis=1)
 		
-		# score = mt.precision(p.label_ids, preds)
+		score = mt.precision(p.label_ids, preds)
 		# score = mt.recall(p.label_ids, preds)
 		# score = mt.f1_score(p.label_ids, preds)
 		# score = mt.roc_auc_score(p.label_ids, preds)
-		score = mt.accuracy_score(p.label_ids, preds)
+		# score = mt.accuracy_score(p.label_ids, preds)
 		return {"acc": score}
 
 	return compute_metrics_fn
@@ -114,7 +114,7 @@ if __name__ == "__main__":
 				num_train_epochs = 5
 				warmup_steps = 0
 			else:
-				num_train_epochs = 20
+				num_train_epochs = 10
 				warmup_steps = 50
 
 
