@@ -62,6 +62,7 @@ def create_tokenized_data(tokenizer, filepath, classes):
 	return data_df
 
 def create_dataloader(model, classes, filepath, batch_size=32, max_rows=None, class_specific=None, max_len=512, return_dataset=False, name=None):
+	print(model.name)
 	if model.name in larger_models:
 		print("decrease batch_size")
 		batch_size = int(batch_size/2)
