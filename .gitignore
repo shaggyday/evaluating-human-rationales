@@ -9,8 +9,8 @@ data/evidence_inference
 .ipynb_checkpoints/
 output/
 *.pyc
-model/__pycache__/
-config/__pycache__/
+model/__pycache__
+config/__pycache__
 csv/others
 csv/boolq
 csv/fever
